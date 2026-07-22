@@ -11,7 +11,7 @@ import { CITIES, cityPaths } from './lib/ar-plan.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const outRoot = path.join(root, 'docs');
-const V = '20260722s';
+const V = '20260722t';
 
 const GUIDE_ASSETS = ['app.js', 'magazine.css', 'i18n.js', 'shared.js'];
 const PDF_ASSETS = ['pdf.css', 'pdf-app.js'];
@@ -51,10 +51,15 @@ function cityTitle(city) {
 
 function patchStandaloneAppJs(destPath, city) {
   let js = fs.readFileSync(destPath, 'utf8');
+  const pdfPath = pdfPagePath(city);
   const replacement = `function pdfPageHref() {
-    if (typeof STANDALONE_PDF_URL === 'string' && STANDALONE_PDF_URL) return STANDALONE_PDF_URL;
-    var lang = (typeof URLSearchParams !== 'undefined' ? new URLSearchParams(location.search).get('lang') : null) || 'ar';
-    return '${pdfPagePath(city)}?lang=' + encodeURIComponent(lang);
+    var lang = 'en';
+    if (typeof I18n !== 'undefined' && typeof I18n.isAr === 'function') {
+      lang = I18n.isAr() ? 'ar' : 'en';
+    } else {
+      lang = (typeof URLSearchParams !== 'undefined' ? new URLSearchParams(location.search).get('lang') : null) || 'ar';
+    }
+    return '${pdfPath}?lang=' + encodeURIComponent(lang);
   }`;
   js = js.replace(/function pdfPageHref\(\) \{[\s\S]*?\n  \}/, replacement);
   fs.writeFileSync(destPath, js);
@@ -101,18 +106,27 @@ function buildCityHtml(city, title) {
   <div class="app" id="app"></div>
   <script>
     (function () {
-      function syncPdfLinks() {
-        var lang = new URLSearchParams(location.search).get('lang') || 'ar';
-        var url = '${pdfPath}?lang=' + encodeURIComponent(lang);
-        window.STANDALONE_PDF_URL = url;
+      function guideLang() {
+        if (window.I18n && typeof I18n.isAr === 'function') {
+          return I18n.isAr() ? 'ar' : 'en';
+        }
+        return new URLSearchParams(location.search).get('lang') || 'ar';
+      }
+      function syncPdfDownload() {
+        var url = '${pdfPath}?lang=' + encodeURIComponent(guideLang());
         var a = document.getElementById('pdf-download');
         if (a) a.href = url;
       }
-      syncPdfLinks();
+      window.syncGuidePdfLink = syncPdfDownload;
+      syncPdfDownload();
+      document.addEventListener('click', function (e) {
+        if (e.target.closest('#lang-toggle')) {
+          setTimeout(syncPdfDownload, 0);
+        }
+      });
       if (!location.search.includes('lang=')) {
         var q = location.search ? location.search + '&lang=ar' : '?lang=ar';
         history.replaceState(null, '', location.pathname + q + location.hash);
-        syncPdfLinks();
       }
     })();
   </script>

@@ -206,8 +206,12 @@
   };
 
   function pdfPageHref() {
-    if (typeof STANDALONE_PDF_URL === 'string' && STANDALONE_PDF_URL) return STANDALONE_PDF_URL;
-    var lang = (typeof URLSearchParams !== 'undefined' ? new URLSearchParams(location.search).get('lang') : null) || 'ar';
+    var lang = 'en';
+    if (typeof I18n !== 'undefined' && typeof I18n.isAr === 'function') {
+      lang = I18n.isAr() ? 'ar' : 'en';
+    } else {
+      lang = (typeof URLSearchParams !== 'undefined' ? new URLSearchParams(location.search).get('lang') : null) || 'ar';
+    }
     return '../italy-pdf.html?lang=' + encodeURIComponent(lang);
   }
 
