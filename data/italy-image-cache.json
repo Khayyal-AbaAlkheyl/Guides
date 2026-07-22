@@ -1,0 +1,362 @@
+{
+  "Duomo di Milano": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Il_Duomo_di_Milano_-_July_2026.jpg/960px-Il_Duomo_di_Milano_-_July_2026.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/20110724_Milan_Cathedral_5260.jpg/960px-20110724_Milan_Cathedral_5260.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/IMG_3712_-_Milano_-_Duomo_-_Interno_-_Foto_di_Giovanni_Dall%27Orto_-_13-jan-2007.jpg/960px-IMG_3712_-_Milano_-_Duomo_-_Interno_-_Foto_di_Giovanni_Dall%27Orto_-_13-jan-2007.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/IMG_3712_-_Milano_-_Duomo_-_Interno_-_Foto_di_Giovanni_Dall%27Orto_-_13-jan-2007.jpg/960px-IMG_3712_-_Milano_-_Duomo_-_Interno_-_Foto_di_Giovanni_Dall%27Orto_-_13-jan-2007.jpg"
+  },
+  "Galleria Vittorio Emanuele II": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Galleria_Milano_%28179532365%29.jpeg/960px-Galleria_Milano_%28179532365%29.jpeg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/IMG_7052_-_Milano_-_Galleria_Vittorio_Emanuele_II_-_Foto_Giovanni_Dall%27Orto_-_8-Mar-2007.jpg/960px-IMG_7052_-_Milano_-_Galleria_Vittorio_Emanuele_II_-_Foto_Giovanni_Dall%27Orto_-_8-Mar-2007.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/North_view_in_Galleria_Vittorio_Emanuele_II_from_rotunda.jpg/960px-North_view_in_Galleria_Vittorio_Emanuele_II_from_rotunda.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Glass_fome_of_the_Galleria_Vittorio_Emanuele_II_in_Milan.JPG/960px-Glass_fome_of_the_Galleria_Vittorio_Emanuele_II_in_Milan.JPG"
+  },
+  "Sforza Castle": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/20110725_Castello_Sforzesco_Milan_5557.jpg/960px-20110725_Castello_Sforzesco_Milan_5557.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/20110725_Castello_Sforzesco_Milan_5557.jpg/960px-20110725_Castello_Sforzesco_Milan_5557.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/20110725_Castello_Sforzesco_Milan_5557.jpg/960px-20110725_Castello_Sforzesco_Milan_5557.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/20110725_Castello_Sforzesco_Milan_5557.jpg/960px-20110725_Castello_Sforzesco_Milan_5557.jpg"
+  },
+  "Navigli District": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Naviglio_Grande%2C_Milano.jpg/960px-Naviglio_Grande%2C_Milano.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/1413_-_Milano_-_Duomo_-_Luminarie_Naviglio_Grande_-_Foto_Giovanni_Dall%27Orto%2C_24-Nov-2007.jpg/960px-1413_-_Milano_-_Duomo_-_Luminarie_Naviglio_Grande_-_Foto_Giovanni_Dall%27Orto%2C_24-Nov-2007.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/1413_-_Milano_-_Duomo_-_Luminarie_Naviglio_Grande_-_Foto_Giovanni_Dall%27Orto%2C_24-Nov-2007.jpg/960px-1413_-_Milano_-_Duomo_-_Luminarie_Naviglio_Grande_-_Foto_Giovanni_Dall%27Orto%2C_24-Nov-2007.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Naviglio_Grande%2C_Milano.jpg/960px-Naviglio_Grande%2C_Milano.jpg"
+  },
+  "Como Cathedral": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Cathedral_of_Como_%2811%29.jpg/960px-Cathedral_of_Como_%2811%29.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Cathedral_of_Como_%2811%29.jpg/960px-Cathedral_of_Como_%2811%29.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Cathedral_of_Como_%282%29.jpg/960px-Cathedral_of_Como_%282%29.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Cathedral_of_Como_%282%29.jpg/960px-Cathedral_of_Como_%282%29.jpg"
+  },
+  "Bellagio": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Sentiero_del_Viandante_DSC_6340_%2814020554463%29.jpg/960px-Sentiero_del_Viandante_DSC_6340_%2814020554463%29.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Bellagio_-_Albergo_Genazzini_%26_Metropole_from_Lake_Como.jpg/960px-Bellagio_-_Albergo_Genazzini_%26_Metropole_from_Lake_Como.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Basilica_di_San_Giacomo_%28Bellagio%29_-_DSC02622.JPG/960px-Basilica_di_San_Giacomo_%28Bellagio%29_-_DSC02622.JPG",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/La_Punta%2C_Bellagio%2C_Lago_de_Como%2C_Italia%2C_2016-06-25%2C_DD_11.jpg/960px-La_Punta%2C_Bellagio%2C_Lago_de_Como%2C_Italia%2C_2016-06-25%2C_DD_11.jpg"
+  },
+  "Villa Melzi Gardens": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Bellagio_-_Villa_Melzi_d%27Eril_-_2023-09-01_00-15-09_003.JPG/960px-Bellagio_-_Villa_Melzi_d%27Eril_-_2023-09-01_00-15-09_003.JPG",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Bellagio_Villa_Melzi_temple_Como_Lake.png",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Wintering_in_the_Riviera_-_with_notes_of_travel_in_Italy_and_France%2C_and_practical_hints_to_travellers_%28IA_b21996465%29.pdf/page1-960px-Wintering_in_the_Riviera_-_with_notes_of_travel_in_Italy_and_France%2C_and_practical_hints_to_travellers_%28IA_b21996465%29.pdf.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Wintering_in_the_Riviera_-_with_notes_of_travel_in_Italy_and_France%2C_and_practical_hints_to_travellers_%28IA_b21996465%29.pdf/page1-960px-Wintering_in_the_Riviera_-_with_notes_of_travel_in_Italy_and_France%2C_and_practical_hints_to_travellers_%28IA_b21996465%29.pdf.jpg"
+  },
+  "Juliet's House": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Casa_di_Giulietta_%28Verona%29_-_Balcony.jpg/960px-Casa_di_Giulietta_%28Verona%29_-_Balcony.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Casa_di_Giulietta_%28Verona%29_-_Balcony.jpg/960px-Casa_di_Giulietta_%28Verona%29_-_Balcony.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Bedroom_-_House_of_Juliet_-_Verona_2016.jpg/960px-Bedroom_-_House_of_Juliet_-_Verona_2016.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Juliet%27s_House%2C_Via_Cappello%2C_Verona_-_Quote_from_Shakespeare%27s_Romeo_and_Juliet_-_Act_II_Scene_II.jpg/960px-Juliet%27s_House%2C_Via_Cappello%2C_Verona_-_Quote_from_Shakespeare%27s_Romeo_and_Juliet_-_Act_II_Scene_II.jpg"
+  },
+  "Arena di Verona": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Arena-XE3F2406a.jpg/960px-Arena-XE3F2406a.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Arena_di_Verona_in_Italia_in_miniatura.jpg/960px-Arena_di_Verona_in_Italia_in_miniatura.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Verona%2C_Arena_di_Verona_%281%29.jpg/960px-Verona%2C_Arena_di_Verona_%281%29.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Piazza_Bra_seen_from_the_arenas_%28Verona%29.jpg/960px-Piazza_Bra_seen_from_the_arenas_%28Verona%29.jpg"
+  },
+  "St Mark's Basilica": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Venezia_Basilica_di_San_Marco_Fassade_2.jpg/960px-Venezia_Basilica_di_San_Marco_Fassade_2.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/San_Marco_cathedral_in_Venice.JPG/960px-San_Marco_cathedral_in_Venice.JPG",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Melker_Altar_-_Ecce_homo.JPG/960px-Melker_Altar_-_Ecce_homo.JPG",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Mosaico_traslazione_San_Marco_Venezia.JPG/960px-Mosaico_traslazione_San_Marco_Venezia.JPG"
+  },
+  "Doge's Palace": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/%28Venice%29_Doge%27s_Palace_and_campanile_of_St._Mark%27s_Basilica_facing_the_sea.jpg/960px-%28Venice%29_Doge%27s_Palace_and_campanile_of_St._Mark%27s_Basilica_facing_the_sea.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Courtyard_of_the_Doge%27s_Palace_%28Venice%29_-_Wells.jpg/960px-Courtyard_of_the_Doge%27s_Palace_%28Venice%29_-_Wells.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Scala_d%27Oro_4_%28Doge%27s_Palace%29.jpg/960px-Scala_d%27Oro_4_%28Doge%27s_Palace%29.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Scala_d%27Oro_4_%28Doge%27s_Palace%29.jpg/960px-Scala_d%27Oro_4_%28Doge%27s_Palace%29.jpg"
+  },
+  "Grand Canal": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/View_of_the_Grand_Canal_from_Rialto_to_Ca%27Foscari.jpg/960px-View_of_the_Grand_Canal_from_Rialto_to_Ca%27Foscari.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Claude_Monet%2C_Le_Grand_Canal.jpg/960px-Claude_Monet%2C_Le_Grand_Canal.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Hotel_Ca_Sagredo_-_Grand_Canal_-_Rialto_-_Venice_Italy_Venezia_-_Creative_Commons_by_gnuckx_%284795626094%29.jpg/960px-Hotel_Ca_Sagredo_-_Grand_Canal_-_Rialto_-_Venice_Italy_Venezia_-_Creative_Commons_by_gnuckx_%284795626094%29.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Canal_Grande_Chiesa_della_Salute_e_Dogana_dal_ponte_dell_Accademia.jpg/960px-Canal_Grande_Chiesa_della_Salute_e_Dogana_dal_ponte_dell_Accademia.jpg"
+  },
+  "Rialto Market": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Rialto_2025_4.jpg/960px-Rialto_2025_4.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Rialto_Gondoliers.jpg/960px-Rialto_Gondoliers.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Well-worn_roads_of_Spain%2C_Holland%2C_and_Italy_-_travelled_by_a_painter_in_search_of_the_picturesque_%28IA_wellwornroadsofs01smit%29.pdf/page1-500px-Well-worn_roads_of_Spain%2C_Holland%2C_and_Italy_-_travelled_by_a_painter_in_search_of_the_picturesque_%28IA_wellwornroadsofs01smit%29.pdf.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Well-worn_roads_of_Spain%2C_Holland%2C_and_Italy_-_travelled_by_a_painter_in_search_of_the_picturesque_%28IA_wellwornroadsofs01smit%29.pdf/page1-500px-Well-worn_roads_of_Spain%2C_Holland%2C_and_Italy_-_travelled_by_a_painter_in_search_of_the_picturesque_%28IA_wellwornroadsofs01smit%29.pdf.jpg"
+  },
+  "Duomo di Firenze": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Cattedrale_di_Santa_Maria_del_Fiore_%E2%80%93_Il_Duomo_di_Firenze.jpg/960px-Cattedrale_di_Santa_Maria_del_Fiore_%E2%80%93_Il_Duomo_di_Firenze.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/5/52/Filippo_Brunelleschi%2C_cutaway_of_the_Dome_of_Florence_Cathedral_%28Santa_Maria_del_Fiore%29.JPG",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Fabio_borbottoni%2C_1820-1902%2C_interno_del_duomo_di_fiesole.JPG/960px-Fabio_borbottoni%2C_1820-1902%2C_interno_del_duomo_di_fiesole.JPG",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/CampanileGiotto-01.jpg/960px-CampanileGiotto-01.jpg"
+  },
+  "Uffizi Gallery": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Uffizi_Gallery_-_Daughter_of_Niobe_bent_by_terror.jpg/960px-Uffizi_Gallery_-_Daughter_of_Niobe_bent_by_terror.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Uffizi_Gallery_-_Daughter_of_Niobe_bent_by_terror.jpg/960px-Uffizi_Gallery_-_Daughter_of_Niobe_bent_by_terror.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Uffizi_Gallery_hallway.JPG/960px-Uffizi_Gallery_hallway.JPG",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Uffizi_Gallery_hallway.JPG/960px-Uffizi_Gallery_hallway.JPG"
+  },
+  "Ponte Vecchio": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Ponte_Vecchio_Arno_Florence.jpg/960px-Ponte_Vecchio_Arno_Florence.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Ponte_Vecchio_Arno_Florence.jpg/960px-Ponte_Vecchio_Arno_Florence.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Ponte_Vecchio_Arno_Florence.jpg/960px-Ponte_Vecchio_Arno_Florence.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Ponte_Vecchio_Arno_Florence.jpg/960px-Ponte_Vecchio_Arno_Florence.jpg"
+  },
+  "Piazzale Michelangelo": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Florence_Duomo_from_Michelangelo_hill.jpg/960px-Florence_Duomo_from_Michelangelo_hill.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Florence_Duomo_from_Michelangelo_hill.jpg/960px-Florence_Duomo_from_Michelangelo_hill.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/A_wanderer_in_Florence_%28IA_wandererinfloren00luca%29.pdf/page1-500px-A_wanderer_in_Florence_%28IA_wandererinfloren00luca%29.pdf.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/A_wanderer_in_Florence_%28IA_wandererinfloren00luca%29.pdf/page1-500px-A_wanderer_in_Florence_%28IA_wandererinfloren00luca%29.pdf.jpg"
+  },
+  "Colosseum": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Colosseo_2020.jpg/960px-Colosseo_2020.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg/960px-Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Cross_Colosseum_Rome_Italy.jpg/960px-Cross_Colosseum_Rome_Italy.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Cross_Colosseum_Rome_Italy.jpg/960px-Cross_Colosseum_Rome_Italy.jpg"
+  },
+  "Roman Forum & Palatine Hill": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Foro_Romano_Musei_Capitolini_Roma.jpg/960px-Foro_Romano_Musei_Capitolini_Roma.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/2/28/Rome-_Ruins_of_the_Forum%2C_Looking_towards_the_Capitol.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Dialogues_of_Roman_Life.djvu/page1-960px-Dialogues_of_Roman_Life.djvu.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Rome_%28IT%29%2C_Forum_Romanum_--_2013_--_3358.jpg/960px-Rome_%28IT%29%2C_Forum_Romanum_--_2013_--_3358.jpg"
+  },
+  "Vatican Museums & Sistine Chapel": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Musei_vaticani_Coat_of_Arms.svg/960px-Musei_vaticani_Coat_of_Arms.svg.png",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Anton_Raphael_Mengs%2C_The_Triumph_of_History_over_Time_%28Allegory_of_the_Museum_Clementinum%29%2C_ceiling_fresco_in_the_Camera_dei_Papiri%2C_Vatican_Library%2C_1772_-_M0tty.jpg/960px-thumbnail.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/How_to_See_the_Vatican%2C_Sladen%2C_1914.djvu/page1-960px-How_to_See_the_Vatican%2C_Sladen%2C_1914.djvu.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Vatican_Museums_Spiral_Staircase_2012.jpg/960px-Vatican_Museums_Spiral_Staircase_2012.jpg"
+  },
+  "St Peter's Basilica": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Basilica_di_San_Pietro_in_Vaticano_September_2015-1a.jpg/960px-Basilica_di_San_Pietro_in_Vaticano_September_2015-1a.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/St_Peter%27s_Square%2C_Vatican_City_-_April_2007.jpg/960px-St_Peter%27s_Square%2C_Vatican_City_-_April_2007.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Interior_of_Santi_Giovanni_e_Paolo_%28Venice%29_-_Copy_per%2C_Johann_Carl_Loth_of_the_martyrdom_of_St._Peter_after_Titian.jpg/960px-Interior_of_Santi_Giovanni_e_Paolo_%28Venice%29_-_Copy_per%2C_Johann_Carl_Loth_of_the_martyrdom_of_St._Peter_after_Titian.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Michelangelo%27s_Piet%C3%A0_Saint_Peter%27s_Basilica_Vatican_City.jpg/960px-Michelangelo%27s_Piet%C3%A0_Saint_Peter%27s_Basilica_Vatican_City.jpg"
+  },
+  "Trevi Fountain": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Trevi_Fountain_-_Roma.jpg/960px-Trevi_Fountain_-_Roma.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Trevi_Fountain%2C_Rome%2C_Italy_2_-_May_2007.jpg/960px-Trevi_Fountain%2C_Rome%2C_Italy_2_-_May_2007.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Italy_from_the_Alps_to_Mount_Etna_%281877%29_%2814776934065%29.jpg/960px-Italy_from_the_Alps_to_Mount_Etna_%281877%29_%2814776934065%29.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Italy_from_the_Alps_to_Mount_Etna_%281877%29_%2814776934065%29.jpg/960px-Italy_from_the_Alps_to_Mount_Etna_%281877%29_%2814776934065%29.jpg"
+  },
+  "Pantheon": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Pantheon_%28Rome%29_-_Right_side_and_front.jpg/960px-Pantheon_%28Rome%29_-_Right_side_and_front.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Rome_%28IT%29%2C_Pantheon_--_2013_--_3572.jpg/960px-Rome_%28IT%29%2C_Pantheon_--_2013_--_3572.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Rome_%28IT%29%2C_Pantheon_--_2013_--_3572.jpg/960px-Rome_%28IT%29%2C_Pantheon_--_2013_--_3572.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Pantheon_%28Rome%29_-_Right_side_and_front.jpg/960px-Pantheon_%28Rome%29_-_Right_side_and_front.jpg"
+  },
+  "Park Hyatt Milan": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Galleria_Milano_%28179532365%29.jpeg/960px-Galleria_Milano_%28179532365%29.jpeg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Galleria_Milano_%28179532365%29.jpeg/960px-Galleria_Milano_%28179532365%29.jpeg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Galleria_Milano_%28179532365%29.jpeg/960px-Galleria_Milano_%28179532365%29.jpeg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Galleria_Milano_%28179532365%29.jpeg/960px-Galleria_Milano_%28179532365%29.jpeg"
+  },
+  "Armani Hotel Milano": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Via_Monte_Napoleone_%28Milan%29.jpg/960px-Via_Monte_Napoleone_%28Milan%29.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Via_Monte_Napoleone_%28Milan%29.jpg/960px-Via_Monte_Napoleone_%28Milan%29.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Via_Monte_Napoleone_%28Milan%29.jpg/960px-Via_Monte_Napoleone_%28Milan%29.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Via_Monte_Napoleone_%28Milan%29.jpg/960px-Via_Monte_Napoleone_%28Milan%29.jpg"
+  },
+  "Room Mate Giulia": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Il_Duomo_di_Milano_-_July_2026.jpg/960px-Il_Duomo_di_Milano_-_July_2026.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Il_Duomo_di_Milano_-_July_2026.jpg/960px-Il_Duomo_di_Milano_-_July_2026.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Il_Duomo_di_Milano_-_July_2026.jpg/960px-Il_Duomo_di_Milano_-_July_2026.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Il_Duomo_di_Milano_-_July_2026.jpg/960px-Il_Duomo_di_Milano_-_July_2026.jpg"
+  },
+  "UNAHOTELS Cusani Milano": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/20110725_Castello_Sforzesco_Milan_5557.jpg/960px-20110725_Castello_Sforzesco_Milan_5557.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/20110725_Castello_Sforzesco_Milan_5557.jpg/960px-20110725_Castello_Sforzesco_Milan_5557.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/20110725_Castello_Sforzesco_Milan_5557.jpg/960px-20110725_Castello_Sforzesco_Milan_5557.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/20110725_Castello_Sforzesco_Milan_5557.jpg/960px-20110725_Castello_Sforzesco_Milan_5557.jpg"
+  },
+  "Grand Hotel Tremezzo": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Sentiero_del_Viandante_DSC_6340_%2814020554463%29.jpg/960px-Sentiero_del_Viandante_DSC_6340_%2814020554463%29.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Sentiero_del_Viandante_DSC_6340_%2814020554463%29.jpg/960px-Sentiero_del_Viandante_DSC_6340_%2814020554463%29.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Sentiero_del_Viandante_DSC_6340_%2814020554463%29.jpg/960px-Sentiero_del_Viandante_DSC_6340_%2814020554463%29.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Sentiero_del_Viandante_DSC_6340_%2814020554463%29.jpg/960px-Sentiero_del_Viandante_DSC_6340_%2814020554463%29.jpg"
+  },
+  "Hotel Villa Flori": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Como_and_its_lake.jpg/960px-Como_and_its_lake.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Woman_with_children_playing_in_fountain_on_Como_lakefront.jpg/960px-Woman_with_children_playing_in_fountain_on_Como_lakefront.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Monitorul_Prim%C4%83riei_Bucure%C8%99ti_1915-06-28%2C_nr._26.pdf/page1-960px-Monitorul_Prim%C4%83riei_Bucure%C8%99ti_1915-06-28%2C_nr._26.pdf.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Como_-_Villa_Olmo-_Ceiling.jpg/960px-Como_-_Villa_Olmo-_Ceiling.jpg"
+  },
+  "The Gritti Palace": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/View_of_the_Grand_Canal_from_Rialto_to_Ca%27Foscari.jpg/960px-View_of_the_Grand_Canal_from_Rialto_to_Ca%27Foscari.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Chiesa_di_Santa_Maria_del_Giglio_Venezia.jpg/960px-Chiesa_di_Santa_Maria_del_Giglio_Venezia.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Table_at_Gritti_Palace_Hotel_in_Venice_-_panoramio.jpg/960px-Table_at_Gritti_Palace_Hotel_in_Venice_-_panoramio.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Canal_Grande_Chiesa_della_Salute_e_Dogana_dal_ponte_dell_Accademia.jpg/960px-Canal_Grande_Chiesa_della_Salute_e_Dogana_dal_ponte_dell_Accademia.jpg"
+  },
+  "Ca' Sagredo": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/View_of_the_Grand_Canal_from_Rialto_to_Ca%27Foscari.jpg/960px-View_of_the_Grand_Canal_from_Rialto_to_Ca%27Foscari.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Ca%27_d%27Oro_facciata.jpg/960px-Ca%27_d%27Oro_facciata.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Hotel_Ca_Sagredo_-_Grand_Canal_-_Rialto_-_Venice_Italy_Venezia_-_Creative_Commons_by_gnuckx_%284794995927%29.jpg/960px-Hotel_Ca_Sagredo_-_Grand_Canal_-_Rialto_-_Venice_Italy_Venezia_-_Creative_Commons_by_gnuckx_%284794995927%29.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Canal_Grande_Chiesa_della_Salute_e_Dogana_dal_ponte_dell_Accademia.jpg/960px-Canal_Grande_Chiesa_della_Salute_e_Dogana_dal_ponte_dell_Accademia.jpg"
+  },
+  "Hotel Rialto": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Rialto_2025_4.jpg/960px-Rialto_2025_4.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Rialto_Gondoliers.jpg/960px-Rialto_Gondoliers.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Hotel_Ca_Sagredo_-_Grand_Canal_-_Rialto_-_Venice_Italy_Venezia_-_Creative_Commons_by_gnuckx_%284795626094%29.jpg/960px-Hotel_Ca_Sagredo_-_Grand_Canal_-_Rialto_-_Venice_Italy_Venezia_-_Creative_Commons_by_gnuckx_%284795626094%29.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Hotel_Ca_Sagredo_-_Grand_Canal_-_Rialto_-_Venice_Italy_Venezia_-_Creative_Commons_by_gnuckx_%284795626094%29.jpg/960px-Hotel_Ca_Sagredo_-_Grand_Canal_-_Rialto_-_Venice_Italy_Venezia_-_Creative_Commons_by_gnuckx_%284795626094%29.jpg"
+  },
+  "Hotel Brunelleschi": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Cattedrale_di_Santa_Maria_del_Fiore_%E2%80%93_Il_Duomo_di_Firenze.jpg/960px-Cattedrale_di_Santa_Maria_del_Fiore_%E2%80%93_Il_Duomo_di_Firenze.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Florence_Italy_UNESCO-Plaque-1982-01.jpg/960px-Florence_Italy_UNESCO-Plaque-1982-01.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Cities_of_northern_and_central_Italy_%28IA_citiesofnorthern03hareiala%29.pdf/page1-500px-Cities_of_northern_and_central_Italy_%28IA_citiesofnorthern03hareiala%29.pdf.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/CampanileGiotto-01.jpg/960px-CampanileGiotto-01.jpg"
+  },
+  "Hotel Spadai": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Cattedrale_di_Santa_Maria_del_Fiore_%E2%80%93_Il_Duomo_di_Firenze.jpg/960px-Cattedrale_di_Santa_Maria_del_Fiore_%E2%80%93_Il_Duomo_di_Firenze.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Cupola_del_duomo_di_firenze%2C_vista%2C_via_dei_servi_01.JPG/960px-Cupola_del_duomo_di_firenze%2C_vista%2C_via_dei_servi_01.JPG",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/CampanileGiotto-01.jpg/960px-CampanileGiotto-01.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/CampanileGiotto-01.jpg/960px-CampanileGiotto-01.jpg"
+  },
+  "Hotel de Russie": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/PIAZZA_DEL_POPOLO_VISTA_AEREA.jpg/960px-PIAZZA_DEL_POPOLO_VISTA_AEREA.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Fontana_del_Nettuno%2C_Piazza_del_Popolo%2C_Rome%2C_Italie.jpg/960px-Fontana_del_Nettuno%2C_Piazza_del_Popolo%2C_Rome%2C_Italie.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/A_catalogue_of_the_highly_distinguished_and_very_celebrated_collection_of_Italian%2C_Flemish%2C_and_Dutch_pictures%2C_the_genuine_property_of_His_Grace_the_Duke_de_d%27Alberg_sic_%28IA_catalogueofhighl00chri%29.pdf/page1-960px-thumbnail.pdf.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/A_catalogue_of_the_highly_distinguished_and_very_celebrated_collection_of_Italian%2C_Flemish%2C_and_Dutch_pictures%2C_the_genuine_property_of_His_Grace_the_Duke_de_d%27Alberg_sic_%28IA_catalogueofhighl00chri%29.pdf/page1-960px-thumbnail.pdf.jpg"
+  },
+  "The First Roma Arte": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/PIAZZA_DEL_POPOLO_VISTA_AEREA.jpg/960px-PIAZZA_DEL_POPOLO_VISTA_AEREA.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Fontana_del_Nettuno%2C_Piazza_del_Popolo%2C_Rome%2C_Italie.jpg/960px-Fontana_del_Nettuno%2C_Piazza_del_Popolo%2C_Rome%2C_Italie.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/A_cyclopaedia_of_works_of_architecture_in_Italy%2C_Greece%2C_and_the_Levant_%28IA_cyclopaediaofwor00long%29.pdf/page1-960px-A_cyclopaedia_of_works_of_architecture_in_Italy%2C_Greece%2C_and_the_Levant_%28IA_cyclopaediaofwor00long%29.pdf.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/A_cyclopaedia_of_works_of_architecture_in_Italy%2C_Greece%2C_and_the_Levant_%28IA_cyclopaediaofwor00long%29.pdf/page1-960px-A_cyclopaedia_of_works_of_architecture_in_Italy%2C_Greece%2C_and_the_Levant_%28IA_cyclopaediaofwor00long%29.pdf.jpg"
+  },
+  "Hotel Artemide": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Monti_-_via_Nazionale_1413.JPG/960px-Monti_-_via_Nazionale_1413.JPG",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Monti_-_via_Nazionale_1413.JPG/960px-Monti_-_via_Nazionale_1413.JPG",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Monti_-_via_Nazionale_1413.JPG/960px-Monti_-_via_Nazionale_1413.JPG",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Monti_-_via_Nazionale_1413.JPG/960px-Monti_-_via_Nazionale_1413.JPG"
+  },
+  "Ratanà": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Risotto_with_speck_and_goat_cheese_%286101067436%29.jpg/960px-Risotto_with_speck_and_goat_cheese_%286101067436%29.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Risotto_alla_Milanese.JPG/960px-Risotto_alla_Milanese.JPG",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Giuseppe_Gervasini._L%27interno_della_casa_di_via_F.lli_Zoia_negli_anni%2740.jpg/960px-Giuseppe_Gervasini._L%27interno_della_casa_di_via_F.lli_Zoia_negli_anni%2740.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Giuseppe_Gervasini._L%27interno_della_casa_di_via_F.lli_Zoia_negli_anni%2740.jpg/960px-Giuseppe_Gervasini._L%27interno_della_casa_di_via_F.lli_Zoia_negli_anni%2740.jpg"
+  },
+  "Trattoria del Nuovo Macello": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Cotoletta_e_patate_al_forno.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Milanesa.jpg/960px-Milanesa.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Cotoletta_e_patate_al_forno.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Cotoletta_e_patate_al_forno.jpg"
+  },
+  "Locanda Tirlindana": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/La_Punta%2C_Bellagio%2C_Lago_de_Como%2C_Italia%2C_2016-06-25%2C_DD_11.jpg/960px-La_Punta%2C_Bellagio%2C_Lago_de_Como%2C_Italia%2C_2016-06-25%2C_DD_11.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/La_Punta%2C_Bellagio%2C_Lago_de_Como%2C_Italia%2C_2016-06-25%2C_DD_11.jpg/960px-La_Punta%2C_Bellagio%2C_Lago_de_Como%2C_Italia%2C_2016-06-25%2C_DD_11.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/La_Punta%2C_Bellagio%2C_Lago_de_Como%2C_Italia%2C_2016-06-25%2C_DD_11.jpg/960px-La_Punta%2C_Bellagio%2C_Lago_de_Como%2C_Italia%2C_2016-06-25%2C_DD_11.jpg",
+    "map": null
+  },
+  "Osteria del Ponte": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Como_and_its_lake.jpg/960px-Como_and_its_lake.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Cotechino-Servito-Polenta-Lenticchie.jpg/960px-Cotechino-Servito-Polenta-Lenticchie.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/A_classical_tour_through_Italy_and_Sicily-_tending_to_illustrate_some_districts_%28IA_classicaltourthr00hoarrich%29.pdf/page1-960px-A_classical_tour_through_Italy_and_Sicily-_tending_to_illustrate_some_districts_%28IA_classicaltourthr00hoarrich%29.pdf.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Como_-_Villa_Olmo-_Ceiling.jpg/960px-Como_-_Villa_Olmo-_Ceiling.jpg"
+  },
+  "Antiche Carampane": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/View_of_the_Grand_Canal_from_Rialto_to_Ca%27Foscari.jpg/960px-View_of_the_Grand_Canal_from_Rialto_to_Ca%27Foscari.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Canal_Grande_Chiesa_della_Salute_e_Dogana_dal_ponte_dell_Accademia.jpg/960px-Canal_Grande_Chiesa_della_Salute_e_Dogana_dal_ponte_dell_Accademia.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Canal_Grande_Chiesa_della_Salute_e_Dogana_dal_ponte_dell_Accademia.jpg/960px-Canal_Grande_Chiesa_della_Salute_e_Dogana_dal_ponte_dell_Accademia.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/View_of_the_Grand_Canal_from_Rialto_to_Ca%27Foscari.jpg/960px-View_of_the_Grand_Canal_from_Rialto_to_Ca%27Foscari.jpg"
+  },
+  "Cantina Do Mori": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Cicchetti_Venezia_%281%29.jpg/960px-Cicchetti_Venezia_%281%29.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/%22_13_-_ITALY_-_Cicchetti_Venetian_cuisine_appetizers_restaurant_%28_not_are_tapas_are_ciccheti_of_Venice%29_in_this_pics_Baccal%C3%A0_mantecato_%28Cod%29.jpg/960px-%22_13_-_ITALY_-_Cicchetti_Venetian_cuisine_appetizers_restaurant_%28_not_are_tapas_are_ciccheti_of_Venice%29_in_this_pics_Baccal%C3%A0_mantecato_%28Cod%29.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Cicchetti_Venetian_cuisine_appetizers_-_polpette_fritte_di_tonno_%28tuna_fried_meatballs%29.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Cicchetti_Venetian_cuisine_appetizers_-_polpette_fritte_di_tonno_%28tuna_fried_meatballs%29.jpg"
+  },
+  "Trattoria Mario": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/1/12/Bistecca_alla_fiorentina-01.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/1/12/Bistecca_alla_fiorentina-01.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Italy_-_handbook_for_travellers_%28IA_b21781837%29.pdf/page1-500px-Italy_-_handbook_for_travellers_%28IA_b21781837%29.pdf.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Italy_-_handbook_for_travellers_%28IA_b21781837%29.pdf/page1-500px-Italy_-_handbook_for_travellers_%28IA_b21781837%29.pdf.jpg"
+  },
+  "Osteria delle Tre Panche": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/2/26/Truffe_noire_du_P%C3%A9rigord.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/El_profeta_-_%C3%B3pera_en_cuatro_actos_%28IA_elprofetaoperaen00meye%29.pdf/page1-960px-El_profeta_-_%C3%B3pera_en_cuatro_actos_%28IA_elprofetaoperaen00meye%29.pdf.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/6/60/Osso_buco_with_truffle_risotto.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/6/60/Osso_buco_with_truffle_risotto.jpg"
+  },
+  "Roscioli Salumeria": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Espaguetis_carbonara.jpg/960px-Espaguetis_carbonara.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Spaghetti_alla_Carbonara.jpg/960px-Spaghetti_alla_Carbonara.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Stazione_di_Carbonara_Scrivia_1.JPG/960px-Stazione_di_Carbonara_Scrivia_1.JPG",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Stazione_di_Carbonara_Scrivia_1.JPG/960px-Stazione_di_Carbonara_Scrivia_1.JPG"
+  },
+  "Supplizio": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Suppl%C3%AC.jpg/960px-Suppl%C3%AC.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Huot_-_Le_tr%C3%A9sor_de_Bigot%2C_1926.djvu/page1-960px-Huot_-_Le_tr%C3%A9sor_de_Bigot%2C_1926.djvu.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Chiesa_di_San_Gaetano_Santa_Agata_Brescia.jpg/960px-Chiesa_di_San_Gaetano_Santa_Agata_Brescia.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Italian_Suppl%C3%AC.jpg/960px-Italian_Suppl%C3%AC.jpg"
+  },
+  "Luini Panzerotti": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Panzerotti_chez_PanzerotTiamo_%28Lyon%29_-_2.jpg/960px-Panzerotti_chez_PanzerotTiamo_%28Lyon%29_-_2.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Calzone_fritto.jpg/960px-Calzone_fritto.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Panzerotto_chez_PanzerotTiamo_%28Lyon%29.jpg/960px-Panzerotto_chez_PanzerotTiamo_%28Lyon%29.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Panzerotto_chez_PanzerotTiamo_%28Lyon%29.jpg/960px-Panzerotto_chez_PanzerotTiamo_%28Lyon%29.jpg"
+  },
+  "Marchesi 1824": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Galleria_Milano_%28179532365%29.jpeg/960px-Galleria_Milano_%28179532365%29.jpeg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Il_Friuli_giornale_politico-amministrativo-letterario-commerciale_n._209_%281902%29_%28IA_IlFriuli_209-1902%29.pdf/page1-960px-Il_Friuli_giornale_politico-amministrativo-letterario-commerciale_n._209_%281902%29_%28IA_IlFriuli_209-1902%29.pdf.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/The_united_editors_perpetual_encyclopedia%3Ba_library_of_universal_knowledge_combined_with_an_unabridged_dictionary_of_the_English_language._%28Vol._18%2C_MARBLE-MOLASSE%29_%28IA_unitededitorsper18unse%29.pdf/page1-960px-thumbnail.pdf.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Glass_fome_of_the_Galleria_Vittorio_Emanuele_II_in_Milan.JPG/960px-Glass_fome_of_the_Galleria_Vittorio_Emanuele_II_in_Milan.JPG"
+  },
+  "Pasticceria Monti": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Como_and_its_lake.jpg/960px-Como_and_its_lake.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Zeppula.jpg/960px-Zeppula.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Como_-_Villa_Olmo-_Ceiling.jpg/960px-Como_-_Villa_Olmo-_Ceiling.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Como_-_Villa_Olmo-_Ceiling.jpg/960px-Como_-_Villa_Olmo-_Ceiling.jpg"
+  },
+  "Caffè Florian": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/9626_-_Venezia_-_Caff%C3%A8_Florian_-_Foto_Giovanni_Dall%27Orto%2C_12-Aug-2007.jpg/960px-9626_-_Venezia_-_Caff%C3%A8_Florian_-_Foto_Giovanni_Dall%27Orto%2C_12-Aug-2007.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/9626_-_Venezia_-_Caff%C3%A8_Florian_-_Foto_Giovanni_Dall%27Orto%2C_12-Aug-2007.jpg/960px-9626_-_Venezia_-_Caff%C3%A8_Florian_-_Foto_Giovanni_Dall%27Orto%2C_12-Aug-2007.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Waiting_for_customers%2C_Caff%C3%A8_Florian%2C_Piazza_San_Marco_%28542063685%29.jpg/960px-Waiting_for_customers%2C_Caff%C3%A8_Florian%2C_Piazza_San_Marco_%28542063685%29.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Waiting_for_customers%2C_Caff%C3%A8_Florian%2C_Piazza_San_Marco_%28542063685%29.jpg/960px-Waiting_for_customers%2C_Caff%C3%A8_Florian%2C_Piazza_San_Marco_%28542063685%29.jpg"
+  },
+  "Ditta Artigianale": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/FirenzeDec092023_01.jpg/960px-FirenzeDec092023_01.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Espresso_BW_1.jpg/960px-Espresso_BW_1.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/FlorenceSkyline.jpg/960px-FlorenceSkyline.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/FlorenceSkyline.jpg/960px-FlorenceSkyline.jpg"
+  },
+  "Sant'Eustachio Il Caffè": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Palazzo_della_Sapienza.jpg/960px-Palazzo_della_Sapienza.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Caff%C3%A8_Sant%27Eustachio.JPG/960px-Caff%C3%A8_Sant%27Eustachio.JPG",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Fa%C3%A7ade%2C_place_du_Pantheon%2C_Rome%2C_Italy.jpg/960px-Fa%C3%A7ade%2C_place_du_Pantheon%2C_Rome%2C_Italy.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Fa%C3%A7ade%2C_place_du_Pantheon%2C_Rome%2C_Italy.jpg/960px-Fa%C3%A7ade%2C_place_du_Pantheon%2C_Rome%2C_Italy.jpg"
+  },
+  "Giolitti": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/4/47/CafeMia.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Giolitti_in_Rome.jpg/960px-Giolitti_in_Rome.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Esquilino-San_Giovanni_%2C_Rome_-_Italy_%286212574084%29.jpg/960px-Esquilino-San_Giovanni_%2C_Rome_-_Italy_%286212574084%29.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Coppette_gelato.jpg/960px-Coppette_gelato.jpg"
+  },
+  "Varenna": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Varenna_and_mountain_from_ferry.jpg/960px-Varenna_and_mountain_from_ferry.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Varenna%2C_Lake_Como_1.jpg/960px-Varenna%2C_Lake_Como_1.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/20160623_Varenna_06.jpg/960px-20160623_Varenna_06.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Varenna_9831.jpg/960px-Varenna_9831.jpg"
+  },
+  "Burano": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Burano_Venice_17.jpg/960px-Burano_Venice_17.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Burano_-_canal_and_colourful_houses_%2835262836603%29.jpg/960px-Burano_-_canal_and_colourful_houses_%2835262836603%29.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Venezia-Murano-Burano%2C_Venezia%2C_Italy_-_panoramio_%28618%29.jpg/960px-Venezia-Murano-Burano%2C_Venezia%2C_Italy_-_panoramio_%28618%29.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/San_Martino_%28Burano%29_Campanile.jpg/960px-San_Martino_%28Burano%29_Campanile.jpg"
+  },
+  "Piazza delle Erbe": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Piazza_delle_Erbe_%28Verona%29.jpg/960px-Piazza_delle_Erbe_%28Verona%29.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Verona_-_Piazza_Erbe_as_seen_from_Lamberti_tower.jpg/960px-Verona_-_Piazza_Erbe_as_seen_from_Lamberti_tower.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Central_Italy_and_Rome_%28IA_centralitalyrome00baed_0%29.pdf/page1-500px-Central_Italy_and_Rome_%28IA_centralitalyrome00baed_0%29.pdf.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Piazza_delle_Erbe_%28Verona%29.jpg/960px-Piazza_delle_Erbe_%28Verona%29.jpg"
+  },
+  "Borgo Pio": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Passetto_di_Borgo_from_Castel_Sant%27Angelo_01.jpg/960px-Passetto_di_Borgo_from_Castel_Sant%27Angelo_01.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Borgo_-_borgo_pio_051208-02.JPG/960px-Borgo_-_borgo_pio_051208-02.JPG",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Italy_-_handbook_for_travellers_%28IA_b21781886%29.pdf/page1-500px-Italy_-_handbook_for_travellers_%28IA_b21781886%29.pdf.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Rione_XIV_Borgo%2C_Roma%2C_Italy_-_panoramio_%2833%29.jpg/960px-Rione_XIV_Borgo%2C_Roma%2C_Italy_-_panoramio_%2833%29.jpg"
+  },
+  "Trastevere": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Santa_Maria_in_Trastevere_fountain.jpg/960px-Santa_Maria_in_Trastevere_fountain.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Plate_for_garbage_in_Trastevere_%28Rome%29.jpg/960px-Plate_for_garbage_in_Trastevere_%28Rome%29.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/6/61/Roma_-_Santa_Maria_di_Trastevere_-_in_Piazza_di_Santa_Maria_in_Trastevere_-_interior_-_panoramio.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Santa_Maria_in_Trastevere_-_Cappella_Altemps.jpg/960px-Santa_Maria_in_Trastevere_-_Cappella_Altemps.jpg"
+  },
+  "Quadrilatero della Moda": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Via_Monte_Napoleone_%28Milan%29.jpg/960px-Via_Monte_Napoleone_%28Milan%29.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/DSC02763_Milano_-_Homeless_in_via_Montenapoleone_-_Foto_Giovanni_Dall%27Orto_-_20_jan_2007.jpg/960px-DSC02763_Milano_-_Homeless_in_via_Montenapoleone_-_Foto_Giovanni_Dall%27Orto_-_20_jan_2007.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Milano%2C_via_Monte_Napoleone_01.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Milano%2C_via_Monte_Napoleone_01.jpg"
+  }
+}

@@ -1,0 +1,250 @@
+[
+  {
+    "name": "Sketch (The Lecture Room)",
+    "category": "Fine Dining · 3 Michelin",
+    "address": "9 Conduit St · W1S 2XG",
+    "price": "£220 tasting",
+    "famous": "Lecture Room tasting menu · Pierre Gagnaire",
+    "halal": false,
+    "vegetarian": true,
+    "reservation": "Essential 4+ weeks",
+    "wait": "With reservation: 0",
+    "michelin": "★★★",
+    "kidsFriendly": "Adults only",
+    "dressCode": "Smart",
+    "tip": "Call ahead about dietary needs. GCC travellers: most kitchens will confirm halal sourcing on request even if not marketed as such. Tipping is 10–12.5%.",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Sketch+London",
+    "bookUrl": "https://sketch.london/",
+    "dishes": [
+      { "name": "Lecture Room Tasting Menu", "img": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=800&q=80", "desc": "Multi-course Pierre Gagnaire signature experience." },
+      { "name": "Caviar & Crème Fraîche", "img": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=800&q=80", "desc": "Opening course — delicate and precise." },
+      { "name": "Seasonal Fish", "img": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?auto=format&fit=crop&w=800&q=80", "desc": "Daily catch with French technique." },
+      { "name": "Cheese Selection", "img": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&q=80", "desc": "Artisan British and French cheeses." },
+      { "name": "Petit Fours", "img": "https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=800&q=80", "desc": "Handmade sweets to finish." }
+    ],
+    "photos": {
+      "signature": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=800&q=80",
+      "interior": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80",
+      "exterior": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&q=80",
+      "dessert": "https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=800&q=80",
+      "coffee": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=80"
+    }
+  },
+  {
+    "name": "Core by Clare Smyth",
+    "category": "Fine Dining · 3 Michelin",
+    "address": "92 Kensington Park Rd · W11 2PN",
+    "price": "£195 tasting",
+    "famous": "Potato and roe · signature",
+    "halal": false,
+    "vegetarian": true,
+    "reservation": "Essential 6+ weeks",
+    "wait": "0 with booking",
+    "michelin": "★★★",
+    "kidsFriendly": "Adults only",
+    "dressCode": "Smart",
+    "tip": "Call ahead about dietary needs. GCC travellers: most kitchens will confirm halal sourcing on request even if not marketed as such. Tipping is 10–12.5%.",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Core+by+Clare+Smyth+London",
+    "bookUrl": "https://corebyclaresmyth.com/",
+    "dishes": [
+      { "name": "Potato and Roe", "img": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=800&q=80", "desc": "The signature dish — humble potato elevated." },
+      { "name": "Lamb Carrot", "img": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?auto=format&fit=crop&w=800&q=80", "desc": "Slow-cooked lamb with carrot textures." },
+      { "name": "Seasonal Tasting Menu", "img": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=800&q=80", "desc": "British produce at its finest." },
+      { "name": "Pre-Dessert", "img": "https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=800&q=80", "desc": "Surprise palate cleanser." },
+      { "name": "Chocolate & Caramel", "img": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&q=80", "desc": "Rich closing course." }
+    ],
+    "photos": {
+      "signature": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=800&q=80",
+      "interior": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80",
+      "exterior": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&q=80",
+      "dessert": "https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=800&q=80",
+      "coffee": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=80"
+    }
+  },
+  {
+    "name": "Dishoom Covent Garden",
+    "category": "Halal · Bombay-Iranian",
+    "address": "12 Upper St Martin's Ln · WC2H 9FB",
+    "price": "£25/head",
+    "famous": "Bacon-free black daal · house black daal",
+    "halal": true,
+    "vegetarian": true,
+    "reservation": "No dinner bookings — queue",
+    "wait": "45–90 min at 19:00",
+    "michelin": "—",
+    "kidsFriendly": "Yes",
+    "dressCode": "Casual",
+    "tip": "Call ahead about dietary needs. GCC travellers: most kitchens will confirm halal sourcing on request even if not marketed as such. Tipping is 10–12.5%.",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Dishoom+Covent+Garden+London",
+    "bookUrl": "https://www.dishoom.com/",
+    "dishes": [
+      { "name": "House Black Daal", "img": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?auto=format&fit=crop&w=800&q=80", "desc": "Slow-cooked overnight — the reason people queue." },
+      { "name": "Chicken Ruby", "img": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=800&q=80", "desc": "Rich ruby-red curry — crowd favourite." },
+      { "name": "Bacon Naan Roll", "img": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&q=80", "desc": "Breakfast icon — arrive before 11:30." },
+      { "name": "Okra Fries", "img": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=800&q=80", "desc": "Crispy, spiced, addictive." },
+      { "name": "Chai", "img": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=80", "desc": "Proper Bombay-style masala chai." }
+    ],
+    "photos": {
+      "signature": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?auto=format&fit=crop&w=800&q=80",
+      "interior": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80",
+      "exterior": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&q=80",
+      "dessert": "https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=800&q=80",
+      "coffee": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=80"
+    }
+  },
+  {
+    "name": "Tayyabs",
+    "category": "Halal · Punjabi",
+    "address": "83–89 Fieldgate St · E1 1JU",
+    "price": "£22/head",
+    "famous": "Lamb chops · legendary",
+    "halal": true,
+    "vegetarian": true,
+    "reservation": "Recommended weekends",
+    "wait": "30–60 min",
+    "michelin": "—",
+    "kidsFriendly": "Yes",
+    "dressCode": "Casual",
+    "tip": "Call ahead about dietary needs. GCC travellers: most kitchens will confirm halal sourcing on request even if not marketed as such. Tipping is 10–12.5%.",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Tayyabs+London",
+    "bookUrl": "https://www.tayyabs.co.uk/",
+    "dishes": [
+      { "name": "Lamb Chops", "img": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?auto=format&fit=crop&w=800&q=80", "desc": "The legendary chops — order immediately." },
+      { "name": "Chicken Karahi", "img": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=800&q=80", "desc": "Wok-style curry — sharing size." },
+      { "name": "Seekh Kebab", "img": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=800&q=80", "desc": "Spiced minced lamb on skewers." },
+      { "name": "Daal", "img": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&q=80", "desc": "Comforting lentil base for everything." },
+      { "name": "Mango Lassi", "img": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=80", "desc": "Essential cooling counterpoint." }
+    ],
+    "photos": {
+      "signature": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?auto=format&fit=crop&w=800&q=80",
+      "interior": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80",
+      "exterior": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&q=80",
+      "dessert": "https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=800&q=80",
+      "coffee": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=80"
+    }
+  },
+  {
+    "name": "Fortnum & Mason · The Diamond Jubilee Tea Salon",
+    "category": "Afternoon Tea",
+    "address": "181 Piccadilly · W1A 1ER",
+    "price": "£90 traditional tea",
+    "famous": "Royal Blend tea · signature sandwich",
+    "halal": false,
+    "vegetarian": true,
+    "reservation": "4+ weeks",
+    "wait": "0 with booking",
+    "michelin": "—",
+    "kidsFriendly": "Yes",
+    "dressCode": "Smart",
+    "tip": "Call ahead about dietary needs. GCC travellers: most kitchens will confirm halal sourcing on request even if not marketed as such. Tipping is 10–12.5%.",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Fortnum+and+Mason+London",
+    "bookUrl": "https://www.fortnumandmason.com/",
+    "dishes": [
+      { "name": "Royal Blend Tea", "img": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=80", "desc": "Fortnum's signature since 1902." },
+      { "name": "Smoked Salmon Sandwich", "img": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&q=80", "desc": "Classic finger sandwich tier." },
+      { "name": "Scones with Clotted Cream", "img": "https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=800&q=80", "desc": "Warm scones — jam first or cream first?" },
+      { "name": "Pastry Tier", "img": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=800&q=80", "desc": "Petit fours and patisserie." },
+      { "name": "Champagne", "img": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80", "desc": "Upgrade to Taittinger for celebrations." }
+    ],
+    "photos": {
+      "signature": "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=800&q=80",
+      "interior": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80",
+      "exterior": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&q=80",
+      "dessert": "https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=800&q=80",
+      "coffee": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=80"
+    }
+  },
+  {
+    "name": "Padella",
+    "category": "Italian · Pasta",
+    "address": "6 Southwark St · SE1 1TQ",
+    "price": "£15/head",
+    "famous": "Pici cacio e pepe",
+    "halal": false,
+    "vegetarian": true,
+    "reservation": "Join queue on app from 10:00",
+    "wait": "30–90 min",
+    "michelin": "—",
+    "kidsFriendly": "Yes",
+    "dressCode": "Casual",
+    "tip": "Call ahead about dietary needs. GCC travellers: most kitchens will confirm halal sourcing on request even if not marketed as such. Tipping is 10–12.5%.",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Padella+London",
+    "bookUrl": "https://www.padella.co/",
+    "dishes": [
+      { "name": "Pici Cacio e Pepe", "img": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=800&q=80", "desc": "The dish that made them famous." },
+      { "name": "Pappardelle with Beef Shin", "img": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?auto=format&fit=crop&w=800&q=80", "desc": "Rich ragu — perfect winter bowl." },
+      { "name": "Tagliarini with Dorset Crab", "img": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=800&q=80", "desc": "Light, fresh, seasonal." },
+      { "name": "Tiramisu", "img": "https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=800&q=80", "desc": "Classic Italian finish." },
+      { "name": "Negroni Sbagliato", "img": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80", "desc": "Aperitivo while you wait." }
+    ],
+    "photos": {
+      "signature": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=800&q=80",
+      "interior": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80",
+      "exterior": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&q=80",
+      "dessert": "https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=800&q=80",
+      "coffee": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=80"
+    }
+  },
+  {
+    "name": "Borough Market",
+    "category": "Street Food · Market",
+    "address": "8 Southwark St · SE1 1TL",
+    "price": "£10–£20/head",
+    "famous": "Kappacasein raclette · Bread Ahead doughnuts",
+    "halal": true,
+    "vegetarian": true,
+    "reservation": "—",
+    "wait": "Long queues Sat lunch",
+    "michelin": "—",
+    "kidsFriendly": "Yes",
+    "dressCode": "Casual",
+    "tip": "Call ahead about dietary needs. GCC travellers: most kitchens will confirm halal sourcing on request even if not marketed as such. Tipping is 10–12.5%.",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Borough+Market+London",
+    "bookUrl": "https://boroughmarket.org.uk/",
+    "dishes": [
+      { "name": "Kappacasein Raclette", "img": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=800&q=80", "desc": "Melted cheese on potatoes — worth the queue." },
+      { "name": "Bread Ahead Doughnuts", "img": "https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=800&q=80", "desc": "Filled doughnuts — arrive early." },
+      { "name": "Brindisa Chorizo Roll", "img": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?auto=format&fit=crop&w=800&q=80", "desc": "Grilled chorizo in crusty bread." },
+      { "name": "Wild Mushroom Risotto", "img": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=800&q=80", "desc": "Seasonal stall favourite." },
+      { "name": "Monmouth Coffee", "img": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=80", "desc": "Single-origin pour-over." }
+    ],
+    "photos": {
+      "signature": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&q=80",
+      "interior": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80",
+      "exterior": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&q=80",
+      "dessert": "https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=800&q=80",
+      "coffee": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=80"
+    }
+  },
+  {
+    "name": "Gordon Ramsay Bread Street Kitchen",
+    "category": "Modern British",
+    "address": "10 Bread St · EC4M 9AJ",
+    "price": "£45/head",
+    "famous": "Fish & chips · Sunday roast",
+    "halal": false,
+    "vegetarian": true,
+    "reservation": "Recommended",
+    "wait": "15 min with booking",
+    "michelin": "—",
+    "kidsFriendly": "Yes",
+    "dressCode": "Smart-casual",
+    "tip": "Call ahead about dietary needs. GCC travellers: most kitchens will confirm halal sourcing on request even if not marketed as such. Tipping is 10–12.5%.",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Bread+Street+Kitchen+London",
+    "bookUrl": "https://www.gordonramsayrestaurants.com/bread-street-kitchen/",
+    "dishes": [
+      { "name": "Fish & Chips", "img": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?auto=format&fit=crop&w=800&q=80", "desc": "Beer-battered cod — British classic done right." },
+      { "name": "Sunday Roast", "img": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=800&q=80", "desc": "Yorkshire pudding, gravy, the works." },
+      { "name": "Beef Wellington", "img": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=800&q=80", "desc": "Gordon's signature — book ahead." },
+      { "name": "Sticky Toffee Pudding", "img": "https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=800&q=80", "desc": "Warm, saucy, essential." },
+      { "name": "Espresso Martini", "img": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80", "desc": "Post-dinner pick-me-up." }
+    ],
+    "photos": {
+      "signature": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?auto=format&fit=crop&w=800&q=80",
+      "interior": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80",
+      "exterior": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&q=80",
+      "dessert": "https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=800&q=80",
+      "coffee": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=80"
+    }
+  }
+]

@@ -1,0 +1,140 @@
+[
+  {
+    "day": 1,
+    "title": "Royal London",
+    "color": "#c41e3a",
+    "routePreview": "8 stops · start 08:30 · end 20:00",
+    "mapUrl": "https://www.google.com/maps/dir/Duck+and+Waffle+London/Buckingham+Palace/Westminster+Abbey/Big+Ben/London+Eye/Sketch+London",
+    "budget": {
+      "budget": { "total": "£65 per person", "includes": ["Free museums", "Walking + bus", "Chain lunches", "Public sights"] },
+      "mid": { "total": "£185 per person", "includes": ["Ticketed sights", "Occasional taxi", "Sit-down meals", "Coffee stops"] },
+      "luxury": { "total": "£520 per person", "includes": ["Fast-Track tickets", "Uber everywhere", "Michelin lunch", "Cocktail bar"] }
+    },
+    "photos": [
+      "https://images.unsplash.com/photo-1565967511849-3a55bbd6d086?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1584988296766-02d2fc52778a?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1529655683823-dc58689736f4?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1520222984843-df35ebc0f24d?auto=format&fit=crop&w=800&q=80"
+    ],
+    "stops": [
+      { "time": "08:30", "timeOfDay": "morning", "name": "Duck & Waffle", "desc": "Level 40 views · book ahead", "transit": "Tube · Circle · 2 stops · 8 min", "icon": "train", "mapUrl": "https://www.google.com/maps/search/?api=1&query=Duck+and+Waffle+London" },
+      { "time": "09:30", "timeOfDay": "morning", "name": "Buckingham Palace", "desc": "Arrive early for Changing of the Guard", "transit": "Walk 350 m · 5 min", "icon": "walk", "mapUrl": "https://www.google.com/maps/search/?api=1&query=Buckingham+Palace+London" },
+      { "time": "11:00", "timeOfDay": "morning", "name": "Changing of the Guard", "desc": "Free · 45 min ceremony", "transit": "Walk · St James's Park · 800 m · 12 min", "icon": "walk", "mapUrl": "https://www.google.com/maps/search/?api=1&query=Changing+of+the+Guard+London" },
+      { "time": "12:30", "timeOfDay": "afternoon", "name": "The Wolseley", "desc": "Central European classic", "transit": "Walk 600 m · 8 min", "icon": "walk", "mapUrl": "https://www.google.com/maps/search/?api=1&query=The+Wolseley+London" },
+      { "time": "14:00", "timeOfDay": "afternoon", "name": "Westminster Abbey", "desc": "Book online · save time", "transit": "Walk 400 m · 6 min", "icon": "walk", "mapUrl": "https://www.google.com/maps/search/?api=1&query=Westminster+Abbey+London" },
+      { "time": "16:00", "timeOfDay": "afternoon", "name": "Big Ben + Parliament", "desc": "Photos from Westminster Bridge", "transit": "Walk 200 m · 3 min", "icon": "walk", "mapUrl": "https://www.google.com/maps/search/?api=1&query=Big+Ben+London" },
+      { "time": "18:00", "timeOfDay": "evening", "name": "London Eye · Sunset", "desc": "Book Fast Track online", "transit": "Uber Boat · Waterloo → Embankment · 8 min", "icon": "train", "mapUrl": "https://www.google.com/maps/search/?api=1&query=London+Eye" },
+      { "time": "20:00", "timeOfDay": "night", "name": "Dinner · Sketch", "desc": "The pink room — reservations essential", "transit": "Walk · 10 min", "icon": "walk", "mapUrl": "https://www.google.com/maps/search/?api=1&query=Sketch+London" }
+    ]
+  },
+  {
+    "day": 2,
+    "title": "City of London",
+    "color": "#0019A8",
+    "routePreview": "8 stops · start 08:30 · end 20:30",
+    "mapUrl": "https://www.google.com/maps/dir/The+Hoxton+Holborn/Tower+of+London/Tower+Bridge/Borough+Market/The+Shard/St+Pauls+Cathedral/Sky+Garden/Bread+Street+Kitchen",
+    "budget": {
+      "budget": { "total": "£65 per person", "includes": ["Free museums", "Walking + bus", "Chain lunches", "Public sights"] },
+      "mid": { "total": "£185 per person", "includes": ["Ticketed sights", "Occasional taxi", "Sit-down meals", "Coffee stops"] },
+      "luxury": { "total": "£520 per person", "includes": ["Fast-Track tickets", "Uber everywhere", "Michelin lunch", "Cocktail bar"] }
+    },
+    "photos": [
+      "https://images.unsplash.com/photo-1582050041567-9cfdd330d545?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=800&q=80"
+    ],
+    "stops": [
+      { "time": "08:30", "timeOfDay": "morning", "name": "Breakfast · The Hoxton", "desc": "Simple, fast", "transit": "Tube · Central · 3 stops · 10 min", "icon": "train", "mapUrl": "https://www.google.com/maps/search/?api=1&query=The+Hoxton+Holborn+London" },
+      { "time": "09:30", "timeOfDay": "morning", "name": "Tower of London", "desc": "Yeoman Warder tour at 10:00", "transit": "Walk 250 m · 4 min", "icon": "walk", "mapUrl": "https://www.google.com/maps/search/?api=1&query=Tower+of+London" },
+      { "time": "12:00", "timeOfDay": "afternoon", "name": "Tower Bridge Walk", "desc": "Cross to south bank", "transit": "Walk · riverside · 600 m · 9 min", "icon": "walk", "mapUrl": "https://www.google.com/maps/search/?api=1&query=Tower+Bridge+London" },
+      { "time": "13:00", "timeOfDay": "afternoon", "name": "Lunch · Borough Market", "desc": "Kappacasein raclette · Bread Ahead", "transit": "Walk 500 m · 7 min", "icon": "walk", "mapUrl": "https://www.google.com/maps/search/?api=1&query=Borough+Market+London" },
+      { "time": "15:00", "timeOfDay": "afternoon", "name": "The Shard", "desc": "View From The Shard · combined day+night ticket", "transit": "Tube · Northern · 2 stops · 7 min", "icon": "train", "mapUrl": "https://www.google.com/maps/search/?api=1&query=The+Shard+London" },
+      { "time": "17:00", "timeOfDay": "evening", "name": "St Paul's Cathedral", "desc": "Climb the dome for sunset", "transit": "Walk · Millennium Bridge · 500 m · 8 min", "icon": "walk", "mapUrl": "https://www.google.com/maps/search/?api=1&query=St+Pauls+Cathedral+London" },
+      { "time": "19:00", "timeOfDay": "evening", "name": "Sundowners · Sky Garden", "desc": "Free — book slot 3 weeks ahead", "transit": "Walk · 10 min", "icon": "walk", "mapUrl": "https://www.google.com/maps/search/?api=1&query=Sky+Garden+London" },
+      { "time": "20:30", "timeOfDay": "night", "name": "Dinner · Bread Street Kitchen", "desc": "Gordon Ramsay · smart casual", "transit": "Walk · 5 min", "icon": "walk", "mapUrl": "https://www.google.com/maps/search/?api=1&query=Bread+Street+Kitchen+London" }
+    ]
+  },
+  {
+    "day": 3,
+    "title": "Museums & Kensington",
+    "color": "#2d6a4f",
+    "routePreview": "7 stops · start 09:00 · end 20:00",
+    "mapUrl": "https://www.google.com/maps/dir/Farm+Girl+Notting+Hill/Portobello+Road+Market/Victoria+and+Albert+Museum/Natural+History+Museum/Hyde+Park/Zaika+Kensington",
+    "budget": {
+      "budget": { "total": "£65 per person", "includes": ["Free museums", "Walking + bus", "Chain lunches", "Public sights"] },
+      "mid": { "total": "£185 per person", "includes": ["Ticketed sights", "Occasional taxi", "Sit-down meals", "Coffee stops"] },
+      "luxury": { "total": "£520 per person", "includes": ["Fast-Track tickets", "Uber everywhere", "Michelin lunch", "Cocktail bar"] }
+    },
+    "photos": [
+      "https://images.unsplash.com/photo-1496370168786-6a22b4d23f86?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1566127990391-cb9f2228c736?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1543160867-0c7f0d01ee03?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1511739001486-6b10f45a8727?auto=format&fit=crop&w=800&q=80"
+    ],
+    "stops": [
+      { "time": "09:00", "timeOfDay": "morning", "name": "Breakfast · Farm Girl", "desc": "Notting Hill café", "transit": "Walk · Portobello · 1.2 km · 15 min", "icon": "walk", "mapUrl": "https://www.google.com/maps/search/?api=1&query=Farm+Girl+Notting+Hill+London" },
+      { "time": "10:30", "timeOfDay": "morning", "name": "Portobello Road Market", "desc": "Antiques on Sat · pastel houses always", "transit": "Tube · Circle · 3 stops · 12 min", "icon": "train", "mapUrl": "https://www.google.com/maps/search/?api=1&query=Portobello+Road+Market+London" },
+      { "time": "13:00", "timeOfDay": "afternoon", "name": "Lunch · V&A Café", "desc": "The most beautiful café in a museum", "transit": "Inside V&A", "icon": "walk", "mapUrl": "https://www.google.com/maps/search/?api=1&query=Victoria+and+Albert+Museum+London" },
+      { "time": "14:00", "timeOfDay": "afternoon", "name": "Victoria & Albert Museum", "desc": "Free · 2 hours minimum", "transit": "Inside V&A", "icon": "walk", "mapUrl": "https://www.google.com/maps/search/?api=1&query=Victoria+and+Albert+Museum+London" },
+      { "time": "16:00", "timeOfDay": "afternoon", "name": "Natural History Museum", "desc": "Hintze Hall · blue whale", "transit": "Walk 200 m · 3 min", "icon": "walk", "mapUrl": "https://www.google.com/maps/search/?api=1&query=Natural+History+Museum+London" },
+      { "time": "18:00", "timeOfDay": "evening", "name": "Hyde Park & Serpentine", "desc": "Sunset walk", "transit": "Walk · Hyde Park · 800 m · 12 min", "icon": "walk", "mapUrl": "https://www.google.com/maps/search/?api=1&query=Hyde+Park+London" },
+      { "time": "20:00", "timeOfDay": "night", "name": "Dinner · Zaika", "desc": "Michelin Indian in Kensington", "transit": "Walk · 1.0 km · 14 min", "icon": "walk", "mapUrl": "https://www.google.com/maps/search/?api=1&query=Zaika+Kensington+London" }
+    ]
+  },
+  {
+    "day": 4,
+    "title": "Art & Soho",
+    "color": "#b8860b",
+    "routePreview": "8 stops · start 09:00 · end 22:00",
+    "mapUrl": "https://www.google.com/maps/dir/Monmouth+Coffee+Covent+Garden/Neals+Yard/British+Museum/Padella+London/Tate+Modern/Southbank+London/Bao+Soho",
+    "budget": {
+      "budget": { "total": "£65 per person", "includes": ["Free museums", "Walking + bus", "Chain lunches", "Public sights"] },
+      "mid": { "total": "£185 per person", "includes": ["Ticketed sights", "Occasional taxi", "Sit-down meals", "Coffee stops"] },
+      "luxury": { "total": "£520 per person", "includes": ["Fast-Track tickets", "Uber everywhere", "Michelin lunch", "Cocktail bar"] }
+    },
+    "photos": [
+      "https://images.unsplash.com/photo-1543160867-0c7f0d01ee03?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1529655683823-dc58689736f4?auto=format&fit=crop&w=800&q=80"
+    ],
+    "stops": [
+      { "time": "09:00", "timeOfDay": "morning", "name": "Breakfast · Monmouth Coffee", "desc": "Small · precise · queue", "transit": "Walk · Neal's Yard · 200 m · 3 min", "icon": "walk", "mapUrl": "https://www.google.com/maps/search/?api=1&query=Monmouth+Coffee+Covent+Garden" },
+      { "time": "10:00", "timeOfDay": "morning", "name": "Neal's Yard", "desc": "Hidden pastel courtyard", "transit": "Walk 500 m · 7 min", "icon": "walk", "mapUrl": "https://www.google.com/maps/search/?api=1&query=Neals+Yard+London" },
+      { "time": "11:00", "timeOfDay": "morning", "name": "British Museum", "desc": "Rosetta Stone first · then Egypt", "transit": "Walk · 12 min", "icon": "walk", "mapUrl": "https://www.google.com/maps/search/?api=1&query=British+Museum+London" },
+      { "time": "14:00", "timeOfDay": "afternoon", "name": "Lunch · Padella", "desc": "Pici cacio e pepe · queue via app", "transit": "Tube · Central · 1 stop · 4 min", "icon": "train", "mapUrl": "https://www.google.com/maps/search/?api=1&query=Padella+London" },
+      { "time": "16:00", "timeOfDay": "afternoon", "name": "Tate Modern", "desc": "Free · Turbine Hall", "transit": "Walk · Southbank · 1.5 km · 20 min", "icon": "walk", "mapUrl": "https://www.google.com/maps/search/?api=1&query=Tate+Modern+London" },
+      { "time": "18:30", "timeOfDay": "evening", "name": "Southbank sunset", "desc": "Riverside walk to Waterloo", "transit": "Walk · Millennium Bridge · 400 m · 6 min", "icon": "walk", "mapUrl": "https://www.google.com/maps/search/?api=1&query=Southbank+London" },
+      { "time": "20:00", "timeOfDay": "evening", "name": "Dinner · Bao Soho", "desc": "Taiwanese steamed buns · walk-in", "transit": "Tube · Northern · 3 stops · 10 min", "icon": "train", "mapUrl": "https://www.google.com/maps/search/?api=1&query=Bao+Soho+London" },
+      { "time": "22:00", "timeOfDay": "night", "name": "West End show", "desc": "Book same-day at TKTS · 50% off", "transit": "Walk · Leicester Square", "icon": "walk", "mapUrl": "https://www.google.com/maps/search/?api=1&query=TKTS+Leicester+Square+London" }
+    ]
+  },
+  {
+    "day": 5,
+    "title": "Villages & Views",
+    "color": "#0077b6",
+    "routePreview": "7 stops · start 08:30 · end 20:00",
+    "mapUrl": "https://www.google.com/maps/dir/Ottolenghi+Islington/Camden+Market/Primrose+Hill/Greenwich+London/OXO+Tower/The+Ivy+London",
+    "budget": {
+      "budget": { "total": "£65 per person", "includes": ["Free museums", "Walking + bus", "Chain lunches", "Public sights"] },
+      "mid": { "total": "£185 per person", "includes": ["Ticketed sights", "Occasional taxi", "Sit-down meals", "Coffee stops"] },
+      "luxury": { "total": "£520 per person", "includes": ["Fast-Track tickets", "Uber everywhere", "Michelin lunch", "Cocktail bar"] }
+    },
+    "photos": [
+      "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1511739001486-6b10f45a8727?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1529655683823-dc58689736f4?auto=format&fit=crop&w=800&q=80"
+    ],
+    "stops": [
+      { "time": "08:30", "timeOfDay": "morning", "name": "Breakfast · Ottolenghi Islington", "desc": "Order at counter", "transit": "Tube · Northern · 5 stops · 18 min", "icon": "train", "mapUrl": "https://www.google.com/maps/search/?api=1&query=Ottolenghi+Islington+London" },
+      { "time": "10:00", "timeOfDay": "morning", "name": "Regent's Canal walk", "desc": "To Camden along the towpath", "transit": "Walk · canal · 3.0 km · 40 min", "icon": "walk", "mapUrl": "https://www.google.com/maps/search/?api=1&query=Regents+Canal+Camden+London" },
+      { "time": "11:30", "timeOfDay": "morning", "name": "Camden Market", "desc": "Street food · vintage", "transit": "At Camden Lock", "icon": "walk", "mapUrl": "https://www.google.com/maps/search/?api=1&query=Camden+Market+London" },
+      { "time": "13:30", "timeOfDay": "afternoon", "name": "Primrose Hill picnic", "desc": "Best skyline view in London", "transit": "Walk · Primrose Hill · 1.5 km · 20 min", "icon": "walk", "mapUrl": "https://www.google.com/maps/search/?api=1&query=Primrose+Hill+London" },
+      { "time": "15:30", "timeOfDay": "afternoon", "name": "Greenwich · Cutty Sark", "desc": "Take the boat back", "transit": "Tube · Jubilee · 6 stops · 22 min", "icon": "train", "mapUrl": "https://www.google.com/maps/search/?api=1&query=Cutty+Sark+Greenwich+London" },
+      { "time": "18:00", "timeOfDay": "evening", "name": "Sundowner · OXO Tower", "desc": "Free viewing balcony", "transit": "Uber Boat · Greenwich → Westminster · 45 min", "icon": "train", "mapUrl": "https://www.google.com/maps/search/?api=1&query=OXO+Tower+London" },
+      { "time": "20:00", "timeOfDay": "night", "name": "Farewell dinner · The Ivy", "desc": "Classic British · book ahead", "transit": "Walk 600 m · 9 min", "icon": "walk", "mapUrl": "https://www.google.com/maps/search/?api=1&query=The+Ivy+London" }
+    ]
+  }
+]

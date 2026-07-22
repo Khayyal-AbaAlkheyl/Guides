@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title><!-- filled by JS --></title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:wght@600;700&display=swap" rel="stylesheet">
+  <style>
+    /*
+      PDF GUIDE TEMPLATE
+      Duplicate per city — edit PLAN only.
+      Generate PDF: npm run pdf cities/london-pdf.html
+    */
+    :root {
+      --accent: #c41e3a;
+      --accent-soft: #fde8ec;
+      --accent-deep: #8b1429;
+      --text: #1a1a1a;
+      --muted: #6b6560;
+      --border: #e0dcd4;
+      --font: 'DM Sans', sans-serif;
+      --display: 'Fraunces', Georgia, serif;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    @page {
+      size: A4;
+      margin: 14mm 12mm 16mm;
+    }
+
+    body {
+      font-family: var(--font);
+      font-size: 9.5pt;
+      line-height: 1.45;
+      color: var(--text);
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+
+    a { color: var(--accent-deep); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    /* Cover */
+    .cover {
+      page-break-after: always;
+      height: 267mm;
+      margin: -14mm -12mm;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 18mm 16mm;
+      color: #fff;
+    }
+
+    .cover__bg {
+      position: absolute;
+      inset: 0;
+      background: center / cover no-repeat;
+      z-index: 0;
+    }
+
+    .cover__overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, rgba(15,23,42,0.2) 0%, rgba(15,23,42,0.75) 55%, rgba(15,23,42,0.95) 100%);
+      z-index: 1;
+    }
+
+    .cover__content { position: relative; z-index: 2; }
+
+    .cover__badge {
+      display: inline-block;
+      padding: 4px 10px;
+      border: 1px solid rgba(255,255,255,0.35);
+      border-radius: 999px;
+      font-size: 8pt;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+
+    .cover__title {
+      font-family: var(--display);
+      font-size: 36pt;
+      font-weight: 700;
+      line-height: 1.05;
+      letter-spacing: -0.02em;
+    }
+
+    .cover__tagline {
+      margin-top: 8px;
+      font-size: 11pt;
+      max-width: 32ch;
+      opacity: 0.85;
+    }
+
+    .cover__stats {
+      display: flex;
+      gap: 24px;
+      margin-top: 20px;
+      padding-top: 16px;
+      border-top: 1px solid rgba(255,255,255,0.25);
+    }
+
+    .cover__stat-value {
+      font-family: var(--display);
+      font-size: 18pt;
+      font-weight: 700;
+    }
+
+    .cover__stat-label {
+      font-size: 8pt;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      opacity: 0.7;
+    }
+
+    /* Sections */
+    .section {
+      page-break-before: always;
+    }
+
+    .section:first-of-type { page-break-before: auto; }
+
+    .section-head {
+      margin-bottom: 14px;
+      padding-bottom: 10px;
+      border-bottom: 3px solid var(--accent);
+    }
+
+    .section-head h2 {
+      font-family: var(--display);
+      font-size: 18pt;
+      font-weight: 700;
+      color: var(--accent-deep);
+    }
+
+    .section-head p {
+      margin-top: 4px;
+      font-size: 9pt;
+      color: var(--muted);
+    }
+
+    /* Cards */
+    .card {
+      page-break-inside: avoid;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      overflow: hidden;
+      margin-bottom: 10px;
+      display: grid;
+      grid-template-columns: 72mm 1fr;
+    }
+
+    .card__img {
+      height: 100%;
+      min-height: 52mm;
+      background: #ddd center / cover no-repeat;
+    }
+
+    .card__body { padding: 10px 12px; }
+
+    .card__title {
+      font-family: var(--display);
+      font-size: 12pt;
+      font-weight: 700;
+      line-height: 1.2;
+    }
+
+    .card__row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px;
+      margin-top: 6px;
+    }
+
+    .chip {
+      display: inline-block;
+      padding: 2px 7px;
+      border-radius: 4px;
+      background: #f4f1ec;
+      font-size: 7.5pt;
+      font-weight: 600;
+      color: var(--muted);
+    }
+
+    .chip--accent { background: var(--accent-soft); color: var(--accent-deep); }
+    .chip--warn { background: #fff4e5; color: #9a6700; }
+    .chip--ok { background: #e8f5ee; color: #1a6b42; }
+
+    .tip {
+      margin-top: 7px;
+      padding: 6px 8px;
+      border-left: 3px solid var(--accent);
+      background: var(--accent-soft);
+      font-size: 8pt;
+    }
+
+    .tip strong { color: var(--accent-deep); }
+
+    .links {
+      margin-top: 7px;
+      font-size: 7.5pt;
+      color: var(--muted);
+    }
+
+    .links a { font-weight: 600; }
+
+    /* Itinerary */
+    .day-block {
+      page-break-inside: avoid;
+      margin-bottom: 16px;
+    }
+
+    .day-head {
+      display: flex;
+      align-items: baseline;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+
+    .day-head__num {
+      font-size: 8pt;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #fff;
+      background: var(--accent);
+      padding: 3px 10px;
+      border-radius: 4px;
+    }
+
+    .day-head__title {
+      font-family: var(--display);
+      font-size: 14pt;
+      font-weight: 700;
+    }
+
+    .stop {
+      display: grid;
+      grid-template-columns: 14mm 1fr;
+      gap: 8px;
+      margin-bottom: 8px;
+      page-break-inside: avoid;
+    }
+
+    .stop__time {
+      font-size: 8pt;
+      font-weight: 700;
+      color: var(--accent-deep);
+      text-align: right;
+      padding-top: 2px;
+    }
+
+    .stop__card {
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 8px 10px;
+      border-left: 3px solid var(--accent);
+    }
+
+    .stop__name { font-weight: 700; font-size: 10pt; }
+    .stop__desc { font-size: 8.5pt; color: var(--muted); margin-top: 2px; }
+    .stop__meta { font-size: 7.5pt; margin-top: 4px; color: var(--muted); }
+    .stop__meta strong { color: var(--text); }
+
+    /* Footer */
+    .page-footer {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      text-align: center;
+      font-size: 7pt;
+      color: var(--muted);
+    }
+
+    @media screen {
+      body { max-width: 210mm; margin: 0 auto; padding: 20px; background: #eee; }
+      .cover { margin: 0 0 20px; border-radius: 4px; overflow: hidden; height: 297mm; }
+      .section { background: #fff; padding: 16px; margin-bottom: 20px; border-radius: 4px; }
+    }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+  <script>
+    const PLAN = {
+      city: 'London',
+      country: 'United Kingdom',
+      tagline: 'Your pocket guide to the capital — sights, stays, food & day plans.',
+      badge: 'Premium Guide',
+      theme: {
+        accent: '#c41e3a',
+        accentSoft: '#fde8ec',
+        accentDeep: '#8b1429',
+        heroImage: 'https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1200&q=80'
+      },
+      stats: [
+        { value: '6', label: 'Sights' },
+        { value: '4', label: 'Hotels' },
+        { value: '2', label: 'Day Plans' }
+      ],
+      sections: {
+        sights: { title: 'Must-See Sights', subtitle: 'Tickets, queues, and insider tips.' },
+        hotels: { title: 'Where to Stay', subtitle: 'Hand-picked from luxury to value.' },
+        dining: { title: 'Where to Eat', subtitle: 'From Michelin stars to street food.' },
+        plan: { title: 'Your Itinerary', subtitle: 'Hour-by-hour routes, ready to follow.' }
+      },
+      attractions: [],
+      hotels: [],
+      dining: [],
+      itineraries: []
+    };
+
+    function applyTheme() {
+      const t = PLAN.theme;
+      document.documentElement.style.setProperty('--accent', t.accent);
+      document.documentElement.style.setProperty('--accent-soft', t.accentSoft);
+      document.documentElement.style.setProperty('--accent-deep', t.accentDeep);
+      document.title = `${PLAN.city} Travel Guide — PDF`;
+    }
+
+    function links(mapUrl, bookUrl, bookText) {
+      return `<div class="links">
+        Map: <a href="${mapUrl}">${mapUrl.replace('https://www.google.com/maps/search/?api=1&query=', '').replace(/\+/g, ' ')}</a>
+        ${bookUrl ? ` · ${bookText}: <a href="${bookUrl}">${bookUrl.replace(/^https?:\/\/(www\.)?/, '')}</a>` : ''}
+      </div>`;
+    }
+
+    function renderAttraction(a) {
+      return `<article class="card">
+        <div class="card__img" style="background-image:url('${a.img}')"></div>
+        <div class="card__body">
+          <div class="card__title">${a.name}</div>
+          <div class="card__row">
+            <span class="chip">${a.type}</span>
+            <span class="chip chip--accent">${a.ticket}</span>
+            <span class="chip">${a.transitLabel}: ${a.transit}</span>
+            <span class="chip chip--warn">Wait: ${a.waitSummer}</span>
+            <span class="chip">${a.hours}</span>
+          </div>
+          <div class="tip"><strong>Tip:</strong> ${a.tip}</div>
+          ${links(a.mapUrl, a.bookUrl, a.bookText || 'Book')}
+        </div>
+      </article>`;
+    }
+
+    function renderHotel(h) {
+      return `<article class="card">
+        <div class="card__img" style="background-image:url('${h.img}')"></div>
+        <div class="card__body">
+          <div class="card__title">${h.name}</div>
+          <div class="card__row">
+            <span class="chip">${h.category}</span>
+            <span class="chip chip--accent">From ${h.price}</span>
+            <span class="chip">${h.room}</span>
+            <span class="chip">${h.transitLabel}: ${h.transit}</span>
+          </div>
+          <div class="tip"><strong>Insider:</strong> ${h.tip}</div>
+          ${links(h.mapUrl, h.bookUrl, 'Book')}
+        </div>
+      </article>`;
+    }
+
+    function renderDining(d) {
+      return `<article class="card">
+        <div class="card__img" style="background-image:url('${d.img}')"></div>
+        <div class="card__body">
+          <div class="card__title">${d.name}</div>
+          <div class="card__row">
+            <span class="chip chip--accent">${d.famous}</span>
+            <span class="chip">${d.price}</span>
+            ${d.halal ? '<span class="chip chip--ok">Halal</span>' : ''}
+            ${d.veg ? '<span class="chip chip--ok">Vegetarian</span>' : ''}
+            <span class="chip chip--warn">${d.wait}</span>
+          </div>
+          ${links(d.mapUrl, d.bookUrl, 'Reserve')}
+        </div>
+      </article>`;
+    }
+
+    function renderDay(day) {
+      return `<div class="day-block">
+        <div class="day-head">
+          <span class="day-head__num">Day ${day.day}</span>
+          <span class="day-head__title">${day.title}</span>
+        </div>
+        ${day.stops.map(s => `
+          <div class="stop">
+            <div class="stop__time">${s.time}</div>
+            <div class="stop__card">
+              <div class="stop__name">${s.name}</div>
+              <div class="stop__desc">${s.desc}</div>
+              <div class="stop__meta"><strong>${s.transit}</strong> · <a href="${s.mapUrl}">Open map</a></div>
+            </div>
+          </div>`).join('')}
+      </div>`;
+    }
+
+    function render() {
+      const s = PLAN.sections;
+      document.getElementById('root').innerHTML = `
+        <section class="cover">
+          <div class="cover__bg" style="background-image:url('${PLAN.theme.heroImage}')"></div>
+          <div class="cover__overlay"></div>
+          <div class="cover__content">
+            <span class="cover__badge">${PLAN.badge} · ${PLAN.country}</span>
+            <h1 class="cover__title">${PLAN.city}</h1>
+            <p class="cover__tagline">${PLAN.tagline}</p>
+            <div class="cover__stats">
+              ${PLAN.stats.map(st => `
+                <div><div class="cover__stat-value">${st.value}</div><div class="cover__stat-label">${st.label}</div></div>
+              `).join('')}
+            </div>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-head"><h2>${s.sights.title}</h2><p>${s.sights.subtitle}</p></div>
+          ${PLAN.attractions.map(renderAttraction).join('')}
+        </section>
+
+        <section class="section">
+          <div class="section-head"><h2>${s.hotels.title}</h2><p>${s.hotels.subtitle}</p></div>
+          ${PLAN.hotels.map(renderHotel).join('')}
+        </section>
+
+        <section class="section">
+          <div class="section-head"><h2>${s.dining.title}</h2><p>${s.dining.subtitle}</p></div>
+          ${PLAN.dining.map(renderDining).join('')}
+        </section>
+
+        <section class="section">
+          <div class="section-head"><h2>${s.plan.title}</h2><p>${s.plan.subtitle}</p></div>
+          ${PLAN.itineraries.map(renderDay).join('')}
+        </section>`;
+    }
+
+    applyTheme();
+    render();
+  </script>
+</body>
+</html>

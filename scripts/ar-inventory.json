@@ -1,0 +1,38 @@
+{
+  "cities": {
+    "london": {
+      "strings": 1026,
+      "missingBefore": 0
+    },
+    "paris": {
+      "strings": 948,
+      "missingBefore": 0
+    },
+    "edinburgh": {
+      "strings": 830,
+      "missingBefore": 0
+    },
+    "istanbul": {
+      "strings": 1204,
+      "missingBefore": 0
+    },
+    "italy": {
+      "strings": 970,
+      "missingBefore": 0
+    },
+    "bosnia": {
+      "strings": 669,
+      "missingBefore": 0
+    },
+    "azerbaijan": {
+      "strings": 771,
+      "missingBefore": 0
+    },
+    "trabzon": {
+      "strings": 839,
+      "missingBefore": 0
+    }
+  },
+  "uiNote": "i18n.js UI.ar already present",
+  "pdfNote": "pdf chrome keys in i18n"
+}

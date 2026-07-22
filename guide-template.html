@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#0f172a">
+  <title><!-- CITY_NAME --> — Travel Guide</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
+  <style>
+    /*
+      TRAVEL GUIDE DESIGN SYSTEM
+      ==========================
+      Reuse this file for every city. Only edit the PLAN object at the bottom.
+
+      City theming — set these 4 values per city:
+        --accent        Primary brand color (buttons, highlights)
+        --accent-soft   Light tint for chips and backgrounds
+        --accent-deep   Darker shade for gradients
+        --hero-image    City hero photo URL
+    */
+
+    :root {
+      --accent: #c41e3a;
+      --accent-soft: #fde8ec;
+      --accent-deep: #8b1429;
+      --hero-image: url('https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1200&q=80');
+
+      --bg: #f4f1ec;
+      --surface: #ffffff;
+      --text: #1a1a1a;
+      --text-muted: #6b6560;
+      --border: #e8e4de;
+      --shadow: 0 2px 16px rgba(26, 26, 26, 0.06);
+      --shadow-lg: 0 8px 32px rgba(26, 26, 26, 0.12);
+      --radius: 18px;
+      --radius-sm: 12px;
+      --nav-h: 72px;
+      --safe-top: env(safe-area-inset-top, 0px);
+      --safe-bottom: env(safe-area-inset-bottom, 0px);
+      --font: 'DM Sans', system-ui, sans-serif;
+      --font-display: 'Fraunces', Georgia, serif;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html {
+      -webkit-text-size-adjust: 100%;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: var(--font);
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+      min-height: 100dvh;
+      padding-bottom: calc(var(--nav-h) + var(--safe-bottom));
+    }
+
+    .app {
+      max-width: 430px;
+      margin: 0 auto;
+      min-height: 100dvh;
+      background: var(--bg);
+    }
+
+    /* ── Hero ── */
+    .hero {
+      position: relative;
+      height: 220px;
+      background: var(--hero-image) center / cover no-repeat;
+      overflow: hidden;
+    }
+
+    .hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        180deg,
+        rgba(15, 23, 42, 0.35) 0%,
+        rgba(15, 23, 42, 0.55) 50%,
+        rgba(15, 23, 42, 0.92) 100%
+      );
+    }
+
+    .hero__content {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 20px 20px 24px;
+      padding-top: calc(20px + var(--safe-top));
+    }
+
+    .hero__badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      width: fit-content;
+      padding: 6px 12px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(8px);
+      color: #fff;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+
+    .hero__title {
+      font-family: var(--font-display);
+      font-size: 2rem;
+      font-weight: 700;
+      color: #fff;
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+    }
+
+    .hero__subtitle {
+      margin-top: 6px;
+      font-size: 14px;
+      color: rgba(255, 255, 255, 0.78);
+      max-width: 28ch;
+    }
+
+    /* ── Section header ── */
+    .section-head {
+      padding: 24px 20px 12px;
+    }
+
+    .section-head h2 {
+      font-family: var(--font-display);
+      font-size: 1.35rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+
+    .section-head p {
+      margin-top: 4px;
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+
+    /* ── Cards ── */
+    .card-list {
+      padding: 0 20px 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    .card {
+      background: var(--surface);
+      border-radius: var(--radius);
+      overflow: hidden;
+      box-shadow: var(--shadow);
+      border: 1px solid var(--border);
+    }
+
+    .card__image {
+      position: relative;
+      height: 160px;
+      background: #ddd center / cover no-repeat;
+    }
+
+    .card__tag {
+      position: absolute;
+      top: 12px;
+      left: 12px;
+      padding: 5px 10px;
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.92);
+      backdrop-filter: blur(4px);
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: var(--text);
+    }
+
+    .card__price {
+      position: absolute;
+      top: 12px;
+      right: 12px;
+      padding: 5px 10px;
+      border-radius: 8px;
+      background: var(--text);
+      color: #fff;
+      font-size: 11px;
+      font-weight: 700;
+    }
+
+    .card__body {
+      padding: 16px;
+    }
+
+    .card__title {
+      font-family: var(--font-display);
+      font-size: 1.15rem;
+      font-weight: 700;
+      line-height: 1.2;
+    }
+
+    .card__meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 10px;
+    }
+
+    .chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      padding: 5px 9px;
+      border-radius: 8px;
+      background: var(--bg);
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--text-muted);
+    }
+
+    .chip--accent {
+      background: var(--accent-soft);
+      color: var(--accent-deep);
+    }
+
+    .chip--warn {
+      background: #fff4e5;
+      color: #9a6700;
+    }
+
+    .chip--success {
+      background: #e8f5ee;
+      color: #1a6b42;
+    }
+
+    .tip {
+      margin-top: 12px;
+      padding: 10px 12px;
+      border-radius: var(--radius-sm);
+      background: linear-gradient(135deg, var(--accent-soft), #fff);
+      border-left: 3px solid var(--accent);
+      font-size: 12px;
+      color: var(--text);
+      line-height: 1.45;
+    }
+
+    .tip strong {
+      color: var(--accent-deep);
+      font-weight: 700;
+    }
+
+    .card__actions {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+      margin-top: 14px;
+      padding-top: 14px;
+      border-top: 1px solid var(--border);
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      min-height: 44px;
+      padding: 0 14px;
+      border: none;
+      border-radius: var(--radius-sm);
+      font-family: var(--font);
+      font-size: 13px;
+      font-weight: 700;
+      text-decoration: none;
+      cursor: pointer;
+      transition: transform 0.15s, opacity 0.15s;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    .btn:active { transform: scale(0.97); }
+
+    .btn--ghost {
+      background: var(--bg);
+      color: var(--text);
+    }
+
+    .btn--primary {
+      background: var(--accent);
+      color: #fff;
+    }
+
+    .btn svg {
+      width: 16px;
+      height: 16px;
+      flex-shrink: 0;
+    }
+
+    /* ── Itinerary ── */
+    .day-tabs {
+      display: flex;
+      gap: 8px;
+      padding: 0 20px 16px;
+      overflow-x: auto;
+      scrollbar-width: none;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    .day-tabs::-webkit-scrollbar { display: none; }
+
+    .day-tab {
+      flex-shrink: 0;
+      min-width: 120px;
+      padding: 12px 14px;
+      border: 2px solid var(--border);
+      border-radius: var(--radius-sm);
+      background: var(--surface);
+      text-align: left;
+      cursor: pointer;
+      transition: all 0.2s;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    .day-tab.active {
+      border-color: var(--accent);
+      background: var(--accent-soft);
+    }
+
+    .day-tab__num {
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+    }
+
+    .day-tab.active .day-tab__num { color: var(--accent-deep); }
+
+    .day-tab__title {
+      margin-top: 2px;
+      font-family: var(--font-display);
+      font-size: 13px;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+
+    .timeline {
+      padding: 0 20px 24px;
+      position: relative;
+    }
+
+    .timeline__line {
+      position: absolute;
+      left: 35px;
+      top: 8px;
+      bottom: 24px;
+      width: 2px;
+      background: var(--border);
+    }
+
+    .stop {
+      position: relative;
+      display: grid;
+      grid-template-columns: 52px 1fr;
+      gap: 12px;
+      margin-bottom: 16px;
+    }
+
+    .stop__time {
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--accent-deep);
+      text-align: right;
+      padding-top: 14px;
+    }
+
+    .stop__dot {
+      position: absolute;
+      left: 29px;
+      top: 16px;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background: var(--accent);
+      border: 3px solid var(--bg);
+      box-shadow: 0 0 0 2px var(--accent-soft);
+      z-index: 1;
+    }
+
+    .stop__card {
+      background: var(--surface);
+      border-radius: var(--radius-sm);
+      padding: 14px;
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow);
+    }
+
+    .stop__name {
+      font-family: var(--font-display);
+      font-size: 1rem;
+      font-weight: 700;
+    }
+
+    .stop__desc {
+      margin-top: 4px;
+      font-size: 12px;
+      color: var(--text-muted);
+      line-height: 1.4;
+    }
+
+    .stop__footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 10px;
+      padding-top: 10px;
+      border-top: 1px solid var(--border);
+    }
+
+    .stop__transit {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--accent-deep);
+    }
+
+    .stop__transit svg { width: 14px; height: 14px; }
+
+    .stop__map {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      padding: 6px 10px;
+      border-radius: 8px;
+      background: var(--bg);
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--text);
+      text-decoration: none;
+    }
+
+    .stop__map svg { width: 13px; height: 13px; }
+
+    /* ── Panels ── */
+    .panel { display: none; animation: fadeUp 0.25s ease; }
+    .panel.active { display: block; }
+
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(8px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* ── Bottom nav ── */
+    .bottom-nav {
+      position: fixed;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100%;
+      max-width: 430px;
+      height: calc(var(--nav-h) + var(--safe-bottom));
+      padding-bottom: var(--safe-bottom);
+      background: rgba(255, 255, 255, 0.92);
+      backdrop-filter: blur(16px);
+      border-top: 1px solid var(--border);
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      z-index: 100;
+    }
+
+    .nav-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 4px;
+      border: none;
+      background: none;
+      color: var(--text-muted);
+      font-family: var(--font);
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      cursor: pointer;
+      -webkit-tap-highlight-color: transparent;
+      transition: color 0.2s;
+    }
+
+    .nav-item svg { width: 22px; height: 22px; }
+
+    .nav-item.active { color: var(--accent); }
+
+    .nav-item.active svg { stroke: var(--accent); }
+
+    /* ── Quick stats bar ── */
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 8px;
+      margin: -20px 20px 0;
+      position: relative;
+      z-index: 2;
+    }
+
+    .stat {
+      background: var(--surface);
+      border-radius: var(--radius-sm);
+      padding: 12px 10px;
+      text-align: center;
+      box-shadow: var(--shadow-lg);
+      border: 1px solid var(--border);
+    }
+
+    .stat__value {
+      font-family: var(--font-display);
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--accent-deep);
+    }
+
+    .stat__label {
+      margin-top: 2px;
+      font-size: 10px;
+      font-weight: 600;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    .hidden { display: none !important; }
+  </style>
+</head>
+<body>
+  <div class="app" id="app"></div>
+
+  <script>
+    /*
+      ═══════════════════════════════════════════════════════════
+      EDIT THIS OBJECT ONLY — duplicate file per city you sell
+      ═══════════════════════════════════════════════════════════
+    */
+    const PLAN = {
+      city: 'London',
+      country: 'United Kingdom',
+      tagline: 'Your pocket guide to the capital — sights, stays, food & day plans.',
+      badge: 'Premium Guide',
+      theme: {
+        accent: '#c41e3a',
+        accentSoft: '#fde8ec',
+        accentDeep: '#8b1429',
+        heroImage: 'https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1200&q=80'
+      },
+      stats: [
+        { value: '6', label: 'Sights' },
+        { value: '4', label: 'Hotels' },
+        { value: '2', label: 'Day Plans' }
+      ],
+      sections: {
+        sights: { title: 'Must-See Sights', subtitle: 'Tickets, queues, and insider tips.' },
+        hotels: { title: 'Where to Stay', subtitle: 'Hand-picked from luxury to value.' },
+        dining: { title: 'Where to Eat', subtitle: 'From Michelin stars to street food.' },
+        plan: { title: 'Your Itinerary', subtitle: 'Hour-by-hour routes, ready to follow.' }
+      },
+      attractions: [],
+      hotels: [],
+      dining: [],
+      itineraries: []
+    };
+
+    /* ── Icons (inline SVG, no CDN) ── */
+    const ICONS = {
+      camera: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z"/><circle cx="12" cy="13" r="3"/></svg>',
+      bed: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 4v16"/><path d="M2 8h18a2 2 0 0 1 2 2v10"/><path d="M2 17h20"/><path d="M6 8v9"/></svg>',
+      utensils: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"/><path d="M7 2v20"/><path d="M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7"/></svg>',
+      map: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.106 5.553a2 2 0 0 0 1.788 0l3.659-1.83A1 1 0 0 1 21 4.619v12.764a1 1 0 0 1-.553.894l-4.553 2.277a2 2 0 0 1-1.788 0l-4.212-2.106a2 2 0 0 0-1.788 0l-3.659 1.83A1 1 0 0 1 3 19.381V6.618a1 1 0 0 1 .553-.894l4.553-2.277a2 2 0 0 1 1.788 0z"/><path d="M15 5.764v15"/><path d="M9 3.236v15"/></svg>',
+      pin: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg>',
+      ticket: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 9a3 3 0 0 1 0 6v2a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-2a3 3 0 0 1 0-6V7a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2Z"/><path d="M13 5v2"/><path d="M13 17v2"/><path d="M13 11v2"/></svg>',
+      walk: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="5" r="1"/><path d="m9 20 3-6 3 2v4"/><path d="m9 8 2 2 1-4 2 2"/></svg>',
+      train: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="16" height="16" x="4" y="3" rx="2"/><path d="M4 11h16"/><path d="M12 3v8"/><path d="m8 19-2 3"/><path d="m18 22-2-3"/><path d="M8 15h.01"/><path d="M16 15h.01"/></svg>'
+    };
+
+    let activeTab = 'sights';
+    let activeDay = 1;
+
+    function applyTheme() {
+      const t = PLAN.theme;
+      document.documentElement.style.setProperty('--accent', t.accent);
+      document.documentElement.style.setProperty('--accent-soft', t.accentSoft);
+      document.documentElement.style.setProperty('--accent-deep', t.accentDeep);
+      document.documentElement.style.setProperty('--hero-image', `url('${t.heroImage}')`);
+      document.title = `${PLAN.city} — Travel Guide`;
+      document.querySelector('meta[name="theme-color"]').content = t.accentDeep;
+    }
+
+    function actions(mapUrl, bookUrl, bookText = 'Book') {
+      return `
+        <div class="card__actions">
+          <a class="btn btn--ghost" href="${mapUrl}" target="_blank" rel="noopener">${ICONS.pin} Map</a>
+          ${bookUrl ? `<a class="btn btn--primary" href="${bookUrl}" target="_blank" rel="noopener">${ICONS.ticket} ${bookText}</a>` : ''}
+        </div>`;
+    }
+
+    function renderHero(showStats = true) {
+      const statsHtml = showStats ? `
+        <div class="stats">
+          ${PLAN.stats.map(s => `
+            <div class="stat">
+              <div class="stat__value">${s.value}</div>
+              <div class="stat__label">${s.label}</div>
+            </div>`).join('')}
+        </div>` : '';
+
+      return `
+        <div class="hero">
+          <div class="hero__content">
+            <span class="hero__badge">${PLAN.badge} · ${PLAN.country}</span>
+            <h1 class="hero__title">${PLAN.city}</h1>
+            <p class="hero__subtitle">${PLAN.tagline}</p>
+          </div>
+        </div>
+        ${statsHtml}`;
+    }
+
+    function renderSights() {
+      const s = PLAN.sections.sights;
+      return `
+        ${renderHero()}
+        <div class="section-head" style="padding-top: 32px">
+          <h2>${s.title}</h2>
+          <p>${s.subtitle}</p>
+        </div>
+        <div class="card-list">
+          ${PLAN.attractions.map(a => `
+            <article class="card">
+              <div class="card__image" style="background-image:url('${a.img}')">
+                <span class="card__tag">${a.type}</span>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">${a.name}</h3>
+                <div class="card__meta">
+                  <span class="chip chip--accent">${a.ticket}</span>
+                  <span class="chip">${a.transitLabel || 'Nearest'}: ${a.transit}</span>
+                  <span class="chip chip--warn">Wait: ${a.waitSummer}</span>
+                  <span class="chip">${a.hours}</span>
+                </div>
+                <div class="tip"><strong>Tip:</strong> ${a.tip}</div>
+                ${actions(a.mapUrl, a.bookUrl, a.bookText)}
+              </div>
+            </article>`).join('')}
+        </div>`;
+    }
+
+    function renderHotels() {
+      const s = PLAN.sections.hotels;
+      return `
+        ${renderHero(false)}
+        <div class="section-head">
+          <h2>${s.title}</h2>
+          <p>${s.subtitle}</p>
+        </div>
+        <div class="card-list">
+          ${PLAN.hotels.map(h => `
+            <article class="card">
+              <div class="card__image" style="background-image:url('${h.img}')">
+                <span class="card__tag">${h.category}</span>
+                <span class="card__price">From ${h.price}</span>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">${h.name}</h3>
+                <div class="card__meta">
+                  <span class="chip">${h.room}</span>
+                  <span class="chip chip--accent">${h.transitLabel || 'Nearest'}: ${h.transit}</span>
+                </div>
+                <div class="tip"><strong>Insider:</strong> ${h.tip}</div>
+                ${actions(h.mapUrl, h.bookUrl, 'Book')}
+              </div>
+            </article>`).join('')}
+        </div>`;
+    }
+
+    function renderDining() {
+      const s = PLAN.sections.dining;
+      return `
+        ${renderHero(false)}
+        <div class="section-head">
+          <h2>${s.title}</h2>
+          <p>${s.subtitle}</p>
+        </div>
+        <div class="card-list">
+          ${PLAN.dining.map(d => `
+            <article class="card">
+              <div class="card__image" style="background-image:url('${d.img}')">
+                <span class="card__price">${d.price}</span>
+              </div>
+              <div class="card__body">
+                <h3 class="card__title">${d.name}</h3>
+                <div class="card__meta">
+                  <span class="chip chip--accent">${d.famous}</span>
+                  ${d.halal ? '<span class="chip chip--success">Halal</span>' : ''}
+                  ${d.veg ? '<span class="chip chip--success">Vegetarian</span>' : ''}
+                  <span class="chip chip--warn">${d.wait}</span>
+                </div>
+                ${actions(d.mapUrl, d.bookUrl, 'Reserve')}
+              </div>
+            </article>`).join('')}
+        </div>`;
+    }
+
+    function renderPlan() {
+      const s = PLAN.sections.plan;
+      const day = PLAN.itineraries.find(d => d.day === activeDay) || PLAN.itineraries[0];
+      const transitIcon = (icon) => ICONS[icon] || ICONS.walk;
+
+      return `
+        ${renderHero(false)}
+        <div class="section-head">
+          <h2>${s.title}</h2>
+          <p>${s.subtitle}</p>
+        </div>
+        <div class="day-tabs">
+          ${PLAN.itineraries.map(d => `
+            <button class="day-tab ${d.day === activeDay ? 'active' : ''}" onclick="setDay(${d.day})">
+              <div class="day-tab__num">Day ${d.day}</div>
+              <div class="day-tab__title">${d.title}</div>
+            </button>`).join('')}
+        </div>
+        <div class="timeline">
+          <div class="timeline__line"></div>
+          ${day.stops.map(stop => `
+            <div class="stop">
+              <div class="stop__dot"></div>
+              <time class="stop__time">${stop.time}</time>
+              <div class="stop__card">
+                <div class="stop__name">${stop.name}</div>
+                <div class="stop__desc">${stop.desc}</div>
+                <div class="stop__footer">
+                  <span class="stop__transit">${transitIcon(stop.icon)} ${stop.transit}</span>
+                  <a class="stop__map" href="${stop.mapUrl}" target="_blank" rel="noopener">${ICONS.pin} Map</a>
+                </div>
+              </div>
+            </div>`).join('')}
+        </div>`;
+    }
+
+    function setTab(tab) {
+      activeTab = tab;
+      render();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    function setDay(day) {
+      activeDay = day;
+      render();
+    }
+
+    function render() {
+      const panels = {
+        sights: renderSights(),
+        hotels: renderHotels(),
+        dining: renderDining(),
+        plan: renderPlan()
+      };
+
+      const tabs = [
+        { id: 'sights', icon: 'camera', label: 'Sights' },
+        { id: 'hotels', icon: 'bed', label: 'Stay' },
+        { id: 'dining', icon: 'utensils', label: 'Eat' },
+        { id: 'plan', icon: 'map', label: 'Plan' }
+      ];
+
+      document.getElementById('app').innerHTML = `
+        <main class="panel active">${panels[activeTab]}</main>
+        <nav class="bottom-nav" aria-label="Guide sections">
+          ${tabs.map(t => `
+            <button class="nav-item ${activeTab === t.id ? 'active' : ''}" onclick="setTab('${t.id}')" aria-current="${activeTab === t.id ? 'page' : 'false'}">
+              ${ICONS[t.icon]}
+              ${t.label}
+            </button>`).join('')}
+        </nav>`;
+    }
+
+    applyTheme();
+    render();
+  </script>
+</body>
+</html>

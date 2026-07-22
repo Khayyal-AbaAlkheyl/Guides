@@ -1,0 +1,43 @@
+/*
+  DISCOVER — shared brand layer (all cities)
+  Load before assets/magazine.css
+*/
+
+:root {
+  --discover-navy: #1a2744;
+  --discover-gold: #b8860b;
+  --discover-bg: #f7f5f1;
+  --discover-font: 'DM Sans', system-ui, sans-serif;
+  --discover-display: 'Fraunces', Georgia, serif;
+}
+
+.discover-wordmark {
+  font-family: var(--discover-font);
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+}
+
+html.is-arabic .discover-wordmark {
+  font-family: var(--font-ar, 'Noto Sans Arabic', sans-serif);
+  letter-spacing: 0.08em;
+}
+
+.hero__badge,
+.section-head h2 {
+  font-family: var(--discover-font);
+}
+
+.page-title,
+.hero__title,
+.section-head h2 {
+  font-family: var(--discover-display);
+}
+
+.bottom-nav .nav-item.active {
+  color: var(--accent);
+}
+
+.bottom-nav .nav-item.active svg {
+  stroke: var(--accent);
+}

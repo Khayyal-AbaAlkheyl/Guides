@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "city": "London",
+    "country": "United Kingdom",
+    "tagline": "The premium travel companion — every attraction, hotel and restaurant with maps, QR codes and insider timing.",
+    "badge": "Luxury Travel Companion",
+    "edition": "2026",
+    "stats": { "chapters": 51, "qrCodes": "200+", "attractions": 12, "hotels": 9, "dining": 8, "days": 5 },
+    "theme": {
+      "accent": "#c41e3a",
+      "accentSoft": "#fde8ec",
+      "accentDeep": "#8b1429",
+      "heroImage": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1200&q=80",
+      "tube": "#0019A8",
+      "parks": "#2d6a4f",
+      "river": "#0077b6",
+      "gold": "#b8860b",
+      "navy": "#1a2744"
+    }
+  },
+  "welcome": {
+    "editorLetter": "London is not a city you visit. It is a city you rehearse — a rehearsal of centuries, of empires and afternoons, of black cabs and quiet gardens. This companion was built for one purpose: to sit in your pocket and answer the only question that ever matters on a good trip — what should I do next?\n\nEvery attraction, hotel, restaurant, hospital and embassy in these pages carries a QR code that opens directly in Google Maps. Every itinerary has a route map, a timeline, and an estimated walking distance. Every chapter has been designed to be beautiful to look at and useful to hold.",
+    "howToUse": "Point your phone camera at any QR code and the location opens in Google Maps in one tap. Every website and booking link is also clickable directly in the PDF. Colour-coded day chapters make navigation effortless.\n\n— The Editors, London Bureau"
+  },
+  "essentials": {
+    "currency": { "label": "£ Pound Sterling", "note": "Contactless is king. Notify your bank before travel." },
+    "power": { "label": "Type G · 230V", "note": "British three-pin plug. Bring a universal adapter." },
+    "sim": { "label": "eSIM or airport SIM", "note": "EE, Vodafone, Three. eSIM works instantly on arrival." },
+    "language": { "label": "English", "note": "Arabic widely understood in Mayfair, Edgware Road." },
+    "tipping": { "label": "10–12.5%", "note": "Check if service charge is already included." },
+    "emergency": { "label": "999 · 112", "note": "Police · Fire · Ambulance · Coastguard." },
+    "tapWater": { "label": "Safe to drink", "note": "Cafés will refill your bottle on request." },
+    "timezone": { "label": "GMT / BST +1", "note": "Clocks change last Sunday of March & October." }
+  },
+  "arrival": [
+    { "step": "01", "title": "Border", "desc": "Follow signs to UK Border. e-Gates open to most passports incl. GCC. Have your accommodation address ready." },
+    { "step": "02", "title": "SIM / eSIM", "desc": "Activate your eSIM on airport Wi-Fi. Or buy an EE / Three SIM from the arrivals shop (£10 gets you 20GB)." },
+    { "step": "03", "title": "Cash", "desc": "Take £50–£100 from an ATM (Halifax / HSBC — never the Travelex booth). Cards work everywhere but keep a note." },
+    { "step": "04", "title": "Train, not taxi", "desc": "Elizabeth Line from LHR T2/T3/T5 to central London: 30 min, £11.50. From LGW take the Gatwick Express: 30 min, £22." },
+    { "step": "05", "title": "Oyster / Contactless", "desc": "Tap your bank card at the gates. It caps at £8.90/day automatically. No Oyster needed for most travellers." },
+    { "step": "06", "title": "Hotel", "desc": "Check-in is usually from 15:00. Most luxury hotels will hold luggage from 09:00 so you can start exploring." },
+    { "step": "07", "title": "First meal", "desc": "Head to Borough Market (Southwark) or Dishoom (Covent Garden). Recover with tea, then a nap. Jet lag rewards discipline." }
+  ],
+  "packing": {
+    "spring": { "months": "MAR–MAY", "temp": "8–17 °C · light showers", "items": ["Light waterproof jacket", "Layerable knit", "Compact umbrella", "Walking shoes", "Sunglasses", "Light scarf"] },
+    "summer": { "months": "JUN–AUG", "temp": "16–24 °C · long evenings", "items": ["Linen shirts / breathable tops", "Light dress or jacket", "Trainers + one smart pair", "Sunscreen SPF 30", "Refillable bottle", "Sunhat"] },
+    "autumn": { "months": "SEP–NOV", "temp": "9–17 °C · golden light", "items": ["Trench coat", "Wool jumper", "Waterproof boots", "Umbrella", "Gloves for late Nov", "Book for cafés"] },
+    "winter": { "months": "DEC–FEB", "temp": "2–8 °C · crisp & short days", "items": ["Heavy wool coat", "Thermal base layer", "Beanie + scarf + gloves", "Waterproof boots", "Hand warmers", "Moisturiser"] }
+  },
+  "weatherTable": {
+    "rows": [
+      { "month": "Jan", "avgTemp": "2 / 7 °C", "rain": "55%", "sunset": "16:15", "crowds": "Low", "recommend": "Museums · Sales" },
+      { "month": "Feb", "avgTemp": "2 / 8 °C", "rain": "50%", "sunset": "17:15", "crowds": "Low", "recommend": "Afternoon tea" },
+      { "month": "Mar", "avgTemp": "4 / 11 °C", "rain": "45%", "sunset": "18:15", "crowds": "Rising", "recommend": "Parks awakening" },
+      { "month": "Apr", "avgTemp": "6 / 14 °C", "rain": "45%", "sunset": "20:00", "crowds": "Medium", "recommend": "Cherry blossom" },
+      { "month": "May", "avgTemp": "9 / 17 °C", "rain": "40%", "sunset": "20:45", "crowds": "Medium", "recommend": "Perfect walking" },
+      { "month": "Jun", "avgTemp": "12 / 20 °C", "rain": "40%", "sunset": "21:20", "crowds": "High", "recommend": "Long evenings" },
+      { "month": "Jul", "avgTemp": "14 / 23 °C", "rain": "40%", "sunset": "21:15", "crowds": "Peak", "recommend": "Book everything" },
+      { "month": "Aug", "avgTemp": "14 / 23 °C", "rain": "45%", "sunset": "20:30", "crowds": "Peak", "recommend": "Notting Hill Carnival" },
+      { "month": "Sep", "avgTemp": "11 / 19 °C", "rain": "45%", "sunset": "19:15", "crowds": "Medium", "recommend": "Golden light" },
+      { "month": "Oct", "avgTemp": "9 / 15 °C", "rain": "55%", "sunset": "18:00", "crowds": "Medium", "recommend": "Autumn colour" },
+      { "month": "Nov", "avgTemp": "5 / 10 °C", "rain": "60%", "sunset": "16:15", "crowds": "Low", "recommend": "Bonfire · lights" },
+      { "month": "Dec", "avgTemp": "3 / 8 °C", "rain": "55%", "sunset": "15:55", "crowds": "Rising", "recommend": "Christmas markets" }
+    ],
+    "sweetSpot": "May–early June and September deliver the best light, the smallest queues at ticketed attractions and the longest usable daylight. Avoid the last two weeks of August — school-holiday peak — unless you have booked everything in advance."
+  },
+  "transport": {
+    "modes": [
+      { "icon": "tube", "name": "Tube", "price": "£2.90 off-peak", "desc": "Fastest across zones 1–2. 11 lines. Daily cap £8.90." },
+      { "icon": "bus", "name": "Bus", "price": "£1.75 flat", "desc": "One-hour Hopper: unlimited buses in 60 min for one fare." },
+      { "icon": "elizabeth", "name": "Elizabeth", "price": "£4–£12", "desc": "New east-west line. Heathrow to Bond St in 32 min." },
+      { "icon": "boat", "name": "River Boat", "price": "£4–£10", "desc": "Uber Boat by Thames Clippers. Views + no traffic." },
+      { "icon": "walk", "name": "Walk", "price": "Free", "desc": "Central London is 3 km wide. Everything is walkable." },
+      { "icon": "bike", "name": "Bike", "price": "£1.65 / 30 min", "desc": "Santander Cycles. 800+ docking stations." },
+      { "icon": "cab", "name": "Black Cab", "price": "£10–£25 short", "desc": "Iconic. Wheelchair accessible. Contactless accepted." },
+      { "icon": "uber", "name": "Uber / Bolt", "price": "£8–£20 short", "desc": "Cheaper than black cab off-peak. Split fares in-app." }
+    ],
+    "oysterTips": [
+      { "title": "Contactless bank card", "desc": "Just tap the yellow reader. Daily cap £8.90 · weekly cap £44.70. Uses your bank's FX rate — usually best." },
+      { "title": "Apple / Google Pay", "desc": "Same as contactless. Use the same card each journey or your fares won't cap properly." },
+      { "title": "Oyster (visitor)", "desc": "Only useful if your card charges FX fees. £7 deposit + top up. Refund at any station machine." },
+      { "title": "Under 11s free", "desc": "Kids travel free on Tube, DLR, bus and Elizabeth Line with an adult. No paperwork needed." }
+    ],
+    "exit6Tip": "Use exit 6 at Westminster tube — you emerge with Big Ben framed directly in front of you. Every other exit spits you into traffic. Your first photo of London is worth planning for."
+  },
+  "maps": {
+    "overview": {
+      "caption": "A schematic map — for exact directions, scan any QR code in this guide.",
+      "markers": [
+        { "name": "Buckingham Palace", "type": "attraction", "lat": 51.5014, "lng": -0.1419 },
+        { "name": "Westminster", "type": "attraction", "lat": 51.4995, "lng": -0.1248 },
+        { "name": "Tower of London", "type": "attraction", "lat": 51.5081, "lng": -0.0759 },
+        { "name": "Tower Bridge", "type": "attraction", "lat": 51.5055, "lng": -0.0754 },
+        { "name": "St Paul's", "type": "attraction", "lat": 51.5138, "lng": -0.0984 },
+        { "name": "British Museum", "type": "attraction", "lat": 51.5194, "lng": -0.1270 },
+        { "name": "The Shard", "type": "attraction", "lat": 51.5045, "lng": -0.0865 },
+        { "name": "London Eye", "type": "attraction", "lat": 51.5033, "lng": -0.1195 },
+        { "name": "Hyde Park", "type": "park", "lat": 51.5073, "lng": -0.1657 },
+        { "name": "Notting Hill", "type": "district", "lat": 51.5099, "lng": -0.1969 },
+        { "name": "Camden", "type": "district", "lat": 51.5390, "lng": -0.1426 },
+        { "name": "Greenwich", "type": "district", "lat": 51.4826, "lng": -0.0077 },
+        { "name": "The Savoy", "type": "hotel", "lat": 51.5103, "lng": -0.1206 },
+        { "name": "The Ritz", "type": "hotel", "lat": 51.5070, "lng": -0.1416 },
+        { "name": "Claridge's", "type": "hotel", "lat": 51.5124, "lng": -0.1476 },
+        { "name": "Sketch", "type": "dining", "lat": 51.5133, "lng": -0.1420 },
+        { "name": "Dishoom", "type": "dining", "lat": 51.5125, "lng": -0.1268 },
+        { "name": "Borough Market", "type": "dining", "lat": 51.5055, "lng": -0.0910 }
+      ]
+    }
+  }
+}

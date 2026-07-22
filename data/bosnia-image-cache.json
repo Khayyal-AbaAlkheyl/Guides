@@ -1,0 +1,254 @@
+{
+  "Baščaršija": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Sarajevo_Bascarsija_from_Trebevic.JPG/960px-Sarajevo_Bascarsija_from_Trebevic.JPG",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Ba%C5%A1%C4%8Dar%C5%A1ija_%286086230081%29.jpg/960px-Ba%C5%A1%C4%8Dar%C5%A1ija_%286086230081%29.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Sarajevo_-_Gradska_Vije%C4%87nica_%2849127777541%29.jpg/960px-Sarajevo_-_Gradska_Vije%C4%87nica_%2849127777541%29.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Begova_%C4%8Corba_%28Ba%C5%A1%C4%8Dar%C5%A1ija_in_Sarajevo%2C_Bosnia%29.JPG/960px-Begova_%C4%8Corba_%28Ba%C5%A1%C4%8Dar%C5%A1ija_in_Sarajevo%2C_Bosnia%29.JPG"
+  },
+  "Gazi Husrev-beg Mosque": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Latin Bridge": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Sarajevo Cable Car": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Yellow Fortress": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Stari Most": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Kujundžiluk Bazaar": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Konjic Old Stone Bridge": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Blagaj Tekke": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Kravica Waterfalls": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Počitelj": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Trebinje Old Town": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Arslanagić Bridge": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Sutjeska National Park": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Jajce Waterfall": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Pliva Lakes": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Jajce_Total_View.jpg/960px-Jajce_Total_View.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Jajce_Total_View.jpg/960px-Jajce_Total_View.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Jajce_Total_View.jpg/960px-Jajce_Total_View.jpg",
+    "map": null
+  },
+  "Tunnel of Hope Museum": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Sarajevo_tunnel.jpg/960px-Sarajevo_tunnel.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Sarajevo_tunnel_museum_%281%29.jpg/960px-Sarajevo_tunnel_museum_%281%29.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/The_gallery_of_geography%3B_a_pictorial_and_descriptive_tour_of_the_world_%28IA_galleryofgeograp00miln%29.pdf/page1-500px-The_gallery_of_geography%3B_a_pictorial_and_descriptive_tour_of_the_world_%28IA_galleryofgeograp00miln%29.pdf.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/The_gallery_of_geography%3B_a_pictorial_and_descriptive_tour_of_the_world_%28IA_galleryofgeograp00miln%29.pdf/page1-500px-The_gallery_of_geography%3B_a_pictorial_and_descriptive_tour_of_the_world_%28IA_galleryofgeograp00miln%29.pdf.jpg"
+  },
+  "Vrelo Bosne": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Bridge_on_Vrelo_Bosne.jpg/960px-Bridge_on_Vrelo_Bosne.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Vrelo_Bosne_2.JPG/960px-Vrelo_Bosne_2.JPG",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Vrelo_Bosne_2.JPG/960px-Vrelo_Bosne_2.JPG",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Bridge_on_Vrelo_Bosne.jpg/960px-Bridge_on_Vrelo_Bosne.jpg"
+  },
+  "Jajce Catacombs": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Swissôtel Sarajevo": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Hotel Europe Sarajevo": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Hotel Mepas": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Malak Regency Hotel": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Courtyard by Marriott Sarajevo": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Hotel Story Sarajevo": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Hotel-Restaurant Kriva Ćuprija": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Ministry of Ćejf": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Miris Dunja": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Ćevabdžinica Željo": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Dveri Restaurant": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Šadrvan Restaurant": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "National Restaurant Cevabdzinica Tima-Irma": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Restaurant Vrelo": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Studenac Restaurant": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Kod Asima": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Avlija Restaurant": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Fabrika Coffee": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/d/de/Evstafiev-bosnia-cello.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/d/de/Evstafiev-bosnia-cello.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/d/de/Evstafiev-bosnia-cello.jpg",
+    "map": null
+  },
+  "Café de Alma": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Sarajevo_City_Panorama.JPG/960px-Sarajevo_City_Panorama.JPG",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Caf%C3%A9_House_at_Bascarsija.jpg/960px-Caf%C3%A9_House_at_Bascarsija.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/El_Pasatiempo.djvu/page1-960px-El_Pasatiempo.djvu.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/d/de/Evstafiev-bosnia-cello.jpg"
+  },
+  "Urban Café Sarajevo": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Sarajevo_City_Panorama.JPG/960px-Sarajevo_City_Panorama.JPG",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/5/50/Ochrana-Kaffeehaus_in_Belgrad.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/d/de/Evstafiev-bosnia-cello.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/d/de/Evstafiev-bosnia-cello.jpg"
+  },
+  "Baščaršija Copper Market": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Old Bazaar Sarajevo": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "SCC Mall": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  }
+}

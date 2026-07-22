@@ -1,0 +1,284 @@
+{
+  "Old City (Icherisheher)": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Maiden_Tower_Baku.jpg/960px-Maiden_Tower_Baku.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Palace_of_Shirvanshahs_common.JPG/960px-Palace_of_Shirvanshahs_common.JPG",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Maiden_tower_IMG_8521.jpg/960px-Maiden_tower_IMG_8521.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Maiden_tower_IMG_8521.jpg/960px-Maiden_tower_IMG_8521.jpg"
+  },
+  "Maiden Tower": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Maiden_tower_IMG_8521.jpg/960px-Maiden_tower_IMG_8521.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Maiden_Tower_Baku.jpg/960px-Maiden_Tower_Baku.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Maiden_Tower_Baku.jpg/960px-Maiden_Tower_Baku.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Maiden_Tower_Baku.jpg/960px-Maiden_Tower_Baku.jpg"
+  },
+  "Palace of the Shirvanshahs": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Palace_of_Shirvanshahs_common.JPG/960px-Palace_of_Shirvanshahs_common.JPG",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Palace_of_Shirvanshahs_common.JPG/960px-Palace_of_Shirvanshahs_common.JPG",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Palace_of_Shirvanshahs_common.JPG/960px-Palace_of_Shirvanshahs_common.JPG",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Palace_of_Shirvanshahs_common.JPG/960px-Palace_of_Shirvanshahs_common.JPG"
+  },
+  "Baku Boulevard": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Baku_Seaside_Bulevard.JPG/960px-Baku_Seaside_Bulevard.JPG",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/A_view_of_the_Baku_bay%2C_Azerbaijan.jpg/960px-A_view_of_the_Baku_bay%2C_Azerbaijan.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/A_view_of_the_Baku_bay%2C_Azerbaijan.jpg/960px-A_view_of_the_Baku_bay%2C_Azerbaijan.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/A_view_of_the_Baku_bay%2C_Azerbaijan.jpg/960px-A_view_of_the_Baku_bay%2C_Azerbaijan.jpg"
+  },
+  "Azerbaijan Carpet Museum": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Az%C9%99rbaycan_xal%C3%A7a_muzeyi.jpg/960px-Az%C9%99rbaycan_xal%C3%A7a_muzeyi.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Az%C9%99rbaycan_xal%C3%A7a_muzeyi.jpg/960px-Az%C9%99rbaycan_xal%C3%A7a_muzeyi.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Az%C9%99rbaycan_xal%C3%A7a_muzeyi.jpg/960px-Az%C9%99rbaycan_xal%C3%A7a_muzeyi.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Az%C9%99rbaycan_xal%C3%A7a_muzeyi.jpg/960px-Az%C9%99rbaycan_xal%C3%A7a_muzeyi.jpg"
+  },
+  "Highland Park": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/A_view_of_the_Baku_bay%2C_Azerbaijan.jpg/960px-A_view_of_the_Baku_bay%2C_Azerbaijan.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/en/thumb/0/08/Flame_towers_baku.jpg/960px-Flame_towers_baku.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/en/thumb/0/08/Flame_towers_baku.jpg/960px-Flame_towers_baku.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/en/thumb/0/08/Flame_towers_baku.jpg/960px-Flame_towers_baku.jpg"
+  },
+  "Heydar Aliyev Center": {
+    "hero": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Heydar_Aliyev_Cultural_Center.jpg/960px-Heydar_Aliyev_Cultural_Center.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Baku_Montage.jpg/960px-Baku_Montage.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Baku_Montage.jpg/960px-Baku_Montage.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Baku_Montage.jpg/960px-Baku_Montage.jpg"
+  },
+  "Flame Towers": {
+    "hero": "https://upload.wikimedia.org/wikipedia/en/thumb/0/08/Flame_towers_baku.jpg/960px-Flame_towers_baku.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Flame_towers_from_Baku_boulevard.JPG/960px-Flame_towers_from_Baku_boulevard.JPG",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Flame_towers_from_Baku_boulevard.JPG/960px-Flame_towers_from_Baku_boulevard.JPG",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Flame_towers_from_Baku_boulevard.JPG/960px-Flame_towers_from_Baku_boulevard.JPG"
+  },
+  "Alley of Martyrs": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/A_view_of_the_Baku_bay%2C_Azerbaijan.jpg/960px-A_view_of_the_Baku_bay%2C_Azerbaijan.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/en/thumb/0/08/Flame_towers_baku.jpg/960px-Flame_towers_baku.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/en/thumb/0/08/Flame_towers_baku.jpg/960px-Flame_towers_baku.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/en/thumb/0/08/Flame_towers_baku.jpg/960px-Flame_towers_baku.jpg"
+  },
+  "Nizami Street": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Nizami_street_historical_buildings.JPG/960px-Nizami_street_historical_buildings.JPG",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Baku_Montage.jpg/960px-Baku_Montage.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Baku_Montage.jpg/960px-Baku_Montage.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Baku_Montage.jpg/960px-Baku_Montage.jpg"
+  },
+  "Gobustan National Park": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Gobustan_State_Reserve_7.jpg/960px-Gobustan_State_Reserve_7.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Gobustan_mud_volcanoes_01.jpg/960px-Gobustan_mud_volcanoes_01.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Gobustan_mud_volcanoes_01.jpg/960px-Gobustan_mud_volcanoes_01.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Gobustan_mud_volcanoes_01.jpg/960px-Gobustan_mud_volcanoes_01.jpg"
+  },
+  "Mud Volcanoes": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Gobustan_mud_volcanoes_01.jpg/960px-Gobustan_mud_volcanoes_01.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Gobustan_State_Reserve_7.jpg/960px-Gobustan_State_Reserve_7.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Gobustan_State_Reserve_7.jpg/960px-Gobustan_State_Reserve_7.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Gobustan_State_Reserve_7.jpg/960px-Gobustan_State_Reserve_7.jpg"
+  },
+  "Ateshgah Fire Temple": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Ateshgah_of_Baku.jpg/960px-Ateshgah_of_Baku.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Ateshgah_of_Baku.jpg/960px-Ateshgah_of_Baku.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Ateshgah_of_Baku.jpg/960px-Ateshgah_of_Baku.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Ateshgah_of_Baku.jpg/960px-Ateshgah_of_Baku.jpg"
+  },
+  "Yanar Dag": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Yanar_Dag.jpg/960px-Yanar_Dag.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Ateshgah_of_Baku.jpg/960px-Ateshgah_of_Baku.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Ateshgah_of_Baku.jpg/960px-Ateshgah_of_Baku.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Ateshgah_of_Baku.jpg/960px-Ateshgah_of_Baku.jpg"
+  },
+  "Shamakhi Juma Mosque": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Shamakhi_Juma_Mosque.jpg/960px-Shamakhi_Juma_Mosque.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/%C5%9E%C9%99ki_xan_saray%C4%B1.jpg/960px-%C5%9E%C9%99ki_xan_saray%C4%B1.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/%C5%9E%C9%99ki_xan_saray%C4%B1.jpg/960px-%C5%9E%C9%99ki_xan_saray%C4%B1.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/%C5%9E%C9%99ki_xan_saray%C4%B1.jpg/960px-%C5%9E%C9%99ki_xan_saray%C4%B1.jpg"
+  },
+  "Lahij": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Driving_back_to_Baku-_this_is_the_end_of_my_Azerbaijan_tour_%2836637671423%29.jpg/960px-Driving_back_to_Baku-_this_is_the_end_of_my_Azerbaijan_tour_%2836637671423%29.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Driving_back_to_Baku-_this_is_the_end_of_my_Azerbaijan_tour_%2836637671423%29.jpg/960px-Driving_back_to_Baku-_this_is_the_end_of_my_Azerbaijan_tour_%2836637671423%29.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Driving_back_to_Baku-_this_is_the_end_of_my_Azerbaijan_tour_%2836637671423%29.jpg/960px-Driving_back_to_Baku-_this_is_the_end_of_my_Azerbaijan_tour_%2836637671423%29.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Driving_back_to_Baku-_this_is_the_end_of_my_Azerbaijan_tour_%2836637671423%29.jpg/960px-Driving_back_to_Baku-_this_is_the_end_of_my_Azerbaijan_tour_%2836637671423%29.jpg"
+  },
+  "Palace of Shaki Khans": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/%C5%9E%C9%99ki_xan_saray%C4%B1.jpg/960px-%C5%9E%C9%99ki_xan_saray%C4%B1.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/%C5%9E%C9%99ki_xan_saray%C4%B1.jpg/960px-%C5%9E%C9%99ki_xan_saray%C4%B1.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/%C5%9E%C9%99ki_xan_saray%C4%B1.jpg/960px-%C5%9E%C9%99ki_xan_saray%C4%B1.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/%C5%9E%C9%99ki_xan_saray%C4%B1.jpg/960px-%C5%9E%C9%99ki_xan_saray%C4%B1.jpg"
+  },
+  "Sheki Caravanserai": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Sheki_Upper_Caravanserai_004_4085.jpg/960px-Sheki_Upper_Caravanserai_004_4085.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Caravanserai_Hotel.jpg/960px-Caravanserai_Hotel.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Caravanserai_Hotel.jpg/960px-Caravanserai_Hotel.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Caravanserai_Hotel.jpg/960px-Caravanserai_Hotel.jpg"
+  },
+  "Church of Kish": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Church%2C_Kish_%28P1090438%29.jpg/960px-Church%2C_Kish_%28P1090438%29.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/%C5%9E%C9%99ki_xan_saray%C4%B1.jpg/960px-%C5%9E%C9%99ki_xan_saray%C4%B1.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/%C5%9E%C9%99ki_xan_saray%C4%B1.jpg/960px-%C5%9E%C9%99ki_xan_saray%C4%B1.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/%C5%9E%C9%99ki_xan_saray%C4%B1.jpg/960px-%C5%9E%C9%99ki_xan_saray%C4%B1.jpg"
+  },
+  "Tufandag Cable Car": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Gabala_Azerbaijan.jpg/960px-Gabala_Azerbaijan.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Xinaliq.jpg/960px-Xinaliq.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Xinaliq.jpg/960px-Xinaliq.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Xinaliq.jpg/960px-Xinaliq.jpg"
+  },
+  "Nohur Lake": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Gabala_Azerbaijan.jpg/960px-Gabala_Azerbaijan.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Xinaliq.jpg/960px-Xinaliq.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Xinaliq.jpg/960px-Xinaliq.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Xinaliq.jpg/960px-Xinaliq.jpg"
+  },
+  "Seven Beauties Waterfall": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Gabala_Azerbaijan.jpg/960px-Gabala_Azerbaijan.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Xinaliq.jpg/960px-Xinaliq.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Xinaliq.jpg/960px-Xinaliq.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Xinaliq.jpg/960px-Xinaliq.jpg"
+  },
+  "Qechresh Forest": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Xinaliq.jpg/960px-Xinaliq.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Gabala_Azerbaijan.jpg/960px-Gabala_Azerbaijan.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Gabala_Azerbaijan.jpg/960px-Gabala_Azerbaijan.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Gabala_Azerbaijan.jpg/960px-Gabala_Azerbaijan.jpg"
+  },
+  "Khinalug": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Xinaliq.jpg/960px-Xinaliq.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Driving_back_to_Baku-_this_is_the_end_of_my_Azerbaijan_tour_%2836637671423%29.jpg/960px-Driving_back_to_Baku-_this_is_the_end_of_my_Azerbaijan_tour_%2836637671423%29.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Driving_back_to_Baku-_this_is_the_end_of_my_Azerbaijan_tour_%2836637671423%29.jpg/960px-Driving_back_to_Baku-_this_is_the_end_of_my_Azerbaijan_tour_%2836637671423%29.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Driving_back_to_Baku-_this_is_the_end_of_my_Azerbaijan_tour_%2836637671423%29.jpg/960px-Driving_back_to_Baku-_this_is_the_end_of_my_Azerbaijan_tour_%2836637671423%29.jpg"
+  },
+  "Four Seasons Hotel Baku": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/A_view_of_the_Baku_bay%2C_Azerbaijan.jpg/960px-A_view_of_the_Baku_bay%2C_Azerbaijan.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/en/thumb/0/08/Flame_towers_baku.jpg/960px-Flame_towers_baku.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/en/thumb/0/08/Flame_towers_baku.jpg/960px-Flame_towers_baku.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/en/thumb/0/08/Flame_towers_baku.jpg/960px-Flame_towers_baku.jpg"
+  },
+  "Fairmont Baku Flame Towers": {
+    "hero": "https://upload.wikimedia.org/wikipedia/en/thumb/0/08/Flame_towers_baku.jpg/960px-Flame_towers_baku.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Flame_towers_from_Baku_boulevard.JPG/960px-Flame_towers_from_Baku_boulevard.JPG",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Flame_towers_from_Baku_boulevard.JPG/960px-Flame_towers_from_Baku_boulevard.JPG",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Flame_towers_from_Baku_boulevard.JPG/960px-Flame_towers_from_Baku_boulevard.JPG"
+  },
+  "JW Marriott Absheron Baku": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/A_view_of_the_Baku_bay%2C_Azerbaijan.jpg/960px-A_view_of_the_Baku_bay%2C_Azerbaijan.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Baku_Seaside_Bulevard.JPG/960px-Baku_Seaside_Bulevard.JPG",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Baku_Seaside_Bulevard.JPG/960px-Baku_Seaside_Bulevard.JPG",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Baku_Seaside_Bulevard.JPG/960px-Baku_Seaside_Bulevard.JPG"
+  },
+  "Lahij Guest House": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Driving_back_to_Baku-_this_is_the_end_of_my_Azerbaijan_tour_%2836637671423%29.jpg/960px-Driving_back_to_Baku-_this_is_the_end_of_my_Azerbaijan_tour_%2836637671423%29.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Driving_back_to_Baku-_this_is_the_end_of_my_Azerbaijan_tour_%2836637671423%29.jpg/960px-Driving_back_to_Baku-_this_is_the_end_of_my_Azerbaijan_tour_%2836637671423%29.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Driving_back_to_Baku-_this_is_the_end_of_my_Azerbaijan_tour_%2836637671423%29.jpg/960px-Driving_back_to_Baku-_this_is_the_end_of_my_Azerbaijan_tour_%2836637671423%29.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Driving_back_to_Baku-_this_is_the_end_of_my_Azerbaijan_tour_%2836637671423%29.jpg/960px-Driving_back_to_Baku-_this_is_the_end_of_my_Azerbaijan_tour_%2836637671423%29.jpg"
+  },
+  "Marxal Resort & Spa": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/%C5%9E%C9%99ki_xan_saray%C4%B1.jpg/960px-%C5%9E%C9%99ki_xan_saray%C4%B1.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Sheki_Upper_Caravanserai_004_4085.jpg/960px-Sheki_Upper_Caravanserai_004_4085.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Sheki_Upper_Caravanserai_004_4085.jpg/960px-Sheki_Upper_Caravanserai_004_4085.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Sheki_Upper_Caravanserai_004_4085.jpg/960px-Sheki_Upper_Caravanserai_004_4085.jpg"
+  },
+  "Sheki Palace Hotel": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Sheki_Upper_Caravanserai_004_4085.jpg/960px-Sheki_Upper_Caravanserai_004_4085.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/%C5%9E%C9%99ki_xan_saray%C4%B1.jpg/960px-%C5%9E%C9%99ki_xan_saray%C4%B1.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/%C5%9E%C9%99ki_xan_saray%C4%B1.jpg/960px-%C5%9E%C9%99ki_xan_saray%C4%B1.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/%C5%9E%C9%99ki_xan_saray%C4%B1.jpg/960px-%C5%9E%C9%99ki_xan_saray%C4%B1.jpg"
+  },
+  "Chenot Palace Gabala": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Gabala_Azerbaijan.jpg/960px-Gabala_Azerbaijan.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Xinaliq.jpg/960px-Xinaliq.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Xinaliq.jpg/960px-Xinaliq.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Xinaliq.jpg/960px-Xinaliq.jpg"
+  },
+  "Qafqaz Riverside Resort": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Gabala_Azerbaijan.jpg/960px-Gabala_Azerbaijan.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Xinaliq.jpg/960px-Xinaliq.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Xinaliq.jpg/960px-Xinaliq.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Xinaliq.jpg/960px-Xinaliq.jpg"
+  },
+  "Macara Lake Park Hotel": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Xinaliq.jpg/960px-Xinaliq.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Gabala_Azerbaijan.jpg/960px-Gabala_Azerbaijan.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Gabala_Azerbaijan.jpg/960px-Gabala_Azerbaijan.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Gabala_Azerbaijan.jpg/960px-Gabala_Azerbaijan.jpg"
+  },
+  "United Coffee Beans": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Nizami_street_historical_buildings.JPG/960px-Nizami_street_historical_buildings.JPG",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Baku_Montage.jpg/960px-Baku_Montage.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Baku_Montage.jpg/960px-Baku_Montage.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Baku_Montage.jpg/960px-Baku_Montage.jpg"
+  },
+  "Şirvanşah Museum Restaurant": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Palace_of_Shirvanshahs_common.JPG/960px-Palace_of_Shirvanshahs_common.JPG",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Palace_of_Shirvanshahs_common.JPG/960px-Palace_of_Shirvanshahs_common.JPG",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Palace_of_Shirvanshahs_common.JPG/960px-Palace_of_Shirvanshahs_common.JPG",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Palace_of_Shirvanshahs_common.JPG/960px-Palace_of_Shirvanshahs_common.JPG"
+  },
+  "Sky Grill": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/A_view_of_the_Baku_bay%2C_Azerbaijan.jpg/960px-A_view_of_the_Baku_bay%2C_Azerbaijan.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/en/thumb/0/08/Flame_towers_baku.jpg/960px-Flame_towers_baku.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/en/thumb/0/08/Flame_towers_baku.jpg/960px-Flame_towers_baku.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/en/thumb/0/08/Flame_towers_baku.jpg/960px-Flame_towers_baku.jpg"
+  },
+  "MariVanna": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Nizami_street_historical_buildings.JPG/960px-Nizami_street_historical_buildings.JPG",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Baku_Montage.jpg/960px-Baku_Montage.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Baku_Montage.jpg/960px-Baku_Montage.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Baku_Montage.jpg/960px-Baku_Montage.jpg"
+  },
+  "SAHIL Restaurant": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Baku_Seaside_Bulevard.JPG/960px-Baku_Seaside_Bulevard.JPG",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/A_view_of_the_Baku_bay%2C_Azerbaijan.jpg/960px-A_view_of_the_Baku_bay%2C_Azerbaijan.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/A_view_of_the_Baku_bay%2C_Azerbaijan.jpg/960px-A_view_of_the_Baku_bay%2C_Azerbaijan.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/A_view_of_the_Baku_bay%2C_Azerbaijan.jpg/960px-A_view_of_the_Baku_bay%2C_Azerbaijan.jpg"
+  },
+  "Piti House": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/%C5%9E%C9%99ki_xan_saray%C4%B1.jpg/960px-%C5%9E%C9%99ki_xan_saray%C4%B1.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Sheki_Upper_Caravanserai_004_4085.jpg/960px-Sheki_Upper_Caravanserai_004_4085.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Sheki_Upper_Caravanserai_004_4085.jpg/960px-Sheki_Upper_Caravanserai_004_4085.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Sheki_Upper_Caravanserai_004_4085.jpg/960px-Sheki_Upper_Caravanserai_004_4085.jpg"
+  },
+  "Coffee Moffie": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Nizami_street_historical_buildings.JPG/960px-Nizami_street_historical_buildings.JPG",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Baku_Montage.jpg/960px-Baku_Montage.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Baku_Montage.jpg/960px-Baku_Montage.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Baku_Montage.jpg/960px-Baku_Montage.jpg"
+  },
+  "Passage 145": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Maiden_Tower_Baku.jpg/960px-Maiden_Tower_Baku.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Palace_of_Shirvanshahs_common.JPG/960px-Palace_of_Shirvanshahs_common.JPG",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Palace_of_Shirvanshahs_common.JPG/960px-Palace_of_Shirvanshahs_common.JPG",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Palace_of_Shirvanshahs_common.JPG/960px-Palace_of_Shirvanshahs_common.JPG"
+  },
+  "Baku Roasting Company": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Nizami_street_historical_buildings.JPG/960px-Nizami_street_historical_buildings.JPG",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Baku_Montage.jpg/960px-Baku_Montage.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Baku_Montage.jpg/960px-Baku_Montage.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Baku_Montage.jpg/960px-Baku_Montage.jpg"
+  },
+  "Port Baku Mall": {
+    "hero": "https://upload.wikimedia.org/wikipedia/en/thumb/0/08/Flame_towers_baku.jpg/960px-Flame_towers_baku.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/A_view_of_the_Baku_bay%2C_Azerbaijan.jpg/960px-A_view_of_the_Baku_bay%2C_Azerbaijan.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/A_view_of_the_Baku_bay%2C_Azerbaijan.jpg/960px-A_view_of_the_Baku_bay%2C_Azerbaijan.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/A_view_of_the_Baku_bay%2C_Azerbaijan.jpg/960px-A_view_of_the_Baku_bay%2C_Azerbaijan.jpg"
+  },
+  "Deniz Mall": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Nizami_street_historical_buildings.JPG/960px-Nizami_street_historical_buildings.JPG",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Baku_Montage.jpg/960px-Baku_Montage.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Baku_Montage.jpg/960px-Baku_Montage.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Baku_Montage.jpg/960px-Baku_Montage.jpg"
+  },
+  "28 Mall": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Nizami_street_historical_buildings.JPG/960px-Nizami_street_historical_buildings.JPG",
+    "detail": "https://upload.wikimedia.org/wikipedia/en/thumb/0/08/Flame_towers_baku.jpg/960px-Flame_towers_baku.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/en/thumb/0/08/Flame_towers_baku.jpg/960px-Flame_towers_baku.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/en/thumb/0/08/Flame_towers_baku.jpg/960px-Flame_towers_baku.jpg"
+  },
+  "Yashil Bazaar": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Az%C9%99rbaycan_xal%C3%A7a_muzeyi.jpg/960px-Az%C9%99rbaycan_xal%C3%A7a_muzeyi.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Maiden_Tower_Baku.jpg/960px-Maiden_Tower_Baku.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Maiden_Tower_Baku.jpg/960px-Maiden_Tower_Baku.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Maiden_Tower_Baku.jpg/960px-Maiden_Tower_Baku.jpg"
+  },
+  "Heydar Aliyev International Airport": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Heydar_Aliyev_International_Airport.jpg/960px-Heydar_Aliyev_International_Airport.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Heydar_Aliyev_Cultural_Center.jpg/960px-Heydar_Aliyev_Cultural_Center.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Heydar_Aliyev_Cultural_Center.jpg/960px-Heydar_Aliyev_Cultural_Center.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Heydar_Aliyev_Cultural_Center.jpg/960px-Heydar_Aliyev_Cultural_Center.jpg"
+  }
+}

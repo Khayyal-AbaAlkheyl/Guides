@@ -1,0 +1,336 @@
+{
+  "transport": {
+    "modes": [
+      {
+        "desc": "Fastest across zones 1–2. 11 lines. Daily cap £8.90."
+      },
+      {
+        "desc": "One-hour Hopper: unlimited buses in 60 min for one fare."
+      },
+      {
+        "desc": "New east-west line. Heathrow to Bond St in 32 min."
+      },
+      {
+        "desc": "Uber Boat by Thames Clippers. Views + no traffic."
+      },
+      {
+        "desc": "Central London is 3 km wide. Everything is walkable."
+      },
+      {
+        "desc": "Santander Cycles. 800+ docking stations."
+      },
+      {
+        "desc": "Iconic. Wheelchair accessible. Contactless accepted."
+      },
+      {
+        "desc": "Cheaper than black cab off-peak. Split fares in-app."
+      }
+    ],
+    "oysterTips": [
+      {
+        "title": "Contactless bank card",
+        "desc": "Just tap the yellow reader. Daily cap £8.90 · weekly cap £44.70. Uses your bank's FX rate — usually best."
+      },
+      {
+        "title": "Apple / Google Pay",
+        "desc": "Same as contactless. Use the same card each journey or your fares won't cap properly."
+      },
+      {
+        "title": "Oyster (visitor)",
+        "desc": "Only useful if your card charges FX fees. £7 deposit + top up. Refund at any station machine."
+      },
+      {
+        "title": "Under 11s free",
+        "desc": "Kids travel free on Tube, DLR, bus and Elizabeth Line with an adult. No paperwork needed."
+      }
+    ],
+    "exit6Tip": "Use exit 6 at Westminster tube — you emerge with Big Ben framed directly in front of you. Every other exit spits you into traffic. Your first photo of London is worth planning for."
+  },
+  "maps": {
+    "caption": "A schematic map — for exact directions, scan any QR code in this guide."
+  },
+  "warnings": [
+    {
+      "title": "Airport taxis",
+      "desc": "Never take a black cab from a random touting driver at LHR. Elizabeth Line + hotel walk = £11.50. A booked Uber from arrivals: £45–£60."
+    },
+    {
+      "title": "Currency exchange near Westminster",
+      "desc": "Anywhere with a sandwich-board and no fees advertised is 4–8% worse than your bank card. Use your contactless card everywhere instead."
+    },
+    {
+      "title": "Fake ticket sellers",
+      "desc": "London Eye, Eye of London, and street-corner ticket sellers around Piccadilly are common scams. Only buy via the official websites in this guide."
+    },
+    {
+      "title": "Restaurants opposite Big Ben",
+      "desc": "£25 for a mediocre fish and chips. Walk 8 minutes to Regency Café or Poppie's for the real thing at half the price."
+    },
+    {
+      "title": "Souvenirs on Westminster Bridge",
+      "desc": "£15 fridge magnets. Buy the same thing at Camden Market or Portobello Road for £4."
+    },
+    {
+      "title": "Illegal pedicabs",
+      "desc": "£40 for a 200-metre ride. Uncapped, unregulated. Just walk or Uber."
+    },
+    {
+      "title": "SIM cards at airport kiosks",
+      "desc": "£40 for what should cost £10. Use eSIM apps like Airalo or buy from any Boots/EE shop in town."
+    }
+  ],
+  "family": {
+    "tip": "Children under 11 travel free on tube, bus, DLR and Elizabeth Line when with a fare-paying adult. No paperwork needed. 11–15 needs a Zip Oyster photocard if staying long-term.",
+    "rows": [
+      {
+        "desc": "Dinosaurs + blue whale + free"
+      },
+      {
+        "desc": "Interactive Wonderlab · £12 kids"
+      },
+      {
+        "desc": "Warder tours delight kids"
+      },
+      {
+        "desc": "Fast Track worth the money"
+      },
+      {
+        "desc": "Under the London Eye"
+      },
+      {
+        "desc": "Treetop walkway · playground"
+      },
+      {
+        "desc": "In Kensington Gardens · free"
+      },
+      {
+        "desc": "Great for older kids"
+      }
+    ]
+  },
+  "emergency": {
+    "lostPassport": "Report to the nearest police station (dial 101). Contact your embassy — they can issue an emergency travel document within 24–48 h. Take photos of your passport and store them in cloud storage before you fly.",
+    "numbers": [
+      {
+        "label": "999 / 112",
+        "desc": "Police · Fire · Ambulance · Coastguard"
+      },
+      {
+        "label": "111",
+        "desc": "NHS non-emergency medical advice · 24/7"
+      },
+      {
+        "label": "101",
+        "desc": "Non-emergency police"
+      },
+      {
+        "label": "+44 20 7008 5000",
+        "desc": "UK Foreign Office · lost passport line"
+      }
+    ]
+  },
+  "phrases": [
+    {
+      "use": "Ask for directions"
+    },
+    {
+      "use": "Cards work everywhere; still ask if uncertain"
+    },
+    {
+      "use": "For coffee and food"
+    },
+    {
+      "use": "Ask for the bill · never wait for it"
+    },
+    {
+      "use": "Check before adding a tip"
+    },
+    {
+      "use": "Buying tickets"
+    },
+    {
+      "use": "British English · not 'restroom'"
+    },
+    {
+      "use": "Polite clarification"
+    },
+    {
+      "use": "Universal opener · always add 'please'"
+    },
+    {
+      "use": "Politely decline shop assistants"
+    },
+    {
+      "use": "Buying a train ticket"
+    },
+    {
+      "use": "Means thank you AND goodbye · use freely"
+    }
+  ],
+  "etiquette": [
+    {
+      "rule": "Stand on the right",
+      "desc": "Escalators. Always. Left is for walking. Break this rule and you will be tutted at."
+    },
+    {
+      "rule": "Queue religiously",
+      "desc": "Britons queue for buses, coffee, taxis and toilets. Never skip. Ever."
+    },
+    {
+      "rule": "Mind the gap",
+      "desc": "And mind it out loud. That announcement is a national treasure."
+    },
+    {
+      "rule": "Don't chat on the tube",
+      "desc": "London's rush hour is a monastic silence. Save conversation for the pub."
+    },
+    {
+      "rule": "Say please and thank you",
+      "desc": "And 'sorry'. Twenty times a day. It is the entire operating system."
+    },
+    {
+      "rule": "Keep your phone in your pocket",
+      "desc": "On busy streets. Phone theft by moped is real. Use pockets or bags with zips."
+    },
+    {
+      "rule": "Look right first",
+      "desc": "Then left, then right again. Britain drives on the left."
+    }
+  ],
+  "hiddenGems": [
+    {
+      "desc": "Behind Covent Garden · pastel courtyard"
+    },
+    {
+      "desc": "Victorian arcade · Diagon Alley filming"
+    },
+    {
+      "desc": "Canal-side pubs · Camden by boat"
+    },
+    {
+      "desc": "Holland Park · koi pond in autumn"
+    },
+    {
+      "desc": "Ruined church wrapped in ivy"
+    },
+    {
+      "desc": "Best skyline · 15 min walk from Camden"
+    },
+    {
+      "desc": "Sculptural noses hidden on 7 walls · a self-guided treasure hunt"
+    },
+    {
+      "desc": "Walthamstow · neon paradise"
+    }
+  ],
+  "shopping": {
+    "vatTips": {
+      "note": "VAT is 20% on most goods. As of 2021 the UK ended in-store VAT refunds for tourists. However, many luxury boutiques ship your purchase to your home address VAT-free — always ask at the till.",
+      "saleSeasons": "Boxing Day (26 Dec) → mid-January · End of June to end of July · Selfridges & Harrods run private-sale evenings — sign up to their newsletters.",
+      "shippingTip": "For any single purchase over £600 (Louis Vuitton, Burberry, Rolex etc.), always ask about VAT-free direct shipping to your home country. You save 20% and skip customs at the airport."
+    },
+    "districts": [
+      {
+        "desc": "Luxury flagships · Louis Vuitton, Chanel, Hermès"
+      },
+      {
+        "desc": "British brands · Burberry, Liberty, Hamleys"
+      },
+      {
+        "desc": "Mass market · Selfridges, John Lewis, Zara"
+      },
+      {
+        "desc": "Harrods · Harvey Nichols · Sloane Street"
+      },
+      {
+        "desc": "Independent · Vinyl · Streetwear"
+      },
+      {
+        "desc": "Under one roof · easy on rainy days · Elizabeth Line"
+      },
+      {
+        "desc": "Outlet 1 h from Marylebone by train · up to 60% off"
+      }
+    ],
+    "souvenirs": [
+      "Fortnum & Mason tea tins",
+      "Liberty print scarves",
+      "a jar of Marmite",
+      "a British Museum print",
+      "a Twinings gift box from Strand"
+    ]
+  },
+  "rainyDay": [
+    {
+      "desc": "Free entry all day"
+    },
+    {
+      "desc": "Hintze Hall's blue whale"
+    },
+    {
+      "desc": "Interactive · kids love"
+    },
+    {
+      "desc": "Beautiful even without buying"
+    },
+    {
+      "desc": "300+ shops · Elizabeth Line direct"
+    },
+    {
+      "desc": "313 years old"
+    },
+    {
+      "desc": "Underground bunker"
+    }
+  ],
+  "sunnyDay": [
+    {
+      "desc": "Boating in summer"
+    },
+    {
+      "desc": "June bloom"
+    },
+    {
+      "desc": "Best skyline view · picnic"
+    },
+    {
+      "desc": "Wild deer · 2,500 acres"
+    },
+    {
+      "desc": "Wild swimming ponds · Parliament Hill"
+    },
+    {
+      "desc": "The postcard skyline · 15 min walk"
+    },
+    {
+      "desc": "45 min"
+    }
+  ],
+  "budget": {
+    "budget": {
+      "daily": "£95 per person / day",
+      "accommodation": "£45 hostel/shared",
+      "food": "£25",
+      "transport": "£8.90 cap",
+      "activities": "£15 free museums",
+      "extras": "£1",
+      "tip": "No matter how many tubes and buses you take, London's contactless daily cap is £8.90 in zones 1–2. Never buy a paper ticket — you would only spend more."
+    },
+    "mid": {
+      "daily": "£240 per person / day",
+      "accommodation": "£130 3★ hotel",
+      "food": "£55",
+      "transport": "£8.90 cap",
+      "activities": "£35",
+      "extras": "£11"
+    },
+    "luxury": {
+      "daily": "£820 per person / day",
+      "accommodation": "£600 5★",
+      "food": "£120",
+      "transport": "£20 Uber",
+      "activities": "£60 Fast-Track",
+      "extras": "£20 tips + café"
+    }
+  }
+}

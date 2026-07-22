@@ -1,0 +1,23 @@
+{
+  "name": "travel-guides",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "pdf": "node scripts/generate-pdf.mjs",
+    "pdf:london": "node scripts/generate-pdf.mjs cities/london-pdf.html cities/london.pdf",
+    "pdf:ar": "node scripts/generate-pdf.mjs --ar --all",
+    "translate:ar": "node scripts/translate-ar.mjs --all",
+    "verify:ar": "node scripts/verify-ar-coverage.mjs",
+    "verify:html-ar": "node scripts/verify-html-ar.mjs",
+    "wire:ar": "node scripts/wire-ar-shells.mjs",
+    "normalize:images": "node scripts/normalize-image-urls.mjs data/london.js",
+    "new-city": "node scripts/new-city.mjs",
+    "verify:mobile": "node scripts/verify-mobile.mjs",
+    "audit:images": "node scripts/audit-images.mjs",
+    "fix:images": "node scripts/fix-broken-images.mjs"
+  },
+  "devDependencies": {
+    "google-translate-api-x": "^10.7.3",
+    "puppeteer": "^24.0.0"
+  }
+}

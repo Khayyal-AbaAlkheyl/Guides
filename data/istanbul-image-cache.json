@@ -1,0 +1,356 @@
+{
+  "Hagia Sophia": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Hagia_Sophia_%28228968325%29.jpeg/960px-Hagia_Sophia_%28228968325%29.jpeg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Hagia_Sophia_%28228968325%29.jpeg/960px-Hagia_Sophia_%28228968325%29.jpeg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Hagia_Sophia_%28228968325%29.jpeg/960px-Hagia_Sophia_%28228968325%29.jpeg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Hagia_Sophia_%28228968325%29.jpeg/960px-Hagia_Sophia_%28228968325%29.jpeg"
+  },
+  "Blue Mosque": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Sultanahmet Square": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Basilica Cistern": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Topkapı Palace": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Imperial Harem": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Spice Bazaar": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Grand Bazaar": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Süleymaniye Mosque": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Courtyard_of_the_S%C3%BCleymaniye_Mosque_in_Istanbul%2C_Turkey_004.jpg/960px-Courtyard_of_the_S%C3%BCleymaniye_Mosque_in_Istanbul%2C_Turkey_004.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Courtyard_of_the_S%C3%BCleymaniye_Mosque_in_Istanbul%2C_Turkey_004.jpg/960px-Courtyard_of_the_S%C3%BCleymaniye_Mosque_in_Istanbul%2C_Turkey_004.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/S%C3%BCleymaniye_mosque_interior_Istanbul_Turkey.jpg/960px-S%C3%BCleymaniye_mosque_interior_Istanbul_Turkey.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/S%C3%BCleymaniye_mosque_interior_Istanbul_Turkey.jpg/960px-S%C3%BCleymaniye_mosque_interior_Istanbul_Turkey.jpg"
+  },
+  "Galata Bridge": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Galata_Bridge_from_Galata_Tower.JPG/960px-Galata_Bridge_from_Galata_Tower.JPG",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Fishermen_on_Galata_Bridge.JPG/960px-Fishermen_on_Galata_Bridge.JPG",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/The_New_Mosque_%28Yeni_Cami%29_%288396058068%29.jpg/960px-The_New_Mosque_%28Yeni_Cami%29_%288396058068%29.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/The_New_Mosque_%28Yeni_Cami%29_%288396058068%29.jpg/960px-The_New_Mosque_%28Yeni_Cami%29_%288396058068%29.jpg"
+  },
+  "Galata Tower": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Galata_tower_01_23.jpg/960px-Galata_tower_01_23.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Galata_tower_01_23.jpg/960px-Galata_tower_01_23.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Galata_tower_01_23.jpg/960px-Galata_tower_01_23.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Galata_tower_01_23.jpg/960px-Galata_tower_01_23.jpg"
+  },
+  "Galataport": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Overview_of_Galataport_from_Cihangir_showing_Istanbul_Painting_and_Sculpture_Museum_on_left_and_Nusretiye_Mosque_on_right_with_Asian_shore_and_Princes%27_Islands_in_the_background.jpg/960px-thumbnail.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Overview_of_Galataport_from_Cihangir_showing_Istanbul_Painting_and_Sculpture_Museum_on_left_and_Nusretiye_Mosque_on_right_with_Asian_shore_and_Princes%27_Islands_in_the_background.jpg/960px-thumbnail.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Overview_of_Galataport_from_Cihangir_showing_Istanbul_Painting_and_Sculpture_Museum_on_left_and_Nusretiye_Mosque_on_right_with_Asian_shore_and_Princes%27_Islands_in_the_background.jpg/960px-thumbnail.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Overview_of_Galataport_from_Cihangir_showing_Istanbul_Painting_and_Sculpture_Museum_on_left_and_Nusretiye_Mosque_on_right_with_Asian_shore_and_Princes%27_Islands_in_the_background.jpg/960px-thumbnail.jpg"
+  },
+  "Bosphorus Cruise": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Ortaköy Mosque": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Istanbul_asv2020-02_img60_Ortak%C3%B6y_Mosque.jpg/960px-Istanbul_asv2020-02_img60_Ortak%C3%B6y_Mosque.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Istanbul_asv2020-02_img60_Ortak%C3%B6y_Mosque.jpg/960px-Istanbul_asv2020-02_img60_Ortak%C3%B6y_Mosque.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Istanbul_asv2020-02_img60_Ortak%C3%B6y_Mosque.jpg/960px-Istanbul_asv2020-02_img60_Ortak%C3%B6y_Mosque.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Istanbul_asv2020-02_img60_Ortak%C3%B6y_Mosque.jpg/960px-Istanbul_asv2020-02_img60_Ortak%C3%B6y_Mosque.jpg"
+  },
+  "Dolmabahçe Palace": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Dolmabahce_Istanbul_Turkey.jpg/960px-Dolmabahce_Istanbul_Turkey.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Dolmabahce_Istanbul_Turkey.jpg/960px-Dolmabahce_Istanbul_Turkey.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Dolmabahce_Istanbul_Turkey.jpg/960px-Dolmabahce_Istanbul_Turkey.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Dolmabahce_Istanbul_Turkey.jpg/960px-Dolmabahce_Istanbul_Turkey.jpg"
+  },
+  "Rumeli Fortress": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Istanbul%2C_Turkey_-_53686764072.jpg/960px-Istanbul%2C_Turkey_-_53686764072.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Istanbul%2C_Turkey_-_53686764072.jpg/960px-Istanbul%2C_Turkey_-_53686764072.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Istanbul%2C_Turkey_-_53686764072.jpg/960px-Istanbul%2C_Turkey_-_53686764072.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Istanbul%2C_Turkey_-_53686764072.jpg/960px-Istanbul%2C_Turkey_-_53686764072.jpg"
+  },
+  "Maiden's Tower": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Istanbul_K%C4%B1z_Kulesi_%2854511155871%29_%28cropped%29.jpg/960px-Istanbul_K%C4%B1z_Kulesi_%2854511155871%29_%28cropped%29.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Istanbul_K%C4%B1z_Kulesi_%2854511155871%29_%28cropped%29.jpg/960px-Istanbul_K%C4%B1z_Kulesi_%2854511155871%29_%28cropped%29.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Istanbul_K%C4%B1z_Kulesi_%2854511155871%29_%28cropped%29.jpg/960px-Istanbul_K%C4%B1z_Kulesi_%2854511155871%29_%28cropped%29.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Istanbul_K%C4%B1z_Kulesi_%2854511155871%29_%28cropped%29.jpg/960px-Istanbul_K%C4%B1z_Kulesi_%2854511155871%29_%28cropped%29.jpg"
+  },
+  "Çamlıca Mosque": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Kadıköy Market": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Balat": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Eyüp Mosque": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Pierre Loti Hill": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Emirgan Park": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Nişantaşı": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Arasta Bazaar": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Istinye Park": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Istinye_park_2007.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Istinye_park_2007.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Interior_of_%C4%B0stinye_Park.jpg/960px-Interior_of_%C4%B0stinye_Park.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/IstinyePark.jpg/960px-IstinyePark.jpg"
+  },
+  "The Peninsula Istanbul": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Overview_of_Galataport_from_Cihangir_showing_Istanbul_Painting_and_Sculpture_Museum_on_left_and_Nusretiye_Mosque_on_right_with_Asian_shore_and_Princes%27_Islands_in_the_background.jpg/960px-thumbnail.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Istanbul_city_Photos-_Urban_%D8%A2%DA%A9%D9%88%D8%A7%D8%B1%DB%8C%D9%88%D9%85_%D8%A8%D8%B2%D8%B1%DA%AF_%D8%A7%D8%B3%D8%AA%D8%A7%D9%86%D8%A8%D9%88%D9%84_%D8%AA%D8%B1%DA%A9%DB%8C%D9%87.jpg/960px-Istanbul_city_Photos-_Urban_%D8%A2%DA%A9%D9%88%D8%A7%D8%B1%DB%8C%D9%88%D9%85_%D8%A8%D8%B2%D8%B1%DA%AF_%D8%A7%D8%B3%D8%AA%D8%A7%D9%86%D8%A8%D9%88%D9%84_%D8%AA%D8%B1%DA%A9%DB%8C%D9%87.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Galataport_night.jpg/960px-Galataport_night.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Galataport_night.jpg/960px-Galataport_night.jpg"
+  },
+  "Four Seasons Hotel Bosphorus": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/%C3%87iragan_Palace_%288393817955%29.jpg/960px-%C3%87iragan_Palace_%288393817955%29.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/%C3%87iragan_Palace_%288393817955%29.jpg/960px-%C3%87iragan_Palace_%288393817955%29.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/%C3%87iragan_Palace_%288393817955%29.jpg/960px-%C3%87iragan_Palace_%288393817955%29.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/%C3%87iragan_Palace_%288393817955%29.jpg/960px-%C3%87iragan_Palace_%288393817955%29.jpg"
+  },
+  "Çırağan Palace Kempinski": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Raffles Istanbul": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/EAA_Zorlu_Center.jpg/960px-EAA_Zorlu_Center.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Zorlu_Center_%C4%B0stanbul%2C_p1.jpg/960px-Zorlu_Center_%C4%B0stanbul%2C_p1.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Zorlu_Center_-_Istanbul%2C_Turkey%2C_Apple_Store_02.jpg/960px-Zorlu_Center_-_Istanbul%2C_Turkey%2C_Apple_Store_02.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Zorlu_Center_-_Istanbul%2C_Turkey%2C_Apple_Store_02.jpg/960px-Zorlu_Center_-_Istanbul%2C_Turkey%2C_Apple_Store_02.jpg"
+  },
+  "Hotel DeCamondo Galata": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Istanbul_asv2020-02_img46_Galata_Bridge_and_Tower.jpg/960px-Istanbul_asv2020-02_img46_Galata_Bridge_and_Tower.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/20101106_Galata_Tower_Istanbul_Turkey_Panorama.jpg/960px-20101106_Galata_Tower_Istanbul_Turkey_Panorama.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/20101106_Galata_Tower_Istanbul_Turkey_Panorama.jpg/960px-20101106_Galata_Tower_Istanbul_Turkey_Panorama.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Istanbul_asv2020-02_img46_Galata_Bridge_and_Tower.jpg/960px-Istanbul_asv2020-02_img46_Galata_Bridge_and_Tower.jpg"
+  },
+  "JW Marriott Istanbul Bosphorus": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Istanbul_asv2020-02_img46_Galata_Bridge_and_Tower.jpg/960px-Istanbul_asv2020-02_img46_Galata_Bridge_and_Tower.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Old_Chevy_Bel_Air_%288558014506%29.jpg/960px-Old_Chevy_Bel_Air_%288558014506%29.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Old_Chevy_Bel_Air_%288558014506%29.jpg/960px-Old_Chevy_Bel_Air_%288558014506%29.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Istanbul_asv2020-02_img46_Galata_Bridge_and_Tower.jpg/960px-Istanbul_asv2020-02_img46_Galata_Bridge_and_Tower.jpg"
+  },
+  "The Bank Hotel": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Pera Palace Hotel": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Meroddi Galata Mansion": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Walton Hotels Galata": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Hotel Momento Golden Horn": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Novotel Bosphorus": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Seven Hills Restaurant": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Blue_Mosque_-_4.jpg/960px-Blue_Mosque_-_4.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Blue_Mosque_-_4.jpg/960px-Blue_Mosque_-_4.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Blue_Mosque_-_4.jpg/960px-Blue_Mosque_-_4.jpg",
+    "map": null
+  },
+  "Hafız Mustafa": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Kaday%C4%B1f_and_other_Turkish_desserts.jpg/960px-Kaday%C4%B1f_and_other_Turkish_desserts.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Kaday%C4%B1f_and_other_Turkish_desserts.jpg/960px-Kaday%C4%B1f_and_other_Turkish_desserts.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/5/55/Proclamation_second_c_era.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/5/55/Proclamation_second_c_era.jpg"
+  },
+  "Deraliye Ottoman Cuisine": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Village_oven.JPG/960px-Village_oven.JPG",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Village_oven.JPG/960px-Village_oven.JPG",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Village_oven.JPG/960px-Village_oven.JPG",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Village_oven.JPG/960px-Village_oven.JPG"
+  },
+  "Matbah Restaurant": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Pandeli Restaurant": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Hamdi Restaurant": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Namlı Gurme": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Petra Roasting Co.": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Karaköy Lokantası": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Feriye": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "House Café Ortaköy": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Banyan": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Sunset Grill & Bar": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Kanaat Lokantası": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Çiya Sofrası": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Velvet Café": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Forno Balat": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Ağa Kapısı": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Spice_Bazaar%2C_%C4%B0stanbul_%2812984443655%29.jpg/960px-Spice_Bazaar%2C_%C4%B0stanbul_%2812984443655%29.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Spice_Bazaar%2C_%C4%B0stanbul_%2812984443655%29.jpg/960px-Spice_Bazaar%2C_%C4%B0stanbul_%2812984443655%29.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Spice_Bazaar%2C_%C4%B0stanbul_%2812984443655%29.jpg/960px-Spice_Bazaar%2C_%C4%B0stanbul_%2812984443655%29.jpg",
+    "map": null
+  },
+  "Mangerie Bebek": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Constantinople%2C_old_and_new_%28IA_constantinopleol00dwigrich%29.pdf/page1-500px-Constantinople%2C_old_and_new_%28IA_constantinopleol00dwigrich%29.pdf.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Constantinople%2C_old_and_new_%28IA_constantinopleol00dwigrich%29.pdf/page1-500px-Constantinople%2C_old_and_new_%28IA_constantinopleol00dwigrich%29.pdf.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Constantinople%2C_old_and_new_%28IA_constantinopleol00dwigrich%29.pdf/page1-500px-Constantinople%2C_old_and_new_%28IA_constantinopleol00dwigrich%29.pdf.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Constantinople%2C_old_and_new_%28IA_constantinopleol00dwigrich%29.pdf/page1-500px-Constantinople%2C_old_and_new_%28IA_constantinopleol00dwigrich%29.pdf.jpg"
+  },
+  "Lacivert": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Mikla": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  }
+}

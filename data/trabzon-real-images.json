@@ -1,0 +1,242 @@
+{
+  "Trabzon Museum": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Trabzon_museum.jpg/960px-Trabzon_museum.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Trabzon_Museum_0039.jpg/960px-Trabzon_Museum_0039.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Trabzon_Museum_0043.jpg/960px-Trabzon_Museum_0043.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Trabzon_Museum_0035.jpg/960px-Trabzon_Museum_0035.jpg"
+  },
+  "Meydan Square": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Trabzon_Meydan.jpg/960px-Trabzon_Meydan.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Trabzon_Meydan_2.jpg/960px-Trabzon_Meydan_2.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Trabzon_Meydan_Park_%281%29.jpg/960px-Trabzon_Meydan_Park_%281%29.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Trabzon_Meydan_Park_%282%29.jpg/960px-Trabzon_Meydan_Park_%282%29.jpg"
+  },
+  "Zagnos Valley Park": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Zagnos_Valley_Park_in_Trabzon_%281%29.jpg/960px-Zagnos_Valley_Park_in_Trabzon_%281%29.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/9/97/Zagnos_park_and_Trabzon_city_walls.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Trabzon_Zagnos_Park%C4%B1_olu%C5%9Fturulmadan_%C3%B6nce_0123.jpg/960px-Trabzon_Zagnos_Park%C4%B1_olu%C5%9Fturulmadan_%C3%B6nce_0123.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Trabzon_Zagnos_Park%C4%B1_olu%C5%9Fturulmadan_%C3%B6nce_0126.jpg/960px-Trabzon_Zagnos_Park%C4%B1_olu%C5%9Fturulmadan_%C3%B6nce_0126.jpg"
+  },
+  "Boztepe": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Boztepe%2C_Trabzon_-_panoramio.jpg/960px-Boztepe%2C_Trabzon_-_panoramio.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Boztepe%2C_Trabzon_-_panoramio_%281%29.jpg/960px-Boztepe%2C_Trabzon_-_panoramio_%281%29.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Boztepe%2C_Trabzon_-_panoramio_%282%29.jpg/960px-Boztepe%2C_Trabzon_-_panoramio_%282%29.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Boztepe%2C_Trabzon.jpg/960px-Boztepe%2C_Trabzon.jpg"
+  },
+  "Sümela Monastery": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/4/44/Sumela_Monastery_%282674159860%29.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/S%C3%BCmela_Manast%C4%B1r%C4%B1_2014-1.jpg/960px-S%C3%BCmela_Manast%C4%B1r%C4%B1_2014-1.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/S%C3%BCmela_Manast%C4%B1r%C4%B1_2014-2.jpg/960px-S%C3%BCmela_Manast%C4%B1r%C4%B1_2014-2.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/S%C3%BCmela_Manast%C4%B1r%C4%B1_2014-5.jpg/960px-S%C3%BCmela_Manast%C4%B1r%C4%B1_2014-5.jpg"
+  },
+  "Altındere National Park": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Alt%C4%B1ndere_Valley_National_Park_01.jpg/960px-Alt%C4%B1ndere_Valley_National_Park_01.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Alt%C4%B1ndere_Valley_National_Park_02.jpg/960px-Alt%C4%B1ndere_Valley_National_Park_02.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Alt%C4%B1ndere_Valley_National_Park_03.jpg/960px-Alt%C4%B1ndere_Valley_National_Park_03.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Alt%C4%B1ndere_Valley_National_Park_06.jpg/960px-Alt%C4%B1ndere_Valley_National_Park_06.jpg"
+  },
+  "Uzungöl Lake": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Uzung%C3%B6l_lake_and_town.jpg/960px-Uzung%C3%B6l_lake_and_town.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Uzung%C3%B6l_08.jpg/960px-Uzung%C3%B6l_08.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Uzung%C3%B6l_12.jpg/960px-Uzung%C3%B6l_12.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Uzung%C3%B6l_14.jpg/960px-Uzung%C3%B6l_14.jpg"
+  },
+  "Ayder Plateau": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Ayder_Yaylas%C4%B1_-_panoramio.jpg/960px-Ayder_Yaylas%C4%B1_-_panoramio.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Ayder%2C_August_2019_%281%29.jpg/960px-Ayder%2C_August_2019_%281%29.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Ayder%2C_August_2019_%282%29.jpg/960px-Ayder%2C_August_2019_%282%29.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Ayder%2C_August_2019_%283%29.jpg/960px-Ayder%2C_August_2019_%283%29.jpg"
+  },
+  "Gelin Tülü Waterfall": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Gelin_Tulu_Waterfall.jpg/960px-Gelin_Tulu_Waterfall.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Gelint%C3%BCl%C3%BC_Waterfall.jpg/960px-Gelint%C3%BCl%C3%BC_Waterfall.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Waterfalls_ayder_rize.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/2/22/-ayder_-turkey_-trabzon_-waterfalls_-nature_%2814251987354%29.jpg"
+  },
+  "Sera Lake": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Sera_G%C3%B6l%C3%BC.._-_panoramio.jpg/960px-Sera_G%C3%B6l%C3%BC.._-_panoramio.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Sera_G%C3%B6l%C3%BC.jpg/960px-Sera_G%C3%B6l%C3%BC.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Sera_G%C3%B6l%C3%BC%27nde_Tur.jpg/960px-Sera_G%C3%B6l%C3%BC%27nde_Tur.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Sera_G%C3%B6l%C3%BC_Turu.jpg/960px-Sera_G%C3%B6l%C3%BC_Turu.jpg"
+  },
+  "Akçaabat": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Ortamahalle.jpg/960px-Ortamahalle.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Ak%C3%A7aabat01_-_panoramio.jpg/960px-Ak%C3%A7aabat01_-_panoramio.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Trabzon_Ak%C3%A7aabat.jpg/960px-Trabzon_Ak%C3%A7aabat.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/61300_Mersin-Ak%C3%A7aabat-Trabzon%2C_Turkey_-_panoramio.jpg/960px-61300_Mersin-Ak%C3%A7aabat-Trabzon%2C_Turkey_-_panoramio.jpg"
+  },
+  "Trabzon Botanical Garden": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Ye%C5%9Fillikler_Ard%C4%B1nda_Sera_G%C3%B6l%C3%BC.jpg/960px-Ye%C5%9Fillikler_Ard%C4%B1nda_Sera_G%C3%B6l%C3%BC.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Sera_G%C3%B6l%C3%BC_ve_Kaz_G%C3%BCzelli%C4%9Fi.jpg/960px-Sera_G%C3%B6l%C3%BC_ve_Kaz_G%C3%BCzelli%C4%9Fi.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Sera_G%C3%B6l%C3%BC_Ak%C3%A7aabat_Trabzon.jpg/960px-Sera_G%C3%B6l%C3%BC_Ak%C3%A7aabat_Trabzon.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Seralake02.jpg/960px-Seralake02.jpg"
+  },
+  "Atatürk Pavilion": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Trabzon_Atat%C3%BCrk_K%C3%B6%C5%9Fk%C3%BC_%281%29.JPG/960px-Trabzon_Atat%C3%BCrk_K%C3%B6%C5%9Fk%C3%BC_%281%29.JPG",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Atat%C3%BCrk_K%C3%B6%C5%9Fk%C3%BC-Trabzon-01.jpg/960px-Atat%C3%BCrk_K%C3%B6%C5%9Fk%C3%BC-Trabzon-01.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Atat%C3%BCrk_K%C3%B6%C5%9Fk%C3%BC-Trabzon-04.jpg/960px-Atat%C3%BCrk_K%C3%B6%C5%9Fk%C3%BC-Trabzon-04.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Atat%C3%BCrk_K%C3%B6%C5%9Fk%C3%BC-Trabzon-05.jpg/960px-Atat%C3%BCrk_K%C3%B6%C5%9Fk%C3%BC-Trabzon-05.jpg"
+  },
+  "Trabzon Aquarium": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Faroz%2C_Trabzon.jpg/960px-Faroz%2C_Trabzon.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Trabzon%2Charbour.jpg/960px-Trabzon%2Charbour.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Trabzon_-_view_of_the_city.jpg/960px-Trabzon_-_view_of_the_city.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Trabzon_cityscape.jpg/960px-Trabzon_cityscape.jpg"
+  },
+  "Hıdırnebi Plateau": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Hidirnebi.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Hamsik%C3%B6y_Panaroma.jpg/960px-Hamsik%C3%B6y_Panaroma.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Hamsik%C3%B6y_2014-1.jpg/960px-Hamsik%C3%B6y_2014-1.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Hamsik%C3%B6y_2014-4.jpg/960px-Hamsik%C3%B6y_2014-4.jpg"
+  },
+  "Çal Cave": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/%C3%87al_Ma%C4%9Faras%C4%B13.jpg/960px-%C3%87al_Ma%C4%9Faras%C4%B13.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/%C3%87al_Ma%C4%9Faras%C4%B12.jpg/960px-%C3%87al_Ma%C4%9Faras%C4%B12.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/%C3%87al_Ma%C4%9Faras%C4%B11.jpg/960px-%C3%87al_Ma%C4%9Faras%C4%B11.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/%C3%87al_Ma%C4%9Faras%C4%B14.jpg/960px-%C3%87al_Ma%C4%9Faras%C4%B14.jpg"
+  },
+  "Radisson Blu Hotel Trabzon": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/USTA_OTEL_CATIDAN_KARADENIZ.TRABZON_-_panoramio.jpg/960px-USTA_OTEL_CATIDAN_KARADENIZ.TRABZON_-_panoramio.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Trabzon_aqueduct.JPG/960px-Trabzon_aqueduct.JPG",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Trabzon_City_walls_and_Aquaduct.JPG/960px-Trabzon_City_walls_and_Aquaduct.JPG",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Panorama_de_Trebizonde.jpg/960px-Panorama_de_Trebizonde.jpg"
+  },
+  "DoubleTree by Hilton Trabzon": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Usta_park_hotel_trabzon_zicht_richting_centrum_-_panoramio.jpg/960px-Usta_park_hotel_trabzon_zicht_richting_centrum_-_panoramio.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Long_Lake_of_Trabzon.jpg/960px-Long_Lake_of_Trabzon.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Panorama_de_Trebizonde_2.jpg/960px-Panorama_de_Trebizonde_2.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Panorama_on_Trebizond.jpg/960px-Panorama_on_Trebizond.jpg"
+  },
+  "Movenpick Hotel Trabzon": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Hacer_keskin_Resort_Hotel_-_panoramio.jpg/960px-Hacer_keskin_Resort_Hotel_-_panoramio.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Trabzon_view_4858_panorama.jpg/960px-Trabzon_view_4858_panorama.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Trabzon%2C_Trabzon_Merkez-Trabzon%2C_Turkey_-_panoramio_%286%29.jpg/960px-Trabzon%2C_Trabzon_Merkez-Trabzon%2C_Turkey_-_panoramio_%286%29.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Trabzon%2CKizlar1.jpg/960px-Trabzon%2CKizlar1.jpg"
+  },
+  "Movenpick Hotel TRABZON": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Hacer_keskin_Resort_Hotel_-_panoramio.jpg/960px-Hacer_keskin_Resort_Hotel_-_panoramio.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Trabzon_view_4858_panorama.jpg/960px-Trabzon_view_4858_panorama.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Trabzon%2C_Trabzon_Merkez-Trabzon%2C_Turkey_-_panoramio_%286%29.jpg/960px-Trabzon%2C_Trabzon_Merkez-Trabzon%2C_Turkey_-_panoramio_%286%29.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Trabzon%2CKizlar1.jpg/960px-Trabzon%2CKizlar1.jpg"
+  },
+  "Zorlu Grand Hotel": {
+    "hero": "../assets/hotels/zorlu-grand-hotel.png",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Panoromik_Trabzon.jpg/960px-Panoromik_Trabzon.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Trabzon_aqueduct.JPG/960px-Trabzon_aqueduct.JPG",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Trabzon_City_walls_and_Aquaduct.JPG/960px-Trabzon_City_walls_and_Aquaduct.JPG"
+  },
+  "Novotel Trabzon": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Trabzon_-_view_of_the_city.jpg/960px-Trabzon_-_view_of_the_city.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Panorama_de_Trebizonde.jpg/960px-Panorama_de_Trebizonde.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Panorama_de_Trebizonde_2.jpg/960px-Panorama_de_Trebizonde_2.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Trabzon_view_4858_panorama.jpg/960px-Trabzon_view_4858_panorama.jpg"
+  },
+  "Mercure Trabzon Otel": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Panoromik_Trabzon.jpg/960px-Panoromik_Trabzon.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Trabzon%2C_Trabzon_Merkez-Trabzon%2C_Turkey_-_panoramio_%286%29.jpg/960px-Trabzon%2C_Trabzon_Merkez-Trabzon%2C_Turkey_-_panoramio_%286%29.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Trabzon%2CKizlar1.jpg/960px-Trabzon%2CKizlar1.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Panorama_on_Trebizond.jpg/960px-Panorama_on_Trebizond.jpg"
+  },
+  "PEERLESS VİLLAS HOTEL": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Uzung%C3%B6l_Manzaras%C4%B1_Trabzon.jpg/960px-Uzung%C3%B6l_Manzaras%C4%B1_Trabzon.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Uzung%C3%B6l_cami.JPG/960px-Uzung%C3%B6l_cami.JPG",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Uzung%C3%B6l_%288%29.jpg/960px-Uzung%C3%B6l_%288%29.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Uzung%C3%B6l_lake_mosque.jpg/960px-Uzung%C3%B6l_lake_mosque.jpg"
+  },
+  "MELL BOUTIQUE HOTEL": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/5/52/Kayalar_Pansion.JPG",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/5/58/Hotel_Chefac%2C_Trebizonde.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/4/46/Hotel_Chems%2C_Trebizond.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Hotel_Djian_Trebizond.jpg"
+  },
+  "Beton Helva Kahvaltı": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/6/64/TurkishBreakfastAtCesme.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/%C3%87aml%C4%B1hem%C5%9Fin_--_Muhlama_%285019844858%29.jpg/960px-%C3%87aml%C4%B1hem%C5%9Fin_--_Muhlama_%285019844858%29.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Kuymak_in_a_sahan.jpg/960px-Kuymak_in_a_sahan.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Glass_of_tea_05119.jpg/960px-Glass_of_tea_05119.jpg"
+  },
+  "Neşve Coffee": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Turkish_coffee_in_Istanbul.jpg/960px-Turkish_coffee_in_Istanbul.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Turkish_coffee_in_Ankara.jpg/960px-Turkish_coffee_in_Ankara.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Roasted_coffee_beans.jpg/960px-Roasted_coffee_beans.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Turkish_k%C3%BCnefe_and_tea.jpg/960px-Turkish_k%C3%BCnefe_and_tea.jpg"
+  },
+  "Cemilusta Akçaabat Köfte": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Akcaabatkofte.jpg/960px-Akcaabatkofte.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Pirzola_and_k%C3%B6fte.jpg/960px-Pirzola_and_k%C3%B6fte.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Beef_kofta_kebab_at_the_Folklife_Festival.jpg/960px-Beef_kofta_kebab_at_the_Folklife_Festival.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/7/7e/EgFoodKofta.jpg"
+  },
+  "Cephanelik Restaurant": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Trebisonda%2C_Cephanelik_%28ex-polveriera%2C_oggi_hotel%29_01.jpg/960px-Trebisonda%2C_Cephanelik_%28ex-polveriera%2C_oggi_hotel%29_01.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Trebisonda%2C_Cephanelik_%28ex-polveriera%2C_oggi_hotel%29_02_interno.jpg/960px-Trebisonda%2C_Cephanelik_%28ex-polveriera%2C_oggi_hotel%29_02_interno.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Black_Sea_Fish_and_Grill_Restaurant_03.jpg/960px-Black_Sea_Fish_and_Grill_Restaurant_03.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Black_Sea_Fish_and_Grill_Restaurant_01.jpg/960px-Black_Sea_Fish_and_Grill_Restaurant_01.jpg"
+  },
+  "Hamsiköy": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Hamsik%C3%B6y_-_panoramio.jpg/960px-Hamsik%C3%B6y_-_panoramio.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/61750_Hamsik%C3%B6y-Ma%C3%A7ka-Trabzon%2C_Turkey_-_panoramio.jpg/960px-61750_Hamsik%C3%B6y-Ma%C3%A7ka-Trabzon%2C_Turkey_-_panoramio.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/61750_Hamsik%C3%B6y-Ma%C3%A7ka-Trabzon%2C_Turkey_-_panoramio_%281%29.jpg/960px-61750_Hamsik%C3%B6y-Ma%C3%A7ka-Trabzon%2C_Turkey_-_panoramio_%281%29.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Hamsik%C3%B6y_2014-3.jpg/960px-Hamsik%C3%B6y_2014-3.jpg"
+  },
+  "Hamsiköy Sütlaç": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/e/e3/S%C3%BCtla%C3%A7_%28Turkish_style_rice_pudding%29_in_Trabzon.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/F%C4%B1r%C4%B1n_sutlac.jpg/960px-F%C4%B1r%C4%B1n_sutlac.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/S%C3%BCtla%C3%A7_%28Turkish_rice_pudding%29.jpeg/960px-S%C3%BCtla%C3%A7_%28Turkish_rice_pudding%29.jpeg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Turkish_s%C3%BCtla%C3%A7_-_1.jpg/960px-Turkish_s%C3%BCtla%C3%A7_-_1.jpg"
+  },
+  "İnan Kardeşler Restaurant": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Uzungol_Trout_restaurant_and_mosque.jpg/960px-Uzungol_Trout_restaurant_and_mosque.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Uzung%C3%B6l%2C_Trabzon_2014.jpg/960px-Uzung%C3%B6l%2C_Trabzon_2014.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Uzung%C3%B6l_15.jpg/960px-Uzung%C3%B6l_15.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Uzung%C3%B6l_112020.jpg/960px-Uzung%C3%B6l_112020.jpg"
+  },
+  "Balık Restaurant": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/BalikEkmek.jpg/960px-BalikEkmek.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Balik_ekmek_Galata_Bridge.JPG/960px-Balik_ekmek_Galata_Bridge.JPG",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Uskumru_%28grilled%29.jpg/960px-Uskumru_%28grilled%29.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Bal%C4%B1k_D%C3%BCr%C3%BCm_01.jpg/960px-Bal%C4%B1k_D%C3%BCr%C3%BCm_01.jpg"
+  },
+  "Nihat Usta": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/6/65/N%C4%B0HAT_USTA.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Karadeniz_pide_-_panoramio.jpg/960px-Karadeniz_pide_-_panoramio.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Karde%C5%9Fler_karadeniz_pide_-_panoramio.jpg/960px-Karde%C5%9Fler_karadeniz_pide_-_panoramio.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Peynirli_pide_from_G%C3%B6rele.jpg/960px-Peynirli_pide_from_G%C3%B6rele.jpg"
+  },
+  "Forum Trabzon": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Forum_AVM_TRABZON_-_panoramio.jpg/960px-Forum_AVM_TRABZON_-_panoramio.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/KFC_Trabzon.jpg/960px-KFC_Trabzon.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Popeyes_Trabzon.jpg/960px-Popeyes_Trabzon.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Trabzon_City_Centre.jpg/960px-Trabzon_City_Centre.jpg"
+  },
+  "Akçaabat Market": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/61300_%C3%87%C4%B1narl%C4%B1k-Ak%C3%A7aabat-Trabzon%2C_Turkey_-_panoramio.jpg/960px-61300_%C3%87%C4%B1narl%C4%B1k-Ak%C3%A7aabat-Trabzon%2C_Turkey_-_panoramio.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/%C3%87olakl%C4%B1%2C_Trabzon_Giresun_Yolu_No-183%2C_61300_Ak%C3%A7aabat-Trabzon%2C_Turkey_-_panoramio.jpg/960px-%C3%87olakl%C4%B1%2C_Trabzon_Giresun_Yolu_No-183%2C_61300_Ak%C3%A7aabat-Trabzon%2C_Turkey_-_panoramio.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Turkish_road_market_-_panoramio.jpg/960px-Turkish_road_market_-_panoramio.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/A_street_market_vendor_sells_yapra%C4%9F%C4%B1_leafs.jpg/960px-A_street_market_vendor_sells_yapra%C4%9F%C4%B1_leafs.jpg"
+  },
+  "Akçaabat Tuesday Market": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/61300_Mersin-Ak%C3%A7aabat-Trabzon%2C_Turkey_-_panoramio.jpg/960px-61300_Mersin-Ak%C3%A7aabat-Trabzon%2C_Turkey_-_panoramio.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Ak%C3%A7aabat01_-_panoramio.jpg/960px-Ak%C3%A7aabat01_-_panoramio.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Turkish_road_market_-_panoramio.jpg/960px-Turkish_road_market_-_panoramio.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/A_street_market_vendor_sells_yapra%C4%9F%C4%B1_leafs.jpg/960px-A_street_market_vendor_sells_yapra%C4%9F%C4%B1_leafs.jpg"
+  },
+  "Uzungöl Souvenir Stalls": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Uzung%C3%B6l_%288%29.jpg/960px-Uzung%C3%B6l_%288%29.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Uzung%C3%B6l_Manzaras%C4%B1_Trabzon.jpg/960px-Uzung%C3%B6l_Manzaras%C4%B1_Trabzon.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Uzung%C3%B6l_cami.JPG/960px-Uzung%C3%B6l_cami.JPG",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Uzung%C3%B6l_lake_mosque.jpg/960px-Uzung%C3%B6l_lake_mosque.jpg"
+  },
+  "Zagnos Valley bridges": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Trebisonda%2C_ponte_di_za%C4%9Fnos_01.jpg/960px-Trebisonda%2C_ponte_di_za%C4%9Fnos_01.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Trebisonda%2C_ponte_di_za%C4%9Fnos_02.jpg/960px-Trebisonda%2C_ponte_di_za%C4%9Fnos_02.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Trebisonda%2C_ponte_di_za%C4%9Fnos_05.jpg/960px-Trebisonda%2C_ponte_di_za%C4%9Fnos_05.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Trabzon_Zagnos_Park%C4%B1_olu%C5%9Fturulmadan_%C3%B6nce_under_G%C3%BClbahar_Hatun_K%C3%B6pr%C3%BCs%C3%BC_4919.jpg/960px-Trabzon_Zagnos_Park%C4%B1_olu%C5%9Fturulmadan_%C3%B6nce_under_G%C3%BClbahar_Hatun_K%C3%B6pr%C3%BCs%C3%BC_4919.jpg"
+  },
+  "Atatürk Pavilion garden": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Atat%C3%BCrk_K%C3%B6%C5%9Fk%C3%BC-Trabzon-03.jpg/960px-Atat%C3%BCrk_K%C3%B6%C5%9Fk%C3%BC-Trabzon-03.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Atat%C3%BCrk_K%C3%B6%C5%9Fk%C3%BC-Trabzon-02.jpg/960px-Atat%C3%BCrk_K%C3%B6%C5%9Fk%C3%BC-Trabzon-02.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Trabzon_Atat%C3%BCrk_K%C3%B6%C5%9Fk%C3%BC%21.jpg/960px-Trabzon_Atat%C3%BCrk_K%C3%B6%C5%9Fk%C3%BC%21.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Atat%C3%BCrk_K%C3%B6%C5%9Fk%C3%BC_Trabzon.jpg/960px-Atat%C3%BCrk_K%C3%B6%C5%9Fk%C3%BC_Trabzon.jpg"
+  }
+}

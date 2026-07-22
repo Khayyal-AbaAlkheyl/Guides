@@ -1,0 +1,521 @@
+{
+  "attractions": [
+    {
+      "hours": "09:00–17:30 · closed 24–26 Dec",
+      "ticket": "£33.60 adult",
+      "bestArrival": "09:00",
+      "waitSummer": "40–70 min",
+      "waitWinter": "10–20 min",
+      "photoSpot": "From the north bank of the Thames near St Katharine Docks — 5 min walk.",
+      "tip": "Buy online, save £4. Yeoman Warder tours run every 30 min — do not skip.",
+      "bookText": "Book Tickets",
+      "avgVisit": "2.5 hours",
+      "didYouKnow": "The Tower has housed the Crown Jewels since the 17th century and has served as a royal palace, prison, and mint.",
+      "localSecret": "Skip the main gift shop — the independent bookshop at St Katharine Docks has better history titles at half the price.",
+      "nearbyCafes": "Perky Blenders Tower Bridge · WatchHouse Tower · Canteen M by Montcalm",
+      "nearbyRestaurants": "Dishoom Shoreditch · Coppa Club Tower Bridge · Gunpowder",
+      "nearbyTube": "Tower Hill (District/Circle) · Tower Gateway (DLR) · London Bridge"
+    },
+    {
+      "hours": "09:30–18:00",
+      "ticket": "£13.40 adult",
+      "bestArrival": "10:00 or 16:30",
+      "waitSummer": "15–30 min",
+      "waitWinter": "5–10 min",
+      "photoSpot": "Potters Fields Park (5 min walk) at blue hour.",
+      "tip": "Bridge lift times are published online — a bascule lift is unforgettable and free from the pavement.",
+      "bookText": "Book Tickets",
+      "avgVisit": "1.5 hours",
+      "didYouKnow": "Tower Bridge took eight years to build and opened in 1894 — it is often mistaken for London Bridge.",
+      "localSecret": "The glass floor walkway is quieter in the first hour after opening — book the 09:30 slot online.",
+      "nearbyCafes": "WatchHouse Tower · Perky Blenders · Horniman at Hays",
+      "nearbyRestaurants": "Coppa Club · M Restaurant Threadneedle · Brindisa Borough",
+      "nearbyTube": "Tower Hill · London Bridge · Bermondsey"
+    },
+    {
+      "hours": "09:30–15:30 · closed Sun to tourists",
+      "ticket": "£29 adult",
+      "bestArrival": "09:30",
+      "waitSummer": "30–50 min",
+      "waitWinter": "10–20 min",
+      "photoSpot": "From Parliament Square with the abbey's twin west towers.",
+      "tip": "Evensong at 17:00 is free and utterly transporting — no camera, just listen.",
+      "bookText": "Book Tickets",
+      "avgVisit": "2 hours",
+      "didYouKnow": "Every British monarch since 1066 has been crowned here, except Edward V and Edward VIII.",
+      "localSecret": "The Cellarium Café in the abbey cloisters serves excellent cream tea — most tourists walk past it.",
+      "nearbyCafes": "Storey's Gate Café · Westminster Abbey Cellarium · Redemption Roasters",
+      "nearbyRestaurants": "The Cinnamon Club · Roux at Parliament Square · Cellarium Café",
+      "nearbyTube": "Westminster (exit 6 for Big Ben) · St James's Park"
+    },
+    {
+      "hours": "Exterior 24/7 · tours Sat + recess",
+      "ticket": "£33 UK Parliament tour",
+      "bestArrival": "Sunset from Westminster Bridge",
+      "waitSummer": "0 (exterior)",
+      "waitWinter": "0",
+      "photoSpot": "North end of Westminster Bridge, tripod-friendly late evening.",
+      "tip": "Cross to the south bank for the classic composition with the London Eye foreground.",
+      "bookText": "Book Tour",
+      "avgVisit": "45 min (exterior)",
+      "didYouKnow": "Big Ben is actually the name of the bell, not the tower — the tower is Elizabeth Tower.",
+      "localSecret": "Locals skip the bridge crowds at sunset and shoot from the Lambeth Pier steps instead — same skyline, half the people.",
+      "nearbyCafes": "Storey's Gate Café · Redemption Roasters · Pret Westminster",
+      "nearbyRestaurants": "Regency Café (8 min) · Poppie's Fish & Chips · Roux at Parliament Square",
+      "nearbyTube": "Westminster exit 6 · Embankment"
+    },
+    {
+      "hours": "11:00–18:00 · later in summer",
+      "ticket": "£40.50 online",
+      "bestArrival": "After 18:00",
+      "waitSummer": "45–90 min",
+      "waitWinter": "15–30 min",
+      "photoSpot": "From Golden Jubilee Bridge — full wheel + Big Ben in one frame.",
+      "tip": "Fast Track ticket saves 60+ min in summer. Sunset flight is worth every pound.",
+      "bookText": "Fast Track",
+      "avgVisit": "1 hour",
+      "didYouKnow": "Each rotation takes about 30 minutes and on a clear day you can see up to 40 miles.",
+      "localSecret": "The free viewing terrace at Oxo Tower (9th floor) gives a similar panorama without the queue — book a cocktail instead.",
+      "nearbyCafes": "Monmouth Coffee Southbank · Gabriel's Wharf · FCB Coffee",
+      "nearbyRestaurants": "Skylon · Oxo Tower Restaurant · Gillray's Steakhouse",
+      "nearbyTube": "Waterloo · Westminster · Embankment"
+    },
+    {
+      "hours": "Jul–Sep 09:30–19:30",
+      "ticket": "£35 State Rooms · summer only",
+      "bestArrival": "Changing of the Guard 11:00",
+      "waitSummer": "30–60 min",
+      "waitWinter": "—",
+      "photoSpot": "Victoria Memorial steps — dead-centre framing.",
+      "tip": "Guard change is Mon/Wed/Fri/Sun in most seasons. Arrive by 10:15 for a spot on the railings.",
+      "bookText": "Book Tickets",
+      "avgVisit": "2 hours",
+      "didYouKnow": "The palace has 775 rooms and the balcony where the Royal Family appears was added in 1850.",
+      "localSecret": "Walk through Green Park to The Mall at 10:45 — you'll see the guards marching in without the fence crush.",
+      "nearbyCafes": "The Rubens Hotel afternoon tea · Fortnum's at St James's · WatchHouse St James's",
+      "nearbyRestaurants": "The Wolseley · Hawksmoor Air Street · Quilon",
+      "nearbyTube": "Green Park · Victoria · St James's Park"
+    },
+    {
+      "hours": "10:00–17:00 · Fri to 20:30",
+      "ticket": "Free · donations",
+      "bestArrival": "10:00 sharp or Fri evening",
+      "waitSummer": "20–30 min security",
+      "waitWinter": "10 min",
+      "photoSpot": "Great Court roof from the balcony — Norman Foster's masterpiece.",
+      "tip": "Rosetta Stone gets crowded by 11:00. See it first, then work backwards through Egypt and Greece.",
+      "bookText": "Free Entry",
+      "avgVisit": "3 hours",
+      "didYouKnow": "The museum holds over 8 million objects — less than 1% is on display at any time.",
+      "localSecret": "Friday late opening until 20:30 is the quietest time to see the Rosetta Stone without a crowd.",
+      "nearbyCafes": "Monmouth Coffee · Store Street Espresso · Great Court Restaurant",
+      "nearbyRestaurants": "Hawksmoor Seven Dials · Flat Iron · Dishoom Covent Garden",
+      "nearbyTube": "Tottenham Court Rd · Holborn · Russell Square"
+    },
+    {
+      "hours": "10:00–17:50",
+      "ticket": "Free · exhibitions ticketed",
+      "bestArrival": "Weekdays 10:00",
+      "waitSummer": "20–40 min",
+      "waitWinter": "10 min",
+      "photoSpot": "Hintze Hall with the blue whale from the first floor balcony.",
+      "tip": "Use the exhibition-road entrance — no queue, better for prams.",
+      "bookText": "Free Entry",
+      "avgVisit": "2.5 hours",
+      "didYouKnow": "Hope the blue whale skeleton replaced Dippy the diplodocus in 2017 and weighs 4.5 tonnes.",
+      "localSecret": "Enter via Exhibition Road — the Cromwell Road queue is almost entirely tourists who don't know the side door.",
+      "nearbyCafes": "V&A Café · Benugo South Kensington · Fernandez & Wells",
+      "nearbyRestaurants": "Cacciari's · Bumpkin South Kensington · The Good Earth",
+      "nearbyTube": "South Kensington · Gloucester Road"
+    },
+    {
+      "hours": "Mon–Sat 08:30–16:30",
+      "ticket": "£25 online",
+      "bestArrival": "09:00 opening",
+      "waitSummer": "10–20 min",
+      "waitWinter": "5 min",
+      "photoSpot": "From the Millennium Bridge — Wren's dome dead-centred.",
+      "tip": "Climb to the Golden Gallery (528 steps) — the view is worth every one.",
+      "bookText": "Book Tickets",
+      "avgVisit": "2 hours",
+      "didYouKnow": "St Paul's dome was the tallest building in London from 1710 until 1963.",
+      "localSecret": "One New Change rooftop (free) gives a stunning eye-level view of the dome — locals use it for proposals.",
+      "nearbyCafes": "Pret St Paul's · Costa Paternoster Row · WatchHouse St Paul's",
+      "nearbyRestaurants": "Bread Street Kitchen · The Restaurant at St Paul's · Caravan City",
+      "nearbyTube": "St Paul's · Mansion House · Blackfriars"
+    },
+    {
+      "hours": "10:00–22:00",
+      "ticket": "£32 online",
+      "bestArrival": "45 min before sunset",
+      "waitSummer": "20–40 min",
+      "waitWinter": "10 min",
+      "photoSpot": "Level 72 — the open-air deck. Sunset gold on Tower Bridge below.",
+      "tip": "Combined day+night ticket for £10 more — best value in London.",
+      "bookText": "Book Tickets",
+      "avgVisit": "1.5 hours",
+      "didYouKnow": "At 309.6 metres, The Shard is the tallest building in Western Europe.",
+      "localSecret": "Sky Garden is free with advance booking and offers a comparable view — book 3 weeks ahead if The Shard feels pricey.",
+      "nearbyCafes": "Monmouth Borough · WatchHouse Shard · FCB London Bridge",
+      "nearbyRestaurants": "Aqua Shard · Oblix · Hutong",
+      "nearbyTube": "London Bridge · Bermondsey"
+    },
+    {
+      "hours": "10:00–20:00 shops",
+      "ticket": "Free entry",
+      "bestArrival": "Evening 18:00+",
+      "waitSummer": "—",
+      "waitWinter": "—",
+      "photoSpot": "Under the glass roof looking down at street performers.",
+      "tip": "Neal's Yard is a 3-minute walk — most tourists never find it.",
+      "bookText": "Open in Maps",
+      "avgVisit": "2 hours",
+      "didYouKnow": "Covent Garden was London's main fruit and vegetable market until 1974 when it moved to Nine Elms.",
+      "localSecret": "Walk through Neal's Yard to Monmouth Coffee — skip the piazza chains entirely.",
+      "nearbyCafes": "Monmouth Coffee · Flat White · Balthazar Boulangerie",
+      "nearbyRestaurants": "Dishoom · The Ivy Market Grill · Sushisamba",
+      "nearbyTube": "Covent Garden · Leicester Square · Holborn"
+    },
+    {
+      "hours": "10:00–18:00 · food to late",
+      "ticket": "Free entry",
+      "bestArrival": "Weekends 11:00",
+      "waitSummer": "—",
+      "waitWinter": "—",
+      "photoSpot": "Regent's Canal towpath toward the lock at golden hour.",
+      "tip": "Walk to Primrose Hill via the canal — 20 min, the best skyline view in London.",
+      "bookText": "Open in Maps",
+      "avgVisit": "2.5 hours",
+      "didYouKnow": "Camden Lock was built in 1819 and the market grew around the canal trade in the 1970s.",
+      "localSecret": "Skip the main street stalls — the Stables Market courtyard has better vintage at lower prices.",
+      "nearbyCafes": "Monmouth Coffee Camden · The Coffee Jar · Papersmiths café",
+      "nearbyRestaurants": "Hawker House · KERB Camden · Made in Brazil",
+      "nearbyTube": "Camden Town · Chalk Farm · Mornington Crescent"
+    }
+  ],
+  "hotels": [
+    {
+      "category": "Luxury",
+      "room": "Personality Suite · Thames view",
+      "tube": "Charing Cross 5 min walk",
+      "address": "Strand · WC2R 0EU",
+      "airport": "LHR 45 min · LGW 55 min",
+      "nearbyAttractions": "Covent Garden 3 min · Somerset House 5 min",
+      "cancellation": "Free 48h · flexible rate"
+    },
+    {
+      "category": "Luxury",
+      "room": "Superior King · Art-Deco heritage",
+      "tube": "Bond Street 3 min",
+      "address": "Brook St · Mayfair · W1K 4HR",
+      "airport": "LHR 40 min · LGW 60 min",
+      "nearbyAttractions": "Bond St 2 min · Hyde Park 10 min",
+      "cancellation": "Free 72h"
+    },
+    {
+      "category": "Luxury",
+      "room": "Deluxe Queen · Louis XVI style",
+      "tube": "Green Park 2 min",
+      "address": "150 Piccadilly · W1J 9BR",
+      "airport": "LHR 45 min · LGW 55 min",
+      "nearbyAttractions": "Green Park 1 min · Royal Academy 5 min",
+      "cancellation": "Free 7 days"
+    },
+    {
+      "category": "Luxury",
+      "room": "Manor House Wing",
+      "tube": "Holborn 3 min",
+      "address": "252 High Holborn · WC1V 7EN",
+      "airport": "LHR 50 min · LGW 60 min",
+      "nearbyAttractions": "British Museum 5 min · Covent Garden 8 min",
+      "cancellation": "Free 48h"
+    },
+    {
+      "category": "Mid-Range",
+      "room": "Roomy · exposed brick",
+      "tube": "Holborn 2 min",
+      "address": "199–206 High Holborn · WC1V 7BD",
+      "airport": "LHR 50 min · LGW 55 min",
+      "nearbyAttractions": "British Museum 8 min · Covent Garden 10 min",
+      "cancellation": "Free 24h"
+    },
+    {
+      "category": "Mid-Range",
+      "room": "Petite Double · curated art",
+      "tube": "Marble Arch 3 min",
+      "address": "28-30 Seymour St · W1H 7JB",
+      "airport": "LHR 45 min · LGW 60 min",
+      "nearbyAttractions": "Oxford Street 5 min · Hyde Park 10 min",
+      "cancellation": "Free 48h"
+    },
+    {
+      "category": "Mid-Range",
+      "room": "Compact XL bed · rooftop bar",
+      "tube": "Tower Hill 1 min",
+      "address": "40 Trinity Sq · EC3N 4DJ",
+      "airport": "LHR 55 min · LGW 45 min",
+      "nearbyAttractions": "Tower of London 2 min · Sky Garden 10 min",
+      "cancellation": "24h on flex rate"
+    },
+    {
+      "category": "Value",
+      "room": "Standard double · reliable",
+      "tube": "Waterloo 5 min",
+      "address": "Belvedere Rd · SE1 7PB",
+      "airport": "LHR 50 min · LGW 40 min",
+      "nearbyAttractions": "London Eye 2 min · Big Ben 5 min",
+      "cancellation": "Free until 13:00 on day"
+    },
+    {
+      "category": "Value",
+      "room": "Compact double · no window in cheapest",
+      "tube": "Leicester Square 2 min",
+      "address": "2 Orange Yd · W1D 4PA",
+      "airport": "LHR 50 min · LGW 55 min",
+      "nearbyAttractions": "Chinatown 1 min · Soho 3 min",
+      "cancellation": "Free 24h on flex rate"
+    }
+  ],
+  "dining": [
+    {
+      "category": "Fine Dining · 3 Michelin",
+      "famous": "Lecture Room tasting menu · Pierre Gagnaire",
+      "price": "£220 tasting",
+      "michelin": "★★★",
+      "wait": "With reservation: 0"
+    },
+    {
+      "category": "Fine Dining · 3 Michelin",
+      "famous": "Potato and roe · signature",
+      "price": "£195 tasting",
+      "michelin": "★★★",
+      "wait": "0 with booking"
+    },
+    {
+      "category": "Halal · Bombay-Iranian",
+      "famous": "Bacon-free black daal · house black daal",
+      "price": "£25/head",
+      "michelin": "—",
+      "wait": "45–90 min at 19:00"
+    },
+    {
+      "category": "Halal · Punjabi",
+      "famous": "Lamb chops · legendary",
+      "price": "£22/head",
+      "michelin": "—",
+      "wait": "30–60 min"
+    },
+    {
+      "category": "Afternoon Tea",
+      "famous": "Royal Blend tea · signature sandwich",
+      "price": "£90 traditional tea",
+      "michelin": "—",
+      "wait": "0 with booking"
+    },
+    {
+      "category": "Italian · Pasta",
+      "famous": "Pici cacio e pepe",
+      "price": "£15/head",
+      "michelin": "—",
+      "wait": "30–90 min"
+    },
+    {
+      "category": "Street Food · Market",
+      "famous": "Kappacasein raclette · Bread Ahead doughnuts",
+      "price": "£10–£20/head",
+      "michelin": "—",
+      "wait": "Long queues Sat lunch"
+    },
+    {
+      "category": "Modern British",
+      "famous": "Fish & chips · Sunday roast",
+      "price": "£45/head",
+      "michelin": "—",
+      "wait": "15 min with booking"
+    }
+  ],
+  "itineraries": [
+    {
+      "title": "Royal London",
+      "routePreview": "8 stops · start 08:30 · end 20:00",
+      "stops": [
+        {
+          "desc": "Level 40 views · book ahead",
+          "transit": "Tube · Circle · 2 stops · 8 min"
+        },
+        {
+          "desc": "Arrive early for Changing of the Guard",
+          "transit": "Walk 350 m · 5 min"
+        },
+        {
+          "desc": "Free · 45 min ceremony",
+          "transit": "Walk · St James's Park · 800 m · 12 min"
+        },
+        {
+          "desc": "Central European classic",
+          "transit": "Walk 600 m · 8 min"
+        },
+        {
+          "desc": "Book online · save time",
+          "transit": "Walk 400 m · 6 min"
+        },
+        {
+          "desc": "Photos from Westminster Bridge",
+          "transit": "Walk 200 m · 3 min"
+        },
+        {
+          "desc": "Book Fast Track online",
+          "transit": "Uber Boat · Waterloo → Embankment · 8 min"
+        },
+        {
+          "desc": "The pink room — reservations essential",
+          "transit": "Walk · 10 min"
+        }
+      ]
+    },
+    {
+      "title": "City of London",
+      "routePreview": "8 stops · start 08:30 · end 20:30",
+      "stops": [
+        {
+          "desc": "Simple, fast",
+          "transit": "Tube · Central · 3 stops · 10 min"
+        },
+        {
+          "desc": "Yeoman Warder tour at 10:00",
+          "transit": "Walk 250 m · 4 min"
+        },
+        {
+          "desc": "Cross to south bank",
+          "transit": "Walk · riverside · 600 m · 9 min"
+        },
+        {
+          "desc": "Kappacasein raclette · Bread Ahead",
+          "transit": "Walk 500 m · 7 min"
+        },
+        {
+          "desc": "View From The Shard · combined day+night ticket",
+          "transit": "Tube · Northern · 2 stops · 7 min"
+        },
+        {
+          "desc": "Climb the dome for sunset",
+          "transit": "Walk · Millennium Bridge · 500 m · 8 min"
+        },
+        {
+          "desc": "Free — book slot 3 weeks ahead",
+          "transit": "Walk · 10 min"
+        },
+        {
+          "desc": "Gordon Ramsay · smart casual",
+          "transit": "Walk · 5 min"
+        }
+      ]
+    },
+    {
+      "title": "Museums & Kensington",
+      "routePreview": "7 stops · start 09:00 · end 20:00",
+      "stops": [
+        {
+          "desc": "Notting Hill café",
+          "transit": "Walk · Portobello · 1.2 km · 15 min"
+        },
+        {
+          "desc": "Antiques on Sat · pastel houses always",
+          "transit": "Tube · Circle · 3 stops · 12 min"
+        },
+        {
+          "desc": "The most beautiful café in a museum",
+          "transit": "Inside V&A"
+        },
+        {
+          "desc": "Free · 2 hours minimum",
+          "transit": "Inside V&A"
+        },
+        {
+          "desc": "Hintze Hall · blue whale",
+          "transit": "Walk 200 m · 3 min"
+        },
+        {
+          "desc": "Sunset walk",
+          "transit": "Walk · Hyde Park · 800 m · 12 min"
+        },
+        {
+          "desc": "Michelin Indian in Kensington",
+          "transit": "Walk · 1.0 km · 14 min"
+        }
+      ]
+    },
+    {
+      "title": "Art & Soho",
+      "routePreview": "8 stops · start 09:00 · end 22:00",
+      "stops": [
+        {
+          "desc": "Small · precise · queue",
+          "transit": "Walk · Neal's Yard · 200 m · 3 min"
+        },
+        {
+          "desc": "Hidden pastel courtyard",
+          "transit": "Walk 500 m · 7 min"
+        },
+        {
+          "desc": "Rosetta Stone first · then Egypt",
+          "transit": "Walk · 12 min"
+        },
+        {
+          "desc": "Pici cacio e pepe · queue via app",
+          "transit": "Tube · Central · 1 stop · 4 min"
+        },
+        {
+          "desc": "Free · Turbine Hall",
+          "transit": "Walk · Southbank · 1.5 km · 20 min"
+        },
+        {
+          "desc": "Riverside walk to Waterloo",
+          "transit": "Walk · Millennium Bridge · 400 m · 6 min"
+        },
+        {
+          "desc": "Taiwanese steamed buns · walk-in",
+          "transit": "Tube · Northern · 3 stops · 10 min"
+        },
+        {
+          "desc": "Book same-day at TKTS · 50% off",
+          "transit": "Walk · Leicester Square"
+        }
+      ]
+    },
+    {
+      "title": "Villages & Views",
+      "routePreview": "7 stops · start 08:30 · end 20:00",
+      "stops": [
+        {
+          "desc": "Order at counter",
+          "transit": "Tube · Northern · 5 stops · 18 min"
+        },
+        {
+          "desc": "To Camden along the towpath",
+          "transit": "Walk · canal · 3.0 km · 40 min"
+        },
+        {
+          "desc": "Street food · vintage",
+          "transit": "At Camden Lock"
+        },
+        {
+          "desc": "Best skyline view in London",
+          "transit": "Walk · Primrose Hill · 1.5 km · 20 min"
+        },
+        {
+          "desc": "Take the boat back",
+          "transit": "Tube · Jubilee · 6 stops · 22 min"
+        },
+        {
+          "desc": "Free viewing balcony",
+          "transit": "Uber Boat · Greenwich → Westminster · 45 min"
+        },
+        {
+          "desc": "Classic British · book ahead",
+          "transit": "Walk 600 m · 9 min"
+        }
+      ]
+    }
+  ]
+}

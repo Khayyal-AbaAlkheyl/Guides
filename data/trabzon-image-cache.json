@@ -1,0 +1,218 @@
+{
+  "Trabzon Museum": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Trabzon_museum.jpg/960px-Trabzon_museum.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Trabzon_Museum_0039.jpg/960px-Trabzon_Museum_0039.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Trabzon_museum.jpg/960px-Trabzon_museum.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Trabzon_museum.jpg/960px-Trabzon_museum.jpg"
+  },
+  "Meydan Square": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg/960px-Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Trabzon_City_Centre.jpg/960px-Trabzon_City_Centre.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Trabzon_districts.png/960px-Trabzon_districts.png",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Trabzon_districts.png/960px-Trabzon_districts.png"
+  },
+  "Zagnos Valley Park": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg/960px-Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg/960px-Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg/960px-Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg/960px-Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg"
+  },
+  "Boztepe": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg/960px-Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg/960px-Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg/960px-Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg/960px-Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg"
+  },
+  "Sümela Monastery": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Altındere National Park": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Uzungöl Lake": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Ayder Plateau": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Gelin Tülü Waterfall": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Ayder_rize_turkey.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Ayder_rize_turkey.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Ayder_rize_turkey.jpg",
+    "map": null
+  },
+  "Sera Lake": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/%D8%A8%D8%AC%D9%8A%D8%B1%D9%88_%D8%B3%D9%8A%D8%B1%D8%A7%D8%AC%D9%88%D9%84_Sera_G%C3%B6l%C3%BC_-_panoramio.jpg/960px-%D8%A8%D8%AC%D9%8A%D8%B1%D9%88_%D8%B3%D9%8A%D8%B1%D8%A7%D8%AC%D9%88%D9%84_Sera_G%C3%B6l%C3%BC_-_panoramio.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/%D8%A8%D8%AC%D9%8A%D8%B1%D9%88_%D8%B3%D9%8A%D8%B1%D8%A7%D8%AC%D9%88%D9%84_Sera_G%C3%B6l%C3%BC_-_panoramio.jpg/960px-%D8%A8%D8%AC%D9%8A%D8%B1%D9%88_%D8%B3%D9%8A%D8%B1%D8%A7%D8%AC%D9%88%D9%84_Sera_G%C3%B6l%C3%BC_-_panoramio.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Trabzon_districts.png/960px-Trabzon_districts.png",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Trabzon_districts.png/960px-Trabzon_districts.png"
+  },
+  "Akçaabat": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Ortamahalle.jpg/960px-Ortamahalle.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Ak_Camii%2C_Ak%C3%A7aabat.jpg/960px-Ak_Camii%2C_Ak%C3%A7aabat.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Ak_Camii%2C_Ak%C3%A7aabat.jpg/960px-Ak_Camii%2C_Ak%C3%A7aabat.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Ortamahalle.jpg/960px-Ortamahalle.jpg"
+  },
+  "Trabzon Botanical Garden": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Atatürk Pavilion": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Trabzon Aquarium": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Trabzon_districts.png/960px-Trabzon_districts.png",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Trabzon_districts.png/960px-Trabzon_districts.png",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Trabzon_districts.png/960px-Trabzon_districts.png",
+    "map": null
+  },
+  "Hıdırnebi Plateau": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Sumela_Showing_Location.JPG/960px-Sumela_Showing_Location.JPG",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Sumela_Showing_Location.JPG/960px-Sumela_Showing_Location.JPG",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Sumela_Showing_Location.JPG/960px-Sumela_Showing_Location.JPG",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Sumela_Showing_Location.JPG/960px-Sumela_Showing_Location.JPG"
+  },
+  "Çal Cave": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Sumela_Showing_Location.JPG/960px-Sumela_Showing_Location.JPG",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Sumela_Showing_Location.JPG/960px-Sumela_Showing_Location.JPG",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Sumela_Showing_Location.JPG/960px-Sumela_Showing_Location.JPG",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Sumela_Showing_Location.JPG/960px-Sumela_Showing_Location.JPG"
+  },
+  "Radisson Blu Hotel Trabzon": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg/960px-Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg/960px-Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg/960px-Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg/960px-Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg"
+  },
+  "DoubleTree by Hilton Trabzon": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg/960px-Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg/960px-Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg/960px-Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg/960px-Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg"
+  },
+  "Movenpick Hotel TRABZON": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg/960px-Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg/960px-Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg/960px-Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg/960px-Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg"
+  },
+  "Zorlu Grand Hotel": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg/960px-Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg/960px-Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg/960px-Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg/960px-Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg"
+  },
+  "Novotel Trabzon": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg/960px-Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg/960px-Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg/960px-Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg/960px-Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg"
+  },
+  "Mercure Trabzon Otel": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg/960px-Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg/960px-Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg/960px-Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg/960px-Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg"
+  },
+  "PEERLESS VİLLAS HOTEL": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg/960px-Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg/960px-Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg/960px-Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg/960px-Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg"
+  },
+  "MELL BOUTIQUE HOTEL": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg/960px-Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg/960px-Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg/960px-Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg/960px-Trebisonda%2C_ex-chiesa_della_panagia_Chrysokephalos%2C_oggi_moschea_fatih%2C_esterno_01.jpg"
+  },
+  "Beton Helva Kahvaltı": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Neşve Coffee": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Cemilusta Akçaabat Köfte": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Cephanelik Restaurant": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Hamsiköy": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Hamsiköy Sütlaç": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "İnan Kardeşler Restaurant": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Balık Restaurant": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Nihat Usta": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Forum Trabzon": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/KFC_Trabzon.jpg/960px-KFC_Trabzon.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Trabzon_districts.png/960px-Trabzon_districts.png",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Trabzon_districts.png/960px-Trabzon_districts.png",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/KFC_Trabzon.jpg/960px-KFC_Trabzon.jpg"
+  },
+  "Akçaabat Market": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/5/53/Trabzon_location_Ak%C3%A7aabat.PNG",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/5/53/Trabzon_location_Ak%C3%A7aabat.PNG",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/5/53/Trabzon_location_Ak%C3%A7aabat.PNG",
+    "map": null
+  },
+  "Akçaabat Tuesday Market": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  }
+}

@@ -1,0 +1,500 @@
+{
+  "Tower of London": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Tower_of_London_from_the_Shard_%288515883950%29.jpg/960px-Tower_of_London_from_the_Shard_%288515883950%29.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Tower_Bridge_London_Feb_2006.jpg/960px-Tower_Bridge_London_Feb_2006.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/All_Hallows-by-the-Tower_Interior%2C_London%2C_UK_-_Diliff.jpg/960px-All_Hallows-by-the-Tower_Interior%2C_London%2C_UK_-_Diliff.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/All_Hallows-by-the-Tower_Interior%2C_London%2C_UK_-_Diliff.jpg/960px-All_Hallows-by-the-Tower_Interior%2C_London%2C_UK_-_Diliff.jpg"
+  },
+  "Tower Bridge": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Tower_Bridge_at_Dawn.jpg/960px-Tower_Bridge_at_Dawn.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Tower_Bridge_London_Feb_2006.jpg/960px-Tower_Bridge_London_Feb_2006.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Tower_Bridge_London_08.JPG/960px-Tower_Bridge_London_08.JPG",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Tower_Bridge_London_08.JPG/960px-Tower_Bridge_London_08.JPG"
+  },
+  "Westminster Abbey": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Westminster_Abbey%2C_Westminster.jpg/960px-Westminster_Abbey%2C_Westminster.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Palace_of_Westminster%2C_London_-_Feb_2007.jpg/960px-Palace_of_Westminster%2C_London_-_Feb_2007.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Palace_of_Westminster%2C_London_-_Feb_2007.jpg/960px-Palace_of_Westminster%2C_London_-_Feb_2007.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Westminster_Abbey%2C_Westminster.jpg/960px-Westminster_Abbey%2C_Westminster.jpg"
+  },
+  "Big Ben": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Elizabeth_Tower%2C_June_2022.jpg/960px-Elizabeth_Tower%2C_June_2022.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Clock_Tower_-_Palace_of_Westminster%2C_London_-_September_2006-2.jpg/960px-Clock_Tower_-_Palace_of_Westminster%2C_London_-_September_2006-2.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/3/37/Big_Ben_2001-06-27.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/3/37/Big_Ben_2001-06-27.jpg"
+  },
+  "London Eye": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/London-Eye-2009.JPG/960px-London-Eye-2009.JPG",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/London_Eye_Twilight_April_2006.jpg/960px-London_Eye_Twilight_April_2006.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/a/a0/In_the_pod_of_the_London_Eye_-_geograph.org.uk_-_908898.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/a/a0/In_the_pod_of_the_London_Eye_-_geograph.org.uk_-_908898.jpg"
+  },
+  "Buckingham Palace": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Buckingham_Palace_London_Morning_2020_01_%28cropped%29.jpg/960px-Buckingham_Palace_London_Morning_2020_01_%28cropped%29.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Buckingham_Palace%2C_London_-_April_2009.jpg/960px-Buckingham_Palace%2C_London_-_April_2009.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Buckingham_Palace%2C_London_-_April_2009.jpg/960px-Buckingham_Palace%2C_London_-_April_2009.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Buckingham_Palace_London_Morning_2020_01_%28cropped%29.jpg/960px-Buckingham_Palace_London_Morning_2020_01_%28cropped%29.jpg"
+  },
+  "British Museum": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/British_Museum_Reading_Room_Panorama_Feb_2006.jpg/960px-British_Museum_Reading_Room_Panorama_Feb_2006.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/British_Museum_Reading_Room_Panorama_Feb_2006.jpg/960px-British_Museum_Reading_Room_Panorama_Feb_2006.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Natural_History_Museum_London_Jan_2006.jpg/960px-Natural_History_Museum_London_Jan_2006.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Natural_History_Museum_London_Jan_2006.jpg/960px-Natural_History_Museum_London_Jan_2006.jpg"
+  },
+  "Natural History Museum": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Natural_History_Museum_London_logo_%28large%29.svg/960px-Natural_History_Museum_London_logo_%28large%29.svg.png",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Natural_History_Museum_London_Jan_2006.jpg/960px-Natural_History_Museum_London_Jan_2006.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Natural_History_Museum_HDR.jpg/960px-Natural_History_Museum_HDR.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Natural_History_Museum_HDR.jpg/960px-Natural_History_Museum_HDR.jpg"
+  },
+  "St Paul's Cathedral": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/St_Pauls_aerial_%28cropped%29.jpg/960px-St_Pauls_aerial_%28cropped%29.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/St_Paul%27s_Cathedral_Nave%2C_London%2C_UK_-_Diliff.jpg/960px-St_Paul%27s_Cathedral_Nave%2C_London%2C_UK_-_Diliff.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/St_Paul%27s_Cathedral_Nave%2C_London%2C_UK_-_Diliff.jpg/960px-St_Paul%27s_Cathedral_Nave%2C_London%2C_UK_-_Diliff.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/St_Pauls_aerial_%28cropped%29.jpg/960px-St_Pauls_aerial_%28cropped%29.jpg"
+  },
+  "The Shard": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Covent Garden": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Covent_Garden_Interior_May_2006_crop.jpg/960px-Covent_Garden_Interior_May_2006_crop.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Covent_Garden_Interior_May_2006_crop.jpg/960px-Covent_Garden_Interior_May_2006_crop.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Covent_Garden_Interior_May_2006_crop.jpg/960px-Covent_Garden_Interior_May_2006_crop.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Covent_Garden_Interior_May_2006_crop.jpg/960px-Covent_Garden_Interior_May_2006_crop.jpg"
+  },
+  "Camden Market": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Camden_markets_entrance.JPG/960px-Camden_markets_entrance.JPG",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Camden_markets_entrance.JPG/960px-Camden_markets_entrance.JPG",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Camden_markets_entrance.JPG/960px-Camden_markets_entrance.JPG",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Camden_markets_entrance.JPG/960px-Camden_markets_entrance.JPG"
+  },
+  "The Savoy": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/H%C3%B4tel_Savoy_The_Strand_Londres_-_edited.jpg/960px-H%C3%B4tel_Savoy_The_Strand_Londres_-_edited.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/H%C3%B4tel_Savoy_The_Strand_Londres_-_edited.jpg/960px-H%C3%B4tel_Savoy_The_Strand_Londres_-_edited.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/H%C3%B4tel_Savoy_The_Strand_Londres_-_edited.jpg/960px-H%C3%B4tel_Savoy_The_Strand_Londres_-_edited.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/H%C3%B4tel_Savoy_The_Strand_Londres_-_edited.jpg/960px-H%C3%B4tel_Savoy_The_Strand_Londres_-_edited.jpg"
+  },
+  "Claridge's": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "The Ritz London": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Rosewood London": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Rosewood_London_Courtyard.jpg/960px-Rosewood_London_Courtyard.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Rosewood_London_Courtyard.jpg/960px-Rosewood_London_Courtyard.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Rosewood_London_Courtyard.jpg/960px-Rosewood_London_Courtyard.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Rosewood_London_Courtyard.jpg/960px-Rosewood_London_Courtyard.jpg"
+  },
+  "The Hoxton Holborn": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/The_London_Gazette_19412.djvu/page1-960px-The_London_Gazette_19412.djvu.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/The_London_Gazette_19412.djvu/page1-960px-The_London_Gazette_19412.djvu.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/The_London_spy%3B_a_book_of_town_travels_%28IA_londonspybookoft01burk%29.pdf/page1-500px-The_London_spy%3B_a_book_of_town_travels_%28IA_londonspybookoft01burk%29.pdf.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/The_London_spy%3B_a_book_of_town_travels_%28IA_londonspybookoft01burk%29.pdf/page1-500px-The_London_spy%3B_a_book_of_town_travels_%28IA_londonspybookoft01burk%29.pdf.jpg"
+  },
+  "The Zetter Marylebone": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/The_Zetter_Townhouse_Marylebone.jpg/960px-The_Zetter_Townhouse_Marylebone.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/The_Zetter_Townhouse_Marylebone.jpg/960px-The_Zetter_Townhouse_Marylebone.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/The_Zetter_Townhouse_Marylebone.jpg/960px-The_Zetter_Townhouse_Marylebone.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/The_Zetter_Townhouse_Marylebone.jpg/960px-The_Zetter_Townhouse_Marylebone.jpg"
+  },
+  "citizenM Tower of London": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Premier Inn County Hall": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/County_Hall%2C_London_%28West_Face_-_01%29.jpg/960px-County_Hall%2C_London_%28West_Face_-_01%29.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/The_London_Gazette_27336.djvu/page1-960px-The_London_Gazette_27336.djvu.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/London_eye_and_county_hall_pano_edited_2008-02-19.jpg/960px-London_eye_and_county_hall_pano_edited_2008-02-19.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/London_eye_and_county_hall_pano_edited_2008-02-19.jpg/960px-London_eye_and_county_hall_pano_edited_2008-02-19.jpg"
+  },
+  "The Z Hotel Piccadilly": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/The_London_Gazette_19403.djvu/page1-960px-The_London_Gazette_19403.djvu.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/The_London_Gazette_19403.djvu/page1-960px-The_London_Gazette_19403.djvu.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/The_picture_of_London%2C_for_1804%3B_being_a_correct_guide_to_all_the_curiosities%2C_amusements%2C_exhibitions_..._in_and_near_London_%28IA_b22030943%29.pdf/page1-500px-The_picture_of_London%2C_for_1804%3B_being_a_correct_guide_to_all_the_curiosities%2C_amusements%2C_exhibitions_..._in_and_near_London_%28IA_b22030943%29.pdf.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/The_picture_of_London%2C_for_1804%3B_being_a_correct_guide_to_all_the_curiosities%2C_amusements%2C_exhibitions_..._in_and_near_London_%28IA_b22030943%29.pdf/page1-500px-The_picture_of_London%2C_for_1804%3B_being_a_correct_guide_to_all_the_curiosities%2C_amusements%2C_exhibitions_..._in_and_near_London_%28IA_b22030943%29.pdf.jpg"
+  },
+  "Sketch (The Lecture Room)": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Core by Clare Smyth": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Dishoom Covent Garden": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Dishoom_London_Fleischgericht.jpg/960px-Dishoom_London_Fleischgericht.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Dishoom_London_Fleischgericht.jpg/960px-Dishoom_London_Fleischgericht.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Dishoom_King%27s_Cross_interior_1.jpg/960px-Dishoom_King%27s_Cross_interior_1.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Dishoom_King%27s_Cross_interior_1.jpg/960px-Dishoom_King%27s_Cross_interior_1.jpg"
+  },
+  "Tayyabs": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Tayyabs%2C_Whitechapel%2C_London_%283103112043%29.jpg/960px-Tayyabs%2C_Whitechapel%2C_London_%283103112043%29.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Tayyabs%2C_Whitechapel%2C_London_%283103112043%29.jpg/960px-Tayyabs%2C_Whitechapel%2C_London_%283103112043%29.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/OJ_L_264_of_2016_-_EN_English.pdf/page1-960px-OJ_L_264_of_2016_-_EN_English.pdf.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/OJ_L_264_of_2016_-_EN_English.pdf/page1-960px-OJ_L_264_of_2016_-_EN_English.pdf.jpg"
+  },
+  "Fortnum & Mason · The Diamond Jubilee Tea Salon": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Fortnum_and_Mason.jpg/960px-Fortnum_and_Mason.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Fortnum_and_Mason.jpg/960px-Fortnum_and_Mason.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Fortnum_and_Mason.jpg/960px-Fortnum_and_Mason.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Fortnum_and_Mason.jpg/960px-Fortnum_and_Mason.jpg"
+  },
+  "Padella": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Borough Market": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Gordon Ramsay Bread Street Kitchen": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Bread_Street_Kitchen_and_Bar%2C_Moorgate%2C_EC2.jpg/960px-Bread_Street_Kitchen_and_Bar%2C_Moorgate%2C_EC2.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Bread_Street_Kitchen_and_Bar%2C_Moorgate%2C_EC2.jpg/960px-Bread_Street_Kitchen_and_Bar%2C_Moorgate%2C_EC2.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Bread_Street_Kitchen_and_Bar%2C_Moorgate%2C_EC2.jpg/960px-Bread_Street_Kitchen_and_Bar%2C_Moorgate%2C_EC2.jpg",
+    "map": null
+  },
+  "The Wolseley": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/1%E2%80%933_Arlington_Street_and_157%E2%80%93160_Piccadilly.jpg/960px-1%E2%80%933_Arlington_Street_and_157%E2%80%93160_Piccadilly.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/London_%28UK%29%2C_Horse_Guards_--_2010_--_1921.jpg/960px-London_%28UK%29%2C_Horse_Guards_--_2010_--_1921.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/London_%28UK%29%2C_Horse_Guards_--_2010_--_1921.jpg/960px-London_%28UK%29%2C_Horse_Guards_--_2010_--_1921.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/1%E2%80%933_Arlington_Street_and_157%E2%80%93160_Piccadilly.jpg/960px-1%E2%80%933_Arlington_Street_and_157%E2%80%93160_Piccadilly.jpg"
+  },
+  "Duck & Waffle": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Victoria & Albert Museum": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Science Museum": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Tate Modern": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Hyde Park & Serpentine": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Greenwich Park & Meridian": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Primrose Hill": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Regent's Park & Roses": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Hampstead Heath": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Woodland_on_Hampstead_Heath%2C_London_-_geograph.org.uk_-_1860518.jpg/960px-Woodland_on_Hampstead_Heath%2C_London_-_geograph.org.uk_-_1860518.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Woodland_on_Hampstead_Heath%2C_London_-_geograph.org.uk_-_1860518.jpg/960px-Woodland_on_Hampstead_Heath%2C_London_-_geograph.org.uk_-_1860518.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Hampstead_Hill%3B_its_structure%2C_materials%2C_and_sculpturing._With_The_flora_of_Hampstead_by_Henry_T._Wharton%3B_The_insect_fauna_of_Hampstead_%28IA_hampsteadhillits00lobluoft%29.pdf/page1-500px-thumbnail.pdf.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Hampstead_Hill%3B_its_structure%2C_materials%2C_and_sculpturing._With_The_flora_of_Hampstead_by_Henry_T._Wharton%3B_The_insect_fauna_of_Hampstead_%28IA_hampsteadhillits00lobluoft%29.pdf/page1-500px-thumbnail.pdf.jpg"
+  },
+  "Richmond Park deer": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Ham_Bottom_in_late_November_-_geograph.org.uk_-_5214113.jpg/960px-Ham_Bottom_in_late_November_-_geograph.org.uk_-_5214113.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Red_Deer_Cervus_Elaphus_in_Richmond_Park_2024_02.jpg/960px-Red_Deer_Cervus_Elaphus_in_Richmond_Park_2024_02.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Red_deer_%28IA_b28059311%29.pdf/page1-960px-Red_deer_%28IA_b28059311%29.pdf.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/2/23/Pembroke_Lodge%2C_Richmond_Park.jpg"
+  },
+  "Neal's Yard": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Neal%27s_Yard_20130408_034.jpg/960px-Neal%27s_Yard_20130408_034.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/8/81/NealsYardCoventGarden.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/By-laws_of_the_Municipal_Council_of_the_Township_of_London_%28microform%29_-_passed_during_1850%2C_1851%2C_1852%2C_1853_%28IA_cihm_50292%29.pdf/page1-960px-By-laws_of_the_Municipal_Council_of_the_Township_of_London_%28microform%29_-_passed_during_1850%2C_1851%2C_1852%2C_1853_%28IA_cihm_50292%29.pdf.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/By-laws_of_the_Municipal_Council_of_the_Township_of_London_%28microform%29_-_passed_during_1850%2C_1851%2C_1852%2C_1853_%28IA_cihm_50292%29.pdf/page1-960px-By-laws_of_the_Municipal_Council_of_the_Township_of_London_%28microform%29_-_passed_during_1850%2C_1851%2C_1852%2C_1853_%28IA_cihm_50292%29.pdf.jpg"
+  },
+  "Leadenhall Market": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Portobello Road Market": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "St Dunstan in the East": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "God's Own Junkyard": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Seven Noses of Soho": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Kyoto Garden": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Little Venice": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Churchill War Rooms": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Oxford Street": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Bond Street": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Regent Street": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Knightsbridge": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Harrods Food Halls": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Carnaby & Soho": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Carnaby_street_sept_28_05.jpg/960px-Carnaby_street_sept_28_05.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Carnaby_street_sept_28_05.jpg/960px-Carnaby_street_sept_28_05.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Carnaby_Street_In_Soho_-_London._%2822473627096%29.jpg/960px-Carnaby_Street_In_Soho_-_London._%2822473627096%29.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Carnaby_Street_In_Soho_-_London._%2822473627096%29.jpg/960px-Carnaby_Street_In_Soho_-_London._%2822473627096%29.jpg"
+  },
+  "Westfield London": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Westfield_London_028.jpg/960px-Westfield_London_028.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Westfield_London_028.jpg/960px-Westfield_London_028.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Westfield_London_028.jpg/960px-Westfield_London_028.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Westfield_London_028.jpg/960px-Westfield_London_028.jpg"
+  },
+  "Bicester Village": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Changing of the Guard": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Big Ben + Parliament": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Tower Bridge Walk": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Thames river cruise": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "London Eye · Sunset": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/7/78/London_Eye_and_the_River_Thames_-_geograph.org.uk_-_268517.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/7/78/London_Eye_and_the_River_Thames_-_geograph.org.uk_-_268517.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/The_London_Gazette_27281.djvu/page1-960px-The_London_Gazette_27281.djvu.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/London_Eye_Thames.JPG/960px-London_Eye_Thames.JPG"
+  },
+  "Southbank sunset": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Palace_of_Westminster%2C_London_-_Feb_2007.jpg/960px-Palace_of_Westminster%2C_London_-_Feb_2007.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Palace_of_Westminster%2C_London_-_Feb_2007.jpg/960px-Palace_of_Westminster%2C_London_-_Feb_2007.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/A_Boat-Voyage_along_the_Coast-Lakes_of_East_Madagascar_%28IA_jstor-1798490%29.pdf/page1-500px-A_Boat-Voyage_along_the_Coast-Lakes_of_East_Madagascar_%28IA_jstor-1798490%29.pdf.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/A_Boat-Voyage_along_the_Coast-Lakes_of_East_Madagascar_%28IA_jstor-1798490%29.pdf/page1-500px-A_Boat-Voyage_along_the_Coast-Lakes_of_East_Madagascar_%28IA_jstor-1798490%29.pdf.jpg"
+  },
+  "West End show": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/5/5e/West_End_ticket_office_-_geograph.org.uk_-_911956.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/5/5e/West_End_ticket_office_-_geograph.org.uk_-_911956.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/5/5e/West_End_ticket_office_-_geograph.org.uk_-_911956.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/5/5e/West_End_ticket_office_-_geograph.org.uk_-_911956.jpg"
+  },
+  "Breakfast · Monmouth Coffee": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Breakfast · Ottolenghi Islington": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Breakfast · The Hoxton": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Breakfast · Farm Girl": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Lunch · Borough Market": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Lunch · Padella": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Lunch · V&A Café": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Dinner · Sketch": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Dinner · Bread Street Kitchen": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Dinner · Bao Soho": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Dinner · Zaika": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Farewell dinner · The Ivy": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Fortnum & Mason afternoon tea": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Sundowner · OXO Tower": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Looking_up_at_OXO_Tower%2C_2017-05-27.jpg/960px-Looking_up_at_OXO_Tower%2C_2017-05-27.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Looking_up_at_OXO_Tower%2C_2017-05-27.jpg/960px-Looking_up_at_OXO_Tower%2C_2017-05-27.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Looking_up_at_OXO_Tower%2C_2017-05-27.jpg/960px-Looking_up_at_OXO_Tower%2C_2017-05-27.jpg",
+    "map": null
+  },
+  "Sundowners · Sky Garden": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Wine-dark_seas_and_tropic_skies%3B_reminiscences_and_a_romance_of_the_South_seas_%28IA_winedarkseastrop00safr%29.pdf/page1-500px-Wine-dark_seas_and_tropic_skies%3B_reminiscences_and_a_romance_of_the_South_seas_%28IA_winedarkseastrop00safr%29.pdf.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Wine-dark_seas_and_tropic_skies%3B_reminiscences_and_a_romance_of_the_South_seas_%28IA_winedarkseastrop00safr%29.pdf/page1-500px-Wine-dark_seas_and_tropic_skies%3B_reminiscences_and_a_romance_of_the_South_seas_%28IA_winedarkseastrop00safr%29.pdf.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/The_Boy_Travellers_in_Australasia.djvu/page1-960px-The_Boy_Travellers_in_Australasia.djvu.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Sky_Garden_-_Workmen.jpg/960px-Sky_Garden_-_Workmen.jpg"
+  },
+  "Greenwich · Cutty Sark": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Northeast_View_of_the_Cutty_Sark_in_Greenwich.jpg/960px-Northeast_View_of_the_Cutty_Sark_in_Greenwich.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/London_MMB_%C2%BB0A5_River_Thames_and_Cutty_Sark.jpg/960px-London_MMB_%C2%BB0A5_River_Thames_and_Cutty_Sark.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Inside_the_Cutty_Sark%2C_Greenwich_-_geograph.org.uk_-_6377555.jpg/960px-Inside_the_Cutty_Sark%2C_Greenwich_-_geograph.org.uk_-_6377555.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Inside_the_Cutty_Sark%2C_Greenwich_-_geograph.org.uk_-_6377555.jpg/960px-Inside_the_Cutty_Sark%2C_Greenwich_-_geograph.org.uk_-_6377555.jpg"
+  },
+  "Primrose Hill picnic": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Primrose_Hill%2C_London_-16Sept2010.jpg/960px-Primrose_Hill%2C_London_-16Sept2010.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Primrose_Hill%2C_London_-16Sept2010.jpg/960px-Primrose_Hill%2C_London_-16Sept2010.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Catalogue_of_highly_important_modern_pictures_and_water_colour_drawings_of_the_English_and_continental_schools_of_Henry_James_Turner%2C_Esq_%28IA_catalogueofhighl00chri_2%29.pdf/page1-960px-thumbnail.pdf.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/5/56/Path_up_Primrose_Hill_-_geograph.org.uk_-_1403946.jpg"
+  },
+  "Primrose Hill sunset": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Primrose_Hill_-_London.jpg/960px-Primrose_Hill_-_London.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Primrose_Hill_-_London.jpg/960px-Primrose_Hill_-_London.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Primrose_Hill_-_London.jpg/960px-Primrose_Hill_-_London.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Primrose_Hill_-_London.jpg/960px-Primrose_Hill_-_London.jpg"
+  },
+  "Regent's Canal walk": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  }
+}

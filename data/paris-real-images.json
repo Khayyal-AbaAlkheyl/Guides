@@ -1,0 +1,362 @@
+{
+  "Eiffel Tower": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Tour_Eiffel_Wikimedia_Commons_%28cropped%29.jpg/960px-Tour_Eiffel_Wikimedia_Commons_%28cropped%29.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Tour_Eiffel%2C_Paris_16_April_2014.jpg/960px-Tour_Eiffel%2C_Paris_16_April_2014.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Pont_de_Bir-Hakeim_at_night_as_seen_from_Promenade_d%27Australie_140223_5.jpg/960px-Pont_de_Bir-Hakeim_at_night_as_seen_from_Promenade_d%27Australie_140223_5.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Tour_Eiffel%2C_Paris_16_April_2014.jpg/960px-Tour_Eiffel%2C_Paris_16_April_2014.jpg"
+  },
+  "Trocadéro Gardens": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Paris_-_Jardins_du_Trocad%C3%A9ro_%26_Tour_Eiffel_%2826804140054%29.jpg/960px-Paris_-_Jardins_du_Trocad%C3%A9ro_%26_Tour_Eiffel_%2826804140054%29.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Tour_Eiffel%2C_Paris_16_April_2014.jpg/960px-Tour_Eiffel%2C_Paris_16_April_2014.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Tour_Eiffel_Wikimedia_Commons_%28cropped%29.jpg/960px-Tour_Eiffel_Wikimedia_Commons_%28cropped%29.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Paris_-_Jardins_du_Trocad%C3%A9ro_%26_Tour_Eiffel_%2826804140054%29.jpg/960px-Paris_-_Jardins_du_Trocad%C3%A9ro_%26_Tour_Eiffel_%2826804140054%29.jpg"
+  },
+  "Arc de Triomphe": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Arc_de_Triomphe%2C_Paris_21_October_2010.jpg/960px-Arc_de_Triomphe%2C_Paris_21_October_2010.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Arc_de_Triomphe%2C_Paris_21_October_2010.jpg/960px-Arc_de_Triomphe%2C_Paris_21_October_2010.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Place_de_la_Concorde_from_the_Eiffel_Tower%2C_Paris_April_2011.jpg/960px-Place_de_la_Concorde_from_the_Eiffel_Tower%2C_Paris_April_2011.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Arc_de_Triomphe%2C_Paris_21_October_2010.jpg/960px-Arc_de_Triomphe%2C_Paris_21_October_2010.jpg"
+  },
+  "Champs-Élysées": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Avenue_des_Champs-Elys%C3%A9es%2C_Paris_12_December_2020.jpg/960px-Avenue_des_Champs-Elys%C3%A9es%2C_Paris_12_December_2020.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Arc_de_Triomphe%2C_Paris_21_October_2010.jpg/960px-Arc_de_Triomphe%2C_Paris_21_October_2010.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Laduree-champselysees.jpg/960px-Laduree-champselysees.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Place_de_la_Concorde_from_the_Eiffel_Tower%2C_Paris_April_2011.jpg/960px-Place_de_la_Concorde_from_the_Eiffel_Tower%2C_Paris_April_2011.jpg"
+  },
+  "Seine River Cruise": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Bateau_mouche_jnl_4.jpg/960px-Bateau_mouche_jnl_4.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Notre-Dame_de_Paris%2C_4_October_2017.jpg/960px-Notre-Dame_de_Paris%2C_4_October_2017.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Pont_Alexandre_III_depuis_pont_de_la_Concorde_Paris.jpg/960px-Pont_Alexandre_III_depuis_pont_de_la_Concorde_Paris.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Bateau_mouche_jnl_4.jpg/960px-Bateau_mouche_jnl_4.jpg"
+  },
+  "Bir-Hakeim Bridge": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Pont_de_Bir-Hakeim_at_night_as_seen_from_Promenade_d%27Australie_140223_5.jpg/960px-Pont_de_Bir-Hakeim_at_night_as_seen_from_Promenade_d%27Australie_140223_5.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Viaduc_de_Passy_-_Paris_-_novembre_2005.jpg/960px-Viaduc_de_Passy_-_Paris_-_novembre_2005.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Tour_Eiffel_Wikimedia_Commons_%28cropped%29.jpg/960px-Tour_Eiffel_Wikimedia_Commons_%28cropped%29.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Pont_de_Bir-Hakeim_at_night_as_seen_from_Promenade_d%27Australie_140223_5.jpg/960px-Pont_de_Bir-Hakeim_at_night_as_seen_from_Promenade_d%27Australie_140223_5.jpg"
+  },
+  "Pont Alexandre III": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Pont_Alexandre_III_depuis_pont_de_la_Concorde_Paris.jpg/960px-Pont_Alexandre_III_depuis_pont_de_la_Concorde_Paris.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Le_Grand_Palais_depuis_le_pont_Alexandre_III_%C3%A0_Paris.jpg/960px-Le_Grand_Palais_depuis_le_pont_Alexandre_III_%C3%A0_Paris.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Postcard_-_Paris%2C_Le_Pont_Alexandre_III_vers_les_Invalides.jpg/960px-Postcard_-_Paris%2C_Le_Pont_Alexandre_III_vers_les_Invalides.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Pont_Alexandre_III_depuis_pont_de_la_Concorde_Paris.jpg/960px-Pont_Alexandre_III_depuis_pont_de_la_Concorde_Paris.jpg"
+  },
+  "Louvre Museum": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Louvre_Museum_Wikimedia_Commons.jpg/960px-Louvre_Museum_Wikimedia_Commons.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Le_Louvre_-_Aile_Richelieu.jpg/960px-Le_Louvre_-_Aile_Richelieu.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Paris_-_Louvre_Pyramid_and_Louvre_Museum.jpg/960px-Paris_-_Louvre_Pyramid_and_Louvre_Museum.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Louvre_Museum_Wikimedia_Commons.jpg/960px-Louvre_Museum_Wikimedia_Commons.jpg"
+  },
+  "Louvre Pyramid": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Paris_-_Louvre_Pyramid_and_Louvre_Museum.jpg/960px-Paris_-_Louvre_Pyramid_and_Louvre_Museum.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Louvre_Museum_Wikimedia_Commons.jpg/960px-Louvre_Museum_Wikimedia_Commons.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Le_Louvre_-_Aile_Richelieu.jpg/960px-Le_Louvre_-_Aile_Richelieu.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Paris_-_Louvre_Pyramid_and_Louvre_Museum.jpg/960px-Paris_-_Louvre_Pyramid_and_Louvre_Museum.jpg"
+  },
+  "Jardin des Tuileries": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Crowd_in_the_Jardin_des_Tuileries%2C_Paris_July_2014.jpg/960px-Crowd_in_the_Jardin_des_Tuileries%2C_Paris_July_2014.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Paris_-_Louvre_Pyramid_and_Louvre_Museum.jpg/960px-Paris_-_Louvre_Pyramid_and_Louvre_Museum.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Place_de_la_Concorde_from_the_Eiffel_Tower%2C_Paris_April_2011.jpg/960px-Place_de_la_Concorde_from_the_Eiffel_Tower%2C_Paris_April_2011.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Crowd_in_the_Jardin_des_Tuileries%2C_Paris_July_2014.jpg/960px-Crowd_in_the_Jardin_des_Tuileries%2C_Paris_July_2014.jpg"
+  },
+  "Place de la Concorde": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Place_de_la_Concorde_from_the_Eiffel_Tower%2C_Paris_April_2011.jpg/960px-Place_de_la_Concorde_from_the_Eiffel_Tower%2C_Paris_April_2011.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Pont_Alexandre_III_depuis_pont_de_la_Concorde_Paris.jpg/960px-Pont_Alexandre_III_depuis_pont_de_la_Concorde_Paris.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Arc_de_Triomphe%2C_Paris_21_October_2010.jpg/960px-Arc_de_Triomphe%2C_Paris_21_October_2010.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Place_de_la_Concorde_from_the_Eiffel_Tower%2C_Paris_April_2011.jpg/960px-Place_de_la_Concorde_from_the_Eiffel_Tower%2C_Paris_April_2011.jpg"
+  },
+  "Galeries Lafayette Rooftop": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Galeries_Lafayette_interior.jpg/960px-Galeries_Lafayette_interior.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Galeries_Lafayette_interior.jpg/960px-Galeries_Lafayette_interior.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Arc_de_Triomphe%2C_Paris_21_October_2010.jpg/960px-Arc_de_Triomphe%2C_Paris_21_October_2010.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Galeries_Lafayette_interior.jpg/960px-Galeries_Lafayette_interior.jpg"
+  },
+  "Sacré-Cœur Basilica": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Le_sacre_coeur.jpg/960px-Le_sacre_coeur.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Sacre_Coeur_cor_Jesu-DSC_1455w.jpg/960px-Sacre_Coeur_cor_Jesu-DSC_1455w.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/La_Maison_Rose%2C_Montmartre.jpg/960px-La_Maison_Rose%2C_Montmartre.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Le_sacre_coeur.jpg/960px-Le_sacre_coeur.jpg"
+  },
+  "Montmartre": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/View_from_Notre-Dame_de_Paris%2C_24_June_2014_004.jpg/960px-View_from_Notre-Dame_de_Paris%2C_24_June_2014_004.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Le_sacre_coeur.jpg/960px-Le_sacre_coeur.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/La_Maison_Rose%2C_Montmartre.jpg/960px-La_Maison_Rose%2C_Montmartre.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Moulin_Rouge%2C_17_April_2011.jpg/960px-Moulin_Rouge%2C_17_April_2011.jpg"
+  },
+  "Moulin Rouge": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Moulin_Rouge%2C_17_April_2011.jpg/960px-Moulin_Rouge%2C_17_April_2011.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Moulin_Rouge%2C_17_April_2011.jpg/960px-Moulin_Rouge%2C_17_April_2011.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/La_Maison_Rose%2C_Montmartre.jpg/960px-La_Maison_Rose%2C_Montmartre.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Le_sacre_coeur.jpg/960px-Le_sacre_coeur.jpg"
+  },
+  "Galerie Vivienne": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/GalerieVivienne1.jpg/960px-GalerieVivienne1.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/GalerieVivienne1.jpg/960px-GalerieVivienne1.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/GalerieVivienne1.jpg/960px-GalerieVivienne1.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/GalerieVivienne1.jpg/960px-GalerieVivienne1.jpg"
+  },
+  "Luxembourg Gardens": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/LuxembourgMontparnasse.JPG/960px-LuxembourgMontparnasse.JPG",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/LuxembourgMontparnasse.JPG/960px-LuxembourgMontparnasse.JPG",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Le_Procope_Paris.jpg/960px-Le_Procope_Paris.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/LuxembourgMontparnasse.JPG/960px-LuxembourgMontparnasse.JPG"
+  },
+  "Panthéon": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Pantheon_Paris_1.jpg/960px-Pantheon_Paris_1.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Pantheon_Paris_1.jpg/960px-Pantheon_Paris_1.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/LuxembourgMontparnasse.JPG/960px-LuxembourgMontparnasse.JPG",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Pantheon_Paris_1.jpg/960px-Pantheon_Paris_1.jpg"
+  },
+  "Notre-Dame Cathedral": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Notre-Dame_de_Paris%2C_4_October_2017.jpg/960px-Notre-Dame_de_Paris%2C_4_October_2017.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/View_from_Notre-Dame_de_Paris%2C_24_June_2014_004.jpg/960px-View_from_Notre-Dame_de_Paris%2C_24_June_2014_004.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Shakespeare_and_Company%2C_Paris_16_April_2014.jpg/960px-Shakespeare_and_Company%2C_Paris_16_April_2014.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Notre-Dame_de_Paris%2C_4_October_2017.jpg/960px-Notre-Dame_de_Paris%2C_4_October_2017.jpg"
+  },
+  "Shakespeare & Company": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Shakespeare_and_Company%2C_Paris_16_April_2014.jpg/960px-Shakespeare_and_Company%2C_Paris_16_April_2014.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Notre-Dame_de_Paris%2C_4_October_2017.jpg/960px-Notre-Dame_de_Paris%2C_4_October_2017.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Shakespeare_and_Company%2C_Paris_16_April_2014.jpg/960px-Shakespeare_and_Company%2C_Paris_16_April_2014.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Shakespeare_and_Company%2C_Paris_16_April_2014.jpg/960px-Shakespeare_and_Company%2C_Paris_16_April_2014.jpg"
+  },
+  "Rue de l'Université": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Tour_Eiffel_Wikimedia_Commons_%28cropped%29.jpg/960px-Tour_Eiffel_Wikimedia_Commons_%28cropped%29.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Tour_Eiffel%2C_Paris_16_April_2014.jpg/960px-Tour_Eiffel%2C_Paris_16_April_2014.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Pont_de_Bir-Hakeim_at_night_as_seen_from_Promenade_d%27Australie_140223_5.jpg/960px-Pont_de_Bir-Hakeim_at_night_as_seen_from_Promenade_d%27Australie_140223_5.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Tour_Eiffel_Wikimedia_Commons_%28cropped%29.jpg/960px-Tour_Eiffel_Wikimedia_Commons_%28cropped%29.jpg"
+  },
+  "Seine River Banks": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Notre-Dame_de_Paris%2C_4_October_2017.jpg/960px-Notre-Dame_de_Paris%2C_4_October_2017.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Bateau_mouche_jnl_4.jpg/960px-Bateau_mouche_jnl_4.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Pont_Alexandre_III_depuis_pont_de_la_Concorde_Paris.jpg/960px-Pont_Alexandre_III_depuis_pont_de_la_Concorde_Paris.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Notre-Dame_de_Paris%2C_4_October_2017.jpg/960px-Notre-Dame_de_Paris%2C_4_October_2017.jpg"
+  },
+  "The Peninsula Paris": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/The_Peninsula_Paris%2C_23_June_2014.jpg/960px-The_Peninsula_Paris%2C_23_June_2014.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/The_Peninsula_Paris%2C_23_June_2014.jpg/960px-The_Peninsula_Paris%2C_23_June_2014.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Arc_de_Triomphe%2C_Paris_21_October_2010.jpg/960px-Arc_de_Triomphe%2C_Paris_21_October_2010.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/The_Peninsula_Paris%2C_23_June_2014.jpg/960px-The_Peninsula_Paris%2C_23_June_2014.jpg"
+  },
+  "Shangri-La Paris": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/DSC08692-Shangri-La_H%C3%B4tel.JPG/960px-DSC08692-Shangri-La_H%C3%B4tel.JPG",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/DSC08690-Shangri-La_H%C3%B4tel.JPG/960px-DSC08690-Shangri-La_H%C3%B4tel.JPG",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Awning_of_the_Shangri-La_hotel_in_Paris%2C_23_January_2014.jpg/960px-Awning_of_the_Shangri-La_hotel_in_Paris%2C_23_January_2014.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Tour_Eiffel%2C_Paris_16_April_2014.jpg/960px-Tour_Eiffel%2C_Paris_16_April_2014.jpg"
+  },
+  "Four Seasons George V": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/H%C3%B4tel_George-V%2C_31_avenue_George-V%2C_Paris_8e_1.jpg/960px-H%C3%B4tel_George-V%2C_31_avenue_George-V%2C_Paris_8e_1.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/H%C3%B4tel_George-V%2C_31_avenue_George-V%2C_Paris_8e_1.jpg/960px-H%C3%B4tel_George-V%2C_31_avenue_George-V%2C_Paris_8e_1.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Laduree-champselysees.jpg/960px-Laduree-champselysees.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/H%C3%B4tel_George-V%2C_31_avenue_George-V%2C_Paris_8e_1.jpg/960px-H%C3%B4tel_George-V%2C_31_avenue_George-V%2C_Paris_8e_1.jpg"
+  },
+  "Hôtel Le Six": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/F6261_Paris_6e_rue_Stanislas_rwk.jpg/960px-F6261_Paris_6e_rue_Stanislas_rwk.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/F6261_Paris_6e_rue_Stanislas_rwk.jpg/960px-F6261_Paris_6e_rue_Stanislas_rwk.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/LuxembourgMontparnasse.JPG/960px-LuxembourgMontparnasse.JPG",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Caf%C3%A9_de_Flore%2C_172_boulevard_Saint-Germain%2C_Paris_6e.jpg/960px-Caf%C3%A9_de_Flore%2C_172_boulevard_Saint-Germain%2C_Paris_6e.jpg"
+  },
+  "Hôtel Fabric": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Paris_-_Rue_de_la_Folie-M%C3%A9ricourt_and_Rue_Oberkampf%2C_18_July_2015_-_panoramio_.jpg/960px-Paris_-_Rue_de_la_Folie-M%C3%A9ricourt_and_Rue_Oberkampf%2C_18_July_2015_-_panoramio_.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Paris_-_Rue_Oberkampf_-_Rue_Moret_-_panoramio.jpg/960px-Paris_-_Rue_Oberkampf_-_Rue_Moret_-_panoramio.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Paris_-_Rue_de_la_Folie-M%C3%A9ricourt_and_Rue_Oberkampf%2C_18_July_2015_-_panoramio_.jpg/960px-Paris_-_Rue_de_la_Folie-M%C3%A9ricourt_and_Rue_Oberkampf%2C_18_July_2015_-_panoramio_.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Paris_-_Rue_Oberkampf_-_Rue_Moret_-_panoramio.jpg/960px-Paris_-_Rue_Oberkampf_-_Rue_Moret_-_panoramio.jpg"
+  },
+  "Pullman Paris Tour Eiffel": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Pullman_Eiffel_Tower_Hotel_Paris_France_1.jpg/960px-Pullman_Eiffel_Tower_Hotel_Paris_France_1.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Pullman_Eiffel_Tower_Hotel_Paris_France_2.jpg/960px-Pullman_Eiffel_Tower_Hotel_Paris_France_2.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Tour_Eiffel%2C_Paris_16_April_2014.jpg/960px-Tour_Eiffel%2C_Paris_16_April_2014.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Pullman_Eiffel_Tower_Hotel_Paris_France_1.jpg/960px-Pullman_Eiffel_Tower_Hotel_Paris_France_1.jpg"
+  },
+  "Hôtel Malte – Astotel": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/GalerieVivienne1.jpg/960px-GalerieVivienne1.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Paris_-_Palais-Royal_-_Colonnes_de_Buren.jpg/960px-Paris_-_Palais-Royal_-_Colonnes_de_Buren.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Paris_-_Louvre_Pyramid_and_Louvre_Museum.jpg/960px-Paris_-_Louvre_Pyramid_and_Louvre_Museum.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/GalerieVivienne1.jpg/960px-GalerieVivienne1.jpg"
+  },
+  "ibis Paris Tour Eiffel": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Tour_Eiffel_Wikimedia_Commons_%28cropped%29.jpg/960px-Tour_Eiffel_Wikimedia_Commons_%28cropped%29.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Tour_Eiffel%2C_Paris_16_April_2014.jpg/960px-Tour_Eiffel%2C_Paris_16_April_2014.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Pont_de_Bir-Hakeim_at_night_as_seen_from_Promenade_d%27Australie_140223_5.jpg/960px-Pont_de_Bir-Hakeim_at_night_as_seen_from_Promenade_d%27Australie_140223_5.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Tour_Eiffel_Wikimedia_Commons_%28cropped%29.jpg/960px-Tour_Eiffel_Wikimedia_Commons_%28cropped%29.jpg"
+  },
+  "CitizenM Gare de Lyon": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/CitizenM_Paris_Gare_de_Lyon_en_mai_2022.jpg/960px-CitizenM_Paris_Gare_de_Lyon_en_mai_2022.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/H%C3%B4tel_CitizenM_IMG_7012.jpg/960px-H%C3%B4tel_CitizenM_IMG_7012.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Gare_de_Lyon%2C_Natixis_et_H%C3%B4tel_CitizenM_IMG_3631.jpg/960px-Gare_de_Lyon%2C_Natixis_et_H%C3%B4tel_CitizenM_IMG_3631.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/CitizenM_Paris_Gare_de_Lyon_en_mai_2022.jpg/960px-CitizenM_Paris_Gare_de_Lyon_en_mai_2022.jpg"
+  },
+  "Café de Flore": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Caf%C3%A9_de_Flore%2C_172_boulevard_Saint-Germain%2C_Paris_6e.jpg/960px-Caf%C3%A9_de_Flore%2C_172_boulevard_Saint-Germain%2C_Paris_6e.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Les_Deux_Magots%2C_25_September_2019.jpg/960px-Les_Deux_Magots%2C_25_September_2019.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Caf%C3%A9_de_Flore%2C_172_boulevard_Saint-Germain%2C_Paris_6e.jpg/960px-Caf%C3%A9_de_Flore%2C_172_boulevard_Saint-Germain%2C_Paris_6e.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/LuxembourgMontparnasse.JPG/960px-LuxembourgMontparnasse.JPG"
+  },
+  "Girafe Paris": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Paris_-_Jardins_du_Trocad%C3%A9ro_%26_Tour_Eiffel_%2826804140054%29.jpg/960px-Paris_-_Jardins_du_Trocad%C3%A9ro_%26_Tour_Eiffel_%2826804140054%29.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Tour_Eiffel%2C_Paris_16_April_2014.jpg/960px-Tour_Eiffel%2C_Paris_16_April_2014.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Paris_-_Jardins_du_Trocad%C3%A9ro_%26_Tour_Eiffel_%2826804140054%29.jpg/960px-Paris_-_Jardins_du_Trocad%C3%A9ro_%26_Tour_Eiffel_%2826804140054%29.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Tour_Eiffel%2C_Paris_16_April_2014.jpg/960px-Tour_Eiffel%2C_Paris_16_April_2014.jpg"
+  },
+  "Le Jules Verne": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Le_Jules_Verne.jpg/960px-Le_Jules_Verne.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Tour_Eiffel_Wikimedia_Commons_%28cropped%29.jpg/960px-Tour_Eiffel_Wikimedia_Commons_%28cropped%29.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Tour_Eiffel%2C_Paris_16_April_2014.jpg/960px-Tour_Eiffel%2C_Paris_16_April_2014.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Le_Jules_Verne.jpg/960px-Le_Jules_Verne.jpg"
+  },
+  "Ladurée": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Laduree-champselysees.jpg/960px-Laduree-champselysees.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Laduree-champselysees.jpg/960px-Laduree-champselysees.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Arc_de_Triomphe%2C_Paris_21_October_2010.jpg/960px-Arc_de_Triomphe%2C_Paris_21_October_2010.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Laduree-champselysees.jpg/960px-Laduree-champselysees.jpg"
+  },
+  "Angelina Paris": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Rivoli_street_and_Angelina.jpg/960px-Rivoli_street_and_Angelina.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Paris_-_Louvre_Pyramid_and_Louvre_Museum.jpg/960px-Paris_-_Louvre_Pyramid_and_Louvre_Museum.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Rivoli_street_and_Angelina.jpg/960px-Rivoli_street_and_Angelina.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Louvre_Museum_Wikimedia_Commons.jpg/960px-Louvre_Museum_Wikimedia_Commons.jpg"
+  },
+  "Café Marly": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Paris_-_Louvre_Pyramid_and_Louvre_Museum.jpg/960px-Paris_-_Louvre_Pyramid_and_Louvre_Museum.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Louvre_Museum_Wikimedia_Commons.jpg/960px-Louvre_Museum_Wikimedia_Commons.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Paris_-_Louvre_Pyramid_and_Louvre_Museum.jpg/960px-Paris_-_Louvre_Pyramid_and_Louvre_Museum.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Le_Louvre_-_Aile_Richelieu.jpg/960px-Le_Louvre_-_Aile_Richelieu.jpg"
+  },
+  "Le Train Bleu": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Train_bleu_01.jpg/960px-Train_bleu_01.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Train_bleu_01.jpg/960px-Train_bleu_01.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Train_bleu_01.jpg/960px-Train_bleu_01.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Train_bleu_01.jpg/960px-Train_bleu_01.jpg"
+  },
+  "Le Consulat": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Restaurant_Le_Consulat_Montmartre%2C_Paris_6_May_2019.jpg/960px-Restaurant_Le_Consulat_Montmartre%2C_Paris_6_May_2019.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Restaurant_Le_Consulat_Montmartre%2C_Paris_6_May_2019.jpg/960px-Restaurant_Le_Consulat_Montmartre%2C_Paris_6_May_2019.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Le_sacre_coeur.jpg/960px-Le_sacre_coeur.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Restaurant_Le_Consulat_Montmartre%2C_Paris_6_May_2019.jpg/960px-Restaurant_Le_Consulat_Montmartre%2C_Paris_6_May_2019.jpg"
+  },
+  "La Maison Rose": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/La_Maison_Rose%2C_Montmartre.jpg/960px-La_Maison_Rose%2C_Montmartre.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Le_sacre_coeur.jpg/960px-Le_sacre_coeur.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/La_Maison_Rose%2C_Montmartre.jpg/960px-La_Maison_Rose%2C_Montmartre.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/La_Maison_Rose%2C_Montmartre.jpg/960px-La_Maison_Rose%2C_Montmartre.jpg"
+  },
+  "Le Relais Gascon": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Le_Relais_Gascon_%40_Montmartre_%40_Paris_%2834226830595%29.jpg/960px-Le_Relais_Gascon_%40_Montmartre_%40_Paris_%2834226830595%29.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Le_Relais_Gascon_%40_Montmartre_%40_Paris_%2834095966481%29.jpg/960px-Le_Relais_Gascon_%40_Montmartre_%40_Paris_%2834095966481%29.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Le_sacre_coeur.jpg/960px-Le_sacre_coeur.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Le_Relais_Gascon_%40_Montmartre_%40_Paris_%2834226830595%29.jpg/960px-Le_Relais_Gascon_%40_Montmartre_%40_Paris_%2834226830595%29.jpg"
+  },
+  "Bouillon Pigalle": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Bouillon_Pigalle.jpg/960px-Bouillon_Pigalle.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Bouillon_Pigalle_%2850635175493%29.jpg/960px-Bouillon_Pigalle_%2850635175493%29.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Bouillon_Pigalle.jpg/960px-Bouillon_Pigalle.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Bouillon_Pigalle_%2850635175493%29.jpg/960px-Bouillon_Pigalle_%2850635175493%29.jpg"
+  },
+  "Café Kitsuné": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Paris_-_Palais-Royal_-_Colonnes_de_Buren.jpg/960px-Paris_-_Palais-Royal_-_Colonnes_de_Buren.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Paris_-_Palais-Royal_-_Colonnes_de_Buren.jpg/960px-Paris_-_Palais-Royal_-_Colonnes_de_Buren.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/GalerieVivienne1.jpg/960px-GalerieVivienne1.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Paris_-_Palais-Royal_-_Colonnes_de_Buren.jpg/960px-Paris_-_Palais-Royal_-_Colonnes_de_Buren.jpg"
+  },
+  "Le Procope": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Le_Procope_Paris.jpg/960px-Le_Procope_Paris.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Le_Procope_Paris.jpg/960px-Le_Procope_Paris.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/LuxembourgMontparnasse.JPG/960px-LuxembourgMontparnasse.JPG",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Le_Procope_Paris.jpg/960px-Le_Procope_Paris.jpg"
+  },
+  "Odette": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Odette%2C_77_Rue_Galande%2C_75005_Paris%2C_May_2015.jpg/960px-Odette%2C_77_Rue_Galande%2C_75005_Paris%2C_May_2015.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Odette%2C_77_Rue_Galande%2C_75005_Paris%2C_April_2016.jpg/960px-Odette%2C_77_Rue_Galande%2C_75005_Paris%2C_April_2016.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Odette%2C_77_Rue_Galande%2C_75005_Paris%2C_August_2013.jpg/960px-Odette%2C_77_Rue_Galande%2C_75005_Paris%2C_August_2013.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Odette%2C_77_Rue_Galande%2C_75005_Paris%2C_May_2015.jpg/960px-Odette%2C_77_Rue_Galande%2C_75005_Paris%2C_May_2015.jpg"
+  },
+  "Les Ombres": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Mus%C3%A9e_du_quai_Branly_P1070719.jpg/960px-Mus%C3%A9e_du_quai_Branly_P1070719.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Eiffel_Tower_from_Quai_Branly%2C_Paris_April_2011.jpg/960px-Eiffel_Tower_from_Quai_Branly%2C_Paris_April_2011.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Eiffel_Tower_from_Quai_Branly%2C_Paris_April_2011.jpg/960px-Eiffel_Tower_from_Quai_Branly%2C_Paris_April_2011.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Mus%C3%A9e_du_quai_Branly_P1070719.jpg/960px-Mus%C3%A9e_du_quai_Branly_P1070719.jpg"
+  },
+  "Les Deux Magots": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Les_Deux_Magots%2C_25_September_2019.jpg/960px-Les_Deux_Magots%2C_25_September_2019.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Caf%C3%A9_de_Flore%2C_172_boulevard_Saint-Germain%2C_Paris_6e.jpg/960px-Caf%C3%A9_de_Flore%2C_172_boulevard_Saint-Germain%2C_Paris_6e.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Les_Deux_Magots%2C_25_September_2019.jpg/960px-Les_Deux_Magots%2C_25_September_2019.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/LuxembourgMontparnasse.JPG/960px-LuxembourgMontparnasse.JPG"
+  },
+  "Carette": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Carette_Place_du_Tertre%2C_Paris_30_October_2016.jpg/960px-Carette_Place_du_Tertre%2C_Paris_30_October_2016.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Carette_Place_du_Tertre%2C_Paris_30_October_2016.jpg/960px-Carette_Place_du_Tertre%2C_Paris_30_October_2016.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Tour_Eiffel%2C_Paris_16_April_2014.jpg/960px-Tour_Eiffel%2C_Paris_16_April_2014.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Carette_Place_du_Tertre%2C_Paris_30_October_2016.jpg/960px-Carette_Place_du_Tertre%2C_Paris_30_October_2016.jpg"
+  },
+  "Musée d'Orsay": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/MuseeOrsay_20070316.jpg/960px-MuseeOrsay_20070316.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/MuseeOrsay_20070316.jpg/960px-MuseeOrsay_20070316.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Notre-Dame_de_Paris%2C_4_October_2017.jpg/960px-Notre-Dame_de_Paris%2C_4_October_2017.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/MuseeOrsay_20070316.jpg/960px-MuseeOrsay_20070316.jpg"
+  },
+  "Printemps Haussmann": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Galeries_Lafayette_interior.jpg/960px-Galeries_Lafayette_interior.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Laduree-champselysees.jpg/960px-Laduree-champselysees.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Galeries_Lafayette_interior.jpg/960px-Galeries_Lafayette_interior.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Arc_de_Triomphe%2C_Paris_21_October_2010.jpg/960px-Arc_de_Triomphe%2C_Paris_21_October_2010.jpg"
+  },
+  "Batobus River Cruise": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Bateau_mouche_jnl_4.jpg/960px-Bateau_mouche_jnl_4.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Notre-Dame_de_Paris%2C_4_October_2017.jpg/960px-Notre-Dame_de_Paris%2C_4_October_2017.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Pont_Alexandre_III_depuis_pont_de_la_Concorde_Paris.jpg/960px-Pont_Alexandre_III_depuis_pont_de_la_Concorde_Paris.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Bateau_mouche_jnl_4.jpg/960px-Bateau_mouche_jnl_4.jpg"
+  },
+  "Rue de l'Abreuvoir": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/La_Maison_Rose%2C_Montmartre.jpg/960px-La_Maison_Rose%2C_Montmartre.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Le_sacre_coeur.jpg/960px-Le_sacre_coeur.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/La_Maison_Rose%2C_Montmartre.jpg/960px-La_Maison_Rose%2C_Montmartre.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Moulin_Rouge%2C_17_April_2011.jpg/960px-Moulin_Rouge%2C_17_April_2011.jpg"
+  },
+  "Place des Vosges": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Place_des_Vosges%2C_Paris_16_April_2014.jpg/960px-Place_des_Vosges%2C_Paris_16_April_2014.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Place_des_Vosges%2C_Paris_16_April_2014.jpg/960px-Place_des_Vosges%2C_Paris_16_April_2014.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/GalerieVivienne1.jpg/960px-GalerieVivienne1.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Place_des_Vosges%2C_Paris_16_April_2014.jpg/960px-Place_des_Vosges%2C_Paris_16_April_2014.jpg"
+  },
+  "Musée de l'Orangerie": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Crowd_in_the_Jardin_des_Tuileries%2C_Paris_July_2014.jpg/960px-Crowd_in_the_Jardin_des_Tuileries%2C_Paris_July_2014.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Paris_-_Louvre_Pyramid_and_Louvre_Museum.jpg/960px-Paris_-_Louvre_Pyramid_and_Louvre_Museum.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Louvre_Museum_Wikimedia_Commons.jpg/960px-Louvre_Museum_Wikimedia_Commons.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Crowd_in_the_Jardin_des_Tuileries%2C_Paris_July_2014.jpg/960px-Crowd_in_the_Jardin_des_Tuileries%2C_Paris_July_2014.jpg"
+  },
+  "Le Marais": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Place_des_Vosges%2C_Paris_16_April_2014.jpg/960px-Place_des_Vosges%2C_Paris_16_April_2014.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/GalerieVivienne1.jpg/960px-GalerieVivienne1.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Place_des_Vosges%2C_Paris_16_April_2014.jpg/960px-Place_des_Vosges%2C_Paris_16_April_2014.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/GalerieVivienne1.jpg/960px-GalerieVivienne1.jpg"
+  },
+  "Galeries Lafayette": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Galeries_Lafayette_interior.jpg/960px-Galeries_Lafayette_interior.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Galeries_Lafayette_interior.jpg/960px-Galeries_Lafayette_interior.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Arc_de_Triomphe%2C_Paris_21_October_2010.jpg/960px-Arc_de_Triomphe%2C_Paris_21_October_2010.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Galeries_Lafayette_interior.jpg/960px-Galeries_Lafayette_interior.jpg"
+  },
+  "Le Bon Marché": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Le_Bon_March%C3%A9%2C_Paris_27_May_2012.jpg/960px-Le_Bon_March%C3%A9%2C_Paris_27_May_2012.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Le_Bon_March%C3%A9%2C_Paris_27_May_2012.jpg/960px-Le_Bon_March%C3%A9%2C_Paris_27_May_2012.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/LuxembourgMontparnasse.JPG/960px-LuxembourgMontparnasse.JPG",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Le_Bon_March%C3%A9%2C_Paris_27_May_2012.jpg/960px-Le_Bon_March%C3%A9%2C_Paris_27_May_2012.jpg"
+  },
+  "Printemps": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Galeries_Lafayette_interior.jpg/960px-Galeries_Lafayette_interior.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Laduree-champselysees.jpg/960px-Laduree-champselysees.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Galeries_Lafayette_interior.jpg/960px-Galeries_Lafayette_interior.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Arc_de_Triomphe%2C_Paris_21_October_2010.jpg/960px-Arc_de_Triomphe%2C_Paris_21_October_2010.jpg"
+  },
+  "Avenue Montaigne": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/H%C3%B4tel_George-V%2C_31_avenue_George-V%2C_Paris_8e_1.jpg/960px-H%C3%B4tel_George-V%2C_31_avenue_George-V%2C_Paris_8e_1.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/The_Peninsula_Paris%2C_23_June_2014.jpg/960px-The_Peninsula_Paris%2C_23_June_2014.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Laduree-champselysees.jpg/960px-Laduree-champselysees.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/H%C3%B4tel_George-V%2C_31_avenue_George-V%2C_Paris_8e_1.jpg/960px-H%C3%B4tel_George-V%2C_31_avenue_George-V%2C_Paris_8e_1.jpg"
+  },
+  "La Vallée Village": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Laduree-champselysees.jpg/960px-Laduree-champselysees.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Galeries_Lafayette_interior.jpg/960px-Galeries_Lafayette_interior.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/H%C3%B4tel_George-V%2C_31_avenue_George-V%2C_Paris_8e_1.jpg/960px-H%C3%B4tel_George-V%2C_31_avenue_George-V%2C_Paris_8e_1.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Laduree-champselysees.jpg/960px-Laduree-champselysees.jpg"
+  }
+}

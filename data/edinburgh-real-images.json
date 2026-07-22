@@ -1,0 +1,332 @@
+{
+  "Edinburgh Castle": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/City_of_Edinburgh_-_Edinburgh_Castle_-_20140421193357.jpg/960px-City_of_Edinburgh_-_Edinburgh_Castle_-_20140421193357.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Edinburgh_Castle_Rock.jpg/960px-Edinburgh_Castle_Rock.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Edinburgh_Castle_from_the_Grassmarket.jpg/960px-Edinburgh_Castle_from_the_Grassmarket.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/South_side_of_Edinburgh_Castle_in_the_snow.jpg/960px-South_side_of_Edinburgh_Castle_in_the_snow.jpg"
+  },
+  "Camera Obscura & World of Illusions": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/0/07/Camera_Obscura_Edinburgh_-_geograph.org.uk_-_742543.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Camera_obscura_5785-michelides.jpg/960px-Camera_obscura_5785-michelides.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Camera_obscura_5794-michelides.jpg/960px-Camera_obscura_5794-michelides.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Camera_obscura_5800-michelides.jpg/960px-Camera_obscura_5800-michelides.jpg"
+  },
+  "St Giles' Cathedral": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/St_Giles_Cathedral%2C_Edinburgh.jpg/960px-St_Giles_Cathedral%2C_Edinburgh.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/St_Giles%27_Kirk_%28High_Kirk%29%2C_Edinburgh.jpg/960px-St_Giles%27_Kirk_%28High_Kirk%29%2C_Edinburgh.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/St_Giles%27_Cathedral_-_September_2017.jpg/960px-St_Giles%27_Cathedral_-_September_2017.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/St_Giles_Cathedral_Nave.jpg/960px-St_Giles_Cathedral_Nave.jpg"
+  },
+  "The Real Mary King's Close": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/9/96/Marykingsclose006.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Mary_King%27s_Close_tour_%28under_Edinburgh%29..._%28Blake_Patterson%29_-_Flickr.jpg/960px-Mary_King%27s_Close_tour_%28under_Edinburgh%29..._%28Blake_Patterson%29_-_Flickr.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Mary_King%27s_Close_%28Mario_RM%29_-_Flickr.jpg/960px-Mary_King%27s_Close_%28Mario_RM%29_-_Flickr.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Worriston%27s_Close_%2815310709551%29.jpg/960px-Worriston%27s_Close_%2815310709551%29.jpg"
+  },
+  "Victoria Street": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Victoria_Street_in_Edinburgh%2C_Scotland%2C_United_Kingdom_-_50436347402.jpg/960px-Victoria_Street_in_Edinburgh%2C_Scotland%2C_United_Kingdom_-_50436347402.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Victoria_Street%2C_Edinburgh_-_geograph.org.uk_-_892845.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Victoria_street%2C_Edinburgh_%2840316411770%29.jpg/960px-Victoria_street%2C_Edinburgh_%2840316411770%29.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/West_Bow_and_Victoria_Street_-_02.jpg/960px-West_Bow_and_Victoria_Street_-_02.jpg"
+  },
+  "Princes Street Gardens": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Princes_Street_Gardens_20140319.jpg/960px-Princes_Street_Gardens_20140319.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Princes_Street_Gardens_-_geograph.org.uk_-_1848168.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/2/23/Princes_Street_Gardens_West_-_geograph.org.uk_-_2236120.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/1/16/Princes_Street_Gardens_-_geograph.org.uk_-_2286913.jpg"
+  },
+  "Scott Monument": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Scott_Monument%2C_Edinburgh%2C_May_2008.jpg/960px-Scott_Monument%2C_Edinburgh%2C_May_2008.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Scott_Monument%2C_Edinburgh_01.jpg/960px-Scott_Monument%2C_Edinburgh_01.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/The_Scott_Monument%2C_Princes_Street_Gardens.jpg/960px-The_Scott_Monument%2C_Princes_Street_Gardens.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/The_Scott_Monument_from_The_Mound.jpg/960px-The_Scott_Monument_from_The_Mound.jpg"
+  },
+  "Dean Village": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Dean_village%2C_Edinburgh_-_geograph.org.uk_-_1296483.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Restored_buildings_in_Dean_Village%2C_Edinburgh_04.jpg/960px-Restored_buildings_in_Dean_Village%2C_Edinburgh_04.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Edinburgh_-_12_Hawthornbank_Lane%2C_Dean_Village%2C_Edinburgh_-_20140426192733.jpg/960px-Edinburgh_-_12_Hawthornbank_Lane%2C_Dean_Village%2C_Edinburgh_-_20140426192733.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Modern_buildings_in_Dean_Village%2C_Edinburgh_01.jpg/960px-Modern_buildings_in_Dean_Village%2C_Edinburgh_01.jpg"
+  },
+  "Royal Botanic Garden Edinburgh": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Palm_House%2C_Royal_Botanic_Garden_Edinburgh.JPG/960px-Palm_House%2C_Royal_Botanic_Garden_Edinburgh.JPG",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Edinburgh_Royal_Botanic_Gardens_-_petrified_tree_trunk_-_geograph.org.uk_-_2296184.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Satureja_subspicata%2C_Royal_Botanic_Garden_Edinburgh%2C_Scotland%2C_GB%2C_IMG_3779_edit.jpg/960px-Satureja_subspicata%2C_Royal_Botanic_Garden_Edinburgh%2C_Scotland%2C_GB%2C_IMG_3779_edit.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Helianthemum%2C_Royal_Botanic_Garden_Edinburgh%2C_Scotland%2C_GB%2C_IMG_3770_edit.jpg/960px-Helianthemum%2C_Royal_Botanic_Garden_Edinburgh%2C_Scotland%2C_GB%2C_IMG_3770_edit.jpg"
+  },
+  "Calton Hill": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Edinburgh_Calton_Hill.jpg/960px-Edinburgh_Calton_Hill.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Calton_Hill_20140318.jpg/960px-Calton_Hill_20140318.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/6/69/View_from_Calton_Hill_-_geograph.org.uk_-_1987009.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Edinburgh_Calton_Hill_from_Salisbury_Crags_20211019.jpg/960px-Edinburgh_Calton_Hill_from_Salisbury_Crags_20211019.jpg"
+  },
+  "Arthur's Seat": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Edinburgh_Arthur_Seat_dsc06165.jpg/960px-Edinburgh_Arthur_Seat_dsc06165.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Walking_to_Arthur%27s_Seat.jpg/960px-Walking_to_Arthur%27s_Seat.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Edinburgh_Arthur%27s_Seat-20110904-RM-124927.jpg/960px-Edinburgh_Arthur%27s_Seat-20110904-RM-124927.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Arthur%27s_Seat_from_Calton_Hill.jpg/960px-Arthur%27s_Seat_from_Calton_Hill.jpg"
+  },
+  "Palace of Holyroodhouse": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Holyrood_Palace_and_Abbey.jpg/960px-Holyrood_Palace_and_Abbey.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Holyrood_Palace_main_entrance_20211021.jpg/960px-Holyrood_Palace_main_entrance_20211021.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Holyrood_Palace_fountain_20211021.jpg/960px-Holyrood_Palace_fountain_20211021.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/City_of_Edinburgh_-_Holyrood_Palace_-_20230414111828.jpg/960px-City_of_Edinburgh_-_Holyrood_Palace_-_20230414111828.jpg"
+  },
+  "Royal Yacht Britannia": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/e/e2/HMY_Britannia.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/HMY_Britannia_bow_20211027.jpg/960px-HMY_Britannia_bow_20211027.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Royal_Yacht_Britannia_-_geograph.org.uk_-_1855051.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Royal_Yacht_Britannia%2C_engine_room_-_geograph.org.uk_-_2473894.jpg/960px-Royal_Yacht_Britannia%2C_engine_room_-_geograph.org.uk_-_2473894.jpg"
+  },
+  "Leith Shore": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/The_Shore_in_Leith_-_Winter_2009_-_geograph.org.uk_-_2166414.jpg/960px-The_Shore_in_Leith_-_Winter_2009_-_geograph.org.uk_-_2166414.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/3/37/The_Shore%2C_Leith_-_geograph.org.uk_-_2367275.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Leith_Shore_-_geograph.org.uk_-_2941554.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Shore%2C_Leith_-_geograph.org.uk_-_2722754.jpg/960px-Shore%2C_Leith_-_geograph.org.uk_-_2722754.jpg"
+  },
+  "The Balmoral Hotel": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Balmoral_Hotel.jpg/960px-Balmoral_Hotel.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/The_Balmoral_Hotel%2C_Edinburgh.jpg/960px-The_Balmoral_Hotel%2C_Edinburgh.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/d/d0/The_Balmoral_Hotel%2C_Edinburgh_-_geograph.org.uk_-_1712634.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Balmoral_Hotel_and_North_Bridge%2C_Edinburgh_-_geograph.org.uk_-_2819940.jpg"
+  },
+  "The Witchery by the Castle": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/2/27/The_Witchery_-_geograph.org.uk_-_612172.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/1/12/The_Witchery_pub_and_restaurant%2C_Royal_Mile_-_geograph.org.uk_-_973191.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Boswell%27s_Court_%28Now_The_Witchery_by_the_Castle%29%2C_352_Castlehill%2C_The_Royal_Mile%2C_Edinburgh.jpg/960px-Boswell%27s_Court_%28Now_The_Witchery_by_the_Castle%29%2C_352_Castlehill%2C_The_Royal_Mile%2C_Edinburgh.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Boswell%27s_Court_%28Now_The_Witchery_by_the_Castle%29%2C_352_Castlehill%2C_The_Royal_Mile%2C_Edinburgh_%284%29.jpg/960px-Boswell%27s_Court_%28Now_The_Witchery_by_the_Castle%29%2C_352_Castlehill%2C_The_Royal_Mile%2C_Edinburgh_%284%29.jpg"
+  },
+  "Market Street Hotel": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/3/38/Market_Street%2C_Edinburgh_-_geograph.org.uk_-_1162879.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Buildings_along_Market_Street%2C_Edinburgh%2C_06.08.2015.jpg/960px-Buildings_along_Market_Street%2C_Edinburgh%2C_06.08.2015.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Edinburgh%2C_9%2C_10%2C_11_Market_Street%2C_St_Christopher%27s_Hotel.jpg/960px-Edinburgh%2C_9%2C_10%2C_11_Market_Street%2C_St_Christopher%27s_Hotel.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Market_Street%2C_Edinburgh_-_geograph.org.uk_-_2475566.jpg/960px-Market_Street%2C_Edinburgh_-_geograph.org.uk_-_2475566.jpg"
+  },
+  "Motel One Edinburgh – Royal": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/1/15/Motel_One_-_Edinburgh_Royal_-_geograph.org.uk_-_3506244.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Apple_Store-_Motel_One%2C_Princes_Street%2C_Edinburgh.jpg/960px-Apple_Store-_Motel_One%2C_Princes_Street%2C_Edinburgh.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Cockburn_Street_at_Market_Street_-_geograph.org.uk_-_1253679.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Edinburgh%2C_Market_Street%2C_Police_Call_Box_-_20130831195742.jpg/960px-Edinburgh%2C_Market_Street%2C_Police_Call_Box_-_20130831195742.jpg"
+  },
+  "Apex Grassmarket Hotel": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/7/79/Grassmarket%2C_Edinburgh%2C_12_August_2013.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Edinburgh%2C_60_Grassmarket.jpg/960px-Edinburgh%2C_60_Grassmarket.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Edinburgh%2C_74_-_78_Grassmarket_01.jpg/960px-Edinburgh%2C_74_-_78_Grassmarket_01.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Grassmarket_by_night%2C_Edinburgh_-_geograph.org.uk_-_2622075.jpg"
+  },
+  "ibis Edinburgh Centre South Bridge": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/60-61_South_Bridge%2C_Edinburgh.jpg/960px-60-61_South_Bridge%2C_Edinburgh.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Tenements%2C_South_Bridge_-_geograph.org.uk_-_2298871.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/2/2a/South_Bridge_tenement_-_geograph.org.uk_-_2568349.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/2/22/South_Bridge_-_geograph.org.uk_-_2258866.jpg"
+  },
+  "Premier Inn Edinburgh City Centre": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/10_-_14_Lauriston_Place.jpg/960px-10_-_14_Lauriston_Place.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Lauriston_Place_-_geograph.org.uk_-_1826024.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Edinburgh_College_Of_Art%2C_Lauriston_Place_-_geograph.org.uk_-_2057065.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/7/71/Houses_in_Lauriston_Place_-_geograph.org.uk_-_2531699.jpg"
+  },
+  "Makars Gourmet Mash Bar": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Bank_Street%2C_Edinburgh%2C_14_August_2007.jpg/960px-Bank_Street%2C_Edinburgh%2C_14_August_2007.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Bank_Street_-_geograph.org.uk_-_1253639.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Buildings_in_North_Bank_Street_-_geograph.org.uk_-_2037034.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/d/db/Bank_Street_tenement_-_geograph.org.uk_-_2037048.jpg"
+  },
+  "The Scran & Scallie": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Comely_Bank_Road%2C_Edinburgh.JPG/960px-Comely_Bank_Road%2C_Edinburgh.JPG",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Edinburgh%2C_5_and_4_Comely_Bank.jpg/960px-Edinburgh%2C_5_and_4_Comely_Bank.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Edinburgh%2C_6_Comely_Bank.jpg/960px-Edinburgh%2C_6_Comely_Bank.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/An_unlisted_house_35_Comely_Bank_Road_Edinburgh.jpg/960px-An_unlisted_house_35_Comely_Bank_Road_Edinburgh.jpg"
+  },
+  "The Dome": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/The_Dome_Edinburgh.JPG/960px-The_Dome_Edinburgh.JPG",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Edinburgh_Dome_-_geograph.org.uk_-_303189.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/f/fb/The_Dome%2C_Edinburgh_-_geograph.org.uk_-_3570883.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/The_Dome%2C_Edinburgh.jpg/960px-The_Dome%2C_Edinburgh.jpg"
+  },
+  "Fishers in Leith": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/1/16/The_Shore%2C_Leith_-_geograph.org.uk_-_2623294.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/f/f0/The_Shore%2C_Leith_-_geograph.org.uk_-_2623304.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Shore%2C_Leith_-_geograph.org.uk_-_2894337.jpg/960px-Shore%2C_Leith_-_geograph.org.uk_-_2894337.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Shore%2C_Leith_-_geograph.org.uk_-_2722754.jpg/960px-Shore%2C_Leith_-_geograph.org.uk_-_2722754.jpg"
+  },
+  "The Kitchin": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Commercial_Quay.JPG/960px-Commercial_Quay.JPG",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Entrance_to_Commercial_Quay_from_Dock_Place_-_geograph.org.uk_-_1904596.jpg/960px-Entrance_to_Commercial_Quay_from_Dock_Place_-_geograph.org.uk_-_1904596.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Commercial_Quay_-_geograph.org.uk_-_1904598.jpg/960px-Commercial_Quay_-_geograph.org.uk_-_1904598.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Commercial_Quay_-_geograph.org.uk_-_2357730.jpg"
+  },
+  "The Ship on the Shore": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/2/22/The_Shore%2C_Leith_-_geograph.org.uk_-_2623323.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/5/5e/The_Shore%2C_Leith_-_geograph.org.uk_-_2623334.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/c/c6/The_Shore%2C_Leith_-_geograph.org.uk_-_2623337.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/f/f9/The_Shore%2C_Leith_-_geograph.org.uk_-_2623338.jpg"
+  },
+  "The Edinburgh Larder": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/1/11/Blackfriars_Street_-_geograph.org.uk_-_928737.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Blackfriars_Street%2C_Edinburgh_-_geograph.org.uk_-_973439.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/3/37/Blackfriars_Street_doorway_-_geograph.org.uk_-_1339605.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Regent_Morton%27s_House%2C_Blackfriars_Street_Edinburgh.jpg/960px-Regent_Morton%27s_House%2C_Blackfriars_Street_Edinburgh.jpg"
+  },
+  "Urban Angel": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/13_South_Hanover_Street%2C_Edinburgh.jpg/960px-13_South_Hanover_Street%2C_Edinburgh.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Hanover_Street_-_geograph.org.uk_-_3143257.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Hanover_Street%2C_Edinburgh_-_geograph.org.uk_-_3570851.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Hanover_Street%2C_Edinburgh.jpg/960px-Hanover_Street%2C_Edinburgh.jpg"
+  },
+  "Cairngorm Coffee": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/2/20/Frederick_Street%2C_Edinburgh%2C_11_December_2009.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/5/56/Frederick_Street%2C_Edinburgh_-_geograph.org.uk_-_282070.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/8/81/Frederick_Street%2C_Edinburgh_-_geograph.org.uk_-_932027.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Sunlight%2C_Frederick_Street%2C_Edinburgh_-_geograph.org.uk_-_932273.jpg"
+  },
+  "The Milkman": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/7/71/Cockburn_Street_-_geograph.org.uk_-_1174100.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/0/06/Cockburn_Street_Edinburgh_-_geograph.org.uk_-_1597295.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Cockburn_Street%2C_Edinburgh_-_geograph.org.uk_-_1711635.jpg/960px-Cockburn_Street%2C_Edinburgh_-_geograph.org.uk_-_1711635.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Cockburn_Street%2C_Edinburgh.jpg/960px-Cockburn_Street%2C_Edinburgh.jpg"
+  },
+  "Fortitude Coffee": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/York_Place%2C_Edinburgh_%282%29_%2814281344743%29_%282%29.jpg/960px-York_Place%2C_Edinburgh_%282%29_%2814281344743%29_%282%29.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/19_York_Place%2C_Edinburgh.jpg/960px-19_York_Place%2C_Edinburgh.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/38_York_Place%2C_Edinburgh.jpg/960px-38_York_Place%2C_Edinburgh.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/10_York_Place%2C_Edinburgh.jpg/960px-10_York_Place%2C_Edinburgh.jpg"
+  },
+  "Lowdown Coffee": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/George_Street_19-21%2C_Edinburgh.JPG/960px-George_Street_19-21%2C_Edinburgh.JPG",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Edinburgh_-_Edinburgh%2C_69_George_Street_-_20140421200112.jpg/960px-Edinburgh_-_Edinburgh%2C_69_George_Street_-_20140421200112.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Edinburgh_-_George_Street_%28geograph_6654164%29.jpg/960px-Edinburgh_-_George_Street_%28geograph_6654164%29.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/5/51/George_Street%2C_Edinburgh_-_geograph.org.uk_-_3570862.jpg"
+  },
+  "Brew Lab": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/South_College_Street_UP_Church%2C_Edinburgh.jpg/960px-South_College_Street_UP_Church%2C_Edinburgh.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/11a_South_College_Street%2C_Edinburgh.jpg/960px-11a_South_College_Street%2C_Edinburgh.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/9%2C_10%2C_11_South_College_Street%2C_Edinburgh.jpg/960px-9%2C_10%2C_11_South_College_Street%2C_Edinburgh.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/4_South_College_Street%2C_Edinburgh.jpg/960px-4_South_College_Street%2C_Edinburgh.jpg"
+  },
+  "Hula Juice Bar": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Edinburgh_Grassmarkt_Pubs-20110902-RM-133553.jpg/960px-Edinburgh_Grassmarkt_Pubs-20110902-RM-133553.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Edinburgh%2C_Grassmarket%2C_K6_Telephone_Kiosk.jpg/960px-Edinburgh%2C_Grassmarket%2C_K6_Telephone_Kiosk.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/East_end_of_the_Grassmarket%2C_Edinburgh_%28composite%29.jpg/960px-East_end_of_the_Grassmarket%2C_Edinburgh_%28composite%29.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Shadow_of_the_gibbet%2C_Grassmarket_Edinburgh.jpg/960px-Shadow_of_the_gibbet%2C_Grassmarket_Edinburgh.jpg"
+  },
+  "Williams & Johnson Coffee Co.": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Leith_Police_Station%2C_Constitution_Street_%28former_Town_Hall%29%2C_Edinburgh.jpg/960px-Leith_Police_Station%2C_Constitution_Street_%28former_Town_Hall%29%2C_Edinburgh.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Leith_Police_Station_-_geograph.org.uk_-_2223512.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/7/72/Leith_Street%2C_Edinburgh_-_geograph.org.uk_-_3543467.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/6/63/Leith_Street%2C_Edinburgh_-_geograph.org.uk_-_3543475.jpg"
+  },
+  "National Museum of Scotland": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Museum_of_Scotland.jpg/960px-Museum_of_Scotland.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/National_Museum_of_Scotland_%28Back%29.jpg/960px-National_Museum_of_Scotland_%28Back%29.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/National_Museum_of_Scotland_-_Interior_view_03.jpg/960px-National_Museum_of_Scotland_-_Interior_view_03.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/2/26/Stegosaurus_skeleton_at_National_Museum_of_Scotland.jpg"
+  },
+  "Scottish National Gallery": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Scottish_National_Gallery.jpg/960px-Scottish_National_Gallery.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Scottish_National_Gallery%2C_Edinburgh_03.jpg/960px-Scottish_National_Gallery%2C_Edinburgh_03.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Scottish_National_Gallery%2C_Edinburgh_02.jpg/960px-Scottish_National_Gallery%2C_Edinburgh_02.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Scottish_National_Gallery%2C_Edinburgh_01.jpg/960px-Scottish_National_Gallery%2C_Edinburgh_01.jpg"
+  },
+  "Camera Obscura": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/0/07/Camera_Obscura_Edinburgh_-_geograph.org.uk_-_742543.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Camera_obscura_5799-michelides.jpg/960px-Camera_obscura_5799-michelides.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Camera_obscura_5802-michelides.jpg/960px-Camera_obscura_5802-michelides.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Camera_obscura_5814-michelides.jpg/960px-Camera_obscura_5814-michelides.jpg"
+  },
+  "Royal Botanic Garden Glasshouses": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/4/41/Tropical_Palm_House%2C_Royal_Botanic_Garden%2C_Edinburgh._-_geograph.org.uk_-_1475464.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/8/89/Tropical_Palm_House%2C_Royal_Botanic_Garden%2C_Edinburgh_-_geograph.org.uk_-_1475447.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Modern_glass_houses%2C_Royal_Botanic_Gardens%2C_Edinburgh_-_geograph.org.uk_-_1638325.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Inside_the_glasshouses_at_the_Royal_Botanic_Gardens%2C_Edinburgh_-_geograph.org.uk_-_2149633.jpg"
+  },
+  "Scotch Whisky Experience": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Scotch_Whisky_Heritage_Center_of_Edinburgh.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/0/03/Scotch_Whisky_Heritage_Centre%2C_Edinburgh_-_geograph.org.uk_-_932290.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Castlehill_School_%28Now_The_Scotch_Whisky_Experience%29%2C_354_Castlehill%2C_The_Royal_Mile%2C_Edinburgh_%281%29.jpg/960px-Castlehill_School_%28Now_The_Scotch_Whisky_Experience%29%2C_354_Castlehill%2C_The_Royal_Mile%2C_Edinburgh_%281%29.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/The_scotch_whisky_experience%2C_Edinburgh_%28_Ank_Kumar%2C_infosys_limited%29_01.jpg/960px-The_scotch_whisky_experience%2C_Edinburgh_%28_Ank_Kumar%2C_infosys_limited%29_01.jpg"
+  },
+  "The Dome afternoon tea": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/The_Dome%2C_Edinburgh.jpg/960px-The_Dome%2C_Edinburgh.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/f/fb/The_Dome%2C_Edinburgh_-_geograph.org.uk_-_3570883.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Edinburgh_Dome_-_geograph.org.uk_-_303189.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/The_Dome_Edinburgh.JPG/960px-The_Dome_Edinburgh.JPG"
+  },
+  "Royal Botanic Garden": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Palm_House%2C_Royal_Botanic_Garden_Edinburgh.JPG/960px-Palm_House%2C_Royal_Botanic_Garden_Edinburgh.JPG",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Satureja_subspicata%2C_Royal_Botanic_Garden_Edinburgh%2C_Scotland%2C_GB%2C_IMG_3779_edit.jpg/960px-Satureja_subspicata%2C_Royal_Botanic_Garden_Edinburgh%2C_Scotland%2C_GB%2C_IMG_3779_edit.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Helianthemum%2C_Royal_Botanic_Garden_Edinburgh%2C_Scotland%2C_GB%2C_IMG_3770_edit.jpg/960px-Helianthemum%2C_Royal_Botanic_Garden_Edinburgh%2C_Scotland%2C_GB%2C_IMG_3770_edit.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Edinburgh_Royal_Botanic_Gardens_-_petrified_tree_trunk_-_geograph.org.uk_-_2296184.jpg"
+  },
+  "Leith Shore Walk": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Water_of_Leith_Walkway%2C_Leith_-_geograph.org.uk_-_1857679.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Water_of_Leith%2C_Leith_-_geograph.org.uk_-_2369646.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/4/47/Water_of_Leith_Walkway_descends_to_Water_of_Leith%2C_Roseburn_-_geograph.org.uk_-_2392707.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Water_of_Leith_Walkway_crosses_the_Water_of_Leith_-_geograph.org.uk_-_2396127.jpg"
+  },
+  "Portobello Beach": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Portobello_Beach_Pillars.jpg/960px-Portobello_Beach_Pillars.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Portobello_Beach_-_geograph.org.uk_-_3613607.jpg/960px-Portobello_Beach_-_geograph.org.uk_-_3613607.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Portobello_Beach_-_geograph.org.uk_-_3664268.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/3/3d/The_promenade_at_Portobello%2C_Edinburgh_-_geograph.org.uk_-_5023976.jpg"
+  },
+  "Circus Lane": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Circus_Lane_%282056643217%29.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Circus_Lane%2C_Edinburgh_-_panoramio.jpg/960px-Circus_Lane%2C_Edinburgh_-_panoramio.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Circus_Lane_-_geograph.org.uk_-_2003304.jpg/960px-Circus_Lane_-_geograph.org.uk_-_2003304.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/A_view_from_Circus_Lane_-_geograph.org.uk_-_3174066.jpg/960px-A_view_from_Circus_Lane_-_geograph.org.uk_-_3174066.jpg"
+  },
+  "Dunbar's Close Garden": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Dunbar%27s_Close_Garden_01.jpg/960px-Dunbar%27s_Close_Garden_01.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Dunbar%27s_Close_Gardens_Edinburgh_-_panoramio_%281%29.jpg/960px-Dunbar%27s_Close_Gardens_Edinburgh_-_panoramio_%281%29.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Dunbar%27s_Close_Gardens_Edinburgh_-_panoramio_%282%29.jpg/960px-Dunbar%27s_Close_Gardens_Edinburgh_-_panoramio_%282%29.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Dunbar%27s_Close_Gardens_Edinburgh_-_panoramio_%283%29.jpg/960px-Dunbar%27s_Close_Gardens_Edinburgh_-_panoramio_%283%29.jpg"
+  },
+  "Water of Leith Walkway": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Water_of_Leith_Walkway%2C_Leith_-_geograph.org.uk_-_1857679.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Water_of_Leith_at_Dean_village_-_geograph.org.uk_-_936835.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Water_of_Leith%2C_Leith_-_geograph.org.uk_-_2369646.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Water_of_Leith_Walkway_crosses_the_Water_of_Leith_-_geograph.org.uk_-_2396127.jpg"
+  },
+  "Dr Neil's Garden": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Dr_Neil%27s_Garden_at_Duddingston_-_geograph.org.uk_-_1507681.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/4/41/Plaque_at_the_entrance_to_Dr_Neil%27s_Garden_-_geograph.org.uk_-_1507683.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Pond%2C_Dr_Neil%27s_Garden_-_geograph.org.uk_-_7786474.jpg/960px-Pond%2C_Dr_Neil%27s_Garden_-_geograph.org.uk_-_7786474.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Dr_Neil%27s_Garden_-_geograph.org.uk_-_7785869.jpg/960px-Dr_Neil%27s_Garden_-_geograph.org.uk_-_7785869.jpg"
+  },
+  "The Vennel": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/The_Vennel%2C_Edinburgh.JPG/960px-The_Vennel%2C_Edinburgh.JPG",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/0/0d/The_Vennel_-_geograph.org.uk_-_1413046.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/The_Vennel%2C_1-3_Brown%27s_Place%2C_Edinburgh%2C_September_2019.jpg/960px-The_Vennel%2C_1-3_Brown%27s_Place%2C_Edinburgh%2C_September_2019.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/6/64/Flodden_Wall%2C_The_Vennel_-_geograph.org.uk_-_2058348.jpg"
+  },
+  "Stockbridge Market": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Stockbridge_Market_Edinburgh.jpg/960px-Stockbridge_Market_Edinburgh.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/6/6c/The_Colonies_terrace%2C_Stockbridge%2C_Edinburgh_-_geograph.org.uk_-_1597894.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/d/da/Unusual_stone_terrace_houses%2C_Stockbridge%2C_Edinburgh_-_geograph.org.uk_-_1597902.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Duncan%27s_Land%2C_Stockbridge%2C_Edinburgh.jpg/960px-Duncan%27s_Land%2C_Stockbridge%2C_Edinburgh.jpg"
+  },
+  "Greyfriars Bobby": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/8/83/Greyfriars-bobby-edin.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Greyfriars_Bobby_Statue_Edinburgh.jpg/960px-Greyfriars_Bobby_Statue_Edinburgh.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Greyfriars_Bobby_Memorial_Fountain.jpg/960px-Greyfriars_Bobby_Memorial_Fountain.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/3/36/Greyfriars_Bobby_-_geograph.org.uk_-_1974296.jpg"
+  },
+  "Princes Street": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Princes_Street%2C_Edinburgh%2C_29_October_2005.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Princes_Street%2C_Edinburgh_-_geograph.org.uk_-_465803.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Princes_Street%2C_Edinburgh_%281%29_-_geograph.org.uk_-_2816909.jpg/960px-Princes_Street%2C_Edinburgh_%281%29_-_geograph.org.uk_-_2816909.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Princes_Street%2C_Edinburgh_%28geograph_3507319%29.jpg/960px-Princes_Street%2C_Edinburgh_%28geograph_3507319%29.jpg"
+  },
+  "Multrees Walk": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Multrees_Walk.jpg/960px-Multrees_Walk.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Multrees_Walk_-_geograph.org.uk_-_2739580.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Lane_off_St_Andrew_Square_-_geograph.org.uk_-_2580402.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Elder_Street%2C_Edinburgh_-_geograph.org.uk_-_950212.jpg"
+  },
+  "Grassmarket": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/7/79/Grassmarket%2C_Edinburgh%2C_12_August_2013.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/East_end_of_the_Grassmarket%2C_Edinburgh_%28composite%29.jpg/960px-East_end_of_the_Grassmarket%2C_Edinburgh_%28composite%29.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Grassmarket_by_night%2C_Edinburgh_-_geograph.org.uk_-_2622075.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/7/72/Grassmarket%2C_Edinburgh_%281982%29_-_geograph.org.uk_-_4314550.jpg"
+  }
+}

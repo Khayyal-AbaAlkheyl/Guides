@@ -1,0 +1,290 @@
+{
+  "Eiffel Tower": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Trocadéro Gardens": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Arc de Triomphe": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Champs-Élysées": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Seine River Cruise": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Bir-Hakeim Bridge": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Pont_de_Bir-Hakeim_at_night_as_seen_from_Promenade_d%27Australie_140223_5.jpg/960px-Pont_de_Bir-Hakeim_at_night_as_seen_from_Promenade_d%27Australie_140223_5.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Pont_de_Bir-Hakeim_at_night_as_seen_from_Promenade_d%27Australie_140223_5.jpg/960px-Pont_de_Bir-Hakeim_at_night_as_seen_from_Promenade_d%27Australie_140223_5.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Viaduc_de_Passy_-_Paris_-_novembre_2005.jpg/960px-Viaduc_de_Passy_-_Paris_-_novembre_2005.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Viaduc_de_Passy_-_Paris_-_novembre_2005.jpg/960px-Viaduc_de_Passy_-_Paris_-_novembre_2005.jpg"
+  },
+  "Pont Alexandre III": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Pont_Alexandre_III_depuis_pont_de_la_Concorde_Paris.jpg/960px-Pont_Alexandre_III_depuis_pont_de_la_Concorde_Paris.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Le_Grand_Palais_depuis_le_pont_Alexandre_III_%C3%A0_Paris.jpg/960px-Le_Grand_Palais_depuis_le_pont_Alexandre_III_%C3%A0_Paris.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Le_grand_hall_du_Palais_de_la_D%C3%A9couverte%2C_Paris_juin_2008.jpg/960px-Le_grand_hall_du_Palais_de_la_D%C3%A9couverte%2C_Paris_juin_2008.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Postcard_-_Paris%2C_Le_Pont_Alexandre_III_vers_les_Invalides.jpg/960px-Postcard_-_Paris%2C_Le_Pont_Alexandre_III_vers_les_Invalides.jpg"
+  },
+  "Louvre Museum": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Louvre_Museum_Wikimedia_Commons.jpg/960px-Louvre_Museum_Wikimedia_Commons.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Le_Louvre_-_Aile_Richelieu.jpg/960px-Le_Louvre_-_Aile_Richelieu.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Le_Louvre_-_Aile_Richelieu.jpg/960px-Le_Louvre_-_Aile_Richelieu.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Louvre_Museum_Wikimedia_Commons.jpg/960px-Louvre_Museum_Wikimedia_Commons.jpg"
+  },
+  "Louvre Pyramid": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Jardin des Tuileries": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Place de la Concorde": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Galeries Lafayette Rooftop": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Sacré-Cœur Basilica": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Montmartre": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Moulin Rouge": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Galerie Vivienne": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Luxembourg Gardens": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Panthéon": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Paris_Pantheon_at_night_DSC09526.jpg/960px-Paris_Pantheon_at_night_DSC09526.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Paris_Pantheon_at_night_DSC09526.jpg/960px-Paris_Pantheon_at_night_DSC09526.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Paris_Pantheon_at_night_DSC09526.jpg/960px-Paris_Pantheon_at_night_DSC09526.jpg",
+    "map": null
+  },
+  "Notre-Dame Cathedral": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Notre-Dame_de_Paris%2C_4_October_2017.jpg/960px-Notre-Dame_de_Paris%2C_4_October_2017.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Notre_Dame_Paris_front_facade_lower.jpg/960px-Notre_Dame_Paris_front_facade_lower.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/4/46/Paris_Notre-Dame_cathedral_statue_Pieta_by_Nicolas_Coustou_zz.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/4/46/Paris_Notre-Dame_cathedral_statue_Pieta_by_Nicolas_Coustou_zz.jpg"
+  },
+  "Shakespeare & Company": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Shakespeare_and_Company%2C_Paris.jpg/960px-Shakespeare_and_Company%2C_Paris.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Shakespeare_and_Company%2C_Paris.jpg/960px-Shakespeare_and_Company%2C_Paris.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/03_Shakespeare_and_Company.jpg/960px-03_Shakespeare_and_Company.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/03_Shakespeare_and_Company.jpg/960px-03_Shakespeare_and_Company.jpg"
+  },
+  "Rue de l'Université": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Seine River Banks": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "The Peninsula Paris": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Shangri-La Paris": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Four Seasons George V": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Hôtel Le Six": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Hôtel Fabric": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Pullman Paris Tour Eiffel": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Hôtel Malte – Astotel": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Paris_%28IA_paris00city%29.pdf/page1-500px-Paris_%28IA_paris00city%29.pdf.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Paris_%28IA_paris00city%29.pdf/page1-500px-Paris_%28IA_paris00city%29.pdf.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Paris_%28IA_paris00city%29.pdf/page1-500px-Paris_%28IA_paris00city%29.pdf.jpg",
+    "map": null
+  },
+  "ibis Paris Tour Eiffel": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Apollinaire_-_Alcools%2C_1920.djvu/page1-960px-Apollinaire_-_Alcools%2C_1920.djvu.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Apollinaire_-_Alcools%2C_1920.djvu/page1-960px-Apollinaire_-_Alcools%2C_1920.djvu.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Paris_in_London_-_1902%2C_Earl%27s_Court_-_official_guide_and_catalogue_-_director_general_Imre_Kiralfy_%28IA_parisinlondon19000lond%29.pdf/page1-960px-Paris_in_London_-_1902%2C_Earl%27s_Court_-_official_guide_and_catalogue_-_director_general_Imre_Kiralfy_%28IA_parisinlondon19000lond%29.pdf.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Paris_in_London_-_1902%2C_Earl%27s_Court_-_official_guide_and_catalogue_-_director_general_Imre_Kiralfy_%28IA_parisinlondon19000lond%29.pdf/page1-960px-Paris_in_London_-_1902%2C_Earl%27s_Court_-_official_guide_and_catalogue_-_director_general_Imre_Kiralfy_%28IA_parisinlondon19000lond%29.pdf.jpg"
+  },
+  "CitizenM Gare de Lyon": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Paris_and_environs_with_routes_from_London_to_Paris%3B_handbook_for_travellers_%28IA_14thedbaedparis00karl%29.pdf/page1-500px-Paris_and_environs_with_routes_from_London_to_Paris%3B_handbook_for_travellers_%28IA_14thedbaedparis00karl%29.pdf.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Paris_and_environs_with_routes_from_London_to_Paris%3B_handbook_for_travellers_%28IA_14thedbaedparis00karl%29.pdf/page1-500px-Paris_and_environs_with_routes_from_London_to_Paris%3B_handbook_for_travellers_%28IA_14thedbaedparis00karl%29.pdf.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Paris_and_environs_with_routes_from_London_to_Paris%3B_handbook_for_travellers_%28IA_14thedbaedparis00karl%29.pdf/page1-500px-Paris_and_environs_with_routes_from_London_to_Paris%3B_handbook_for_travellers_%28IA_14thedbaedparis00karl%29.pdf.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Paris_and_environs_with_routes_from_London_to_Paris%3B_handbook_for_travellers_%28IA_14thedbaedparis00karl%29.pdf/page1-500px-Paris_and_environs_with_routes_from_London_to_Paris%3B_handbook_for_travellers_%28IA_14thedbaedparis00karl%29.pdf.jpg"
+  },
+  "Café de Flore": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Girafe Paris": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Le Jules Verne": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Ladurée": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Angelina Paris": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Café Marly": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Le Train Bleu": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Le Consulat": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "La Maison Rose": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Le Relais Gascon": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Bouillon Pigalle": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Café Kitsuné": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Le Procope": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Le_Procope_1%2C_Paris_2010.jpg/960px-Le_Procope_1%2C_Paris_2010.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Le_Procope_1%2C_Paris_2010.jpg/960px-Le_Procope_1%2C_Paris_2010.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Voltaires_Desk_at_Le_Procope.jpg/960px-Voltaires_Desk_at_Le_Procope.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Le_Procope_Cafe_Procope.jpg/960px-Le_Procope_Cafe_Procope.jpg"
+  },
+  "Odette": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/How_Paris_amuses_itself%3B_%28IA_howparisamusesit00smit%29.pdf/page1-500px-How_Paris_amuses_itself%3B_%28IA_howparisamusesit00smit%29.pdf.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/How_Paris_amuses_itself%3B_%28IA_howparisamusesit00smit%29.pdf/page1-500px-How_Paris_amuses_itself%3B_%28IA_howparisamusesit00smit%29.pdf.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Odette_et_Charlus_%40_Paris_%2834339757304%29.jpg/960px-Odette_et_Charlus_%40_Paris_%2834339757304%29.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Revue_des_Deux_Mondes_-_1921_-_tome_62.djvu/page1-960px-Revue_des_Deux_Mondes_-_1921_-_tome_62.djvu.jpg"
+  },
+  "Les Ombres": {
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Chopin_-_De_l%E2%80%99Elbe_aux_Balkans.pdf/page1-500px-Chopin_-_De_l%E2%80%99Elbe_aux_Balkans.pdf.jpg",
+    "detail": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Chopin_-_De_l%E2%80%99Elbe_aux_Balkans.pdf/page1-500px-Chopin_-_De_l%E2%80%99Elbe_aux_Balkans.pdf.jpg",
+    "photoSpot": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Chopin_-_De_l%E2%80%99Elbe_aux_Balkans.pdf/page1-500px-Chopin_-_De_l%E2%80%99Elbe_aux_Balkans.pdf.jpg",
+    "map": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Chopin_-_De_l%E2%80%99Elbe_aux_Balkans.pdf/page1-500px-Chopin_-_De_l%E2%80%99Elbe_aux_Balkans.pdf.jpg"
+  },
+  "Les Deux Magots": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  },
+  "Carette": {
+    "hero": null,
+    "detail": null,
+    "photoSpot": null,
+    "map": null
+  }
+}
