@@ -1,6 +1,6 @@
 /**
- * Build standalone publish folders — one self-contained site per city.
- * Output: docs/{city}/index.html + guide-ar.pdf + assets/data/brand
+ * Build standalone publish folders — one self-contained HTML guide per city.
+ * PDF opens the travel-guides PDF HTML (not raw .pdf files).
  */
 import fs from 'fs';
 import path from 'path';
@@ -9,11 +9,11 @@ import { CITIES, cityPaths } from './lib/ar-plan.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const outRoot = path.join(root, 'docs');
-const V = '20260722q';
-const GITHUB_REPO = 'Khayyal-AbaAlkheyl/Guides';
+const V = '20260722r';
+const TRAVEL_GUIDES_PAGES = 'https://khayyal-abaalkheyl.github.io/travel-guides/cities';
 
-function pdfRawUrl(city) {
-  return `https://github.com/${GITHUB_REPO}/raw/main/cities/${city}-ar.pdf`;
+function pdfHtmlUrl(city) {
+  return `${TRAVEL_GUIDES_PAGES}/${city}-pdf.html?lang=ar`;
 }
 
 const SHARED_ASSETS = ['app.js', 'magazine.css', 'i18n.js', 'shared.js'];
@@ -50,16 +50,16 @@ function patchStandaloneAppJs(destPath) {
   const replacement = `function pdfPageHref() {
     if (typeof STANDALONE_PDF_URL === 'string' && STANDALONE_PDF_URL) return STANDALONE_PDF_URL;
     const file = (window.location.pathname.split('/').pop() || 'index.html').replace(/\\?.*$/, '');
-    if (!file || file === 'index.html') return 'guide-ar.pdf';
+    if (!file || file === 'index.html') return 'guide-pdf.html';
     if (/\\.html$/i.test(file)) return file.replace(/\\.html$/i, '-pdf.html');
-    return 'guide-ar.pdf';
+    return 'guide-pdf.html';
   }`;
   js = js.replace(/function pdfPageHref\(\) \{[\s\S]*?\n  \}/, replacement);
   fs.writeFileSync(destPath, js);
 }
 
 function buildCityHtml(city, title) {
-  const rawPdf = pdfRawUrl(city);
+  const pdfUrl = pdfHtmlUrl(city);
   return `<!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
@@ -95,19 +95,10 @@ function buildCityHtml(city, title) {
   </style>
 </head>
 <body>
-  <a class="pdf-download" id="pdf-download" href="${rawPdf}" target="_blank" rel="noopener">PDF · دليل</a>
+  <a class="pdf-download" id="pdf-download" href="${pdfUrl}" target="_blank" rel="noopener">PDF · دليل</a>
   <div class="app" id="app"></div>
   <script>
-    window.STANDALONE_PDF_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
-      ? 'guide-ar.pdf'
-      : '${rawPdf}';
-    (function () {
-      var a = document.getElementById('pdf-download');
-      if (a && window.STANDALONE_PDF_URL === 'guide-ar.pdf') {
-        a.href = 'guide-ar.pdf';
-        a.removeAttribute('target');
-      }
-    })();
+    window.STANDALONE_PDF_URL = '${pdfUrl}';
     if (!location.search.includes('lang=')) {
       const q = location.search ? location.search + '&lang=ar' : '?lang=ar';
       history.replaceState(null, '', location.pathname + q + location.hash);
@@ -131,7 +122,7 @@ fs.writeFileSync(path.join(outRoot, '.nojekyll'), '');
 const catalog = [];
 
 for (const city of CITIES) {
-  const { html, plan, planAr } = cityPaths(root, city);
+  const { plan, planAr } = cityPaths(root, city);
   const siteDir = path.join(outRoot, city);
   const title = cityTitle(city);
 
@@ -160,14 +151,9 @@ for (const city of CITIES) {
   fs.writeFileSync(path.join(siteDir, 'data', `${city}.js`), planJs);
   fs.writeFileSync(path.join(siteDir, 'data', `${city}-ar.js`), planArJs);
 
-  const pdfSrc = path.join(root, 'cities', `${city}-ar.pdf`);
-  if (fs.existsSync(pdfSrc)) {
-    copyFile(pdfSrc, path.join(siteDir, 'guide-ar.pdf'));
-  }
-
   fs.writeFileSync(path.join(siteDir, 'index.html'), buildCityHtml(city, title));
 
-  catalog.push({ city, title, pdf: pdfRawUrl(city) });
+  catalog.push({ city, title, pdf: pdfHtmlUrl(city) });
   console.log('published', city, '→', path.relative(root, siteDir));
 }
 
@@ -183,15 +169,16 @@ const catalogHtml = `<!DOCTYPE html>
     p { color: #666; font-size: 0.9rem; }
     a { display: block; padding: 12px; margin: 8px 0; border: 1px solid #ddd; border-radius: 8px; text-decoration: none; color: #065f46; font-weight: 600; }
     a small { display: block; font-weight: 400; color: #888; margin-top: 4px; }
+    .pdf-link { font-size: 0.85rem; margin: -4px 0 12px 12px; }
   </style>
 </head>
 <body>
   <h1>Guides — test links</h1>
-  <p>Share one city link only when selling. Arabic opens by default.</p>
+  <p>HTML guide on Guides · PDF on travel-guides. Share one city only when selling.</p>
 ${catalog
   .map(
     (c) =>
-      `  <a href="./${c.city}/?lang=ar">${c.title}<small>/${c.city}/</small></a>\n  <p style="margin:-4px 0 12px 12px;font-size:0.85rem"><a href="${c.pdf}">PDF direct link</a></p>`
+      `  <a href="./${c.city}/?lang=ar">${c.title}<small>Guides /${c.city}/</small></a>\n  <p class="pdf-link"><a href="${c.pdf}">PDF → travel-guides /${c.city}-pdf.html</a></p>`
   )
   .join('\n')}
 </body>
@@ -199,4 +186,4 @@ ${catalog
 `;
 
 fs.writeFileSync(path.join(outRoot, 'index.html'), catalogHtml);
-console.log('\nDone → docs/  Enable GitHub Pages: Settings → Pages → branch main → /docs');
+console.log('\nDone → docs/  PDF links → khayyal-abaalkheyl.github.io/travel-guides/cities/*-pdf.html');

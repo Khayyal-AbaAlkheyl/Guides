@@ -10,8 +10,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Noto+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="brand/discover.css?v=20260722q">
-  <link rel="stylesheet" href="assets/magazine.css?v=20260722q">
+  <link rel="stylesheet" href="brand/discover.css?v=20260722r">
+  <link rel="stylesheet" href="assets/magazine.css?v=20260722r">
   <style>
     .pdf-download {
       position: fixed;
@@ -33,29 +33,20 @@
   </style>
 </head>
 <body>
-  <a class="pdf-download" id="pdf-download" href="https://github.com/Khayyal-AbaAlkheyl/Guides/raw/main/cities/paris-ar.pdf" target="_blank" rel="noopener">PDF · دليل</a>
+  <a class="pdf-download" id="pdf-download" href="https://khayyal-abaalkheyl.github.io/travel-guides/cities/paris-pdf.html?lang=ar" target="_blank" rel="noopener">PDF · دليل</a>
   <div class="app" id="app"></div>
   <script>
-    window.STANDALONE_PDF_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
-      ? 'guide-ar.pdf'
-      : 'https://github.com/Khayyal-AbaAlkheyl/Guides/raw/main/cities/paris-ar.pdf';
-    (function () {
-      var a = document.getElementById('pdf-download');
-      if (a && window.STANDALONE_PDF_URL === 'guide-ar.pdf') {
-        a.href = 'guide-ar.pdf';
-        a.removeAttribute('target');
-      }
-    })();
+    window.STANDALONE_PDF_URL = 'https://khayyal-abaalkheyl.github.io/travel-guides/cities/paris-pdf.html?lang=ar';
     if (!location.search.includes('lang=')) {
       const q = location.search ? location.search + '&lang=ar' : '?lang=ar';
       history.replaceState(null, '', location.pathname + q + location.hash);
     }
   </script>
-  <script src="data/paris.js?v=20260722q"></script>
-  <script src="data/paris-ar.js?v=20260722q"></script>
-  <script src="brand/discover.js?v=20260722q"></script>
-  <script src="assets/i18n.js?v=20260722q"></script>
-  <script src="assets/shared.js?v=20260722q"></script>
-  <script src="assets/app.js?v=20260722q"></script>
+  <script src="data/paris.js?v=20260722r"></script>
+  <script src="data/paris-ar.js?v=20260722r"></script>
+  <script src="brand/discover.js?v=20260722r"></script>
+  <script src="assets/i18n.js?v=20260722r"></script>
+  <script src="assets/shared.js?v=20260722r"></script>
+  <script src="assets/app.js?v=20260722r"></script>
 </body>
 </html>
