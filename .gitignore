@@ -1,3 +1,5 @@
 node_modules/
 .tmp-pdf-preview/
 *.log
+publish-secret.txt
+tokens.local.json
