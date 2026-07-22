@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Owner catalog</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { font-family: system-ui, sans-serif; margin: 0; background: #f4f6f5; color: #111; }
+    .gate, .catalog { max-width: 720px; margin: 0 auto; padding: 2rem 1rem 3rem; }
+    .gate { min-height: 100vh; display: flex; flex-direction: column; justify-content: center; }
+    .card { background: #fff; border: 1px solid #ddd; border-radius: 12px; padding: 1.25rem; box-shadow: 0 8px 24px rgba(0,0,0,.06); }
+    h1 { font-size: 1.35rem; margin: 0 0 .5rem; }
+    p { color: #555; line-height: 1.5; }
+    input[type="password"], input[readonly] { width: 100%; padding: 10px 12px; border: 1px solid #ccc; border-radius: 8px; font: inherit; }
+    button { padding: 10px 14px; border: 0; border-radius: 8px; background: #065f46; color: #fff; font: 600 14px system-ui, sans-serif; cursor: pointer; white-space: nowrap; }
+    button.secondary { background: #e5e7eb; color: #111; }
+    .err { color: #b91c1c; min-height: 1.25rem; margin-top: .5rem; font-size: .9rem; }
+    .city { background: #fff; border: 1px solid #ddd; border-radius: 12px; padding: 1rem 1.1rem; margin: 1rem 0; }
+    .city h2 { margin: 0 0 .35rem; font-size: 1.1rem; }
+    .meta { margin: 0 0 .75rem; font-size: .85rem; color: #666; }
+    .meta code { font-size: .8rem; background: #f3f4f6; padding: 2px 6px; border-radius: 4px; }
+    label { display: block; font-size: .85rem; font-weight: 600; margin: .65rem 0 .35rem; color: #333; }
+    .row { display: flex; gap: 8px; align-items: center; }
+    .row input { flex: 1; font-size: .82rem; }
+    .toolbar { display: flex; gap: 8px; flex-wrap: wrap; margin: 1rem 0; }
+    .hidden { display: none !important; }
+  </style>
+</head>
+<body>
+  <div id="gate" class="gate">
+    <div class="card">
+      <h1>Owner catalog</h1>
+      <p>All cities and sell links. This page is not linked from the public site.</p>
+      <form id="login">
+        <label for="pass">Password</label>
+        <input id="pass" type="password" autocomplete="current-password" required>
+        <p class="err" id="err"></p>
+        <p style="margin-top:1rem"><button type="submit">Unlock</button></p>
+      </form>
+    </div>
+  </div>
+  <div id="catalog" class="catalog hidden">
+    <div class="card">
+      <h1>All guides</h1>
+      <p>Copy one guide link per sale. URLs use random tokens — buyers cannot swap city names.</p>
+      <div class="toolbar">
+        <button type="button" id="lock" class="secondary">Lock</button>
+      </div>
+    </div>
+
+    <article class="city">
+      <h2>London</h2>
+      <p class="meta">london · token <code>8e1e586aedbfa2d750d3</code></p>
+      <div class="links">
+        <label>Guide (share this)
+          <div class="row"><input readonly value="https://khayyal-abaalkheyl.github.io/Guides/g/8e1e586aedbfa2d750d3/?lang=ar"><button type="button" class="copy">Copy</button></div>
+        </label>
+        <label>PDF
+          <div class="row"><input readonly value="https://khayyal-abaalkheyl.github.io/Guides/g/8e1e586aedbfa2d750d3/pdf.html?lang=ar"><button type="button" class="copy">Copy</button></div>
+        </label>
+      </div>
+    </article>
+
+    <article class="city">
+      <h2>Paris</h2>
+      <p class="meta">paris · token <code>150dbc4df125e68ff1dd</code></p>
+      <div class="links">
+        <label>Guide (share this)
+          <div class="row"><input readonly value="https://khayyal-abaalkheyl.github.io/Guides/g/150dbc4df125e68ff1dd/?lang=ar"><button type="button" class="copy">Copy</button></div>
+        </label>
+        <label>PDF
+          <div class="row"><input readonly value="https://khayyal-abaalkheyl.github.io/Guides/g/150dbc4df125e68ff1dd/pdf.html?lang=ar"><button type="button" class="copy">Copy</button></div>
+        </label>
+      </div>
+    </article>
+
+    <article class="city">
+      <h2>Edinburgh</h2>
+      <p class="meta">edinburgh · token <code>925e976e5f48bc2e4a6b</code></p>
+      <div class="links">
+        <label>Guide (share this)
+          <div class="row"><input readonly value="https://khayyal-abaalkheyl.github.io/Guides/g/925e976e5f48bc2e4a6b/?lang=ar"><button type="button" class="copy">Copy</button></div>
+        </label>
+        <label>PDF
+          <div class="row"><input readonly value="https://khayyal-abaalkheyl.github.io/Guides/g/925e976e5f48bc2e4a6b/pdf.html?lang=ar"><button type="button" class="copy">Copy</button></div>
+        </label>
+      </div>
+    </article>
+
+    <article class="city">
+      <h2>Istanbul</h2>
+      <p class="meta">istanbul · token <code>11cd9535e39ea8461a05</code></p>
+      <div class="links">
+        <label>Guide (share this)
+          <div class="row"><input readonly value="https://khayyal-abaalkheyl.github.io/Guides/g/11cd9535e39ea8461a05/?lang=ar"><button type="button" class="copy">Copy</button></div>
+        </label>
+        <label>PDF
+          <div class="row"><input readonly value="https://khayyal-abaalkheyl.github.io/Guides/g/11cd9535e39ea8461a05/pdf.html?lang=ar"><button type="button" class="copy">Copy</button></div>
+        </label>
+      </div>
+    </article>
+
+    <article class="city">
+      <h2>Italy</h2>
+      <p class="meta">italy · token <code>c48cc35aaa6b31197420</code></p>
+      <div class="links">
+        <label>Guide (share this)
+          <div class="row"><input readonly value="https://khayyal-abaalkheyl.github.io/Guides/g/c48cc35aaa6b31197420/?lang=ar"><button type="button" class="copy">Copy</button></div>
+        </label>
+        <label>PDF
+          <div class="row"><input readonly value="https://khayyal-abaalkheyl.github.io/Guides/g/c48cc35aaa6b31197420/pdf.html?lang=ar"><button type="button" class="copy">Copy</button></div>
+        </label>
+      </div>
+    </article>
+
+    <article class="city">
+      <h2>Bosnia & Herzegovina</h2>
+      <p class="meta">bosnia · token <code>45eb855082e18d6e4c64</code></p>
+      <div class="links">
+        <label>Guide (share this)
+          <div class="row"><input readonly value="https://khayyal-abaalkheyl.github.io/Guides/g/45eb855082e18d6e4c64/?lang=ar"><button type="button" class="copy">Copy</button></div>
+        </label>
+        <label>PDF
+          <div class="row"><input readonly value="https://khayyal-abaalkheyl.github.io/Guides/g/45eb855082e18d6e4c64/pdf.html?lang=ar"><button type="button" class="copy">Copy</button></div>
+        </label>
+      </div>
+    </article>
+
+    <article class="city">
+      <h2>Azerbaijan</h2>
+      <p class="meta">azerbaijan · token <code>f233b8805ac1ba3ab252</code></p>
+      <div class="links">
+        <label>Guide (share this)
+          <div class="row"><input readonly value="https://khayyal-abaalkheyl.github.io/Guides/g/f233b8805ac1ba3ab252/?lang=ar"><button type="button" class="copy">Copy</button></div>
+        </label>
+        <label>PDF
+          <div class="row"><input readonly value="https://khayyal-abaalkheyl.github.io/Guides/g/f233b8805ac1ba3ab252/pdf.html?lang=ar"><button type="button" class="copy">Copy</button></div>
+        </label>
+      </div>
+    </article>
+
+    <article class="city">
+      <h2>Trabzon</h2>
+      <p class="meta">trabzon · token <code>6d8db59e7d26e7cdd8a8</code></p>
+      <div class="links">
+        <label>Guide (share this)
+          <div class="row"><input readonly value="https://khayyal-abaalkheyl.github.io/Guides/g/6d8db59e7d26e7cdd8a8/?lang=ar"><button type="button" class="copy">Copy</button></div>
+        </label>
+        <label>PDF
+          <div class="row"><input readonly value="https://khayyal-abaalkheyl.github.io/Guides/g/6d8db59e7d26e7cdd8a8/pdf.html?lang=ar"><button type="button" class="copy">Copy</button></div>
+        </label>
+      </div>
+    </article>
+  </div>
+  <script>
+    var PASS_HASH = '08173be200b052fdd4fda1d4b00e1cfb12d267e777c9d8c97661691ee2aaf102';
+    var SESSION_KEY = 'guides-owner-_o16b4e12be8';
+
+    async function sha256(text) {
+      var buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(text));
+      return Array.from(new Uint8Array(buf)).map(function (b) { return b.toString(16).padStart(2, '0'); }).join('');
+    }
+
+    function showCatalog() {
+      document.getElementById('gate').classList.add('hidden');
+      document.getElementById('catalog').classList.remove('hidden');
+      sessionStorage.setItem(SESSION_KEY, '1');
+    }
+
+    function lockCatalog() {
+      sessionStorage.removeItem(SESSION_KEY);
+      document.getElementById('catalog').classList.add('hidden');
+      document.getElementById('gate').classList.remove('hidden');
+      document.getElementById('pass').value = '';
+    }
+
+    document.getElementById('login').addEventListener('submit', async function (e) {
+      e.preventDefault();
+      var pass = document.getElementById('pass').value;
+      var hash = await sha256(pass);
+      if (hash !== PASS_HASH) {
+        document.getElementById('err').textContent = 'Wrong password';
+        return;
+      }
+      document.getElementById('err').textContent = '';
+      showCatalog();
+    });
+
+    document.getElementById('lock').addEventListener('click', lockCatalog);
+
+    if (sessionStorage.getItem(SESSION_KEY) === '1') {
+      showCatalog();
+    }
+
+    document.getElementById('catalog').addEventListener('click', function (e) {
+      var btn = e.target.closest('.copy');
+      if (!btn) return;
+      var input = btn.closest('.row').querySelector('input');
+      navigator.clipboard.writeText(input.value).then(function () {
+        var old = btn.textContent;
+        btn.textContent = 'Copied';
+        setTimeout(function () { btn.textContent = old; }, 1200);
+      });
+    });
+  </script>
+</body>
+</html>
