@@ -1,6 +1,8 @@
 /**
- * Build standalone publish folders — one self-contained HTML guide per city.
- * PDF opens the travel-guides PDF HTML (not raw .pdf files).
+ * Build standalone publish folders — HTML guide + PDF HTML in same Guides project.
+ * URLs:
+ *   /Guides/london/?lang=ar
+ *   /Guides/london-pdf.html?lang=ar
  */
 import fs from 'fs';
 import path from 'path';
@@ -9,17 +11,19 @@ import { CITIES, cityPaths } from './lib/ar-plan.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const outRoot = path.join(root, 'docs');
-const V = '20260722r';
-const TRAVEL_GUIDES_PAGES = 'https://khayyal-abaalkheyl.github.io/travel-guides/cities';
+const V = '20260722s';
 
-function pdfHtmlUrl(city) {
-  return `${TRAVEL_GUIDES_PAGES}/${city}-pdf.html?lang=ar`;
-}
-
-const SHARED_ASSETS = ['app.js', 'magazine.css', 'i18n.js', 'shared.js'];
+const GUIDE_ASSETS = ['app.js', 'magazine.css', 'i18n.js', 'shared.js'];
+const PDF_ASSETS = ['pdf.css', 'pdf-app.js'];
 const BRAND_FILES = ['discover.css', 'discover.js'];
 const FONT =
   'https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Noto+Sans+Arabic:wght@400;500;600;700&display=swap';
+const FONT_PDF =
+  'https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:wght@600;700&family=Noto+Sans+Arabic:wght@400;500;600;700&display=swap';
+
+function pdfPagePath(city) {
+  return `../${city}-pdf.html`;
+}
 
 function rm(dir) {
   if (fs.existsSync(dir)) fs.rmSync(dir, { recursive: true, force: true });
@@ -45,28 +49,26 @@ function cityTitle(city) {
   return m ? m[1] : city;
 }
 
-function patchStandaloneAppJs(destPath) {
+function patchStandaloneAppJs(destPath, city) {
   let js = fs.readFileSync(destPath, 'utf8');
   const replacement = `function pdfPageHref() {
     if (typeof STANDALONE_PDF_URL === 'string' && STANDALONE_PDF_URL) return STANDALONE_PDF_URL;
-    const file = (window.location.pathname.split('/').pop() || 'index.html').replace(/\\?.*$/, '');
-    if (!file || file === 'index.html') return 'guide-pdf.html';
-    if (/\\.html$/i.test(file)) return file.replace(/\\.html$/i, '-pdf.html');
-    return 'guide-pdf.html';
+    var lang = (typeof URLSearchParams !== 'undefined' ? new URLSearchParams(location.search).get('lang') : null) || 'ar';
+    return '${pdfPagePath(city)}?lang=' + encodeURIComponent(lang);
   }`;
   js = js.replace(/function pdfPageHref\(\) \{[\s\S]*?\n  \}/, replacement);
   fs.writeFileSync(destPath, js);
 }
 
 function buildCityHtml(city, title) {
-  const pdfUrl = pdfHtmlUrl(city);
+  const pdfPath = pdfPagePath(city);
   return `<!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <meta name="theme-color" content="#065f46">
-  <meta name="description" content="${title} — Arabic travel guide">
+  <meta name="description" content="${title} — travel guide">
   <title>${title}</title>
   <link rel="preconnect" href="https://upload.wikimedia.org">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -95,14 +97,24 @@ function buildCityHtml(city, title) {
   </style>
 </head>
 <body>
-  <a class="pdf-download" id="pdf-download" href="${pdfUrl}" target="_blank" rel="noopener">PDF · دليل</a>
+  <a class="pdf-download" id="pdf-download" href="${pdfPath}?lang=ar">PDF · دليل</a>
   <div class="app" id="app"></div>
   <script>
-    window.STANDALONE_PDF_URL = '${pdfUrl}';
-    if (!location.search.includes('lang=')) {
-      const q = location.search ? location.search + '&lang=ar' : '?lang=ar';
-      history.replaceState(null, '', location.pathname + q + location.hash);
-    }
+    (function () {
+      function syncPdfLinks() {
+        var lang = new URLSearchParams(location.search).get('lang') || 'ar';
+        var url = '${pdfPath}?lang=' + encodeURIComponent(lang);
+        window.STANDALONE_PDF_URL = url;
+        var a = document.getElementById('pdf-download');
+        if (a) a.href = url;
+      }
+      syncPdfLinks();
+      if (!location.search.includes('lang=')) {
+        var q = location.search ? location.search + '&lang=ar' : '?lang=ar';
+        history.replaceState(null, '', location.pathname + q + location.hash);
+        syncPdfLinks();
+      }
+    })();
   </script>
   <script src="data/${city}.js?v=${V}"></script>
   <script src="data/${city}-ar.js?v=${V}"></script>
@@ -110,6 +122,34 @@ function buildCityHtml(city, title) {
   <script src="assets/i18n.js?v=${V}"></script>
   <script src="assets/shared.js?v=${V}"></script>
   <script src="assets/app.js?v=${V}"></script>
+</body>
+</html>
+`;
+}
+
+function buildCityPdfHtml(city, title) {
+  const base = `${city}`;
+  return `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>${title} — PDF</title>
+  <link rel="preconnect" href="https://upload.wikimedia.org">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="${FONT_PDF}" rel="stylesheet">
+  <link rel="stylesheet" href="${base}/brand/discover.css?v=${V}">
+  <link rel="stylesheet" href="${base}/assets/pdf.css?v=${V}">
+</head>
+<body>
+  <div id="root"></div>
+  <script src="${base}/data/${city}.js?v=${V}"></script>
+  <script src="${base}/data/${city}-ar.js?v=${V}"></script>
+  <script src="${base}/brand/discover.js?v=${V}"></script>
+  <script src="${base}/assets/i18n.js?v=${V}"></script>
+  <script src="${base}/assets/shared.js?v=${V}"></script>
+  <script src="${base}/assets/pdf-app.js?v=${V}"></script>
 </body>
 </html>
 `;
@@ -130,10 +170,13 @@ for (const city of CITIES) {
   mkdirp(path.join(siteDir, 'brand'));
   mkdirp(path.join(siteDir, 'data'));
 
-  for (const f of SHARED_ASSETS) {
+  for (const f of GUIDE_ASSETS) {
     copyFile(path.join(root, 'assets', f), path.join(siteDir, 'assets', f));
   }
-  patchStandaloneAppJs(path.join(siteDir, 'assets', 'app.js'));
+  for (const f of PDF_ASSETS) {
+    copyFile(path.join(root, 'assets', f), path.join(siteDir, 'assets', f));
+  }
+  patchStandaloneAppJs(path.join(siteDir, 'assets', 'app.js'), city);
   for (const f of BRAND_FILES) {
     copyFile(path.join(root, 'brand', f), path.join(siteDir, 'brand', f));
   }
@@ -152,9 +195,10 @@ for (const city of CITIES) {
   fs.writeFileSync(path.join(siteDir, 'data', `${city}-ar.js`), planArJs);
 
   fs.writeFileSync(path.join(siteDir, 'index.html'), buildCityHtml(city, title));
+  fs.writeFileSync(path.join(outRoot, `${city}-pdf.html`), buildCityPdfHtml(city, title));
 
-  catalog.push({ city, title, pdf: pdfHtmlUrl(city) });
-  console.log('published', city, '→', path.relative(root, siteDir));
+  catalog.push({ city, title });
+  console.log('published', city);
 }
 
 const catalogHtml = `<!DOCTYPE html>
@@ -174,11 +218,11 @@ const catalogHtml = `<!DOCTYPE html>
 </head>
 <body>
   <h1>Guides — test links</h1>
-  <p>HTML guide on Guides · PDF on travel-guides. Share one city only when selling.</p>
+  <p>HTML + PDF in same project. Share one city link when selling.</p>
 ${catalog
   .map(
     (c) =>
-      `  <a href="./${c.city}/?lang=ar">${c.title}<small>Guides /${c.city}/</small></a>\n  <p class="pdf-link"><a href="${c.pdf}">PDF → travel-guides /${c.city}-pdf.html</a></p>`
+      `  <a href="./${c.city}/?lang=ar">${c.title}<small>/${c.city}/</small></a>\n  <p class="pdf-link"><a href="./${c.city}-pdf.html?lang=ar">PDF /${c.city}-pdf.html</a></p>`
   )
   .join('\n')}
 </body>
@@ -186,4 +230,4 @@ ${catalog
 `;
 
 fs.writeFileSync(path.join(outRoot, 'index.html'), catalogHtml);
-console.log('\nDone → docs/  PDF links → khayyal-abaalkheyl.github.io/travel-guides/cities/*-pdf.html');
+console.log('\nDone → /Guides/{city}/ + /Guides/{city}-pdf.html');

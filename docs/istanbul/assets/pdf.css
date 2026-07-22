@@ -1,0 +1,2218 @@
+/*
+  PDF GUIDE — A4 print-optimized magazine layout
+  Visual language mirrors magazine.css; tuned for Puppeteer / print.
+*/
+
+:root {
+  --accent: #c41e3a;
+  --accent-soft: #fde8ec;
+  --accent-deep: #8b1429;
+  --tube: #0019A8;
+  --parks: #2d6a4f;
+  --river: #0077b6;
+  --gold: #b8860b;
+  --navy: #1a2744;
+
+  --bg: #ffffff;
+  --surface: #faf9f7;
+  --text: #1a1a1a;
+  --text-muted: #6b6560;
+  --border: #e0dcd4;
+  --shadow: none;
+
+  --morning: #fef3c7;
+  --afternoon: #dbeafe;
+  --evening: #fce7f3;
+  --night: #1e293b;
+
+  --font: 'DM Sans', system-ui, sans-serif;
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-ar: 'Noto Sans Arabic', 'DM Sans', system-ui, sans-serif;
+
+  --page-margin-x: 14mm;
+  --page-margin-top: 14mm;
+  --page-margin-bottom: 16mm;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@page {
+  size: A4 portrait;
+  margin: var(--page-margin-top) var(--page-margin-x) var(--page-margin-bottom);
+}
+
+@page :first {
+  margin: 0;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: var(--font);
+  font-size: 11pt;
+  line-height: 1.55;
+  color: var(--text);
+  background: var(--bg);
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+  overflow-x: hidden;
+}
+
+a {
+  color: var(--accent-deep);
+  text-decoration: none;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.pdf-photo img,
+.pdf-card__img img,
+.pdf-media-card img,
+.pdf-map-qr__map img {
+  width: 100%;
+  height: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* ── Document shell ── */
+.pdf-doc {
+  width: 210mm;
+  max-width: 100%;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+.pdf-page-shell {
+  width: 100%;
+  max-width: 210mm;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+/* ── Full-bleed cover & back ── */
+.pdf-cover,
+.pdf-back-cover {
+  page-break-after: always;
+  break-after: page;
+  width: 210mm;
+  height: 297mm;
+  margin: 0;
+  position: relative;
+  overflow: hidden;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.pdf-cover__bg,
+.pdf-back-cover__bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+  background: #1a2744;
+}
+
+.pdf-cover__bg img,
+.pdf-back-cover__bg img,
+.pdf-chapter__bg img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.pdf-cover__overlay,
+.pdf-back-cover__overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(26, 39, 68, 0.25) 0%,
+    rgba(26, 39, 68, 0.65) 50%,
+    rgba(26, 39, 68, 0.94) 100%
+  );
+  z-index: 1;
+}
+
+.pdf-cover__content,
+.pdf-back-cover__content {
+  position: relative;
+  z-index: 2;
+  padding: 18mm 16mm 20mm;
+}
+
+.pdf-cover__badge {
+  display: inline-block;
+  padding: 4px 12px;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 999px;
+  font-size: 7.5pt;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.pdf-cover__title {
+  font-family: var(--font-display);
+  font-size: 38pt;
+  font-weight: 700;
+  line-height: 1.02;
+  letter-spacing: -0.02em;
+}
+
+.pdf-cover__tagline {
+  margin-top: 8px;
+  font-size: 11pt;
+  max-width: 36ch;
+  opacity: 0.88;
+  line-height: 1.4;
+}
+
+.pdf-cover__stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px 28px;
+  margin-top: 18px;
+  padding-top: 14px;
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.pdf-cover__stat-value {
+  font-family: var(--font-display);
+  font-size: 17pt;
+  font-weight: 700;
+}
+
+.pdf-cover__stat-label {
+  font-size: 7pt;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  opacity: 0.72;
+}
+
+.pdf-back-cover__title {
+  font-family: var(--font-display);
+  font-size: 22pt;
+  font-weight: 700;
+}
+
+.pdf-back-cover__text {
+  margin-top: 8px;
+  font-size: 10pt;
+  max-width: 40ch;
+  opacity: 0.85;
+}
+
+.pdf-back-cover__edition {
+  margin-top: 16px;
+  font-size: 8pt;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  opacity: 0.6;
+}
+
+/* ── Sections & chapter openers ── */
+.pdf-section {
+  page-break-before: always;
+  break-before: page;
+  padding-bottom: 4mm;
+  width: 100%;
+  max-width: 210mm;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.pdf-section:first-of-type {
+  page-break-before: auto;
+  break-before: auto;
+}
+
+.pdf-chapter {
+  page-break-after: avoid;
+  break-after: avoid;
+  width: 100%;
+  height: 56mm;
+  min-height: 56mm;
+  max-height: 56mm;
+  margin: 0 0 5mm;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  color: #fff;
+  overflow: hidden;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+/* Full-bleed chapter band inside padded sections (screen + print content area) */
+.pdf-section > .pdf-chapter,
+.pdf-chapter-page > .pdf-chapter {
+  width: calc(100% + 2 * var(--page-margin-x));
+  max-width: calc(100% + 2 * var(--page-margin-x));
+  margin-left: calc(-1 * var(--page-margin-x));
+  margin-right: calc(-1 * var(--page-margin-x));
+  border-radius: 0;
+}
+
+.pdf-chapter--lead {
+  page-break-before: always;
+  break-before: page;
+}
+
+.pdf-chapter__bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+  background: #1a2744;
+}
+
+.pdf-chapter__overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(26, 39, 68, 0.82), rgba(196, 30, 58, 0.55));
+  z-index: 1;
+}
+
+.pdf-chapter__content {
+  position: relative;
+  z-index: 2;
+  padding: 7mm var(--page-margin-x) 6mm;
+  width: 100%;
+  max-height: 100%;
+  overflow: hidden;
+}
+
+.pdf-chapter__label {
+  font-size: 7pt;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  opacity: 0.75;
+  margin-bottom: 3px;
+}
+
+.pdf-chapter__title {
+  font-family: var(--font-display);
+  font-size: 20pt;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.05;
+}
+
+.pdf-chapter__subtitle {
+  margin-top: 3px;
+  font-size: 9pt;
+  max-width: 52ch;
+  opacity: 0.88;
+  line-height: 1.35;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Dedicated lead page wrapper (Attractions, Hotels, Dining, Plan) */
+.pdf-chapter-page {
+  page-break-before: always;
+  break-before: page;
+  page-break-after: always;
+  break-after: page;
+  width: 100%;
+  max-width: 210mm;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding-bottom: 2mm;
+}
+
+.pdf-section-head {
+  margin-bottom: 5mm;
+  padding-bottom: 3mm;
+  border-bottom: 2.5px solid var(--accent);
+}
+
+.pdf-section-head h2 {
+  font-family: var(--font-display);
+  font-size: 16pt;
+  font-weight: 700;
+  color: var(--accent-deep);
+}
+
+.pdf-section-head p {
+  margin-top: 3px;
+  font-size: 8.5pt;
+  color: var(--text-muted);
+}
+
+/* ── Typography blocks ── */
+.pdf-prose {
+  font-size: 9pt;
+  line-height: 1.55;
+  color: var(--text);
+}
+
+.pdf-prose p + p {
+  margin-top: 8px;
+}
+
+.pdf-prose--letter {
+  columns: 2;
+  column-gap: 6mm;
+  text-align: justify;
+}
+
+.pdf-prose--letter::first-letter {
+  font-family: var(--font-display);
+  float: left;
+  font-size: 28pt;
+  line-height: 0.85;
+  padding-right: 6px;
+  color: var(--accent-deep);
+}
+
+.pdf-signature {
+  margin-top: 10px;
+  font-size: 8pt;
+  font-style: italic;
+  color: var(--text-muted);
+}
+
+/* ── Grids ── */
+.pdf-grid {
+  display: grid;
+  gap: 3mm;
+}
+
+.pdf-grid--2 { grid-template-columns: 1fr 1fr; }
+.pdf-grid--3 { grid-template-columns: repeat(3, 1fr); }
+.pdf-grid--4 { grid-template-columns: repeat(4, 1fr); }
+.pdf-grid--5 { grid-template-columns: repeat(5, 1fr); }
+
+.pdf-cols-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5mm;
+}
+
+.pdf-cols-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 4mm;
+}
+
+/* ── Section navigation (top & bottom of each page) ── */
+.pdf-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5mm;
+  padding: 2mm 0;
+  margin-bottom: 2.5mm;
+  border-bottom: 1px solid var(--border);
+  page-break-after: avoid;
+  break-after: avoid;
+}
+
+.pdf-nav--bottom {
+  margin-top: auto;
+  margin-bottom: 0;
+  padding-top: 2.5mm;
+  border-bottom: none;
+  border-top: 1px solid var(--border);
+}
+
+.pdf-nav a {
+  display: inline-block;
+  padding: 1px 5px;
+  border-radius: 3px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  font-size: 5.5pt;
+  font-weight: 600;
+  color: var(--accent-deep);
+  white-space: nowrap;
+}
+
+.pdf-nav a:hover {
+  background: var(--accent-soft);
+}
+
+/* ── Photo cards (images stay inside bounds) ── */
+.pdf-media-card {
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  overflow: hidden;
+  background: var(--surface);
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+.pdf-media-card .pdf-photo-wrap,
+.pdf-media-card .pdf-photo {
+  margin: 0;
+  border-radius: 0;
+  border: none;
+  height: 100%;
+  max-height: 100%;
+}
+
+.pdf-media-card--hero {
+  height: 48mm;
+  max-height: 48mm;
+  margin-bottom: 3mm;
+}
+
+.pdf-media-card--hero .pdf-photo--hero {
+  height: 100%;
+  max-height: 100%;
+  margin-bottom: 0;
+}
+
+.pdf-media-card--thumb {
+  height: 28mm;
+  max-height: 28mm;
+}
+
+.pdf-media-card--thumb .pdf-photo--square {
+  height: 100%;
+  aspect-ratio: auto;
+}
+
+.pdf-media-card--gallery {
+  height: 28mm;
+  max-height: 28mm;
+}
+
+.pdf-media-card--gallery .pdf-photo {
+  height: 100%;
+}
+
+.pdf-media-card--dish {
+  height: 24mm;
+  max-height: 24mm;
+}
+
+.pdf-media-card--dish .pdf-photo {
+  height: 100%;
+}
+
+.pdf-media-card--day {
+  height: 22mm;
+  max-height: 22mm;
+}
+
+.pdf-media-card--day .pdf-photo {
+  height: 100%;
+}
+
+.pdf-photo-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5mm;
+  margin-bottom: 3mm;
+}
+
+/* ── Photos & captions ── */
+.pdf-photo {
+  position: relative;
+  overflow: hidden;
+  border-radius: 4px;
+  background: #e8e4de;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+.pdf-photo-wrap {
+  margin: 0;
+}
+
+.pdf-photo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+  max-height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.pdf-photo--hero {
+  height: 100%;
+  max-height: 48mm;
+  border-radius: 0;
+  margin-bottom: 0;
+}
+
+.pdf-photo--tall {
+  min-height: 42mm;
+  aspect-ratio: 4 / 3;
+}
+
+.pdf-photo--square {
+  aspect-ratio: 1;
+}
+
+.pdf-photo--wide {
+  aspect-ratio: 16 / 9;
+}
+
+.pdf-caption {
+  margin-top: 2px;
+  font-size: 6.5pt;
+  color: var(--text-muted);
+  line-height: 1.3;
+}
+
+.pdf-caption strong {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.pdf-photo-label {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 3px 6px;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.72));
+  color: #fff;
+  font-size: 6pt;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.pdf-seasonal-strip {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2mm;
+  margin-top: 2mm;
+}
+
+.pdf-seasonal-strip .pdf-photo {
+  height: 18mm;
+}
+
+/* ── 2-column cards with image ── */
+.pdf-card {
+  page-break-inside: avoid;
+  break-inside: avoid;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  overflow: hidden;
+  margin-bottom: 3mm;
+  display: grid;
+  grid-template-columns: 38mm 1fr;
+  background: var(--surface);
+}
+
+.pdf-card--wide {
+  grid-template-columns: 52mm 1fr;
+}
+
+.pdf-card__img {
+  min-height: 32mm;
+  max-height: 36mm;
+  height: 36mm;
+  background: #e8e4de;
+  overflow: hidden;
+  position: relative;
+}
+
+.pdf-card__img img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-height: 100%;
+  min-height: 0;
+  object-fit: cover;
+  object-position: center;
+}
+
+.pdf-card__body {
+  padding: 8px 10px;
+  min-width: 0;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.pdf-card__title {
+  font-family: var(--font-display);
+  font-size: 10.5pt;
+  font-weight: 700;
+  line-height: 1.15;
+}
+
+.pdf-card__desc {
+  margin-top: 3px;
+  font-size: 7.5pt;
+  color: var(--text-muted);
+  line-height: 1.4;
+  overflow-wrap: anywhere;
+}
+
+/* ── Chips & meta ── */
+.pdf-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px;
+  margin-top: 5px;
+}
+
+.pdf-chip {
+  display: inline-block;
+  padding: 2px 6px;
+  border-radius: 3px;
+  background: #f4f1ec;
+  font-size: 6.5pt;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+.pdf-chip--accent {
+  background: var(--accent-soft);
+  color: var(--accent-deep);
+}
+
+.pdf-chip--ok {
+  background: #e8f5ee;
+  color: #1a6b42;
+}
+
+.pdf-chip--warn {
+  background: #fff4e5;
+  color: #9a6700;
+}
+
+.pdf-chip--gold {
+  background: #fef9e7;
+  color: var(--gold);
+}
+
+.pdf-meta-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 4mm;
+  font-size: 7.5pt;
+  padding: 4px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.pdf-meta-row:last-child {
+  border-bottom: none;
+}
+
+.pdf-meta-row strong {
+  color: var(--text-muted);
+  font-weight: 600;
+  min-width: 22mm;
+}
+
+/* ── Info boxes ── */
+.pdf-box {
+  page-break-inside: avoid;
+  break-inside: avoid;
+  padding: 6px 8px;
+  border-radius: 4px;
+  font-size: 7.5pt;
+  line-height: 1.4;
+  margin-bottom: 3mm;
+}
+
+.pdf-box strong {
+  display: block;
+  font-size: 6.5pt;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-bottom: 3px;
+}
+
+.pdf-box--fact {
+  background: #eef4ff;
+  border-left: 3px solid var(--river);
+}
+
+.pdf-box--secret {
+  background: #fef9e7;
+  border-left: 3px solid var(--gold);
+}
+
+.pdf-box--insta {
+  background: linear-gradient(135deg, #fdf2f8, #fce7f3);
+  border-left: 3px solid var(--accent);
+}
+
+.pdf-box--tip {
+  background: var(--accent-soft);
+  border-left: 3px solid var(--accent);
+}
+
+.pdf-box--warn {
+  background: #fff4e5;
+  border-left: 3px solid #d97706;
+}
+
+/* ── Crowd stars ── */
+.pdf-crowd {
+  margin: 3mm 0;
+}
+
+.pdf-crowd__row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 7pt;
+  margin-bottom: 2px;
+}
+
+.pdf-crowd__label {
+  width: 16mm;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+.pdf-stars {
+  letter-spacing: 1px;
+  color: var(--gold);
+  font-size: 8pt;
+}
+
+/* ── Nearby list ── */
+.pdf-nearby {
+  font-size: 7.5pt;
+}
+
+.pdf-nearby li {
+  display: flex;
+  justify-content: space-between;
+  padding: 2px 0;
+  border-bottom: 1px dotted var(--border);
+  list-style: none;
+}
+
+.pdf-nearby li:last-child {
+  border-bottom: none;
+}
+
+/* ── Essentials grid ── */
+.pdf-essentials {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3mm;
+}
+
+.pdf-essential {
+  page-break-inside: avoid;
+  break-inside: avoid;
+  padding: 6px 8px;
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  background: var(--surface);
+}
+
+.pdf-essential__icon {
+  font-size: 16pt;
+  line-height: 1;
+  margin-bottom: 4px;
+}
+
+.pdf-essential__label {
+  font-weight: 700;
+  font-size: 8pt;
+  color: var(--accent-deep);
+}
+
+.pdf-essential__note {
+  margin-top: 2px;
+  font-size: 6.5pt;
+  color: var(--text-muted);
+}
+
+/* ── Arrival steps ── */
+.pdf-steps {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3mm;
+}
+
+.pdf-step {
+  page-break-inside: avoid;
+  break-inside: avoid;
+  display: grid;
+  grid-template-columns: 10mm 1fr;
+  gap: 4px;
+  padding: 6px;
+  border: 1px solid var(--border);
+  border-radius: 5px;
+}
+
+.pdf-step__num {
+  font-family: var(--font-display);
+  font-size: 14pt;
+  font-weight: 700;
+  color: var(--accent);
+  line-height: 1;
+}
+
+.pdf-step__title {
+  font-weight: 700;
+  font-size: 8.5pt;
+}
+
+.pdf-step__desc {
+  grid-column: 2;
+  font-size: 7pt;
+  color: var(--text-muted);
+}
+
+/* ── Packing seasons ── */
+.pdf-packing {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3mm;
+}
+
+.pdf-season {
+  page-break-inside: avoid;
+  break-inside: avoid;
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.pdf-season__head {
+  padding: 5px 6px;
+  background: var(--navy);
+  color: #fff;
+  font-size: 7pt;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.pdf-season__temp {
+  padding: 4px 6px;
+  background: var(--accent-soft);
+  font-size: 6.5pt;
+  color: var(--accent-deep);
+  font-weight: 600;
+}
+
+.pdf-season__items {
+  padding: 5px 6px 6px;
+  font-size: 6.5pt;
+  list-style: none;
+}
+
+.pdf-season__items li {
+  padding: 1px 0;
+  border-bottom: 1px dotted var(--border);
+}
+
+.pdf-season__items li:last-child {
+  border-bottom: none;
+}
+
+/* ── Tables ── */
+.pdf-table-wrap {
+  overflow: hidden;
+  border: 1px solid var(--border);
+  border-radius: 5px;
+}
+
+.pdf-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 7pt;
+}
+
+.pdf-table th {
+  background: var(--navy);
+  color: #fff;
+  font-weight: 600;
+  text-align: left;
+  padding: 4px 5px;
+  font-size: 6.5pt;
+  letter-spacing: 0.03em;
+}
+
+.pdf-table td {
+  padding: 3px 5px;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+
+.pdf-table tr:nth-child(even) td {
+  background: var(--surface);
+}
+
+.pdf-table tr:last-child td {
+  border-bottom: none;
+}
+
+/* ── Transport ── */
+.pdf-transport-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3mm;
+}
+
+.pdf-transport-mode {
+  page-break-inside: avoid;
+  break-inside: avoid;
+  padding: 6px;
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  text-align: center;
+  background: var(--surface);
+}
+
+.pdf-transport-mode__icon {
+  width: 28px;
+  height: 28px;
+  margin: 0 auto 4px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14pt;
+  background: var(--accent-soft);
+  color: var(--accent-deep);
+}
+
+.pdf-transport-mode__icon--tube { background: #e8ecff; color: var(--tube); }
+.pdf-transport-mode__icon--bus { background: #fef3c7; color: #92400e; }
+.pdf-transport-mode__icon--boat { background: #e0f2fe; color: var(--river); }
+.pdf-transport-mode__icon--walk { background: #ecfdf5; color: var(--parks); }
+
+.pdf-transport-mode__name {
+  font-weight: 700;
+  font-size: 8pt;
+}
+
+.pdf-transport-mode__price {
+  font-size: 7pt;
+  color: var(--accent-deep);
+  font-weight: 600;
+}
+
+.pdf-transport-mode__desc {
+  margin-top: 2px;
+  font-size: 6.5pt;
+  color: var(--text-muted);
+}
+
+.pdf-oyster-tips {
+  margin-top: 4mm;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3mm;
+}
+
+/* ── Full-page spreads (attractions, hotels, dining) ── */
+.pdf-spread {
+  page-break-before: always;
+  break-before: page;
+  page-break-after: always;
+  break-after: page;
+  padding-bottom: 2mm;
+  width: 100%;
+  max-width: 210mm;
+  overflow: hidden;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+.pdf-spread__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 3mm;
+  padding-bottom: 2mm;
+  border-bottom: 2px solid var(--accent);
+}
+
+.pdf-spread__title {
+  font-family: var(--font-display);
+  font-size: 18pt;
+  font-weight: 700;
+  color: var(--accent-deep);
+  line-height: 1.1;
+}
+
+.pdf-spread__address {
+  font-size: 7.5pt;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+
+.pdf-spread__qr {
+  flex-shrink: 0;
+  text-align: center;
+}
+
+.pdf-spread__qr img {
+  width: 18mm;
+  height: 18mm;
+  margin: 0 auto;
+}
+
+.pdf-spread__qr-label {
+  font-size: 5.5pt;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+
+.pdf-map-qr {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 4mm;
+  align-items: center;
+  margin-top: 3mm;
+  padding: 4mm;
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  background: var(--surface);
+}
+
+.pdf-map-qr__map {
+  height: 32mm;
+  border-radius: 4px;
+  overflow: hidden;
+  background: #ddd center / cover no-repeat;
+}
+
+.pdf-map-qr__map img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ── Hotel photo gallery ── */
+.pdf-hotel-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5mm;
+  margin-bottom: 4mm;
+}
+
+.pdf-hotel-gallery .pdf-media-card {
+  height: 28mm;
+}
+
+/* ── Dish grid ── */
+.pdf-dish-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5mm;
+  margin-bottom: 3mm;
+}
+
+.pdf-dish-card {
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  overflow: hidden;
+  background: var(--surface);
+  page-break-inside: avoid;
+  break-inside: avoid;
+  text-align: center;
+}
+
+.pdf-dish-card__body {
+  padding: 2mm 2mm 2.5mm;
+}
+
+.pdf-dish {
+  text-align: center;
+}
+
+.pdf-dish .pdf-photo {
+  height: 22mm;
+}
+
+.pdf-dish__name {
+  margin-top: 2px;
+  font-size: 6pt;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.pdf-dish__desc {
+  font-size: 5.5pt;
+  color: var(--text-muted);
+}
+
+/* ── Itinerary ── */
+.pdf-day {
+  page-break-before: always;
+  break-before: page;
+  page-break-after: always;
+  break-after: page;
+  width: 100%;
+  max-width: 210mm;
+  overflow: hidden;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+.pdf-day__head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 3mm;
+}
+
+.pdf-day__badge {
+  font-size: 7pt;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #fff;
+  background: var(--accent);
+  padding: 3px 10px;
+  border-radius: 4px;
+}
+
+.pdf-day__title {
+  font-family: var(--font-display);
+  font-size: 15pt;
+  font-weight: 700;
+  min-width: 0;
+  flex: 1 1 auto;
+}
+
+.pdf-day__route {
+  font-size: 7pt;
+  color: var(--text-muted);
+  margin-left: auto;
+  text-align: right;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+}
+
+.pdf-day__route-row {
+  display: flex;
+  align-items: center;
+  gap: 4mm;
+  margin-bottom: 4mm;
+  max-width: 100%;
+}
+
+.pdf-day__route-text {
+  font-size: 7.5pt;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.pdf-day-photos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2mm;
+  margin-bottom: 4mm;
+}
+
+.pdf-day-photos .pdf-media-card {
+  height: 22mm;
+}
+
+.pdf-budget-tiers {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3mm;
+  margin-bottom: 4mm;
+}
+
+.pdf-budget-tier {
+  padding: 6px 8px;
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  font-size: 7pt;
+}
+
+.pdf-budget-tier__label {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 6.5pt;
+  letter-spacing: 0.05em;
+  color: var(--accent-deep);
+}
+
+.pdf-budget-tier__total {
+  font-family: var(--font-display);
+  font-size: 11pt;
+  font-weight: 700;
+  margin: 2px 0 4px;
+}
+
+.pdf-budget-tier ul {
+  padding-left: 12px;
+  color: var(--text-muted);
+  font-size: 6.5pt;
+}
+
+.pdf-timeline {
+  margin-top: 2mm;
+  max-width: 100%;
+}
+
+.pdf-timeline--compact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2mm 4mm;
+}
+
+.pdf-timeline--compact .pdf-stop {
+  margin-bottom: 0;
+}
+
+.pdf-stop {
+  page-break-inside: avoid;
+  break-inside: avoid;
+  display: grid;
+  grid-template-columns: 12mm 1fr;
+  gap: 4px;
+  margin-bottom: 3px;
+  min-width: 0;
+}
+
+.pdf-stop__time {
+  font-size: 7pt;
+  font-weight: 700;
+  text-align: right;
+  padding-top: 5px;
+  color: var(--accent-deep);
+}
+
+.pdf-stop__card {
+  padding: 5px 8px;
+  border-radius: 4px;
+  border-left: 3px solid var(--accent);
+  font-size: 7.5pt;
+  min-width: 0;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.pdf-stop__card--morning { background: var(--morning); border-left-color: #d97706; }
+.pdf-stop__card--afternoon { background: var(--afternoon); border-left-color: #2563eb; }
+.pdf-stop__card--evening { background: var(--evening); border-left-color: #db2777; }
+.pdf-stop__card--night { background: var(--night); color: #e2e8f0; border-left-color: #64748b; }
+
+.pdf-stop__name {
+  font-weight: 700;
+  font-size: 8.5pt;
+}
+
+.pdf-stop__desc {
+  font-size: 7pt;
+  color: var(--text-muted);
+  margin-top: 1px;
+}
+
+.pdf-stop__card--night .pdf-stop__desc {
+  color: #94a3b8;
+}
+
+.pdf-stop__meta {
+  margin-top: 2px;
+  font-size: 6.5pt;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.pdf-spread__qr img,
+.pdf-cheat-qr img,
+.pdf-map-qr img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* ── Weather plans (rainy/sunny) ── */
+.pdf-weather-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3mm;
+}
+
+/* ── Shopping ── */
+.pdf-shopping-districts {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3mm;
+}
+
+/* ── Budget tiers page ── */
+.pdf-budget-page {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4mm;
+}
+
+.pdf-budget-card {
+  page-break-inside: avoid;
+  break-inside: avoid;
+  padding: 8px 10px;
+  border: 2px solid var(--border);
+  border-radius: 6px;
+}
+
+.pdf-budget-card--luxury { border-color: var(--gold); }
+.pdf-budget-card--mid { border-color: var(--river); }
+.pdf-budget-card--budget { border-color: var(--parks); }
+
+.pdf-budget-card__daily {
+  font-family: var(--font-display);
+  font-size: 14pt;
+  font-weight: 700;
+  color: var(--accent-deep);
+}
+
+/* ── Family table ── */
+.pdf-family-table .pdf-table td:first-child {
+  font-weight: 600;
+}
+
+.pdf-family-yes { color: #1a6b42; font-weight: 700; }
+.pdf-family-no { color: #9a6700; }
+
+/* ── Emergency ── */
+.pdf-emergency-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3mm;
+  margin-bottom: 4mm;
+}
+
+.pdf-emergency-card {
+  page-break-inside: avoid;
+  break-inside: avoid;
+  padding: 8px;
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  text-align: center;
+  background: var(--surface);
+}
+
+.pdf-emergency-card__icon {
+  font-size: 20pt;
+  margin-bottom: 4px;
+}
+
+.pdf-emergency-card__label {
+  font-weight: 700;
+  font-size: 9pt;
+  color: var(--accent-deep);
+}
+
+.pdf-emergency-card__desc {
+  font-size: 6.5pt;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+
+/* ── Phrases ── */
+.pdf-phrases {
+  columns: 2;
+  column-gap: 6mm;
+}
+
+.pdf-phrase {
+  page-break-inside: avoid;
+  break-inside: avoid;
+  margin-bottom: 4mm;
+  padding-bottom: 4mm;
+  border-bottom: 1px solid var(--border);
+}
+
+.pdf-phrase__english {
+  font-weight: 600;
+  font-size: 8.5pt;
+}
+
+.pdf-phrase__use {
+  font-size: 7pt;
+  color: var(--text-muted);
+  margin-top: 1px;
+}
+
+/* ── Cheat sheet — single printable page ── */
+.pdf-cheat-sheet {
+  page-break-before: always;
+  break-before: page;
+  height: calc(297mm - var(--page-margin-top) - var(--page-margin-bottom));
+  max-height: calc(297mm - var(--page-margin-top) - var(--page-margin-bottom));
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 210mm;
+  box-sizing: border-box;
+}
+
+.pdf-cheat-sheet__head {
+  text-align: center;
+  margin-bottom: 4mm;
+  padding-bottom: 3mm;
+  border-bottom: 3px solid var(--accent);
+}
+
+.pdf-cheat-sheet__title {
+  font-family: var(--font-display);
+  font-size: 16pt;
+  font-weight: 700;
+  color: var(--accent-deep);
+}
+
+.pdf-cheat-sheet__subtitle {
+  font-size: 7.5pt;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+
+.pdf-cheat-sheet__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3mm;
+  flex: 1;
+}
+
+.pdf-cheat-block {
+  padding: 5px 6px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: var(--surface);
+}
+
+.pdf-cheat-block__title {
+  font-size: 6.5pt;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--accent-deep);
+  margin-bottom: 4px;
+  padding-bottom: 2px;
+  border-bottom: 1px solid var(--border);
+}
+
+.pdf-cheat-item {
+  display: flex;
+  justify-content: space-between;
+  gap: 4px;
+  font-size: 6.5pt;
+  padding: 2px 0;
+}
+
+.pdf-cheat-item__label {
+  font-weight: 700;
+}
+
+.pdf-cheat-qr-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2mm;
+  margin-top: 3mm;
+  padding-top: 3mm;
+  border-top: 1px solid var(--border);
+}
+
+.pdf-cheat-qr {
+  text-align: center;
+}
+
+.pdf-cheat-qr img {
+  width: 14mm;
+  height: 14mm;
+  margin: 0 auto;
+}
+
+.pdf-cheat-qr__name {
+  font-size: 5.5pt;
+  font-weight: 600;
+  margin-top: 1px;
+}
+
+/* ── Etiquette ── */
+.pdf-etiquette {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3mm;
+}
+
+.pdf-etiquette-item {
+  page-break-inside: avoid;
+  break-inside: avoid;
+  padding: 6px 8px;
+  border-left: 3px solid var(--navy);
+  background: var(--surface);
+  font-size: 7.5pt;
+}
+
+.pdf-etiquette-item strong {
+  display: block;
+  font-size: 8pt;
+  color: var(--navy);
+  margin-bottom: 2px;
+}
+
+/* ── Action buttons (print links) ── */
+.pdf-actions {
+  display: flex;
+  gap: 4px;
+  margin-top: 3mm;
+  flex-wrap: wrap;
+}
+
+.pdf-btn {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 7pt;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.pdf-btn--map {
+  background: var(--navy);
+  color: #fff;
+}
+
+.pdf-btn--book {
+  background: var(--accent);
+  color: #fff;
+}
+
+/* ── Map overview markers ── */
+.pdf-map-overview {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 5mm;
+}
+
+.pdf-marker-list {
+  columns: 2;
+  column-gap: 4mm;
+  font-size: 7pt;
+  list-style: none;
+}
+
+.pdf-marker-list li {
+  padding: 2px 0;
+  break-inside: avoid;
+}
+
+.pdf-marker-list li::before {
+  content: '●';
+  color: var(--accent);
+  margin-right: 4px;
+  font-size: 6pt;
+}
+
+/* ── Screen preview ── */
+@media screen {
+  body {
+    background: #d4d0c8;
+    padding: 16px 0;
+    overflow-x: hidden;
+  }
+
+  .pdf-doc {
+    width: 210mm;
+    max-width: min(210mm, calc(100vw - 24px));
+    margin: 0 auto;
+    overflow-x: hidden;
+  }
+
+  .pdf-cover,
+  .pdf-back-cover {
+    width: 210mm;
+    max-width: min(210mm, calc(100vw - 24px));
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.15);
+    margin: 0 auto 20px;
+  }
+
+  .pdf-section,
+  .pdf-spread,
+  .pdf-day,
+  .pdf-cheat-sheet,
+  .pdf-chapter-page {
+    background: #fff;
+    width: 210mm;
+    max-width: min(210mm, calc(100vw - 24px));
+    margin: 0 auto 20px;
+    padding: var(--page-margin-top) var(--page-margin-x) var(--page-margin-bottom);
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+
+  .pdf-chapter {
+    width: 210mm;
+    max-width: min(210mm, calc(100vw - 24px));
+    margin: 0 auto 6mm;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  }
+}
+
+@media print {
+  .pdf-section,
+  .pdf-spread,
+  .pdf-day,
+  .pdf-cheat-sheet,
+  .pdf-chapter-page {
+    padding: 0;
+    margin: 0;
+    width: auto;
+    max-width: none;
+  }
+
+  .pdf-chapter {
+    width: 210mm;
+    margin: 0;
+  }
+}
+
+/* Arabic / RTL PDF */
+html.is-arabic,
+html[dir='rtl'] {
+  font-family: var(--font-ar);
+}
+
+html.is-arabic body,
+html[dir='rtl'] body,
+.pdf-doc.is-arabic {
+  font-family: var(--font-ar);
+  direction: rtl;
+  text-align: right;
+}
+
+html.is-arabic .pdf-cover__title,
+html.is-arabic .pdf-chapter__title,
+html.is-arabic .pdf-spread__title,
+html.is-arabic .pdf-day__title,
+html.is-arabic .pdf-cheat-sheet__title,
+html.is-arabic .pdf-back-cover__title {
+  font-family: var(--font-ar);
+}
+
+html.is-arabic .pdf-nav {
+  direction: rtl;
+}
+
+html.is-arabic .pdf-meta-row,
+html.is-arabic .pdf-cheat-item {
+  direction: rtl;
+}
+
+html.is-arabic .pdf-season__items,
+html.is-arabic .pdf-nearby,
+html.is-arabic ul {
+  padding-right: 14px;
+  padding-left: 0;
+}
+
+/* ═══════════════════════════════════════════════
+   Phone-friendly readability pass
+   Larger type, fewer columns, more breathing room.
+   Keeps A4 print size but reads clearly when zoomed.
+   ═══════════════════════════════════════════════ */
+
+.pdf-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 3.5mm;
+  margin-top: 3mm;
+}
+
+.pdf-nav {
+  gap: 2mm;
+  padding: 2.5mm 0 3mm;
+  margin-bottom: 4mm;
+}
+
+.pdf-nav a {
+  padding: 3px 8px;
+  font-size: 7.5pt;
+  border-radius: 999px;
+}
+
+.pdf-nav--bottom {
+  display: none;
+}
+
+.pdf-section-head h2,
+.pdf-spread__title {
+  font-size: 20pt;
+  line-height: 1.15;
+}
+
+.pdf-spread__address {
+  font-size: 9.5pt;
+  margin-top: 4px;
+  line-height: 1.4;
+}
+
+.pdf-spread__header {
+  margin-bottom: 5mm;
+  padding-bottom: 3mm;
+}
+
+.pdf-media-card--hero {
+  height: 62mm;
+  max-height: 62mm;
+  margin-bottom: 5mm;
+  border-radius: 8px;
+}
+
+.pdf-photo--hero {
+  max-height: 62mm;
+}
+
+.pdf-media-card--thumb {
+  height: 40mm;
+  max-height: 40mm;
+}
+
+.pdf-media-card--gallery {
+  height: 42mm;
+  max-height: 42mm;
+}
+
+.pdf-media-card--dish {
+  height: 36mm;
+  max-height: 36mm;
+}
+
+.pdf-media-card--day {
+  height: 38mm;
+  max-height: 38mm;
+}
+
+.pdf-photo-grid {
+  grid-template-columns: 1fr 1fr;
+  gap: 3.5mm;
+  margin-bottom: 4mm;
+}
+
+.pdf-hotel-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3.5mm;
+  margin-bottom: 5mm;
+  width: 100%;
+}
+
+.pdf-hotel-gallery .pdf-media-card {
+  width: 100%;
+  height: 48mm;
+  max-height: 48mm;
+}
+
+.pdf-hotel-gallery .pdf-media-card:last-child:nth-child(odd) {
+  grid-column: 1 / -1;
+  height: 52mm;
+  max-height: 52mm;
+}
+
+.pdf-hotel-gallery figure,
+.pdf-hotel-gallery .pdf-photo-wrap,
+.pdf-hotel-gallery .pdf-photo {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.pdf-hotel-gallery .pdf-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.pdf-dish-grid {
+  grid-template-columns: 1fr 1fr;
+  gap: 3.5mm;
+  margin-bottom: 4mm;
+}
+
+.pdf-dish__name {
+  font-size: 9pt;
+  margin-top: 4px;
+}
+
+.pdf-dish__desc {
+  font-size: 8pt;
+  line-height: 1.35;
+}
+
+.pdf-cols-2,
+.pdf-cols-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 4mm;
+}
+
+.pdf-grid--3,
+.pdf-grid--4,
+.pdf-grid--5 {
+  grid-template-columns: 1fr 1fr;
+  gap: 4mm;
+}
+
+.pdf-essentials,
+.pdf-packing,
+.pdf-transport-grid {
+  grid-template-columns: 1fr 1fr;
+  gap: 4mm;
+}
+
+.pdf-steps {
+  grid-template-columns: 1fr;
+  gap: 3.5mm;
+}
+
+.pdf-seasonal-strip {
+  grid-template-columns: 1fr 1fr;
+  gap: 3mm;
+}
+
+.pdf-seasonal-strip .pdf-photo {
+  height: 28mm;
+}
+
+.pdf-card {
+  grid-template-columns: 1fr;
+  margin-bottom: 5mm;
+}
+
+.pdf-card--wide {
+  grid-template-columns: 1fr;
+}
+
+.pdf-card__img {
+  height: 48mm;
+  max-height: 48mm;
+  min-height: 48mm;
+}
+
+.pdf-card__body {
+  padding: 10px 12px 12px;
+}
+
+.pdf-card__title {
+  font-size: 13pt;
+  line-height: 1.2;
+}
+
+.pdf-card__desc {
+  margin-top: 5px;
+  font-size: 9.5pt;
+  line-height: 1.45;
+}
+
+.pdf-chips {
+  gap: 5px;
+  margin-top: 2px;
+}
+
+.pdf-chip {
+  padding: 4px 9px;
+  border-radius: 999px;
+  font-size: 8.5pt;
+}
+
+.pdf-meta-row {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+  font-size: 9.5pt;
+  padding: 6px 0;
+  line-height: 1.4;
+}
+
+.pdf-meta-row strong {
+  min-width: 0;
+  font-size: 8pt;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.pdf-box {
+  padding: 10px 12px;
+  border-radius: 8px;
+  font-size: 9.5pt;
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+.pdf-box strong {
+  font-size: 8pt;
+  margin-bottom: 4px;
+}
+
+.pdf-essential,
+.pdf-step,
+.pdf-transport-mode,
+.pdf-season,
+.pdf-budget-tier {
+  padding: 10px 11px;
+  border-radius: 8px;
+}
+
+.pdf-essential__label,
+.pdf-step__title,
+.pdf-transport-mode__name {
+  font-size: 10pt;
+}
+
+.pdf-essential__note,
+.pdf-step__desc,
+.pdf-transport-mode__desc,
+.pdf-season__items,
+.pdf-budget-tier ul {
+  font-size: 8.5pt;
+  line-height: 1.4;
+}
+
+.pdf-season__head {
+  padding: 7px 9px;
+  font-size: 9pt;
+}
+
+.pdf-season__temp {
+  padding: 5px 9px;
+  font-size: 8.5pt;
+}
+
+.pdf-table {
+  font-size: 9pt;
+}
+
+.pdf-table th {
+  padding: 7px 8px;
+  font-size: 8pt;
+}
+
+.pdf-table td {
+  padding: 6px 8px;
+  line-height: 1.4;
+}
+
+.pdf-day__head {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  margin-bottom: 5mm;
+}
+
+.pdf-day__badge {
+  font-size: 8.5pt;
+  padding: 4px 12px;
+}
+
+.pdf-day__title {
+  font-size: 18pt;
+  width: 100%;
+}
+
+.pdf-day__route {
+  font-size: 9.5pt;
+  margin-left: 0;
+  text-align: start;
+  line-height: 1.4;
+  max-width: 100%;
+}
+
+.pdf-day-photos {
+  grid-template-columns: 1fr 1fr;
+  gap: 3.5mm;
+  margin-bottom: 5mm;
+}
+
+.pdf-day-photos .pdf-media-card {
+  height: 42mm;
+}
+
+.pdf-day__route-row {
+  margin-bottom: 5mm;
+  padding: 3mm;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface);
+}
+
+.pdf-day__route-text {
+  font-size: 9.5pt;
+  line-height: 1.4;
+}
+
+.pdf-budget-tiers {
+  grid-template-columns: 1fr;
+  gap: 4mm;
+}
+
+.pdf-budget-tier {
+  font-size: 9.5pt;
+}
+
+.pdf-budget-tier__label {
+  font-size: 8pt;
+}
+
+.pdf-budget-tier__total {
+  font-size: 14pt;
+}
+
+.pdf-timeline--compact {
+  display: block;
+}
+
+.pdf-stop {
+  grid-template-columns: 16mm 1fr;
+  gap: 3.5mm;
+  margin-bottom: 7mm;
+}
+
+.pdf-stop__time {
+  font-size: 9.5pt;
+  padding-top: 8px;
+}
+
+.pdf-stop__card {
+  padding: 0;
+  overflow: hidden;
+  border-radius: 10px;
+  font-size: 9.5pt;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.04);
+}
+
+.pdf-stop__photo {
+  height: 32mm;
+  overflow: hidden;
+}
+
+.pdf-stop__photo .pdf-photo {
+  height: 100%;
+  border-radius: 0;
+}
+
+.pdf-stop__name,
+.pdf-stop__desc,
+.pdf-stop__meta {
+  padding-left: 11px;
+  padding-right: 11px;
+}
+
+.pdf-stop__name {
+  font-size: 12pt;
+  padding-top: 9px;
+  line-height: 1.25;
+}
+
+.pdf-stop__desc {
+  font-size: 9.5pt;
+  margin-top: 4px;
+  line-height: 1.5;
+  padding-bottom: 2px;
+}
+
+.pdf-stop__meta {
+  margin-top: 5px;
+  font-size: 8.5pt;
+  padding-bottom: 10px;
+}
+
+.pdf-map-qr {
+  grid-template-columns: auto 1fr;
+  gap: 4mm;
+  align-items: center;
+  padding: 4mm;
+  margin-top: 2mm;
+}
+
+.pdf-map-qr--simple {
+  display: flex;
+  align-items: center;
+  gap: 4mm;
+}
+
+.pdf-map-qr__map {
+  height: 42mm;
+}
+
+.pdf-crowd__row {
+  font-size: 9pt;
+  margin-bottom: 3px;
+}
+
+.pdf-nearby {
+  font-size: 9.5pt;
+}
+
+.pdf-nearby li {
+  padding: 4px 0;
+}
+
+.pdf-oyster-tips {
+  grid-template-columns: 1fr;
+}
+
+.pdf-weather-cards {
+  grid-template-columns: 1fr;
+  gap: 4mm;
+}
+
+.pdf-caption {
+  font-size: 8pt;
+}
+
+.pdf-photo-label {
+  font-size: 7.5pt;
+  padding: 5px 8px;
+}
+
+.pdf-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3mm;
+  margin-top: 2mm;
+}
+
+.pdf-btn {
+  display: inline-block;
+  padding: 7px 14px;
+  border-radius: 999px;
+  font-size: 9.5pt;
+  font-weight: 700;
+}
+
+html.is-arabic .pdf-meta-row,
+html[dir='rtl'] .pdf-meta-row {
+  align-items: flex-end;
+}
+
+html.is-arabic .pdf-day__route,
+html[dir='rtl'] .pdf-day__route {
+  text-align: right;
+}

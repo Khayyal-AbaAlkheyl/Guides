@@ -207,10 +207,8 @@
 
   function pdfPageHref() {
     if (typeof STANDALONE_PDF_URL === 'string' && STANDALONE_PDF_URL) return STANDALONE_PDF_URL;
-    const file = (window.location.pathname.split('/').pop() || 'index.html').replace(/\?.*$/, '');
-    if (!file || file === 'index.html') return 'guide-pdf.html';
-    if (/\.html$/i.test(file)) return file.replace(/\.html$/i, '-pdf.html');
-    return 'guide-pdf.html';
+    var lang = (typeof URLSearchParams !== 'undefined' ? new URLSearchParams(location.search).get('lang') : null) || 'ar';
+    return '../london-pdf.html?lang=' + encodeURIComponent(lang);
   }
 
   function renderHeroToolbar() {
