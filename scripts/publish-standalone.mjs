@@ -20,7 +20,7 @@ import {
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const outRoot = path.join(root, 'docs');
-const V = '20260722u';
+const V = '20260722v';
 
 const GUIDE_ASSETS = ['app.js', 'magazine.css', 'i18n.js', 'shared.js'];
 const PDF_ASSETS = ['pdf.css', 'pdf-app.js'];
@@ -92,49 +92,11 @@ function buildCityHtml(city, title) {
   <link href="${FONT}" rel="stylesheet">
   <link rel="stylesheet" href="brand/discover.css?v=${V}">
   <link rel="stylesheet" href="assets/magazine.css?v=${V}">
-  <style>
-    .pdf-download {
-      position: fixed;
-      bottom: calc(12px + env(safe-area-inset-bottom, 0px));
-      left: 12px;
-      z-index: 9999;
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      padding: 10px 14px;
-      border-radius: 999px;
-      background: #065f46;
-      color: #fff;
-      font: 600 13px/1.2 system-ui, sans-serif;
-      text-decoration: none;
-      box-shadow: 0 4px 16px rgba(0,0,0,.25);
-    }
-    html[dir="rtl"] .pdf-download { left: auto; right: 12px; }
-  </style>
 </head>
 <body>
-  <a class="pdf-download" id="pdf-download" href="pdf.html?lang=ar">PDF · دليل</a>
   <div class="app" id="app"></div>
   <script>
     (function () {
-      function guideLang() {
-        if (window.I18n && typeof I18n.isAr === 'function') {
-          return I18n.isAr() ? 'ar' : 'en';
-        }
-        return new URLSearchParams(location.search).get('lang') || 'ar';
-      }
-      function syncPdfDownload() {
-        var url = 'pdf.html?lang=' + encodeURIComponent(guideLang());
-        var a = document.getElementById('pdf-download');
-        if (a) a.href = url;
-      }
-      window.syncGuidePdfLink = syncPdfDownload;
-      syncPdfDownload();
-      document.addEventListener('click', function (e) {
-        if (e.target.closest('#lang-toggle')) {
-          setTimeout(syncPdfDownload, 0);
-        }
-      });
       if (!location.search.includes('lang=')) {
         var q = location.search ? location.search + '&lang=ar' : '?lang=ar';
         history.replaceState(null, '', location.pathname + q + location.hash);
