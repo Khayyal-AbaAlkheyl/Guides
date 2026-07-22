@@ -206,9 +206,11 @@
   };
 
   function pdfPageHref() {
-    const file = (window.location.pathname.split('/').pop() || 'london.html').replace(/\?.*$/, '');
+    if (typeof STANDALONE_PDF_URL === 'string' && STANDALONE_PDF_URL) return STANDALONE_PDF_URL;
+    const file = (window.location.pathname.split('/').pop() || 'index.html').replace(/\?.*$/, '');
+    if (!file || file === 'index.html') return 'guide-ar.pdf';
     if (/\.html$/i.test(file)) return file.replace(/\.html$/i, '-pdf.html');
-    return 'london-pdf.html';
+    return 'guide-ar.pdf';
   }
 
   function renderHeroToolbar() {

@@ -9,7 +9,12 @@ import { CITIES, cityPaths } from './lib/ar-plan.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const outRoot = path.join(root, 'docs');
-const V = '20260722p';
+const V = '20260722q';
+const GITHUB_REPO = 'Khayyal-AbaAlkheyl/Guides';
+
+function pdfRawUrl(city) {
+  return `https://github.com/${GITHUB_REPO}/raw/main/cities/${city}-ar.pdf`;
+}
 
 const SHARED_ASSETS = ['app.js', 'magazine.css', 'i18n.js', 'shared.js'];
 const BRAND_FILES = ['discover.css', 'discover.js'];
@@ -40,7 +45,21 @@ function cityTitle(city) {
   return m ? m[1] : city;
 }
 
+function patchStandaloneAppJs(destPath) {
+  let js = fs.readFileSync(destPath, 'utf8');
+  const replacement = `function pdfPageHref() {
+    if (typeof STANDALONE_PDF_URL === 'string' && STANDALONE_PDF_URL) return STANDALONE_PDF_URL;
+    const file = (window.location.pathname.split('/').pop() || 'index.html').replace(/\\?.*$/, '');
+    if (!file || file === 'index.html') return 'guide-ar.pdf';
+    if (/\\.html$/i.test(file)) return file.replace(/\\.html$/i, '-pdf.html');
+    return 'guide-ar.pdf';
+  }`;
+  js = js.replace(/function pdfPageHref\(\) \{[\s\S]*?\n  \}/, replacement);
+  fs.writeFileSync(destPath, js);
+}
+
 function buildCityHtml(city, title) {
+  const rawPdf = pdfRawUrl(city);
   return `<!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
@@ -76,9 +95,19 @@ function buildCityHtml(city, title) {
   </style>
 </head>
 <body>
-  <a class="pdf-download" href="guide-ar.pdf" download>PDF · دليل</a>
+  <a class="pdf-download" id="pdf-download" href="${rawPdf}" target="_blank" rel="noopener">PDF · دليل</a>
   <div class="app" id="app"></div>
   <script>
+    window.STANDALONE_PDF_URL = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+      ? 'guide-ar.pdf'
+      : '${rawPdf}';
+    (function () {
+      var a = document.getElementById('pdf-download');
+      if (a && window.STANDALONE_PDF_URL === 'guide-ar.pdf') {
+        a.href = 'guide-ar.pdf';
+        a.removeAttribute('target');
+      }
+    })();
     if (!location.search.includes('lang=')) {
       const q = location.search ? location.search + '&lang=ar' : '?lang=ar';
       history.replaceState(null, '', location.pathname + q + location.hash);
@@ -113,6 +142,7 @@ for (const city of CITIES) {
   for (const f of SHARED_ASSETS) {
     copyFile(path.join(root, 'assets', f), path.join(siteDir, 'assets', f));
   }
+  patchStandaloneAppJs(path.join(siteDir, 'assets', 'app.js'));
   for (const f of BRAND_FILES) {
     copyFile(path.join(root, 'brand', f), path.join(siteDir, 'brand', f));
   }
@@ -137,7 +167,7 @@ for (const city of CITIES) {
 
   fs.writeFileSync(path.join(siteDir, 'index.html'), buildCityHtml(city, title));
 
-  catalog.push({ city, title });
+  catalog.push({ city, title, pdf: pdfRawUrl(city) });
   console.log('published', city, '→', path.relative(root, siteDir));
 }
 
@@ -161,7 +191,7 @@ const catalogHtml = `<!DOCTYPE html>
 ${catalog
   .map(
     (c) =>
-      `  <a href="./${c.city}/?lang=ar">${c.title}<small>/${c.city}/ · PDF inside</small></a>`
+      `  <a href="./${c.city}/?lang=ar">${c.title}<small>/${c.city}/</small></a>\n  <p style="margin:-4px 0 12px 12px;font-size:0.85rem"><a href="${c.pdf}">PDF direct link</a></p>`
   )
   .join('\n')}
 </body>
