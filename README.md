@@ -1,25 +1,52 @@
-# Travel Guides — Arabic (Publish)
+# Guides — Arabic travel guides (sell per city)
 
-Published travel guides combining:
+Each city is a **standalone site** — share only that city's link when selling.
 
-- **HTML guides** — interactive city guides (`cities/*.html`) with Arabic UI and layout
-- **Arabic PDFs** — phone-format PDFs (`cities/*-ar.pdf`) generated from the latest PDF pipeline
+## Publish online (GitHub Pages)
 
-## Cities
+1. Build standalone sites:
 
-| City | HTML Guide | Arabic PDF |
-|------|------------|------------|
-| London | [london.html](cities/london.html) | [london-ar.pdf](cities/london-ar.pdf) |
-| Paris | [paris.html](cities/paris.html) | [paris-ar.pdf](cities/paris-ar.pdf) |
-| Edinburgh | [edinburgh.html](cities/edinburgh.html) | [edinburgh-ar.pdf](cities/edinburgh-ar.pdf) |
-| Istanbul | [istanbul.html](cities/istanbul.html) | [istanbul-ar.pdf](cities/istanbul-ar.pdf) |
-| Italy | [italy.html](cities/italy.html) | [italy-ar.pdf](cities/italy-ar.pdf) |
-| Bosnia | [bosnia.html](cities/bosnia.html) | [bosnia-ar.pdf](cities/bosnia-ar.pdf) |
-| Azerbaijan | [azerbaijan.html](cities/azerbaijan.html) | [azerbaijan-ar.pdf](cities/azerbaijan-ar.pdf) |
-| Trabzon | [trabzon.html](cities/trabzon.html) | [trabzon-ar.pdf](cities/trabzon-ar.pdf) |
+```bash
+npm run publish:sites
+```
 
-Open any `cities/*.html` in a browser. Append `?lang=ar` for Arabic.
+2. Commit and push `docs/` folder.
 
-## Source
+3. On GitHub: **Settings → Pages → Source: Deploy from branch `main` → folder `/docs`**.
 
-Built from [travel-guides](https://github.com/Khayyal-AbaAlkheyl/travel-guides) — HTML app + GitHub PDF outputs merged for publishing.
+4. Your links (replace `YOUR_USERNAME`):
+
+| City | Guide (Arabic) | PDF |
+|------|----------------|-----|
+| Bosnia | `https://YOUR_USERNAME.github.io/Guides/bosnia/?lang=ar` | `.../bosnia/guide-ar.pdf` |
+| London | `https://YOUR_USERNAME.github.io/Guides/london/?lang=ar` | `.../london/guide-ar.pdf` |
+| Paris | `https://YOUR_USERNAME.github.io/Guides/paris/?lang=ar` | `.../paris/guide-ar.pdf` |
+| Edinburgh | `https://YOUR_USERNAME.github.io/Guides/edinburgh/?lang=ar` | `.../edinburgh/guide-ar.pdf` |
+| Istanbul | `https://YOUR_USERNAME.github.io/Guides/istanbul/?lang=ar` | `.../istanbul/guide-ar.pdf` |
+| Italy | `https://YOUR_USERNAME.github.io/Guides/italy/?lang=ar` | `.../italy/guide-ar.pdf` |
+| Azerbaijan | `https://YOUR_USERNAME.github.io/Guides/azerbaijan/?lang=ar` | `.../azerbaijan/guide-ar.pdf` |
+| Trabzon | `https://YOUR_USERNAME.github.io/Guides/trabzon/?lang=ar` | `.../trabzon/guide-ar.pdf` |
+
+The owner test catalog: `https://YOUR_USERNAME.github.io/Guides/`
+
+## Try locally
+
+```bash
+npm run publish:sites
+python -m http.server 8080 --directory docs
+```
+
+Open http://localhost:8080/bosnia/?lang=ar
+
+## What's in each city folder
+
+```
+docs/bosnia/
+  index.html      ← interactive guide (Arabic default)
+  guide-ar.pdf    ← phone PDF
+  assets/         ← app code (self-contained)
+  brand/
+  data/           ← only this city's content
+```
+
+Each folder is fully independent — no links to other cities.

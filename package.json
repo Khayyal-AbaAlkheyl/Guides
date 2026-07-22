@@ -14,7 +14,8 @@
     "new-city": "node scripts/new-city.mjs",
     "verify:mobile": "node scripts/verify-mobile.mjs",
     "audit:images": "node scripts/audit-images.mjs",
-    "fix:images": "node scripts/fix-broken-images.mjs"
+    "fix:images": "node scripts/fix-broken-images.mjs",
+    "publish:sites": "node scripts/publish-standalone.mjs"
   },
   "devDependencies": {
     "google-translate-api-x": "^10.7.3",
